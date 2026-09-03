@@ -1,6 +1,6 @@
 {
  "_schema": "Vokabeln, Richtung immer Englisch nach Deutsch. cat: fach | pruefung | praxis. verify=true heisst: Wortlaut noch gegen das Handbuch prüfen.",
- "_status": "Pruefungssprache, ACTS und PROVE, Fachbegriffe aus Einfuehrung und Modul 1 bis 6. Module 7 bis 11 folgen.",
+ "_status": "Pruefungssprache, ACTS und PROVE, Standkommandos und die Fachbegriffe aus Einfuehrung und Modul 1 bis 8. Module 9 bis 11 folgen.",
  "terms": [
   {
    "id": "which-of-the-following",
@@ -646,110 +646,99 @@
    "en": "Prove it safe",
    "de": "Mach sie nachweislich sicher",
    "cat": "praxis",
-   "sub": "Gesprochene Kommandos",
-   "explDe": "Was der Prüfer sagt.",
-   "source": "Praxisteil",
-   "verify": true
+   "sub": "Übliche Anweisungen im Kurs",
+   "explDe": "Übliche Formulierung im Kurs. Das Handbuch legt keinen Wortlaut fest, es sagt ausdrücklich, dass Kommandos je nach Stand und Region verschieden sind.",
+   "source": "nicht im Handbuch"
   },
   {
    "id": "make-it-safe",
    "en": "Make it safe",
    "de": "Mach sie sicher",
    "cat": "praxis",
-   "sub": "Gesprochene Kommandos",
-   "explDe": "Was der Prüfer sagt.",
-   "source": "Praxisteil",
-   "verify": true
+   "sub": "Übliche Anweisungen im Kurs",
+   "explDe": "Übliche Formulierung im Kurs. Das Handbuch legt keinen Wortlaut fest, es sagt ausdrücklich, dass Kommandos je nach Stand und Region verschieden sind.",
+   "source": "nicht im Handbuch"
   },
   {
    "id": "unload-the-firearm",
    "en": "Unload the firearm",
    "de": "Entlade die Waffe",
    "cat": "praxis",
-   "sub": "Gesprochene Kommandos",
-   "explDe": "Was der Prüfer sagt.",
-   "source": "Praxisteil",
-   "verify": true
+   "sub": "Übliche Anweisungen im Kurs",
+   "explDe": "Übliche Formulierung im Kurs. Das Handbuch legt keinen Wortlaut fest, es sagt ausdrücklich, dass Kommandos je nach Stand und Region verschieden sind.",
+   "source": "nicht im Handbuch"
   },
   {
    "id": "load-the-firearm",
    "en": "Load the firearm",
    "de": "Lade die Waffe",
    "cat": "praxis",
-   "sub": "Gesprochene Kommandos",
-   "explDe": "Was der Prüfer sagt.",
-   "source": "Praxisteil",
-   "verify": true
+   "sub": "Übliche Anweisungen im Kurs",
+   "explDe": "Übliche Formulierung im Kurs. Das Handbuch legt keinen Wortlaut fest, es sagt ausdrücklich, dass Kommandos je nach Stand und Region verschieden sind.",
+   "source": "nicht im Handbuch"
   },
   {
    "id": "open-the-action",
    "en": "Open the action",
    "de": "Öffne den Verschluss",
    "cat": "praxis",
-   "sub": "Gesprochene Kommandos",
-   "explDe": "Was der Prüfer sagt.",
-   "source": "Praxisteil",
-   "verify": true
+   "sub": "Übliche Anweisungen im Kurs",
+   "explDe": "Übliche Formulierung im Kurs. Das Handbuch legt keinen Wortlaut fest, es sagt ausdrücklich, dass Kommandos je nach Stand und Region verschieden sind.",
+   "source": "nicht im Handbuch"
   },
   {
    "id": "close-the-action",
    "en": "Close the action",
    "de": "Schließe den Verschluss",
    "cat": "praxis",
-   "sub": "Gesprochene Kommandos",
-   "explDe": "Was der Prüfer sagt.",
-   "source": "Praxisteil",
-   "verify": true
+   "sub": "Übliche Anweisungen im Kurs",
+   "explDe": "Übliche Formulierung im Kurs. Das Handbuch legt keinen Wortlaut fest, es sagt ausdrücklich, dass Kommandos je nach Stand und Region verschieden sind.",
+   "source": "nicht im Handbuch"
   },
   {
    "id": "check-the-chamber",
    "en": "Check the chamber",
    "de": "Prüfe das Patronenlager",
    "cat": "praxis",
-   "sub": "Gesprochene Kommandos",
-   "explDe": "Was der Prüfer sagt.",
-   "source": "Praxisteil",
-   "verify": true
+   "sub": "Übliche Anweisungen im Kurs",
+   "explDe": "Übliche Formulierung im Kurs. Das Handbuch legt keinen Wortlaut fest, es sagt ausdrücklich, dass Kommandos je nach Stand und Region verschieden sind.",
+   "source": "nicht im Handbuch"
   },
   {
    "id": "pick-up-the-firearm",
    "en": "Pick up the firearm",
    "de": "Nimm die Waffe auf",
    "cat": "praxis",
-   "sub": "Gesprochene Kommandos",
-   "explDe": "Was der Prüfer sagt.",
-   "source": "Praxisteil",
-   "verify": true
+   "sub": "Übliche Anweisungen im Kurs",
+   "explDe": "Übliche Formulierung im Kurs. Das Handbuch legt keinen Wortlaut fest, es sagt ausdrücklich, dass Kommandos je nach Stand und Region verschieden sind.",
+   "source": "nicht im Handbuch"
   },
   {
    "id": "hand-me-the-firearm",
    "en": "Hand me the firearm",
    "de": "Gib mir die Waffe",
    "cat": "praxis",
-   "sub": "Gesprochene Kommandos",
-   "explDe": "Was der Prüfer sagt.",
-   "source": "Praxisteil",
-   "verify": true
+   "sub": "Übliche Anweisungen im Kurs",
+   "explDe": "Übliche Formulierung im Kurs. Das Handbuch legt keinen Wortlaut fest, es sagt ausdrücklich, dass Kommandos je nach Stand und Region verschieden sind.",
+   "source": "nicht im Handbuch"
   },
   {
    "id": "put-it-down",
    "en": "Put it down",
    "de": "Leg sie ab",
    "cat": "praxis",
-   "sub": "Gesprochene Kommandos",
-   "explDe": "Was der Prüfer sagt.",
-   "source": "Praxisteil",
-   "verify": true
+   "sub": "Übliche Anweisungen im Kurs",
+   "explDe": "Übliche Formulierung im Kurs. Das Handbuch legt keinen Wortlaut fest, es sagt ausdrücklich, dass Kommandos je nach Stand und Region verschieden sind.",
+   "source": "nicht im Handbuch"
   },
   {
    "id": "show-me-how-you-would",
    "en": "Show me how you would ...",
    "de": "Zeig mir, wie du ...",
    "cat": "praxis",
-   "sub": "Gesprochene Kommandos",
-   "explDe": "Was der Prüfer sagt.",
-   "source": "Praxisteil",
-   "verify": true
+   "sub": "Übliche Anweisungen im Kurs",
+   "explDe": "Übliche Formulierung im Kurs. Das Handbuch legt keinen Wortlaut fest, es sagt ausdrücklich, dass Kommandos je nach Stand und Region verschieden sind.",
+   "source": "nicht im Handbuch"
   },
   {
    "id": "firearm",
@@ -2037,6 +2026,384 @@
    "sub": "Handhabung",
    "explDe": "Hilfsmittel, um in den Lauf zu leuchten, statt hineinzusehen.",
    "source": "S. 110"
+  },
+  {
+   "id": "range-officer",
+   "en": "Range Officer",
+   "de": "Standaufsicht",
+   "cat": "fach",
+   "sub": "Schießstand",
+   "explDe": "Die aufsichtführende Person. Nur auf ihr Kommando wird geladen.",
+   "source": "S. 148"
+  },
+  {
+   "id": "firing-line",
+   "en": "firing line",
+   "de": "Schützenlinie",
+   "cat": "fach",
+   "sub": "Schießstand",
+   "explDe": "Die Linie, an der geschossen wird. Nur dort darf geladen, entladen und geschossen werden.",
+   "source": "S. 148"
+  },
+  {
+   "id": "cease-fire",
+   "en": "cease-fire",
+   "de": "Feuer einstellen",
+   "cat": "fach",
+   "sub": "Schießstand",
+   "explDe": "Das wichtigste Kommando. Im Notfall darf es jeder rufen.",
+   "source": "S. 148"
+  },
+  {
+   "id": "cease-fire-line",
+   "en": "cease-fire line",
+   "de": "Halterlinie hinter der Schützenlinie",
+   "cat": "fach",
+   "sub": "Schießstand",
+   "explDe": "Dorthin tritt man beim Kommando cease-fire zurück.",
+   "source": "S. 148"
+  },
+  {
+   "id": "down-range",
+   "en": "down range",
+   "de": "in Richtung der Ziele",
+   "cat": "fach",
+   "sub": "Schießstand",
+   "explDe": "Die Mündung zeigt auf dem Stand immer dorthin.",
+   "source": "S. 148"
+  },
+  {
+   "id": "range-is-active",
+   "en": "the range is active",
+   "de": "der Stand ist aktiv",
+   "cat": "fach",
+   "sub": "Schießstand",
+   "explDe": "Eines der drei Standkommandos, die das Handbuch nennt.",
+   "source": "S. 145"
+  },
+  {
+   "id": "backstop",
+   "en": "backstop",
+   "de": "Kugelfang",
+   "cat": "fach",
+   "sub": "Schießstand",
+   "explDe": "Der Wall oder die Wand hinter den Zielen, der die Geschosse auffängt.",
+   "source": "S. 156"
+  },
+  {
+   "id": "safe-zone-of-fire",
+   "en": "safe zone of fire",
+   "de": "sicherer Schussbereich",
+   "cat": "fach",
+   "sub": "Schießstand",
+   "explDe": "Der Bereich, den ein Schütze in der Gruppe abdeckt. Vorher abgesprochen.",
+   "source": "S. 156"
+  },
+  {
+   "id": "informal-firing-line",
+   "en": "informal firing line",
+   "de": "behelfsmäßige Schützenlinie",
+   "cat": "fach",
+   "sub": "Schießstand",
+   "explDe": "Im Gelände aufgebaute Linie, wenn zu zweit oder mehr geschossen wird.",
+   "source": "S. 156"
+  },
+  {
+   "id": "direct-supervision",
+   "en": "direct and immediate supervision",
+   "de": "unmittelbare Aufsicht",
+   "cat": "fach",
+   "sub": "Schießstand",
+   "explDe": "Definiert als: die Aufsicht bleibt jederzeit in Armlänge des Schützen. Gilt für Minderjährige und Gäste ohne eigene Erlaubnis.",
+   "source": "S. 150"
+  },
+  {
+   "id": "sight-protection",
+   "en": "sight protection",
+   "de": "Augenschutz",
+   "cat": "fach",
+   "sub": "Schießstand",
+   "explDe": "Schutzbrille aus schlagfestem Glas oder Polycarbonat, mit Seitenschutz.",
+   "source": "S. 146"
+  },
+  {
+   "id": "side-shields",
+   "en": "side shields",
+   "de": "Seitenschutz",
+   "cat": "fach",
+   "sub": "Schießstand",
+   "explDe": "Die seitlichen Blenden der Schutzbrille.",
+   "source": "S. 146"
+  },
+  {
+   "id": "earplugs",
+   "en": "earplugs",
+   "de": "Ohrstöpsel",
+   "cat": "fach",
+   "sub": "Schießstand",
+   "explDe": "Einweg aus Schaum oder Wachs, oder wiederverwendbar aus Gummi. Am besten zusammen mit Kapselgehörschutz.",
+   "source": "S. 146"
+  },
+  {
+   "id": "two-hand-carry",
+   "en": "two-hand or ready carry",
+   "de": "Bereitschaftshaltung",
+   "cat": "fach",
+   "sub": "Trageweisen",
+   "explDe": "Die sicherste Trageweise. Beste Kontrolle über Waffe und Mündung, und man ist schnell schussbereit.",
+   "source": "S. 158"
+  },
+  {
+   "id": "cradle-carry",
+   "en": "cradle carry",
+   "de": "Armbeuge",
+   "cat": "fach",
+   "sub": "Trageweisen",
+   "explDe": "Sicher, wenn man allein ist. Die Mündung zeigt zur Seite, also muss ein Begleiter auf der anderen Seite gehen.",
+   "source": "S. 158"
+  },
+  {
+   "id": "elbow-carry",
+   "en": "elbow or side carry",
+   "de": "Ellbogenhaltung",
+   "cat": "fach",
+   "sub": "Trageweisen",
+   "explDe": "Sicher im offenen Gelände. Nicht im Gebüsch, Zweige können den Lauf zu dir drehen. Nicht, wenn jemand vor dir geht.",
+   "source": "S. 159"
+  },
+  {
+   "id": "trail-carry",
+   "en": "trail carry",
+   "de": "Schlepphaltung",
+   "cat": "fach",
+   "sub": "Trageweisen",
+   "explDe": "Nur allein oder im Stehen zu empfehlen.",
+   "source": "S. 159"
+  },
+  {
+   "id": "shoulder-carry",
+   "en": "shoulder carry",
+   "de": "Schulterhaltung",
+   "cat": "fach",
+   "sub": "Trageweisen",
+   "explDe": "Die unsicherste von allen. Bei einem Sturz kaum Kontrolle über die Mündung. Nie mit geladener Waffe und nie in Begleitung.",
+   "source": "S. 160"
+  },
+  {
+   "id": "sling-carry",
+   "en": "sling carry",
+   "de": "Riemen über der Schulter",
+   "cat": "fach",
+   "sub": "Trageweisen",
+   "explDe": "Lässt beide Hände frei. Nicht im dichten Gebüsch. Beim starken Vorbeugen gefährlich für alle, die vor dir sind.",
+   "source": "S. 160"
+  },
+  {
+   "id": "blind",
+   "en": "pit or blind",
+   "de": "Ansitz, Schirm",
+   "cat": "fach",
+   "sub": "Trageweisen",
+   "explDe": "Beim Betreten wird die Waffe entladen davor abgelegt und erst danach hineingeholt.",
+   "source": "S. 153"
+  },
+  {
+   "id": "marksmanship",
+   "en": "marksmanship",
+   "de": "Treffsicherheit",
+   "cat": "fach",
+   "sub": "Schießtechnik",
+   "explDe": "Die Fähigkeit zu treffen. Sie gehört zur Sicherheit: wer nicht weiß, wohin das Geschoss geht, kann nicht sicher schießen.",
+   "source": "S. 163"
+  },
+  {
+   "id": "anticipation",
+   "en": "anticipation",
+   "de": "Vorausdenken",
+   "cat": "fach",
+   "sub": "Schießtechnik",
+   "explDe": "Vorher überlegen, welche Lagen und Schüsse auftreten können.",
+   "source": "S. 163"
+  },
+  {
+   "id": "standing-position",
+   "en": "standing position",
+   "de": "Stehendanschlag",
+   "cat": "fach",
+   "sub": "Schießtechnik",
+   "explDe": "Eine der vier Anschlagsarten für die Büchse.",
+   "source": "S. 164"
+  },
+  {
+   "id": "kneeling-position",
+   "en": "kneeling position",
+   "de": "Knieendanschlag",
+   "cat": "fach",
+   "sub": "Schießtechnik",
+   "explDe": "Eine der vier Anschlagsarten.",
+   "source": "S. 164"
+  },
+  {
+   "id": "sitting-position",
+   "en": "sitting position",
+   "de": "Sitzendanschlag",
+   "cat": "fach",
+   "sub": "Schießtechnik",
+   "explDe": "Eine der vier Anschlagsarten.",
+   "source": "S. 164"
+  },
+  {
+   "id": "prone-position",
+   "en": "prone position",
+   "de": "Liegendanschlag",
+   "cat": "fach",
+   "sub": "Schießtechnik",
+   "explDe": "Die vierte Anschlagsart und die ruhigste.",
+   "source": "S. 164"
+  },
+  {
+   "id": "open-sights",
+   "en": "open sights",
+   "de": "offene Visierung",
+   "cat": "fach",
+   "sub": "Visierung",
+   "explDe": "Kimme und Korn. Sie müssen von Hand aufeinander und aufs Ziel ausgerichtet werden.",
+   "source": "S. 170"
+  },
+  {
+   "id": "peep-sights",
+   "en": "peep sights",
+   "de": "Lochvisier",
+   "cat": "fach",
+   "sub": "Visierung",
+   "explDe": "Eine der vier Visierungsarten.",
+   "source": "S. 170"
+  },
+  {
+   "id": "telescopic-sights",
+   "en": "telescopic sights",
+   "de": "Zielfernrohr",
+   "cat": "fach",
+   "sub": "Visierung",
+   "explDe": "Vergrößert das Ziel und braucht kein bewusstes Ausrichten.",
+   "source": "S. 170"
+  },
+  {
+   "id": "electronic-sights",
+   "en": "electronic sights",
+   "de": "elektronische Visierung",
+   "cat": "fach",
+   "sub": "Visierung",
+   "explDe": "Rotpunktvisier und Ähnliches. Braucht ebenfalls kein bewusstes Ausrichten.",
+   "source": "S. 170"
+  },
+  {
+   "id": "bead",
+   "en": "bead",
+   "de": "Perlkorn",
+   "cat": "fach",
+   "sub": "Visierung",
+   "explDe": "Die meisten Flinten haben nur dieses Korn vorn am Lauf. Das Auge ist die Kimme.",
+   "source": "S. 170"
+  },
+  {
+   "id": "sight-alignment",
+   "en": "sight alignment",
+   "de": "Visierlinie ausrichten",
+   "cat": "fach",
+   "sub": "Visierung",
+   "explDe": "Kimme und Korn miteinander und mit dem Ziel in eine Linie bringen.",
+   "source": "S. 172"
+  },
+  {
+   "id": "sight-picture",
+   "en": "sight picture",
+   "de": "Zielbild",
+   "cat": "fach",
+   "sub": "Visierung",
+   "explDe": "Das Bild, das entsteht, wenn die Visierung auf dem Ziel liegt.",
+   "source": "S. 172"
+  },
+  {
+   "id": "master-eye",
+   "en": "master eye",
+   "de": "Führungsauge",
+   "cat": "fach",
+   "sub": "Visierung",
+   "explDe": "Das stärkere der beiden Augen. Es schätzt Geschwindigkeit und Entfernung besser und wird zum Zielen benutzt.",
+   "source": "S. 172"
+  },
+  {
+   "id": "to-sight-in",
+   "en": "to sight in",
+   "de": "einschießen",
+   "cat": "fach",
+   "sub": "Visierung",
+   "explDe": "Jede Waffe muss vor dem Gebrauch auf den jeweiligen Schützen eingeschossen werden.",
+   "source": "S. 172"
+  },
+  {
+   "id": "trigger-squeeze",
+   "en": "trigger squeeze",
+   "de": "gleichmäßiges Durchziehen",
+   "cat": "fach",
+   "sub": "Schießtechnik",
+   "explDe": "Bei der Büchse wird der Abzug langsam und gleichmäßig durchgezogen, nie gerissen.",
+   "source": "S. 177"
+  },
+  {
+   "id": "trigger-slap",
+   "en": "trigger slap",
+   "de": "Abzugsschlag",
+   "cat": "fach",
+   "sub": "Schießtechnik",
+   "explDe": "Bei der Flinte wird der Abzug geschlagen statt gezogen, wie ein Anschlag auf einer Schreibmaschinentaste. Schnell, aber nicht hart.",
+   "source": "S. 177"
+  },
+  {
+   "id": "follow-through",
+   "en": "follow-through",
+   "de": "Nachhalten",
+   "cat": "fach",
+   "sub": "Schießtechnik",
+   "explDe": "Zielbild und Anschlag nach dem Schuss noch halten. Ohne das geht der Schuss eher daneben.",
+   "source": "S. 177"
+  },
+  {
+   "id": "natural-pause",
+   "en": "natural pause",
+   "de": "natürliche Atempause",
+   "cat": "fach",
+   "sub": "Schießtechnik",
+   "explDe": "Die Pause am Ende des Ausatmens, etwa 2,5 Sekunden. In ihr wird geschossen.",
+   "source": "S. 175"
+  },
+  {
+   "id": "the-range-is-active",
+   "en": "The range is active",
+   "de": "Der Stand ist aktiv",
+   "cat": "praxis",
+   "sub": "Standkommandos des Handbuchs",
+   "explDe": "Es darf geschossen werden.",
+   "source": "S. 145"
+  },
+  {
+   "id": "cease-fire-cmd",
+   "en": "Cease-fire",
+   "de": "Feuer einstellen",
+   "cat": "praxis",
+   "sub": "Standkommandos des Handbuchs",
+   "explDe": "Sofort aufhören zu schießen, entladen, Verschluss öffnen, ablegen, zurücktreten.",
+   "source": "S. 145"
+  },
+  {
+   "id": "range-no-longer-active",
+   "en": "The range is no longer active",
+   "de": "Der Stand ist nicht mehr aktiv",
+   "cat": "praxis",
+   "sub": "Standkommandos des Handbuchs",
+   "explDe": "Das Schießen ist beendet.",
+   "source": "S. 145"
   }
  ]
 }

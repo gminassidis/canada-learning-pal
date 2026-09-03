@@ -1,12 +1,21 @@
 {
  "_schema": "Lerneinheiten. Bloecke: de = deutsche Erklaerung, en = englischer Originalsatz aus dem Handbuch, img = Abbildung, terms = Begriffsliste. source = Seite im Handbuch.",
- "_status": "Einfuehrung und Module 1 bis 6 fertig. Module 7 bis 11 folgen.",
+ "_status": "Einfuehrung und Module 1 bis 8 fertig. Module 9 bis 11 folgen.",
  "chapters": [
   {
    "id": "einfuehrung",
    "titleDe": "Einführung",
    "titleEn": "Introduction to the Canadian Firearms Safety Course",
    "units": [
+    {
+     "id": "einfuehrung-intro",
+     "kind": "intro",
+     "titleDe": "Einführung",
+     "titleEn": "Introduction to the Canadian Firearms Safety Course",
+     "source": "S. 18 bis S. 26",
+     "lead": "Die vier Grundregeln ACTS, der Prüfablauf PROVE und die rechtlichen Pflichten eines Waffenbesitzers in Kanada.",
+     "blocks": []
+    },
     {
      "id": "intro-acts",
      "titleDe": "Die vier Grundregeln: ACTS",
@@ -117,7 +126,7 @@
       {
        "type": "en",
        "text": "Observe the chamber.",
-       "page": 50
+       "page": 22
       },
       {
        "type": "de",
@@ -135,7 +144,7 @@
       {
        "type": "en",
        "text": "Examine the bore for obstructions.",
-       "page": 50
+       "page": 22
       },
       {
        "type": "de",
@@ -252,6 +261,16 @@
    "titleDe": "Modul 1: Einführung in Schusswaffen",
    "titleEn": "Module 1: Introduction to Firearms",
    "units": [
+    {
+     "id": "modul1-intro",
+     "kind": "intro",
+     "titleDe": "Modul 1: Einführung in Schusswaffen",
+     "titleEn": "Module 1: Introduction to Firearms",
+     "source": "S. 27 bis S. 36",
+     "lead": "Die Entwicklung der Schusswaffe von der Kanone bis zur Patrone, mit vier Zündsystemen und dem Aufbau moderner Munition.",
+     "blocks": [],
+     "img": "assets/div-m1.webp"
+    },
     {
      "id": "m1-zuendung",
      "titleDe": "Wie Waffen gezündet wurden",
@@ -429,6 +448,16 @@
    "titleDe": "Modul 2: Vorderlader",
    "titleEn": "Module 2: Muzzleloaders",
    "units": [
+    {
+     "id": "modul2-intro",
+     "kind": "intro",
+     "titleDe": "Modul 2: Vorderlader",
+     "titleEn": "Module 2: Muzzleloaders",
+     "source": "S. 37 bis S. 46",
+     "lead": "Schwarzpulver und seine Sorten, das Prüfen und Laden von Vorderladern und die Regeln, die dabei gelten.",
+     "blocks": [],
+     "img": "assets/div-m2.webp"
+    },
     {
      "id": "m2-pulver",
      "titleDe": "Schwarzpulver und seine Sorten",
@@ -642,6 +671,16 @@
    "titleDe": "Modul 3: Wichtige Waffenteile",
    "titleEn": "Module 3: Major Firearms Parts",
    "units": [
+    {
+     "id": "modul3-intro",
+     "kind": "intro",
+     "titleDe": "Modul 3: Wichtige Waffenteile",
+     "titleEn": "Module 3: Major Firearms Parts",
+     "source": "S. 47 bis S. 56",
+     "lead": "Lauf, Verschluss und Schaft, die Schussfolge in vier Schritten, sechs Verschlussarten und die drei Waffenklassen.",
+     "blocks": [],
+     "img": "assets/div-m3.webp"
+    },
     {
      "id": "m3-teile",
      "titleDe": "Die drei Hauptteile",
@@ -925,6 +964,16 @@
    "titleEn": "Module 4: Basic Firearm Safety",
    "units": [
     {
+     "id": "modul4-intro",
+     "kind": "intro",
+     "titleDe": "Modul 4: Grundlegende Waffensicherheit",
+     "titleEn": "Module 4: Basic Firearm Safety",
+     "source": "S. 57 bis S. 63",
+     "lead": "Die Regeln für Aufbewahrung, Laden, Zielen und Schießen, dazu die sicheren Verschlusseinrichtungen.",
+     "blocks": [],
+     "img": "assets/div-m4.webp"
+    },
+    {
      "id": "m4-praxis",
      "titleDe": "Umgang mit Waffe und Munition",
      "titleEn": "Firearms and ammunition safety practices",
@@ -1204,6 +1253,16 @@
    "titleDe": "Modul 5: Munition",
    "titleEn": "Module 5: Ammunition",
    "units": [
+    {
+     "id": "modul5-intro",
+     "kind": "intro",
+     "titleDe": "Modul 5: Munition",
+     "titleEn": "Module 5: Ammunition",
+     "source": "S. 64 bis S. 96",
+     "lead": "Kaliber und Kaliberzahl, Patrone und Schrotpatrone, Ballistik und Flugbahn, Störungen beim Schuss und die Lagerung von Munition.",
+     "blocks": [],
+     "img": "assets/div-m5.webp"
+    },
     {
      "id": "m5-zug",
      "titleDe": "Züge, Felder und Kaliber",
@@ -1779,6 +1838,16 @@
    "titleDe": "Modul 6: Verschlusssysteme bedienen",
    "titleEn": "Module 6: Operating Firearms Actions",
    "units": [
+    {
+     "id": "modul6-intro",
+     "kind": "intro",
+     "titleDe": "Modul 6: Verschlusssysteme bedienen",
+     "titleEn": "Module 6: Operating Firearms Actions",
+     "source": "S. 97 bis S. 144",
+     "lead": "Die sechs Sicherungsbauarten und das Entladen und Laden jeder einzelnen Verschlussart.",
+     "blocks": [],
+     "img": "assets/div-m6.webp"
+    },
     {
      "id": "m6-sicherungen",
      "titleDe": "Die Sicherungen",
@@ -2389,7 +2458,7 @@
       {
        "type": "en",
        "text": "Firearms jammed with a cartridge or shell in the chamber(s) can be a hazard. This hazard, if not dealt with properly, may result in a serious incident. Consult a qualified person or gunsmith.",
-       "page": 92
+       "page": 142
       },
       {
        "type": "de",
@@ -2405,6 +2474,804 @@
         "to-jam",
         "rim-fire",
         "centre-fire"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "modul7",
+   "titleDe": "Modul 7: Sicheres Handhaben und Tragen",
+   "titleEn": "Module 7: Safe Handling and Carrying of Non-Restricted Firearms",
+   "units": [
+    {
+     "id": "modul7-intro",
+     "kind": "intro",
+     "titleDe": "Modul 7: Sicheres Handhaben und Tragen",
+     "titleEn": "Module 7: Safe Handling and Carrying of Non-Restricted Firearms",
+     "source": "S. 145 bis S. 162",
+     "lead": "Schutzausrüstung, die Regeln auf dem Schießstand, der Umgang mit Waffen am Fahrzeug und im Gelände, und die sechs Trageweisen.",
+     "blocks": [],
+     "img": "assets/div-m7.webp"
+    },
+    {
+     "id": "m7-schutz",
+     "titleDe": "Schutzausrüstung",
+     "titleEn": "Personal safety protection",
+     "source": "S. 146 und S. 147",
+     "blocks": [
+      {
+       "type": "de",
+       "text": "Zwei Ausrüstungsstücke sind vor dem Betreten eines Schießstands vorgeschrieben. Nach ihnen fragt die erste Review-Frage des Moduls."
+      },
+      {
+       "type": "en",
+       "text": "To avoid these hazards, shooters should wear safety glasses made of impact-resistant glass or polycarbonate plastic with side shields.",
+       "page": 146
+      },
+      {
+       "type": "de",
+       "text": "Erstens der Augenschutz: eine Schutzbrille aus schlagfestem Glas oder Polycarbonat, mit Seitenschutz. Sie schützt gegen ausgeworfene Hülsen, Splitter, Zweige und gegen Folgen von Störungen."
+      },
+      {
+       "type": "en",
+       "text": "The noise level of a gunshot is similar to that of a jet engine taking off at close range.",
+       "page": 146
+      },
+      {
+       "type": "de",
+       "text": "Zweitens der Gehörschutz. Das Handbuch vergleicht den Knall mit einem startenden Düsentriebwerk aus nächster Nähe. Auf dem Stand wird der Kapselgehörschutz getragen. Ohrstöpsel gibt es aus Schaum oder Wachs zum einmaligen Gebrauch und aus Gummi zum Wiederverwenden."
+      },
+      {
+       "type": "en",
+       "text": "For maximum hearing protection, it is highly recommended that both earplugs and headphone-type hearing protectors be worn.",
+       "page": 146
+      },
+      {
+       "type": "de",
+       "text": "Den besten Schutz gibt die Kombination aus beidem."
+      },
+      {
+       "type": "img",
+       "src": "assets/ppe.webp",
+       "captionDe": "Abbildung 56 aus dem Handbuch: Augen- und Gehörschutz."
+      },
+      {
+       "type": "en",
+       "text": "If you do fall, remember your first action should be to control the muzzle of the firearm.",
+       "page": 147
+      },
+      {
+       "type": "de",
+       "text": "Zum Ausrutschen und Stürzen nennt das Handbuch eine klare erste Handlung: die Mündung unter Kontrolle bringen. Dazu kommen festes Schuhwerk mit Profil, keine sperrige Kleidung und, beim Jagen empfohlen und mancherorts vorgeschrieben, Signalorange."
+      },
+      {
+       "type": "en",
+       "text": "Therefore, button up the collar and sleeves of your shirt or blouse. This way, a hot cartridge casing cannot get inside.",
+       "page": 147
+      },
+      {
+       "type": "de",
+       "text": "Ein Detail, das leicht übersehen wird: Kragen und Ärmel schließen. Eine heiße Hülse im Ärmel lässt zusammenzucken, und das kostet im schlimmsten Fall die Kontrolle über die Mündung."
+      },
+      {
+       "type": "terms",
+       "ids": [
+        "sight-protection",
+        "side-shields",
+        "earplugs",
+        "hearing-protection",
+        "safety-glasses",
+        "blaze-orange"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "m7-stand",
+     "titleDe": "Auf dem Schießstand",
+     "titleEn": "Safety procedures on approved range",
+     "source": "S. 145 und S. 148 bis S. 151",
+     "blocks": [
+      {
+       "type": "de",
+       "text": "Das Handbuch nennt drei typische Standkommandos."
+      },
+      {
+       "type": "en",
+       "text": "The range is active. Cease-fire. The range is no longer active.",
+       "page": 299
+      },
+      {
+       "type": "de",
+       "text": "Dazu der Hinweis, dass Kommandos und Signale sich zwischen Sportarten, Ständen und Regionen unterscheiden. Wer unsicher ist, fragt vorher die Standaufsicht."
+      },
+      {
+       "type": "img",
+       "src": "assets/range-layout.webp",
+       "captionDe": "Abbildung 57 aus dem Handbuch: Aufbau eines Schießstands mit Aufsicht."
+      },
+      {
+       "type": "de",
+       "text": "Die Standregeln sind überall ähnlich."
+      },
+      {
+       "type": "en",
+       "text": "The muzzle must always be pointed down range. The action of any firearm must be open at all times, except when actually shooting.",
+       "page": 148
+      },
+      {
+       "type": "de",
+       "text": "Die Mündung zeigt immer in Richtung der Ziele. Der Verschluss ist immer offen, außer im Moment des Schießens. Nach der sicheren Richtung auf der Schützenlinie fragt die dritte Review-Frage, und die Antwort lautet: down range."
+      },
+      {
+       "type": "en",
+       "text": "Firearms must only be loaded, unloaded, and discharged at the firing line. No firearm is loaded until the command to load is given by the Range Officer.",
+       "page": 148
+      },
+      {
+       "type": "de",
+       "text": "Geladen, entladen und geschossen wird nur an der Schützenlinie, und geladen erst auf Kommando der Standaufsicht."
+      },
+      {
+       "type": "de",
+       "text": "Beim Kommando cease-fire folgen vier Handlungen. Nach ihnen fragt die zweite Review-Frage."
+      },
+      {
+       "type": "en",
+       "text": "Upon the command cease-fire, all firing stops at once. Firearms are unloaded. Actions are opened. Firearms are laid on the mat or on the table.",
+       "page": 148
+      },
+      {
+       "type": "de",
+       "text": "Sofort aufhören zu schießen, entladen, Verschluss öffnen, ablegen. Die Mündung zeigt dabei weiter in Richtung der Ziele, und der Schütze tritt hinter die Halterlinie zurück. Während eines cease-fire fasst niemand Waffen oder Munition an und niemand geht zurück zur Linie."
+      },
+      {
+       "type": "en",
+       "text": "In an emergency, anyone can call a cease-fire.",
+       "page": 150
+      },
+      {
+       "type": "de",
+       "text": "Wichtig: im Notfall darf jeder das Kommando geben, nicht nur die Aufsicht."
+      },
+      {
+       "type": "en",
+       "text": "Direct and immediate supervision is defined as the supervisor being within arm's reach of the shooter at all times when shooting activity is being supervised.",
+       "page": 150
+      },
+      {
+       "type": "de",
+       "text": "Für Minderjährige und Gäste ohne eigene Erlaubnis gilt unmittelbare Aufsicht. Das Handbuch definiert sie als: die Aufsicht bleibt jederzeit in Armlänge. Danach fragt die vierte Review-Frage."
+      },
+      {
+       "type": "terms",
+       "ids": [
+        "range-officer",
+        "firing-line",
+        "cease-fire",
+        "cease-fire-line",
+        "down-range",
+        "range-is-active",
+        "direct-supervision"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "m7-fahrzeug",
+     "titleDe": "Waffen am Fahrzeug",
+     "titleEn": "Safe handling of firearms in vehicles",
+     "source": "S. 152",
+     "blocks": [
+      {
+       "type": "de",
+       "text": "Als Fahrzeug gelten je nach Region auch Boote, Wohnmobile, Schneemobile, Schlitten, Privatflugzeuge und Geländefahrzeuge."
+      },
+      {
+       "type": "en",
+       "text": "Never have a loaded firearm in or on any vehicle unless you are allowed to shoot from that vehicle. Unload before entry. Load only after leaving.",
+       "page": 152
+      },
+      {
+       "type": "de",
+       "text": "Vor dem Einsteigen entladen, erst nach dem Aussteigen laden."
+      },
+      {
+       "type": "en",
+       "text": "It is especially difficult to control muzzle direction when entering or leaving vehicles.",
+       "page": 152
+      },
+      {
+       "type": "de",
+       "text": "Gerade beim Ein- und Aussteigen ist die Mündungsrichtung schwer zu halten, deshalb hier besonders aufpassen."
+      },
+      {
+       "type": "en",
+       "text": "When a firearm is in a vehicle, it must be placed in a secure position where it will not be dislodged or stepped upon.",
+       "page": 152
+      },
+      {
+       "type": "de",
+       "text": "Im Fahrzeug wird die Waffe so verstaut, dass sie nicht verrutschen kann und niemand darauf tritt."
+      },
+      {
+       "type": "de",
+       "text": "Das Handbuch schildert dazu einen tödlichen Unfall: Ein Entenjäger legte seine geladene Flinte ins Boot und stieg ein. Sein Hund sprang hinterher und landete auf der Waffe. Der Schuss löste sich und traf den Jäger in den Bauch. Als Ursachen nennt das Handbuch drei Punkte: unsichere Mündungsrichtung, geladene Waffe im Fahrzeug, ungesicherte Ablage."
+      },
+      {
+       "type": "terms",
+       "ids": [
+        "discharge",
+        "unintentional-discharge",
+        "storage"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "m7-gelaende",
+     "titleDe": "Im Gelände",
+     "titleEn": "Safe handling of firearms outdoors",
+     "source": "S. 153 bis S. 155",
+     "blocks": [
+      {
+       "type": "en",
+       "text": "Always remember that people or livestock you cannot see may be close enough to be injured. Be aware of the dangerous range of your firearm and ammunition.",
+       "page": 153
+      },
+      {
+       "type": "de",
+       "text": "Im Gelände ist der Gefahrenbereich der eigenen Waffe die Leitgröße. Menschen und Vieh, die man nicht sieht, können trotzdem in Reichweite sein."
+      },
+      {
+       "type": "en",
+       "text": "Under all circumstances, protect the trigger and safety while carrying your firearm. A twig or branch may catch the trigger, put the safety off, or swing the muzzle around.",
+       "page": 153
+      },
+      {
+       "type": "de",
+       "text": "Abzug und Sicherung werden beim Tragen geschützt. Ein Zweig kann den Abzug erwischen, die Sicherung lösen oder die Mündung herumdrehen."
+      },
+      {
+       "type": "en",
+       "text": "When you cross a fence or other obstacle, unload your firearm and leave the action open.",
+       "page": 153
+      },
+      {
+       "type": "de",
+       "text": "Vor jedem Hindernis wird entladen und der Verschluss geöffnet. Das gilt auch für rutschiges, steiniges oder unebenes Gelände."
+      },
+      {
+       "type": "en",
+       "text": "When crossing a fence alone, unload the firearm and place the firearm under the fence. Make sure the firearm is flat on the ground with the action open and the muzzle pointed away from where you are crossing.",
+       "page": 153
+      },
+      {
+       "type": "de",
+       "text": "Allein: die entladene Waffe flach unter den Zaun legen, Verschluss offen, Mündung von der Übersteigstelle weg."
+      },
+      {
+       "type": "img",
+       "src": "assets/fence-alone.webp",
+       "captionDe": "Abbildung 58 aus dem Handbuch: allein über einen Zaun."
+      },
+      {
+       "type": "en",
+       "text": "If you are in a group, one person should stand away from the crossing point. This person should hold the unloaded and open firearms while the others cross the obstacle.",
+       "page": 153
+      },
+      {
+       "type": "de",
+       "text": "In der Gruppe: eine Person stellt sich abseits und hält alle entladenen und offenen Waffen, während die anderen übersteigen."
+      },
+      {
+       "type": "img",
+       "src": "assets/fence-group.webp",
+       "captionDe": "Abbildung 59: in der Gruppe über einen Zaun."
+      },
+      {
+       "type": "en",
+       "text": "When hunting alone from a pit or blind, unload your firearm and place it outside before entering. Then enter and bring the unloaded firearm into the pit or blind after you.",
+       "page": 153
+      },
+      {
+       "type": "de",
+       "text": "Beim Ansitz: erst die entladene Waffe draußen ablegen, dann selbst hineinsteigen und die Waffe danach hereinholen."
+      },
+      {
+       "type": "terms",
+       "ids": [
+        "dangerous-range",
+        "blind",
+        "safety",
+        "discharge"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "m7-gruppe",
+     "titleDe": "In der Gruppe schießen",
+     "titleEn": "Shooting or hunting with a group",
+     "source": "S. 156 und S. 157",
+     "blocks": [
+      {
+       "type": "en",
+       "text": "Any shot fired in the wrong direction might hit another person in your group. Make sure safe zones of fire are established to prevent such incidents.",
+       "page": 156
+      },
+      {
+       "type": "de",
+       "text": "Beim Schießen in der Gruppe wird vorher abgesprochen, welchen Bereich jeder abdeckt. Das ist die safe zone of fire, und danach fragt die fünfte Review-Frage."
+      },
+      {
+       "type": "img",
+       "src": "assets/safe-zones.webp",
+       "captionDe": "Abbildung 60 aus dem Handbuch: sichere Schussbereiche."
+      },
+      {
+       "type": "en",
+       "text": "Positions change when you advance through the field. You should always know exactly where your shooting partners are.",
+       "page": 156
+      },
+      {
+       "type": "de",
+       "text": "Beim Vorgehen im Gelände verschieben sich die Bereiche. Man muss jederzeit wissen, wo die anderen stehen."
+      },
+      {
+       "type": "de",
+       "text": "Für das Schießen zu zweit oder mehr im Gelände beschreibt das Handbuch die behelfsmäßige Schützenlinie in fünf Schritten: jemanden zur Standaufsicht bestimmen, die üblichen Standkommandos verwenden, eine Schützenlinie festlegen, an der allein ausgepackt, angefasst und geladen wird, den Ablauf allen erklären, und für jeden einen sicheren Schussbereich mit sicherem Kugelfang festlegen."
+      },
+      {
+       "type": "terms",
+       "ids": [
+        "safe-zone-of-fire",
+        "informal-firing-line",
+        "backstop",
+        "range-officer",
+        "firing-line"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "m7-tragen",
+     "titleDe": "Die sechs Trageweisen",
+     "titleEn": "Carrying positions",
+     "source": "S. 158 bis S. 160",
+     "blocks": [
+      {
+       "type": "en",
+       "text": "Muzzle direction is all-important when carrying firearms. You can control muzzle direction safely if you use proper carrying positions.",
+       "page": 158
+      },
+      {
+       "type": "de",
+       "text": "Die sechste Review-Frage verlangt die Trageweisen samt der Richtung, in die ein ungewollter Schuss ginge. Sechs sind zu unterscheiden."
+      },
+      {
+       "type": "en",
+       "text": "The two-hand or ready carry is the safest carry for shooters. It gives you the best control of the firearm and muzzle.",
+       "page": 158
+      },
+      {
+       "type": "de",
+       "text": "Bereitschaftshaltung, beidhändig vor dem Körper. Die sicherste von allen, beste Kontrolle, und man ist schnell schussbereit. Die Mündung zeigt nach schräg oben."
+      },
+      {
+       "type": "img",
+       "src": "assets/carry-ready.webp",
+       "captionDe": "Abbildung 61: Bereitschaftshaltung."
+      },
+      {
+       "type": "en",
+       "text": "The cradle carry is a safe carry when shooting alone. However, in this carry, the muzzle points to one side.",
+       "page": 158
+      },
+      {
+       "type": "de",
+       "text": "Armbeuge. Sicher, solange man allein ist. Die Mündung zeigt zur Seite, deshalb muss ein Begleiter auf der anderen Seite gehen."
+      },
+      {
+       "type": "img",
+       "src": "assets/carry-cradle.webp",
+       "captionDe": "Abbildung 62: Armbeuge."
+      },
+      {
+       "type": "en",
+       "text": "The elbow or side carry is safe when walking in open terrain. However, do not use the side carry when walking through bush.",
+       "page": 159
+      },
+      {
+       "type": "de",
+       "text": "Ellbogenhaltung, Verschluss offen. Sicher im offenen Gelände, die Mündung zeigt nach schräg vorn unten. Nicht im Gebüsch, dort können Zweige den Lauf zu einem herumdrehen. Und nicht, wenn jemand vor einem geht."
+      },
+      {
+       "type": "img",
+       "src": "assets/carry-elbow.webp",
+       "captionDe": "Abbildung 63: Ellbogenhaltung mit offenem Verschluss."
+      },
+      {
+       "type": "en",
+       "text": "The trail carry is best used when you are alone or standing still. Otherwise, it is not recommended.",
+       "page": 159
+      },
+      {
+       "type": "de",
+       "text": "Schlepphaltung, die Waffe hängt seitlich in der Hand. Nur allein oder im Stehen. Die Mündung zeigt nach vorn."
+      },
+      {
+       "type": "img",
+       "src": "assets/carry-trail.webp",
+       "captionDe": "Abbildung 64: Schlepphaltung."
+      },
+      {
+       "type": "en",
+       "text": "The shoulder carry is the least safe of all carries. In a fall there is poor muzzle control. It must not be used for loaded firearms.",
+       "page": 160
+      },
+      {
+       "type": "de",
+       "text": "Schulterhaltung. Die unsicherste von allen, weil bei einem Sturz kaum Kontrolle über die Mündung bleibt. Nie mit geladener Waffe, nie in Begleitung, und die Mündung muss nach oben zeigen."
+      },
+      {
+       "type": "img",
+       "src": "assets/carry-shoulder.webp",
+       "captionDe": "Abbildung 65: Schulterhaltung."
+      },
+      {
+       "type": "en",
+       "text": "The sling carry leaves both the hunter's hands free. However, do not use this carry when walking in dense bush.",
+       "page": 160
+      },
+      {
+       "type": "de",
+       "text": "Riemen über der Schulter. Beide Hände frei, aber nicht im dichten Gebüsch: die Waffe kann hängen bleiben und heruntergerissen werden, und in den aufrecht stehenden Lauf fällt Schmutz. Beim starken Vorbeugen zeigt die Mündung nach vorn und wird für alle gefährlich, die dort stehen."
+      },
+      {
+       "type": "img",
+       "src": "assets/carry-sling.webp",
+       "captionDe": "Abbildung 66: Riemen über der Schulter."
+      },
+      {
+       "type": "en",
+       "text": "Never use a carry that will cause the muzzle to be pointed at another person.",
+       "page": 160
+      },
+      {
+       "type": "de",
+       "text": "Welche Haltung passt, hängt vom Gelände und davon ab, wo die Begleiter gehen. Keine Haltung, bei der die Mündung auf einen Menschen zeigt."
+      },
+      {
+       "type": "terms",
+       "ids": [
+        "two-hand-carry",
+        "cradle-carry",
+        "elbow-carry",
+        "trail-carry",
+        "shoulder-carry",
+        "sling-carry",
+        "muzzle"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "modul8",
+   "titleDe": "Modul 8: Schießtechnik",
+   "titleEn": "Module 8: Firing Techniques and Procedures for Non-Restricted Firearms",
+   "units": [
+    {
+     "id": "modul8-intro",
+     "kind": "intro",
+     "titleDe": "Modul 8: Schießtechnik",
+     "titleEn": "Module 8: Firing Techniques and Procedures for Non-Restricted Firearms",
+     "source": "S. 163 bis S. 179",
+     "lead": "Vorausdenken, die vier Anschlagsarten, die Visierungen, das Führungsauge, Atmung und Abzug, und was ein zulässiges Ziel ist.",
+     "blocks": [],
+     "img": "assets/div-m8.webp"
+    },
+    {
+     "id": "m8-anschlag",
+     "titleDe": "Vorausdenken und Anschlagsarten",
+     "titleEn": "Anticipation and shooting positions",
+     "source": "S. 163 bis S. 169",
+     "blocks": [
+      {
+       "type": "en",
+       "text": "Marksmanship is the ability to hit your mark or target. Good marksmanship is important for safe shooting. If you are not certain where the bullet will go, how can the shot be safe?",
+       "page": 163
+      },
+      {
+       "type": "de",
+       "text": "Treffsicherheit gehört zur Sicherheit. Wer nicht sicher weiß, wohin das Geschoss geht, kann keinen sicheren Schuss abgeben."
+      },
+      {
+       "type": "en",
+       "text": "Always judge the possible results of every shot carefully before firing.",
+       "page": 163
+      },
+      {
+       "type": "de",
+       "text": "Vorausdenken heißt, sich vor dem Schuss zu fragen: Wo stehen die anderen? Kann das Geschoss an Baum, Fels oder Wasser abgelenkt werden? Könnte hinter der Kuppe jemand sein? Wohin geht das Geschoss, wenn es das Ziel durchschlägt?"
+      },
+      {
+       "type": "de",
+       "text": "Für die Büchse nennt das Handbuch vier Anschlagsarten. Nach ihnen fragt die zweite Review-Frage."
+      },
+      {
+       "type": "en",
+       "text": "The four shooting positions for rifles are as follows: 1. Standing position 2. Kneeling position 3. Sitting position 4. Prone position",
+       "page": 164
+      },
+      {
+       "type": "de",
+       "text": "Stehend, knieend, sitzend, liegend. In dieser Reihenfolge werden sie ruhiger und damit genauer."
+      },
+      {
+       "type": "img",
+       "src": "assets/pos-standing.webp",
+       "captionDe": "Abbildung 67: Stehendanschlag."
+      },
+      {
+       "type": "img",
+       "src": "assets/pos-kneeling.webp",
+       "captionDe": "Abbildung 68: Knieendanschlag."
+      },
+      {
+       "type": "img",
+       "src": "assets/pos-sitting.webp",
+       "captionDe": "Abbildung 69: Sitzendanschlag."
+      },
+      {
+       "type": "img",
+       "src": "assets/pos-prone.webp",
+       "captionDe": "Abbildung 70: Liegendanschlag."
+      },
+      {
+       "type": "img",
+       "src": "assets/pos-shotgun.webp",
+       "captionDe": "Abbildung 71: Anschlag mit der Flinte."
+      },
+      {
+       "type": "en",
+       "text": "If you are left-handed, reverse the procedures for each shooting position.",
+       "page": 164
+      },
+      {
+       "type": "de",
+       "text": "Linkshänder spiegeln die Abläufe und sollten Waffen verwenden, die für Linkshänder gebaut sind."
+      },
+      {
+       "type": "terms",
+       "ids": [
+        "marksmanship",
+        "anticipation",
+        "standing-position",
+        "kneeling-position",
+        "sitting-position",
+        "prone-position"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "m8-visier",
+     "titleDe": "Visierungen und Zielen",
+     "titleEn": "Aiming your firearm",
+     "source": "S. 170 bis S. 174",
+     "blocks": [
+      {
+       "type": "en",
+       "text": "There are four main types of sights: Open sights. Peep sights. Telescopic sights. Electronic sights.",
+       "page": 170
+      },
+      {
+       "type": "de",
+       "text": "Vier Visierungsarten: offene Visierung, Lochvisier, Zielfernrohr und elektronische Visierung. Büchsen und Flinten können jede davon haben."
+      },
+      {
+       "type": "img",
+       "src": "assets/sight-types.webp",
+       "captionDe": "Abbildung 72 aus dem Handbuch: die Visierungsarten."
+      },
+      {
+       "type": "en",
+       "text": "Most shotguns only have a bead mounted on the front of the barrel. This serves as a front sight. Your eye becomes the rear sight.",
+       "page": 170
+      },
+      {
+       "type": "de",
+       "text": "Die meisten Flinten haben nur ein Perlkorn vorn am Lauf. Es dient als Korn, und das Auge übernimmt die Rolle der Kimme."
+      },
+      {
+       "type": "en",
+       "text": "Open sights require you to physically line up both rear and front sights with the target. This process is called sight alignment. When you aim any sight at a target, a sight picture is created.",
+       "page": 172
+      },
+      {
+       "type": "de",
+       "text": "Bei der offenen Visierung müssen Kimme und Korn von Hand miteinander und mit dem Ziel in eine Linie gebracht werden. Das ist die sight alignment. Das Bild, das dabei entsteht, heißt sight picture."
+      },
+      {
+       "type": "img",
+       "src": "assets/sight-open.webp",
+       "captionDe": "Abbildung 73: offene Visierung auf dem Ziel."
+      },
+      {
+       "type": "en",
+       "text": "Scope and electronic red-dot sights do not require conscious alignment. Scope sights also have the advantage of magnifying your view of the target.",
+       "page": 172
+      },
+      {
+       "type": "de",
+       "text": "Zielfernrohr und Rotpunktvisier brauchen dieses bewusste Ausrichten nicht. Das Zielfernrohr vergrößert zusätzlich."
+      },
+      {
+       "type": "img",
+       "src": "assets/sight-scope.webp",
+       "captionDe": "Abbildung 74: Lochvisier und Zielfernrohr auf dem Ziel."
+      },
+      {
+       "type": "img",
+       "src": "assets/sight-shotgun.webp",
+       "captionDe": "Abbildung 75: Zielen mit der Flinte."
+      },
+      {
+       "type": "en",
+       "text": "All firearms must be sighted-in for the individual prior to use.",
+       "page": 172
+      },
+      {
+       "type": "de",
+       "text": "Jede Waffe muss vor dem Gebrauch auf den jeweiligen Schützen eingeschossen werden."
+      },
+      {
+       "type": "terms",
+       "ids": [
+        "open-sights",
+        "peep-sights",
+        "telescopic-sights",
+        "electronic-sights",
+        "bead",
+        "sight-alignment",
+        "sight-picture",
+        "to-sight-in",
+        "scope"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "m8-grundlagen",
+     "titleDe": "Führungsauge, Atmung, Abzug",
+     "titleEn": "Fundamentals of shooting",
+     "source": "S. 175 bis S. 177",
+     "blocks": [
+      {
+       "type": "en",
+       "text": "Use your master eye for sighting. It is the stronger of your two eyes and will judge speed and range.",
+       "page": 172
+      },
+      {
+       "type": "de",
+       "text": "Gezielt wird mit dem Führungsauge, dem stärkeren der beiden. Es schätzt Geschwindigkeit und Entfernung besser. Nach der Bedeutung des Führungsauges fragt die dritte Review-Frage."
+      },
+      {
+       "type": "de",
+       "text": "So findet man es: mit beiden Händen ein Dreieck bilden, mit beiden offenen Augen einen entfernten Gegenstand hindurch anvisieren, dann abwechselnd ein Auge schließen. Das Auge, bei dem der Gegenstand im Dreieck bleibt, ist das Führungsauge."
+      },
+      {
+       "type": "img",
+       "src": "assets/master-eye.webp",
+       "captionDe": "Abbildung 76 aus dem Handbuch: das Führungsauge bestimmen."
+      },
+      {
+       "type": "en",
+       "text": "The shot must be released in the natural pause in the breathing cycle.",
+       "page": 175
+      },
+      {
+       "type": "de",
+       "text": "Geschossen wird in der natürlichen Pause am Ende des Ausatmens. Sie dauert etwa 2,5 Sekunden. Die Luft anzuhalten ist ausdrücklich falsch, weil sich nicht abschätzen lässt, wie viel Luft man hält."
+      },
+      {
+       "type": "de",
+       "text": "Die Pause lässt sich verlängern: tief einatmen, tiefer als sonst ausatmen, wieder tief einatmen, dann normal ausatmen. Danach stehen etwa 8,5 Sekunden zur Verfügung. Reicht das nicht, wird der Vorgang wiederholt."
+      },
+      {
+       "type": "img",
+       "src": "assets/breathing.webp",
+       "captionDe": "Abbildung 77: normaler und gesteuerter Atemzyklus."
+      },
+      {
+       "type": "en",
+       "text": "Trigger control is essential for accurate shooting.",
+       "page": 177
+      },
+      {
+       "type": "de",
+       "text": "Der Abzug wird bei Büchse und Flinte unterschiedlich bedient, und das ist eine beliebte Prüfungsfrage."
+      },
+      {
+       "type": "en",
+       "text": "Rifles: When the sights are aligned on the target, squeeze the trigger slowly and steadily. Avoid yanking or pulling.",
+       "page": 177
+      },
+      {
+       "type": "de",
+       "text": "Bei der Büchse wird langsam und gleichmäßig durchgezogen, nie gerissen. Der Schuss soll fast überraschend brechen."
+      },
+      {
+       "type": "en",
+       "text": "Shotguns: Shotgun triggers are slapped instead of squeezed. The trigger slap is similar to the action of striking a typewriter key.",
+       "page": 177
+      },
+      {
+       "type": "de",
+       "text": "Bei der Flinte wird der Abzug geschlagen statt gezogen, wie ein Anschlag auf einer Schreibmaschinentaste. Schnell, aber nicht hart."
+      },
+      {
+       "type": "en",
+       "text": "Follow-through means maintaining your sight picture and/or shooting position, after discharging the firearm.",
+       "page": 298
+      },
+      {
+       "type": "de",
+       "text": "Nachhalten heißt, Zielbild und Anschlag nach dem Schuss noch zu halten. Ohne das geht der Schuss eher daneben."
+      },
+      {
+       "type": "terms",
+       "ids": [
+        "master-eye",
+        "natural-pause",
+        "trigger-squeeze",
+        "trigger-slap",
+        "follow-through",
+        "sight-picture"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "m8-ziele",
+     "titleDe": "Zulässige und unzulässige Ziele",
+     "titleEn": "Targets",
+     "source": "S. 177",
+     "blocks": [
+      {
+       "type": "de",
+       "text": "Das Modul schließt mit drei Bedingungen, die ein Ziel erfüllen muss. Danach fragt die vierte Review-Frage."
+      },
+      {
+       "type": "en",
+       "text": "Acceptable targets: A target that is positively identified. A target that is safe to shoot at. A target that can be lawfully shot.",
+       "page": 177
+      },
+      {
+       "type": "de",
+       "text": "Zweifelsfrei erkannt, sicher zu beschießen, und rechtlich erlaubt. Alle drei müssen zutreffen."
+      },
+      {
+       "type": "en",
+       "text": "Unacceptable targets: A target that you are not sure of, cannot clearly see and cannot identify. A target that cannot be shot safely. A target that is not legal to shoot.",
+       "page": 177
+      },
+      {
+       "type": "de",
+       "text": "Fehlt auch nur eine Bedingung, wird nicht geschossen. Welche Ziele im Einzelnen erlaubt sind, regeln die örtlichen Vorschriften."
+      },
+      {
+       "type": "terms",
+       "ids": [
+        "target",
+        "background",
+        "field-of-fire",
+        "effective-range"
        ]
       }
      ]

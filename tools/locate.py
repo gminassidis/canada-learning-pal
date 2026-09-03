@@ -34,8 +34,10 @@ def norm(s):
     s = s.replace(" ", " ")
     s = XREF.sub(" ", s)
     s = s.replace(":", " ")          # Doppelpunkte und Tabellenspalten
+    s = re.sub(r"[\u2022\u25aa\u2023\u00b7\u25cf\"]", " ", s)   # Aufzaehlungs- und Anfuehrungszeichen
     s = re.sub(r"\s+", " ", s)
     s = re.sub(r"\s+([.,;])", r"\1", s)   # entfernter Verweis laesst ein Leerzeichen zurueck
+    s = s.replace(".", " ")               # Aufzaehlungen ohne Satzpunkt im Original
     return s.strip().lower()
 
 

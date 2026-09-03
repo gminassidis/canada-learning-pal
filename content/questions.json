@@ -1,6 +1,6 @@
 {
  "_schema": "Fragenpool. type mc = Multiple Choice, tf = True/False. stemEn ist das, was in der Pruefung steht, stemDe ist nur Hilfe. Jede Frage traegt eine Fundstelle.",
- "_status": "Uebungsfragen, keine echten Pruefungsfragen. Aus den pruefbaren Aussagen des Handbuchs abgeleitet, Formulierung im Stil der Pruefung. Einfuehrung und Module 1 bis 6 abgedeckt.",
+ "_status": "Uebungsfragen, keine echten Pruefungsfragen. Aus den pruefbaren Aussagen des Handbuchs abgeleitet, Formulierung im Stil der Pruefung. Einfuehrung und Module 1 bis 8 abgedeckt.",
  "questions": [
   {
    "id": "q-acts-01",
@@ -3211,6 +3211,798 @@
      "whyDe": "Das ist der Vergleich für den Kipplauf."
     }
    ]
+  },
+  {
+   "id": "q-m7-01",
+   "type": "mc",
+   "unit": "m7-schutz",
+   "source": "S. 146",
+   "tags": [
+    "stand"
+   ],
+   "stemEn": "Which two items of personal protective equipment must be worn before entering a gun range?",
+   "stemDe": "Welche zwei Schutzausrüstungen sind vor dem Betreten eines Schießstands vorgeschrieben?",
+   "options": [
+    {
+     "en": "Sight protection and hearing protection.",
+     "de": "Augenschutz und Gehörschutz.",
+     "correct": true,
+     "whyDe": "Dies ist die erste Review-Frage des Moduls."
+    },
+    {
+     "en": "Gloves and a helmet.",
+     "de": "Handschuhe und Helm.",
+     "correct": false,
+     "whyDe": "Stehen nicht im Handbuch."
+    },
+    {
+     "en": "Blaze orange and boots.",
+     "de": "Signalorange und Stiefel.",
+     "correct": false,
+     "whyDe": "Signalorange betrifft die Jagd, nicht den Schießstand."
+    },
+    {
+     "en": "Hearing protection only.",
+     "de": "Nur Gehörschutz.",
+     "correct": false,
+     "whyDe": "Der Augenschutz fehlt."
+    }
+   ]
+  },
+  {
+   "id": "q-m7-02",
+   "type": "mc",
+   "unit": "m7-schutz",
+   "source": "S. 146",
+   "tags": [
+    "stand"
+   ],
+   "stemEn": "What kind of safety glasses does the handbook recommend?",
+   "stemDe": "Welche Schutzbrille empfiehlt das Handbuch?",
+   "options": [
+    {
+     "en": "Impact-resistant glass or polycarbonate with side shields.",
+     "de": "Schlagfestes Glas oder Polycarbonat, mit Seitenschutz.",
+     "correct": true,
+     "whyDe": "Der Seitenschutz gehört ausdrücklich dazu."
+    },
+    {
+     "en": "Any tinted sunglasses.",
+     "de": "Irgendeine getönte Sonnenbrille.",
+     "correct": false,
+     "whyDe": "Nicht schlagfest."
+    },
+    {
+     "en": "Reading glasses are sufficient.",
+     "de": "Eine Lesebrille genügt.",
+     "correct": false,
+     "whyDe": "Genügt nicht."
+    },
+    {
+     "en": "Glasses are optional at a range.",
+     "de": "Auf dem Stand sind sie freiwillig.",
+     "correct": false,
+     "whyDe": "Sie sind vorgeschrieben."
+    }
+   ]
+  },
+  {
+   "id": "q-m7-03",
+   "type": "mc",
+   "unit": "m7-schutz",
+   "source": "S. 147",
+   "tags": [
+    "handhabung"
+   ],
+   "stemEn": "If you fall while carrying a firearm, what should your first action be?",
+   "stemDe": "Was tust du zuerst, wenn du mit einer Waffe stürzt?",
+   "options": [
+    {
+     "en": "Control the muzzle of the firearm.",
+     "de": "Die Mündung unter Kontrolle bringen.",
+     "correct": true,
+     "whyDe": "Das nennt das Handbuch als erste Handlung."
+    },
+    {
+     "en": "Put the safety on.",
+     "de": "Die Sicherung einlegen.",
+     "correct": false,
+     "whyDe": "Erst die Mündung. Auf die Sicherung ist ohnehin kein Verlass."
+    },
+    {
+     "en": "Unload the firearm.",
+     "de": "Die Waffe entladen.",
+     "correct": false,
+     "whyDe": "Kommt später, zuerst die Mündung."
+    },
+    {
+     "en": "Let go of the firearm.",
+     "de": "Die Waffe loslassen.",
+     "correct": false,
+     "whyDe": "Dann hat niemand mehr Kontrolle über die Richtung."
+    }
+   ]
+  },
+  {
+   "id": "q-m7-04",
+   "type": "mc",
+   "unit": "m7-stand",
+   "source": "S. 148",
+   "tags": [
+    "stand"
+   ],
+   "stemEn": "On the firing line, in what direction must the muzzle always point?",
+   "stemDe": "Wohin muss die Mündung auf der Schützenlinie immer zeigen?",
+   "options": [
+    {
+     "en": "Down range.",
+     "de": "In Richtung der Ziele.",
+     "correct": true,
+     "whyDe": "Down range, also in Richtung der Ziele. Dies ist die dritte Review-Frage."
+    },
+    {
+     "en": "Straight up.",
+     "de": "Senkrecht nach oben.",
+     "correct": false,
+     "whyDe": "Nicht die Regel auf dem Stand."
+    },
+    {
+     "en": "Toward the ground at your feet.",
+     "de": "Auf den Boden vor den Füßen.",
+     "correct": false,
+     "whyDe": "Ebenfalls nicht die Regel."
+    },
+    {
+     "en": "Any direction, as long as it is unloaded.",
+     "de": "Egal, solange sie entladen ist.",
+     "correct": false,
+     "whyDe": "Die Richtung gilt unabhängig vom Ladezustand."
+    }
+   ]
+  },
+  {
+   "id": "q-m7-05",
+   "type": "mc",
+   "unit": "m7-stand",
+   "source": "S. 148",
+   "tags": [
+    "stand"
+   ],
+   "stemEn": "Which four things happen upon the command cease-fire?",
+   "stemDe": "Welche vier Handlungen folgen auf das Kommando cease-fire?",
+   "options": [
+    {
+     "en": "All firing stops at once, firearms are unloaded, actions are opened, firearms are laid down.",
+     "de": "Sofort aufhören zu schießen, entladen, Verschluss öffnen, ablegen.",
+     "correct": true,
+     "whyDe": "Danach tritt der Schütze hinter die Halterlinie zurück. Dies ist die zweite Review-Frage."
+    },
+    {
+     "en": "Firearms are cased and carried off the range.",
+     "de": "Waffen einpacken und vom Stand tragen.",
+     "correct": false,
+     "whyDe": "Während eines cease-fire fasst niemand Waffen an."
+    },
+    {
+     "en": "Shooters keep firing until the magazine is empty.",
+     "de": "Weiterschießen, bis das Magazin leer ist.",
+     "correct": false,
+     "whyDe": "Es wird sofort aufgehört."
+    },
+    {
+     "en": "Only the Range Officer stops shooting.",
+     "de": "Nur die Standaufsicht hört auf.",
+     "correct": false,
+     "whyDe": "Alle hören auf."
+    }
+   ]
+  },
+  {
+   "id": "q-m7-06",
+   "type": "tf",
+   "unit": "m7-stand",
+   "source": "S. 150",
+   "tags": [
+    "stand"
+   ],
+   "stemEn": "In an emergency, only the Range Officer may call a cease-fire.",
+   "stemDe": "Im Notfall darf nur die Standaufsicht ein cease-fire ausrufen.",
+   "answer": false,
+   "whyDe": "Falsch. In an emergency, anyone can call a cease-fire. Jeder darf und soll es tun."
+  },
+  {
+   "id": "q-m7-07",
+   "type": "mc",
+   "unit": "m7-stand",
+   "source": "S. 150",
+   "tags": [
+    "stand"
+   ],
+   "stemEn": "How does the handbook define direct and immediate supervision?",
+   "stemDe": "Wie definiert das Handbuch die unmittelbare Aufsicht?",
+   "options": [
+    {
+     "en": "The supervisor stays within arm's reach of the shooter at all times.",
+     "de": "Die Aufsicht bleibt jederzeit in Armlänge des Schützen.",
+     "correct": true,
+     "whyDe": "Gilt für Minderjährige und Gäste ohne eigene Erlaubnis. Dies ist die vierte Review-Frage."
+    },
+    {
+     "en": "The supervisor is somewhere on the range.",
+     "de": "Die Aufsicht ist irgendwo auf dem Stand.",
+     "correct": false,
+     "whyDe": "Zu weit gefasst."
+    },
+    {
+     "en": "The supervisor holds a valid licence.",
+     "de": "Die Aufsicht hat eine gültige Erlaubnis.",
+     "correct": false,
+     "whyDe": "Notwendig, aber nicht die Definition."
+    },
+    {
+     "en": "The supervisor watches through a scope.",
+     "de": "Die Aufsicht beobachtet durchs Zielfernrohr.",
+     "correct": false,
+     "whyDe": "Steht nicht im Handbuch."
+    }
+   ]
+  },
+  {
+   "id": "q-m7-08",
+   "type": "tf",
+   "unit": "m7-stand",
+   "source": "S. 148",
+   "tags": [
+    "stand"
+   ],
+   "stemEn": "On a range, the action of any firearm must be open at all times except when actually shooting.",
+   "stemDe": "Auf dem Stand ist der Verschluss immer offen, außer im Moment des Schießens.",
+   "answer": true,
+   "whyDe": "Richtig. Offen sieht jeder sofort, dass die Waffe leer ist."
+  },
+  {
+   "id": "q-m7-09",
+   "type": "mc",
+   "unit": "m7-fahrzeug",
+   "source": "S. 152",
+   "tags": [
+    "transport"
+   ],
+   "stemEn": "When may a loaded firearm be in or on a vehicle?",
+   "stemDe": "Wann darf eine geladene Waffe in oder auf einem Fahrzeug sein?",
+   "options": [
+    {
+     "en": "Only if you are allowed to shoot from that vehicle.",
+     "de": "Nur wenn du aus diesem Fahrzeug schießen darfst.",
+     "correct": true,
+     "whyDe": "Sonst gilt: vor dem Einsteigen entladen, erst nach dem Aussteigen laden."
+    },
+    {
+     "en": "On short trips.",
+     "de": "Bei kurzen Fahrten.",
+     "correct": false,
+     "whyDe": "Die Fahrtdauer ändert nichts."
+    },
+    {
+     "en": "If the safety is on.",
+     "de": "Wenn die Sicherung an ist.",
+     "correct": false,
+     "whyDe": "Auf die Sicherung ist kein Verlass."
+    },
+    {
+     "en": "If it is out of sight.",
+     "de": "Wenn sie außer Sicht liegt.",
+     "correct": false,
+     "whyDe": "Außer Sicht ist eine andere Regel und ersetzt das Entladen nicht."
+    }
+   ]
+  },
+  {
+   "id": "q-m7-10",
+   "type": "mc",
+   "unit": "m7-gelaende",
+   "source": "S. 153",
+   "tags": [
+    "gelaende"
+   ],
+   "stemEn": "You are crossing a fence alone. What do you do with your firearm?",
+   "stemDe": "Du übersteigst allein einen Zaun. Was machst du mit der Waffe?",
+   "options": [
+    {
+     "en": "Unload it and place it flat under the fence, action open, muzzle pointed away from where you cross.",
+     "de": "Entladen, flach unter den Zaun legen, Verschluss offen, Mündung von der Übersteigstelle weg.",
+     "correct": true,
+     "whyDe": "So beschreibt es das Handbuch. In der Gruppe hält stattdessen eine Person alle entladenen und offenen Waffen."
+    },
+    {
+     "en": "Carry it in the sling carry while climbing.",
+     "de": "Am Riemen über der Schulter tragen.",
+     "correct": false,
+     "whyDe": "Vor jedem Hindernis wird entladen."
+    },
+    {
+     "en": "Lean it against the fence, loaded but on safe.",
+     "de": "Geladen und gesichert an den Zaun lehnen.",
+     "correct": false,
+     "whyDe": "Weder geladen noch angelehnt."
+    },
+    {
+     "en": "Hand it to the person behind you.",
+     "de": "Der Person hinter dir geben.",
+     "correct": false,
+     "whyDe": "Allein ist niemand da, und auch dann würde entladen."
+    }
+   ]
+  },
+  {
+   "id": "q-m7-11",
+   "type": "mc",
+   "unit": "m7-gruppe",
+   "source": "S. 156",
+   "tags": [
+    "gelaende"
+   ],
+   "stemEn": "When shooting outdoors with a group, you must agree on who shoots where. What is this called?",
+   "stemDe": "Beim Schießen in der Gruppe wird abgesprochen, wer wohin schießt. Wie heißt das?",
+   "options": [
+    {
+     "en": "The safe zone of fire.",
+     "de": "Der sichere Schussbereich.",
+     "correct": true,
+     "whyDe": "Dies ist die fünfte Review-Frage. Die Bereiche verschieben sich beim Vorgehen, man muss also immer wissen, wo die anderen sind."
+    },
+    {
+     "en": "The firing line.",
+     "de": "Die Schützenlinie.",
+     "correct": false,
+     "whyDe": "Das ist die Linie, an der geschossen wird."
+    },
+    {
+     "en": "The backstop.",
+     "de": "Der Kugelfang.",
+     "correct": false,
+     "whyDe": "Das ist der Wall hinter den Zielen."
+    },
+    {
+     "en": "The dangerous range.",
+     "de": "Der Gefahrenbereich.",
+     "correct": false,
+     "whyDe": "Das ist die Reichweite, in der ein Geschoss noch gefährlich ist."
+    }
+   ]
+  },
+  {
+   "id": "q-m7-12",
+   "type": "mc",
+   "unit": "m7-tragen",
+   "source": "S. 158",
+   "tags": [
+    "tragen"
+   ],
+   "stemEn": "Which carrying position is the safest?",
+   "stemDe": "Welche Trageweise ist die sicherste?",
+   "options": [
+    {
+     "en": "The two-hand or ready carry.",
+     "de": "Die Bereitschaftshaltung, beidhändig.",
+     "correct": true,
+     "whyDe": "Beste Kontrolle über Waffe und Mündung, und man ist schnell schussbereit."
+    },
+    {
+     "en": "The shoulder carry.",
+     "de": "Die Schulterhaltung.",
+     "correct": false,
+     "whyDe": "Die ist ausdrücklich die unsicherste von allen."
+    },
+    {
+     "en": "The sling carry.",
+     "de": "Der Riemen über der Schulter.",
+     "correct": false,
+     "whyDe": "Bequem, aber nicht die sicherste."
+    },
+    {
+     "en": "The trail carry.",
+     "de": "Die Schlepphaltung.",
+     "correct": false,
+     "whyDe": "Nur allein oder im Stehen zu empfehlen."
+    }
+   ]
+  },
+  {
+   "id": "q-m7-13",
+   "type": "mc",
+   "unit": "m7-tragen",
+   "source": "S. 160",
+   "tags": [
+    "tragen"
+   ],
+   "stemEn": "Which carrying position is the least safe and must never be used with a loaded firearm?",
+   "stemDe": "Welche Trageweise ist die unsicherste und darf nie mit geladener Waffe benutzt werden?",
+   "options": [
+    {
+     "en": "The shoulder carry.",
+     "de": "Die Schulterhaltung.",
+     "correct": true,
+     "whyDe": "Bei einem Sturz bleibt kaum Kontrolle über die Mündung. Auch nicht in Begleitung benutzen, und die Mündung muss nach oben zeigen."
+    },
+    {
+     "en": "The cradle carry.",
+     "de": "Die Armbeuge.",
+     "correct": false,
+     "whyDe": "Sicher, solange man allein ist. Die Mündung zeigt zur Seite."
+    },
+    {
+     "en": "The two-hand carry.",
+     "de": "Die Bereitschaftshaltung.",
+     "correct": false,
+     "whyDe": "Die sicherste von allen."
+    },
+    {
+     "en": "The elbow carry.",
+     "de": "Die Ellbogenhaltung.",
+     "correct": false,
+     "whyDe": "Sicher im offenen Gelände."
+    }
+   ]
+  },
+  {
+   "id": "q-m7-14",
+   "type": "mc",
+   "unit": "m7-tragen",
+   "source": "S. 159",
+   "tags": [
+    "tragen"
+   ],
+   "stemEn": "In which situation should the elbow or side carry NOT be used?",
+   "stemDe": "Wann darfst du die Ellbogenhaltung NICHT benutzen?",
+   "options": [
+    {
+     "en": "When walking through bush, or when others are ahead of you.",
+     "de": "Im Gebüsch, und wenn jemand vor dir geht.",
+     "correct": true,
+     "whyDe": "Zweige können den Lauf zu dir herumdrehen, und die Mündung zeigt nach vorn."
+    },
+    {
+     "en": "When walking in open terrain.",
+     "de": "Im offenen Gelände.",
+     "correct": false,
+     "whyDe": "Dort ist sie gerade sicher."
+    },
+    {
+     "en": "When standing still.",
+     "de": "Im Stehen.",
+     "correct": false,
+     "whyDe": "Kein Problem."
+    },
+    {
+     "en": "When the action is open.",
+     "de": "Wenn der Verschluss offen ist.",
+     "correct": false,
+     "whyDe": "Offener Verschluss gehört sogar dazu."
+    }
+   ]
+  },
+  {
+   "id": "q-m8-01",
+   "type": "tf",
+   "unit": "m8-anschlag",
+   "source": "S. 163",
+   "tags": [
+    "schiessen"
+   ],
+   "stemEn": "It is important to always judge the possible results of every shot carefully before firing.",
+   "stemDe": "Vor jedem Schuss sind die möglichen Folgen sorgfältig abzuwägen.",
+   "answer": true,
+   "whyDe": "Richtig, und das ist die erste Review-Frage des Moduls. Wer nicht weiß, wohin das Geschoss geht, kann nicht sicher schießen."
+  },
+  {
+   "id": "q-m8-02",
+   "type": "mc",
+   "unit": "m8-anschlag",
+   "source": "S. 164",
+   "tags": [
+    "schiessen"
+   ],
+   "stemEn": "What are the four shooting positions for rifles?",
+   "stemDe": "Welche vier Anschlagsarten gibt es für die Büchse?",
+   "options": [
+    {
+     "en": "Standing, kneeling, sitting and prone.",
+     "de": "Stehend, knieend, sitzend, liegend.",
+     "correct": true,
+     "whyDe": "In dieser Reihenfolge werden sie ruhiger und damit genauer. Dies ist die zweite Review-Frage."
+    },
+    {
+     "en": "Standing, walking, sitting and prone.",
+     "de": "Stehend, gehend, sitzend, liegend.",
+     "correct": false,
+     "whyDe": "Gehend ist keine Anschlagsart."
+    },
+    {
+     "en": "Standing, kneeling, leaning and prone.",
+     "de": "Stehend, knieend, angelehnt, liegend.",
+     "correct": false,
+     "whyDe": "Angelehnt nennt das Handbuch nicht als eigene Art."
+    },
+    {
+     "en": "Kneeling, sitting, prone and slung.",
+     "de": "Knieend, sitzend, liegend, am Riemen.",
+     "correct": false,
+     "whyDe": "Der Riemen ist eine Trageweise, keine Anschlagsart."
+    }
+   ]
+  },
+  {
+   "id": "q-m8-03",
+   "type": "mc",
+   "unit": "m8-visier",
+   "source": "S. 170",
+   "tags": [
+    "visier"
+   ],
+   "stemEn": "What are the four main types of sights?",
+   "stemDe": "Welche vier Visierungsarten gibt es?",
+   "options": [
+    {
+     "en": "Open, peep, telescopic and electronic sights.",
+     "de": "Offene Visierung, Lochvisier, Zielfernrohr, elektronische Visierung.",
+     "correct": true,
+     "whyDe": "Büchsen und Flinten können jede davon haben."
+    },
+    {
+     "en": "Open, bead, laser and thermal sights.",
+     "de": "Offen, Perlkorn, Laser, Wärmebild.",
+     "correct": false,
+     "whyDe": "So teilt das Handbuch nicht ein."
+    },
+    {
+     "en": "Front, rear, side and top sights.",
+     "de": "Vorne, hinten, seitlich, oben.",
+     "correct": false,
+     "whyDe": "Das sind Einbauorte, keine Arten."
+    },
+    {
+     "en": "Iron, plastic, glass and digital sights.",
+     "de": "Eisen, Kunststoff, Glas, digital.",
+     "correct": false,
+     "whyDe": "Das sind Werkstoffe."
+    }
+   ]
+  },
+  {
+   "id": "q-m8-04",
+   "type": "mc",
+   "unit": "m8-visier",
+   "source": "S. 170",
+   "tags": [
+    "visier"
+   ],
+   "stemEn": "On most shotguns, what serves as the rear sight?",
+   "stemDe": "Was dient bei den meisten Flinten als Kimme?",
+   "options": [
+    {
+     "en": "Your eye.",
+     "de": "Dein Auge.",
+     "correct": true,
+     "whyDe": "Die meisten Flinten haben nur ein Perlkorn vorn am Lauf. Die Kimme übernimmt das Auge."
+    },
+    {
+     "en": "A notch on the receiver.",
+     "de": "Eine Kerbe am Gehäuse.",
+     "correct": false,
+     "whyDe": "Haben die meisten Flinten nicht."
+    },
+    {
+     "en": "The bead.",
+     "de": "Das Perlkorn.",
+     "correct": false,
+     "whyDe": "Das ist das Korn, also die vordere Visierung."
+    },
+    {
+     "en": "A peep sight.",
+     "de": "Ein Lochvisier.",
+     "correct": false,
+     "whyDe": "Bei Flinten unüblich."
+    }
+   ]
+  },
+  {
+   "id": "q-m8-05",
+   "type": "mc",
+   "unit": "m8-grundlagen",
+   "source": "S. 172",
+   "tags": [
+    "visier"
+   ],
+   "stemEn": "Why should you use your master eye for sighting?",
+   "stemDe": "Warum wird mit dem Führungsauge gezielt?",
+   "options": [
+    {
+     "en": "It is the stronger eye and judges speed and range better.",
+     "de": "Es ist das stärkere Auge und schätzt Geschwindigkeit und Entfernung besser.",
+     "correct": true,
+     "whyDe": "Es stellt außerdem genauer scharf. Dies ist die dritte Review-Frage."
+    },
+    {
+     "en": "It is always the right eye.",
+     "de": "Es ist immer das rechte Auge.",
+     "correct": false,
+     "whyDe": "Das Führungsauge muss bestimmt werden, es hängt nicht von der Händigkeit ab."
+    },
+    {
+     "en": "It tires more slowly.",
+     "de": "Es ermüdet langsamer.",
+     "correct": false,
+     "whyDe": "Steht so nicht im Handbuch."
+    },
+    {
+     "en": "It is the eye closest to the sights.",
+     "de": "Es ist das Auge näher an der Visierung.",
+     "correct": false,
+     "whyDe": "Das ist eine Frage des Anschlags, nicht des Führungsauges."
+    }
+   ]
+  },
+  {
+   "id": "q-m8-06",
+   "type": "mc",
+   "unit": "m8-grundlagen",
+   "source": "S. 175",
+   "tags": [
+    "schiessen"
+   ],
+   "stemEn": "When during the breathing cycle should the shot be released?",
+   "stemDe": "Wann im Atemzyklus wird der Schuss ausgelöst?",
+   "options": [
+    {
+     "en": "In the natural pause at the bottom of the exhale.",
+     "de": "In der natürlichen Pause am Ende des Ausatmens.",
+     "correct": true,
+     "whyDe": "Sie dauert etwa 2,5 Sekunden und lässt sich durch die beschriebene Atemfolge auf etwa 8,5 Sekunden verlängern."
+    },
+    {
+     "en": "While holding your breath after inhaling.",
+     "de": "Während du nach dem Einatmen die Luft anhältst.",
+     "correct": false,
+     "whyDe": "Luft anhalten ist ausdrücklich falsch, weil sich die gehaltene Menge nicht abschätzen lässt."
+    },
+    {
+     "en": "While exhaling steadily.",
+     "de": "Während du gleichmäßig ausatmest.",
+     "correct": false,
+     "whyDe": "Nicht während, sondern in der Pause danach."
+    },
+    {
+     "en": "It makes no difference.",
+     "de": "Das spielt keine Rolle.",
+     "correct": false,
+     "whyDe": "Es spielt eine Rolle."
+    }
+   ]
+  },
+  {
+   "id": "q-m8-07",
+   "type": "mc",
+   "unit": "m8-grundlagen",
+   "source": "S. 177",
+   "tags": [
+    "schiessen"
+   ],
+   "stemEn": "How is the trigger operated on a rifle compared to a shotgun?",
+   "stemDe": "Wie wird der Abzug bei Büchse und Flinte bedient?",
+   "options": [
+    {
+     "en": "Rifle triggers are squeezed slowly and steadily, shotgun triggers are slapped.",
+     "de": "Bei der Büchse langsam und gleichmäßig durchziehen, bei der Flinte schlagen.",
+     "correct": true,
+     "whyDe": "Der Abzugsschlag der Flinte ähnelt dem Anschlag auf einer Schreibmaschinentaste: schnell, aber nicht hart."
+    },
+    {
+     "en": "Both are squeezed slowly.",
+     "de": "Beide werden langsam durchgezogen.",
+     "correct": false,
+     "whyDe": "Bei der Flinte wird geschlagen."
+    },
+    {
+     "en": "Both are slapped quickly.",
+     "de": "Beide werden geschlagen.",
+     "correct": false,
+     "whyDe": "Bei der Büchse wird durchgezogen."
+    },
+    {
+     "en": "Rifle triggers are slapped, shotgun triggers are squeezed.",
+     "de": "Bei der Büchse schlagen, bei der Flinte ziehen.",
+     "correct": false,
+     "whyDe": "Genau andersherum."
+    }
+   ]
+  },
+  {
+   "id": "q-m8-08",
+   "type": "mc",
+   "unit": "m8-grundlagen",
+   "source": "S. 177",
+   "tags": [
+    "schiessen"
+   ],
+   "stemEn": "What is follow-through?",
+   "stemDe": "Was bedeutet follow-through?",
+   "options": [
+    {
+     "en": "Maintaining your sight picture and shooting position after the shot.",
+     "de": "Zielbild und Anschlag nach dem Schuss noch halten.",
+     "correct": true,
+     "whyDe": "Ohne Nachhalten geht der Schuss eher daneben."
+    },
+    {
+     "en": "Checking where the bullet landed.",
+     "de": "Nachsehen, wo das Geschoss eingeschlagen ist.",
+     "correct": false,
+     "whyDe": "Das ist etwas anderes."
+    },
+    {
+     "en": "Reloading immediately after firing.",
+     "de": "Sofort nach dem Schuss nachladen.",
+     "correct": false,
+     "whyDe": "Damit hat es nichts zu tun."
+    },
+    {
+     "en": "Following the target with the muzzle after the shot.",
+     "de": "Dem Ziel nach dem Schuss mit der Mündung folgen.",
+     "correct": false,
+     "whyDe": "Gemeint ist das Halten von Zielbild und Anschlag."
+    }
+   ]
+  },
+  {
+   "id": "q-m8-09",
+   "type": "mc",
+   "unit": "m8-ziele",
+   "source": "S. 177",
+   "tags": [
+    "ziel"
+   ],
+   "stemEn": "Which of the following describes an acceptable target?",
+   "stemDe": "Was beschreibt ein zulässiges Ziel?",
+   "options": [
+    {
+     "en": "One that is positively identified, safe to shoot at and lawful to shoot.",
+     "de": "Zweifelsfrei erkannt, sicher zu beschießen und rechtlich erlaubt.",
+     "correct": true,
+     "whyDe": "Alle drei Bedingungen müssen zutreffen. Dies ist die vierte Review-Frage."
+    },
+    {
+     "en": "One that is clearly visible, even if not identified.",
+     "de": "Gut sichtbar, auch wenn nicht bestimmt.",
+     "correct": false,
+     "whyDe": "Sichtbar genügt nicht, es muss zweifelsfrei erkannt sein."
+    },
+    {
+     "en": "One that is within the effective range.",
+     "de": "Innerhalb der wirksamen Reichweite.",
+     "correct": false,
+     "whyDe": "Notwendig, aber nicht ausreichend."
+    },
+    {
+     "en": "One that is legal to shoot, regardless of the background.",
+     "de": "Rechtlich erlaubt, egal was dahinter ist.",
+     "correct": false,
+     "whyDe": "Sicher zu beschießen gehört dazu, und das schließt den Hintergrund ein."
+    }
+   ]
+  },
+  {
+   "id": "q-m8-10",
+   "type": "tf",
+   "unit": "m8-anschlag",
+   "source": "S. 164",
+   "tags": [
+    "schiessen"
+   ],
+   "stemEn": "Left-handed shooters should reverse the procedures for each shooting position.",
+   "stemDe": "Linkshänder spiegeln die Abläufe bei jeder Anschlagsart.",
+   "answer": true,
+   "whyDe": "Richtig. Das Handbuch empfiehlt Linkshändern außerdem Waffen, die für Linkshänder gebaut sind."
   }
  ]
 }

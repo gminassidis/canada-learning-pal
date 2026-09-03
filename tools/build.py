@@ -55,6 +55,13 @@ def embed_images(bundle, html):
 
     for ch in bundle.get("units", {}).get("chapters", []) or []:
         for u in ch.get("units", []) or []:
+            if u.get("img"):                       # Zierbild der Auftaktseite
+                uri = data_uri(u["img"])
+                if uri is None:
+                    missing.append(u["img"])
+                else:
+                    u["img"] = uri
+                    n += 1
             for b in u.get("blocks", []) or []:
                 if b.get("type") != "img":
                     continue
@@ -101,6 +108,8 @@ def check(bundle):
                 if b["type"] == "img":
                     if not (ROOT / b["src"]).exists():
                         problems.append(f'{u["id"]}: Bild {b["src"]} fehlt')
+            if u.get("img") and not (ROOT / u["img"]).exists():
+                problems.append(f'{u["id"]}: Zierbild {u["img"]} fehlt')
             if not u.get("source"):
                 problems.append(f'{u["id"]}: keine Fundstelle')
 

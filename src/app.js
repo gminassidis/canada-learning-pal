@@ -190,6 +190,7 @@ function renderLearnIndex() {
     h += '<h3>' + esc(ch.titleDe) + '</h3>';
     if (ch.titleEn) h += '<p><span class="en-inline">' + esc(ch.titleEn) + '</span></p>';
     (ch.units || []).forEach(function (u) {
+      if (u.kind === 'intro') return;          // steht als Kapitelkopf schon da
       var done = state.seen[u.id] ? ' ✓' : '';
       h += '<button data-unit="' + esc(u.id) + '">' + esc(u.titleDe) + done
          + '<br><span class="en-inline">' + esc(u.titleEn || '') + '</span></button>';
@@ -237,6 +238,11 @@ function renderUnit(id) {
   el('learn-about').hidden = true;
   var box = el('learn-unit');
   box.hidden = false;
+
+  if (u.kind === 'intro') {
+    renderIntro(f, box);
+    return;
+  }
 
   var h = '<button class="ghost small" id="back">‹ Übersicht</button>';
   h += unitMap(id);
@@ -301,6 +307,39 @@ function renderUnit(id) {
     b.addEventListener('click', function () { renderUnit(b.dataset.go); window.scrollTo(0, 0); });
   });
   wireSpeak(box);
+}
+
+/* Auftaktseite eines Moduls. Reine Trennseite, wie im Handbuch selbst. */
+function renderIntro(f, box) {
+  var u = f.u, ch = f.ch;
+  var parts = ch.titleDe.split(':');
+  var kicker = parts.length > 1 ? parts[0] : '';
+  var name = parts.length > 1 ? parts.slice(1).join(':').trim() : ch.titleDe;
+  var n = (ch.units || []).filter(function (x) { return x.kind !== 'intro'; }).length;
+
+  var h = '<button class="ghost small" id="back">‹ Übersicht</button>';
+  h += unitMap(u.id);
+  h += '<div class="modstart">';
+  if (u.img) h += '<img src="' + esc(u.img) + '" alt="">';
+  if (kicker) h += '<p class="eyebrow">' + esc(kicker) + '</p>';
+  h += '<h2>' + esc(name) + '</h2>';
+  if (ch.titleEn) h += '<p><span class="en-inline">' + esc(ch.titleEn) + '</span></p>';
+  if (u.lead) h += '<p class="lead">' + esc(u.lead) + '</p>';
+  h += '<p class="src">' + n + ' Lerneinheiten'
+     + (u.source ? ' · Handbuch ' + esc(u.source) : '') + '</p>';
+  h += '</div>';
+
+  var nav = nextPrev(f);
+  h += '<div class="btn-row">';
+  h += nav.prev ? '<button data-go="' + esc(nav.prev) + '">‹ Zurück</button>' : '';
+  h += nav.next ? '<button class="primary" data-go="' + esc(nav.next) + '">Los geht es ›</button>' : '';
+  h += '</div>';
+
+  box.innerHTML = h;
+  el('back').addEventListener('click', renderLearnIndex);
+  box.querySelectorAll('[data-go]').forEach(function (bt) {
+    bt.addEventListener('click', function () { renderUnit(bt.dataset.go); window.scrollTo(0, 0); });
+  });
 }
 
 function nextPrev(f) {
