@@ -15,6 +15,11 @@ PAGES   = ROOT / "index.html"   # GitHub Pages bedient die Wurzel
 
 LIMIT_MB = 16  # Grenze, wenn die Datei als Artifact veröffentlicht wird
 
+# Adresse des Handbuchs. Absolut, damit die Verweise auch aus der
+# verschickten Einzeldatei heraus funktionieren, nicht nur auf Pages.
+PDF_URL = ("https://gminassidis.github.io/canada-learning-pal/"
+           "docs/CFSC-CRFSC-Manual-eng.pdf")
+
 
 def load_content():
     bundle = {}
@@ -25,6 +30,7 @@ def load_content():
             bundle[name] = {}
             continue
         bundle[name] = json.loads(p.read_text(encoding="utf-8"))
+    bundle["meta"] = {"pdfUrl": PDF_URL}
     return bundle
 
 

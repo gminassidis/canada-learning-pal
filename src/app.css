@@ -124,21 +124,23 @@ p { margin: 0 0 13px; }
 /* ---------- Englisch. Ueberall identisch ausgezeichnet. ---------- */
 
 .en {
-  position: relative;
   color: var(--river);
   background: var(--river-bg);
   border-left: 3px solid var(--river);
-  padding: 13px 42px 13px 14px;
+  padding: 13px 14px 10px;
   border-radius: 0 var(--r) var(--r) 0;
   margin: 0 0 13px;
   font-weight: 500;
 }
-.en::after {
-  content: "EN";
-  position: absolute; top: 9px; right: 11px;
-  font: 500 10px/1 var(--mono); letter-spacing: .1em;
-  color: var(--river); opacity: .55;
+/* Herkunftszeile. Führt ins Handbuch an genau die Seite. */
+.en-src {
+  display: block; margin-top: 9px; padding-top: 7px;
+  border-top: 1px solid rgba(128,128,128,.22);
+  text-align: right; text-decoration: none;
+  font: 500 10px/1.4 var(--mono); letter-spacing: .08em; text-transform: uppercase;
+  color: var(--river); opacity: .7;
 }
+a.en-src:hover { opacity: 1; text-decoration: underline; }
 .en-inline {
   color: var(--river); font-weight: 600;
   background: var(--river-bg); padding: 1px 5px; border-radius: 4px;
@@ -367,3 +369,19 @@ a:hover { text-decoration-thickness: 2px; }
   font-size: 14px; line-height: 1.4; text-align: center;
   box-shadow: 0 6px 24px rgba(0,0,0,.22);
 }
+
+/* Übersichtsleiste: ein Feld je Lerneinheit, eine Gruppe je Modul.
+   Die Lücken zeigen, wo das nächste Modul anfängt. */
+.unitmap { display: flex; gap: 7px; margin: 14px 0 16px; }
+.um-group { display: flex; gap: 2px; min-width: 0; }
+.um {
+  flex: 1 1 0; min-width: 0; width: auto;
+  height: 22px; min-height: 22px; padding: 7px 0;
+  border: 0; border-radius: 0; background: var(--surface-2);
+  background-clip: content-box;    /* Balken schmal, Tippfläche hoch */
+}
+.um:hover { background: var(--ink-2); background-clip: content-box; }
+.um.done { background: var(--river); background-clip: content-box; opacity: .45; }
+.um.now  { background: var(--fireweed); background-clip: content-box; opacity: 1; }
+
+#sound-report .note { margin-top: 10px; }

@@ -8,6 +8,7 @@ var C = window.CONTENT || {};
 var UNITS = (C.units && C.units.chapters) || [];
 var QUESTIONS = (C.questions && C.questions.questions) || [];
 var VOCAB = (C.vocab && C.vocab.terms) || [];
+var PDF_URL = (C.meta && C.meta.pdfUrl) || '';
 
 /* ---------------- Speicher ---------------- */
 
@@ -54,7 +55,7 @@ function termById(id) {
    Und wenn nichts geht, soll es das sagen statt stumm zu bleiben. */
 
 var Speech = (function () {
-  var list = [], primed = false;
+  var list = [];
 
   function supported() {
     return typeof window.speechSynthesis !== 'undefined'
@@ -68,7 +69,6 @@ var Speech = (function () {
     load();
     try { window.speechSynthesis.onvoiceschanged = load; } catch (e) {}
   }
-
   function englishVoice() {
     var want = ['en-ca', 'en-us', 'en-gb', 'en-au', 'en'];
     for (var i = 0; i < want.length; i++) {
@@ -80,60 +80,55 @@ var Speech = (function () {
     return null;
   }
 
-  function prime() {
-    if (primed || !supported()) return;
-    primed = true;
-    try {
-      var u = new SpeechSynthesisUtterance(' ');
-      u.volume = 0;
-      window.speechSynthesis.speak(u);
-    } catch (e) {}
-  }
-
+  /* Safari auf dem iPhone gibt Sprache nur frei, wenn speak() unmittelbar in
+     der Nutzergeste steht. Jedes setTimeout dazwischen killt sie. Deshalb hier
+     alles synchron, und kein stiller Aufwaerm-Aufruf mehr: der hinterliess ein
+     laufendes pending, wodurch der erste echte Aufruf in den Zweig mit
+     Verzoegerung geriet und genau deshalb stumm blieb. */
   function say(text, onStart, onDone, onFail) {
-    if (!supported()) { onFail('Dieses Gerät kann keinen Text vorlesen.'); return; }
+    if (!supported()) { onFail('Dieser Browser kann keinen Text vorlesen.'); return; }
     load();
     var s = window.speechSynthesis;
     var v = englishVoice();
     var u = new SpeechSynthesisUtterance(text);
     if (v) { u.voice = v; u.lang = v.lang; } else { u.lang = 'en-US'; }
-    u.rate = 0.8;
+    u.rate = 0.85;
 
-    var settled = false;
-    u.onstart = function () { settled = true; onStart(); };
-    u.onend   = function () { settled = true; onDone(); };
-    u.onerror = function () {
-      settled = true; onDone();
+    var started = false;
+    u.onstart = function () { started = true; onStart(); };
+    u.onend   = function () { onDone(); };
+    u.onerror = function (e) {
+      onDone();
+      if (e && (e.error === 'interrupted' || e.error === 'canceled')) return;
       onFail(v ? 'Vorlesen hat nicht geklappt.'
-               : 'Auf diesem Gerät ist keine englische Stimme installiert.');
+               : 'Keine englische Stimme auf diesem Gerät gefunden.');
     };
 
     try {
-      if (s.speaking || s.pending) {
-        s.cancel();
-        setTimeout(function () { s.speak(u); }, 60);
-      } else {
-        s.speak(u);              // synchron, sonst geht die Nutzergeste verloren
-      }
-    } catch (e) {
-      onDone(); onFail('Vorlesen hat nicht geklappt.'); return;
-    }
+      s.cancel();
+      s.speak(u);
+    } catch (err) { onDone(); onFail('Vorlesen hat nicht geklappt.'); return; }
 
-    // Manche Systeme melden weder Start noch Fehler. Dann nach kurzer Zeit sagen,
-    // dass nichts kommt, statt den Knopf hängen zu lassen.
     setTimeout(function () {
-      if (!settled) {
+      if (!started && !s.speaking && !s.pending) {
         onDone();
-        onFail('Auf diesem Gerät ist keine englische Stimme verfügbar.');
+        onFail('Es kommt kein Ton. Auf dem iPhone: Stummschalter am Rand prüfen '
+             + 'und Lautstärke aufdrehen.');
       }
-    }, 1500);
+    }, 1800);
   }
 
-  return { say: say, prime: prime };
-})();
+  function report() {
+    if (!supported()) return { ok: false, n: 0, voice: null };
+    load();
+    var v = englishVoice();
+    return { ok: true, n: list.length,
+             voice: v ? (v.name + ' (' + v.lang + ')') : null,
+             langs: list.slice(0, 40).map(function (x) { return x.lang; }).join(', ') };
+  }
 
-document.addEventListener('pointerdown', Speech.prime, { once: true });
-document.addEventListener('touchstart',  Speech.prime, { once: true });
+  return { say: say, report: report };
+})();
 
 var toastTimer = null;
 function toast(msg) {
@@ -206,6 +201,24 @@ function renderLearnIndex() {
   });
 }
 
+/* Leiste über alle Lerneinheiten. Jede Gruppe ist ein Modul, die Lücke
+   dazwischen zeigt, wo das nächste anfängt. Breite je Gruppe nach Anzahl. */
+function unitMap(currentId) {
+  var h = '<div class="unitmap">';
+  UNITS.forEach(function (ch) {
+    var us = ch.units || [];
+    if (!us.length) return;
+    h += '<span class="um-group" style="flex:' + us.length + '">';
+    us.forEach(function (u) {
+      var cls = u.id === currentId ? 'um now' : (state.seen[u.id] ? 'um done' : 'um');
+      h += '<button class="' + cls + '" data-go="' + esc(u.id) + '" title="'
+         + esc(ch.titleDe + ' — ' + u.titleDe) + '"></button>';
+    });
+    h += '</span>';
+  });
+  return h + '</div>';
+}
+
 function findUnit(id) {
   for (var i = 0; i < UNITS.length; i++) {
     var us = UNITS[i].units || [];
@@ -226,6 +239,9 @@ function renderUnit(id) {
   box.hidden = false;
 
   var h = '<button class="ghost small" id="back">‹ Übersicht</button>';
+  h += unitMap(id);
+  h += '<p class="eyebrow">' + esc(f.ch.titleDe) + ' · Einheit ' + (f.ui + 1)
+     + ' von ' + (f.ch.units || []).length + '</p>';
   h += '<h2>' + esc(u.titleDe) + '</h2>';
   if (u.titleEn) h += '<p><span class="en-inline">' + esc(u.titleEn) + '</span></p>';
 
@@ -233,7 +249,14 @@ function renderUnit(id) {
     if (b.type === 'de') {
       h += '<p>' + esc(b.text) + '</p>';
     } else if (b.type === 'en') {
-      h += '<p class="en">' + esc(b.text) + '</p>';
+      h += '<p class="en">' + esc(b.text);
+      if (b.page && PDF_URL) {
+        h += '<a class="en-src" href="' + esc(PDF_URL) + '#page=' + b.page + '"'
+           + ' target="_blank" rel="noopener">Englisch · Handbuch S. ' + b.page + ' ↗</a>';
+      } else {
+        h += '<span class="en-src">Englisch</span>';
+      }
+      h += '</p>';
     } else if (b.type === 'img') {
       h += '<figure><img src="' + esc(b.src) + '" alt="' + esc(b.captionDe || '') + '">';
       if (b.captionDe) h += '<figcaption>' + esc(b.captionDe) + '</figcaption>';
@@ -264,7 +287,12 @@ function renderUnit(id) {
   var nav = nextPrev(f);
   h += '<div class="btn-row">';
   h += nav.prev ? '<button data-go="' + esc(nav.prev) + '">‹ Zurück</button>' : '';
-  h += nav.next ? '<button class="primary" data-go="' + esc(nav.next) + '">Weiter ›</button>' : '';
+  if (nav.next) {
+    var nf = findUnit(nav.next);
+    var neu = nf && nf.ch.id !== f.ch.id;
+    h += '<button class="primary" data-go="' + esc(nav.next) + '">'
+       + (neu ? 'Weiter zu ' + esc(nf.ch.titleDe.split(':')[0]) + ' ›' : 'Weiter ›') + '</button>';
+  }
   h += '</div>';
 
   box.innerHTML = h;
@@ -608,6 +636,23 @@ function grade(g) {
 }
 
 /* ---------------- Start ---------------- */
+
+el('sound-test').addEventListener('click', function () {
+  var r = Speech.report(), box = el('sound-report');
+  box.hidden = false;
+  if (!r.ok) {
+    box.innerHTML = '<p class="note">Dieser Browser unterstützt kein Vorlesen.</p>';
+    return;
+  }
+  box.innerHTML = '<p class="note">Stimmen gefunden: <b>' + r.n + '</b><br>'
+    + 'Englische Stimme: <b>' + (r.voice || 'keine') + '</b>'
+    + (r.n && !r.voice ? '<br>Vorhanden sind: ' + esc(r.langs) : '')
+    + '<br>Gleich sollte <b>bolt action</b> zu hören sein.</p>';
+  Speech.say('bolt action',
+    function () {},
+    function () {},
+    function (m) { toast(m); });
+});
 
 el('hdr-sub').textContent = QUESTIONS.length + ' Fragen · ' + VOCAB.length + ' Vokabeln · 80 % zum Bestehen';
 showTab('learn');

@@ -23,7 +23,8 @@
       },
       {
        "type": "en",
-       "text": "Assume every firearm is loaded."
+       "text": "Assume every firearm is loaded.",
+       "page": 21
       },
       {
        "type": "de",
@@ -31,7 +32,8 @@
       },
       {
        "type": "en",
-       "text": "Control the muzzle direction at all times."
+       "text": "Control the muzzle direction at all times.",
+       "page": 21
       },
       {
        "type": "de",
@@ -39,7 +41,8 @@
       },
       {
        "type": "en",
-       "text": "Trigger finger must be kept off the trigger and out of the trigger guard."
+       "text": "Trigger finger must be kept off the trigger and out of the trigger guard.",
+       "page": 21
       },
       {
        "type": "de",
@@ -47,7 +50,8 @@
       },
       {
        "type": "en",
-       "text": "See that the firearm is unloaded - PROVE it safe."
+       "text": "See that the firearm is unloaded - PROVE it safe.",
+       "page": 21
       },
       {
        "type": "de",
@@ -55,7 +59,8 @@
       },
       {
        "type": "en",
-       "text": "Pass or accept only open and unloaded firearms."
+       "text": "Pass or accept only open and unloaded firearms.",
+       "page": 21
       },
       {
        "type": "de",
@@ -93,7 +98,8 @@
       },
       {
        "type": "en",
-       "text": "Point the firearm in the safest available direction."
+       "text": "Point the firearm in the safest available direction.",
+       "page": 22
       },
       {
        "type": "de",
@@ -101,7 +107,8 @@
       },
       {
        "type": "en",
-       "text": "Remove all ammunition."
+       "text": "Remove all ammunition.",
+       "page": 22
       },
       {
        "type": "de",
@@ -109,7 +116,8 @@
       },
       {
        "type": "en",
-       "text": "Observe the chamber."
+       "text": "Observe the chamber.",
+       "page": 50
       },
       {
        "type": "de",
@@ -117,7 +125,8 @@
       },
       {
        "type": "en",
-       "text": "Verify the feeding path."
+       "text": "Verify the feeding path.",
+       "page": 22
       },
       {
        "type": "de",
@@ -125,7 +134,8 @@
       },
       {
        "type": "en",
-       "text": "Examine the bore for obstructions."
+       "text": "Examine the bore for obstructions.",
+       "page": 50
       },
       {
        "type": "de",
@@ -133,7 +143,8 @@
       },
       {
        "type": "en",
-       "text": "The firearm is now unloaded and safe until it leaves the direct control of the person who unloaded and PROVEd it safe."
+       "text": "The firearm is now unloaded and safe until it leaves the direct control of the person who unloaded and PROVEd it safe.",
+       "page": 22
       },
       {
        "type": "de",
@@ -172,11 +183,13 @@
       },
       {
        "type": "en",
-       "text": "All firearm owners need a valid firearm licence."
+       "text": "All firearm owners need a valid firearm licence.",
+       "page": 23
       },
       {
        "type": "en",
-       "text": "If you are the holder of a valid Firearms Licence, you must inform the Canadian Firearms Program within 30 days, when you change your address."
+       "text": "If you are the holder of a valid Firearms Licence, you must inform the Canadian Firearms Program within 30 days, when you change your address.",
+       "page": 23
       },
       {
        "type": "de",
@@ -200,7 +213,8 @@
       },
       {
        "type": "en",
-       "text": "Every person commits an offence who, without lawful excuse, points a firearm at another person, whether the firearm is loaded or unloaded."
+       "text": "Every person commits an offence who, without lawful excuse, points a firearm at another person, whether the firearm is loaded or unloaded.",
+       "page": 24
       },
       {
        "type": "de",
@@ -208,7 +222,8 @@
       },
       {
        "type": "en",
-       "text": "Every person who stores, displays, transports or handles any firearm in a manner contrary to the Storage, Display, Transportation and Handling of Firearms by Individuals Regulations is guilty of an offence."
+       "text": "Every person who stores, displays, transports or handles any firearm in a manner contrary to the Storage, Display, Transportation and Handling of Firearms by Individuals Regulations is guilty of an offence.",
+       "page": 25
       },
       {
        "type": "de",
@@ -253,7 +268,8 @@
       },
       {
        "type": "en",
-       "text": "The matchlock made it possible for the user to aim and fire while holding the firearm with both hands, but rain or wind could put out the match/wick."
+       "text": "The matchlock made it possible for the user to aim and fire while holding the firearm with both hands, but rain or wind could put out the match/wick.",
+       "page": 28
       },
       {
        "type": "de",
@@ -265,7 +281,8 @@
       },
       {
        "type": "en",
-       "text": "The wheel lock worked much like a modern cigarette lighter."
+       "text": "The wheel lock worked much like a modern cigarette lighter.",
+       "page": 29
       },
       {
        "type": "de",
@@ -277,7 +294,8 @@
       },
       {
        "type": "en",
-       "text": "The flintlock has an ignition mechanism similar to the wheel lock. It produced its spark by striking a flint against steel."
+       "text": "The flintlock has an ignition mechanism similar to the wheel lock. It produced its spark by striking a flint against steel.",
+       "page": 30
       },
       {
        "type": "de",
@@ -289,7 +307,8 @@
       },
       {
        "type": "en",
-       "text": "It was a small metal case (cap) containing material that would explode when struck."
+       "text": "It was a small metal case (cap) containing material that would explode when struck.",
+       "page": 31
       },
       {
        "type": "de",
@@ -319,7 +338,8 @@
       },
       {
        "type": "en",
-       "text": "Attempts were made to develop firearms that loaded from the back. They were called breechloaders."
+       "text": "Attempts were made to develop firearms that loaded from the back. They were called breechloaders.",
+       "page": 33
       },
       {
        "type": "de",
@@ -327,7 +347,8 @@
       },
       {
        "type": "en",
-       "text": "These cartridges contained the bullet or shot, the main powder charge and the primer, in one package."
+       "text": "These cartridges contained the bullet or shot, the main powder charge and the primer, in one package.",
+       "page": 33
       },
       {
        "type": "de",
@@ -339,7 +360,8 @@
       },
       {
        "type": "en",
-       "text": "1. They were easily loaded into the breech. 2. The expanding case prevented gas leakage. 3. They were largely weatherproof. 4. They were more reliable."
+       "text": "1. They were easily loaded into the breech. 2. The expanding case prevented gas leakage. 3. They were largely weatherproof. 4. They were more reliable.",
+       "page": 33
       },
       {
        "type": "de",
@@ -347,7 +369,8 @@
       },
       {
        "type": "en",
-       "text": "Cartridges called shells were developed for use in shotguns. In addition, a wad separates the powder from the projectiles."
+       "text": "Cartridges called shells were developed for use in shotguns. In addition, a wad separates the powder from the projectiles.",
+       "page": 33
       },
       {
        "type": "de",
@@ -401,7 +424,8 @@
       },
       {
        "type": "en",
-       "text": "FFFFg: The finest granules, also called priming powder. Used only in the priming pans of flintlocks. Never use this type of powder as powder charge."
+       "text": "FFFFg: The finest granules, also called priming powder. Used only in the priming pans of flintlocks. Never use this type of powder as powder charge.",
+       "page": 37
       },
       {
        "type": "de",
@@ -409,7 +433,8 @@
       },
       {
        "type": "en",
-       "text": "Never use smokeless powder in a muzzleloader."
+       "text": "Never use smokeless powder in a muzzleloader.",
+       "page": 42
       },
       {
        "type": "de",
@@ -438,7 +463,8 @@
       },
       {
        "type": "en",
-       "text": "Black powder is classified as an explosive and is easily ignited by heat, friction, static electricity or a sharp blow and must be handled with extreme care."
+       "text": "Black powder is classified as an explosive and is easily ignited by heat, friction, static electricity or a sharp blow and must be handled with extreme care.",
+       "page": 38
       },
       {
        "type": "de",
@@ -455,7 +481,8 @@
       },
       {
        "type": "en",
-       "text": "1. Point the muzzle in the safest available direction and keep finger off the trigger and out of the trigger guard. 2. Check that the hammer is not in full-cock position. 3. Check for a percussion cap or see if the priming pan is primed. 4. If the firearm is primed, remove cap or priming powder."
+       "text": "1. Point the muzzle in the safest available direction and keep finger off the trigger and out of the trigger guard. 2. Check that the hammer is not in full-cock position. 3. Check for a percussion cap or see if the priming pan is primed. 4. If the firearm is primed, remove cap or priming powder.",
+       "page": 39
       },
       {
        "type": "de",
@@ -467,7 +494,8 @@
       },
       {
        "type": "en",
-       "text": "Experienced shooters mark the firearm's ramrod at a level that shows the bore depth when the bore is empty."
+       "text": "Experienced shooters mark the firearm's ramrod at a level that shows the bore depth when the bore is empty.",
+       "page": 39
       },
       {
        "type": "de",
@@ -480,7 +508,8 @@
       },
       {
        "type": "en",
-       "text": "Always use a volumetric measure to put powder into the muzzle; never pour directly from the main powder container."
+       "text": "Always use a volumetric measure to put powder into the muzzle; never pour directly from the main powder container.",
+       "page": 42
       },
       {
        "type": "de",
@@ -488,7 +517,8 @@
       },
       {
        "type": "en",
-       "text": "Under safe-storage regulations, black-powder firearms are considered loaded when powder and/or ball are in the barrel."
+       "text": "Under safe-storage regulations, black-powder firearms are considered loaded when powder and/or ball are in the barrel.",
+       "page": 42
       },
       {
        "type": "de",
@@ -519,7 +549,8 @@
       },
       {
        "type": "en",
-       "text": "Do treat a misfire as a hangfire that could fire at any second. Wait at least 60 seconds with the firearm pointed in a safe direction."
+       "text": "Do treat a misfire as a hangfire that could fire at any second. Wait at least 60 seconds with the firearm pointed in a safe direction.",
+       "page": 44
       },
       {
        "type": "de",
@@ -527,7 +558,8 @@
       },
       {
        "type": "en",
-       "text": "Do wear safety glasses and hearing protection during the firing sequence."
+       "text": "Do wear safety glasses and hearing protection during the firing sequence.",
+       "page": 44
       },
       {
        "type": "de",
@@ -535,7 +567,8 @@
       },
       {
        "type": "en",
-       "text": "Don't store a muzzleloader with powder in it."
+       "text": "Don't store a muzzleloader with powder in it.",
+       "page": 44
       },
       {
        "type": "de",
@@ -543,7 +576,8 @@
       },
       {
        "type": "en",
-       "text": "Don't lean over or stand in front of the muzzle at any time."
+       "text": "Don't lean over or stand in front of the muzzle at any time.",
+       "page": 44
       },
       {
        "type": "de",
@@ -585,7 +619,8 @@
       },
       {
        "type": "en",
-       "text": "Modern firearms consist of three major parts: the barrel, the action and the stock."
+       "text": "Modern firearms consist of three major parts: the barrel, the action and the stock.",
+       "page": 47
       },
       {
        "type": "de",
@@ -603,7 +638,8 @@
       },
       {
        "type": "en",
-       "text": "The barrel is a tube, typically made of metal. The opening at the end of the barrel from which the bullet or shot emerges is called the muzzle."
+       "text": "The barrel is a tube, typically made of metal. The opening at the end of the barrel from which the bullet or shot emerges is called the muzzle.",
+       "page": 48
       },
       {
        "type": "de",
@@ -611,7 +647,8 @@
       },
       {
        "type": "en",
-       "text": "The action contains the parts that do the following: Chamber the cartridge. Fire the ammunition. Ejects the unfired cartridges and fired cartridge/shell casings."
+       "text": "The action contains the parts that do the following: Chamber the cartridge. Fire the ammunition. Ejects the unfired cartridges and fired cartridge/shell casings.",
+       "page": 49
       },
       {
        "type": "de",
@@ -619,7 +656,8 @@
       },
       {
        "type": "en",
-       "text": "The trigger releases the hammer or firing pin that fires the cartridge."
+       "text": "The trigger releases the hammer or firing pin that fires the cartridge.",
+       "page": 49
       },
       {
        "type": "de",
@@ -627,7 +665,8 @@
       },
       {
        "type": "en",
-       "text": "Safeties usually block some part of the action to prevent firing. Some firearms do not have safeties."
+       "text": "Safeties usually block some part of the action to prevent firing. Some firearms do not have safeties.",
+       "page": 49
       },
       {
        "type": "de",
@@ -635,7 +674,8 @@
       },
       {
        "type": "en",
-       "text": "The safety should be ON / SAFETY POSITION whenever a firearm is loaded. It should only be moved to OFF / FIRING POSITION when required."
+       "text": "The safety should be ON / SAFETY POSITION whenever a firearm is loaded. It should only be moved to OFF / FIRING POSITION when required.",
+       "page": 49
       },
       {
        "type": "de",
@@ -643,7 +683,8 @@
       },
       {
        "type": "en",
-       "text": "The magazine is a device that holds cartridges in repeating firearms. The magazine can be either fixed or removable."
+       "text": "The magazine is a device that holds cartridges in repeating firearms. The magazine can be either fixed or removable.",
+       "page": 49
       },
       {
        "type": "de",
@@ -651,7 +692,8 @@
       },
       {
        "type": "en",
-       "text": "Stocks are designed to automatically align your finger with the trigger when you pick up the firearm."
+       "text": "Stocks are designed to automatically align your finger with the trigger when you pick up the firearm.",
+       "page": 50
       },
       {
        "type": "de",
@@ -688,7 +730,8 @@
       },
       {
        "type": "en",
-       "text": "1. A squeeze on the trigger releases the firing mechanism. This results in the firing pin striking the primer of the cartridge."
+       "text": "1. A squeeze on the trigger releases the firing mechanism. This results in the firing pin striking the primer of the cartridge.",
+       "page": 51
       },
       {
        "type": "de",
@@ -696,7 +739,8 @@
       },
       {
        "type": "en",
-       "text": "2. When struck by the firing pin, the primer explodes. This projects a flame into the cartridge body."
+       "text": "2. When struck by the firing pin, the primer explodes. This projects a flame into the cartridge body.",
+       "page": 51
       },
       {
        "type": "de",
@@ -704,7 +748,8 @@
       },
       {
        "type": "en",
-       "text": "3. The flame from the primer ignites the powder. The powder burns and produces rapidly expanding gases."
+       "text": "3. The flame from the primer ignites the powder. The powder burns and produces rapidly expanding gases.",
+       "page": 51
       },
       {
        "type": "de",
@@ -712,7 +757,8 @@
       },
       {
        "type": "en",
-       "text": "4. The high-pressure gas drives the bullet or shot forward down the barrel."
+       "text": "4. The high-pressure gas drives the bullet or shot forward down the barrel.",
+       "page": 51
       },
       {
        "type": "de",
@@ -751,7 +797,8 @@
       },
       {
        "type": "en",
-       "text": "The two common types of non-restricted firearms (long guns) are as follows: Shotguns. Rifles."
+       "text": "The two common types of non-restricted firearms (long guns) are as follows: Shotguns. Rifles.",
+       "page": 52
       },
       {
        "type": "de",
@@ -759,7 +806,8 @@
       },
       {
        "type": "en",
-       "text": "The basic types of modern actions used in these firearms are as follows: Muzzleloader (percussion cap and flint) action. Hinge (or break) action. Bolt action. Lever action. Pump action. Semi-automatic action."
+       "text": "The basic types of modern actions used in these firearms are as follows: Muzzleloader (percussion cap and flint) action. Hinge (or break) action. Bolt action. Lever action. Pump action. Semi-automatic action.",
+       "page": 52
       },
       {
        "type": "de",
@@ -798,7 +846,8 @@
       },
       {
        "type": "en",
-       "text": "The classification of firearms is as follows: Non-restricted. Restricted. Prohibited."
+       "text": "The classification of firearms is as follows: Non-restricted. Restricted. Prohibited.",
+       "page": 54
       },
       {
        "type": "de",
@@ -806,7 +855,8 @@
       },
       {
        "type": "en",
-       "text": "Many air guns, due to their high power, are included in the provisions of the Firearms Act and its Regulations."
+       "text": "Many air guns, due to their high power, are included in the provisions of the Firearms Act and its Regulations.",
+       "page": 54
       },
       {
        "type": "de",
@@ -814,7 +864,8 @@
       },
       {
        "type": "en",
-       "text": "The Vital Four ACTS of Firearm Safety and PROVE apply to all classes of firearms."
+       "text": "The Vital Four ACTS of Firearm Safety and PROVE apply to all classes of firearms.",
+       "page": 54
       },
       {
        "type": "de",
@@ -850,7 +901,8 @@
       },
       {
        "type": "en",
-       "text": "All firearms and ammunition under your control are your responsibility 24 hours a day."
+       "text": "All firearms and ammunition under your control are your responsibility 24 hours a day.",
+       "page": 59
       },
       {
        "type": "de",
@@ -858,7 +910,8 @@
       },
       {
        "type": "en",
-       "text": "Firearms are safer when stored and transported under lock and key."
+       "text": "Firearms are safer when stored and transported under lock and key.",
+       "page": 59
       },
       {
        "type": "de",
@@ -866,7 +919,8 @@
       },
       {
        "type": "en",
-       "text": "Keep firearms and ammunition out of sight during transport and storage."
+       "text": "Keep firearms and ammunition out of sight during transport and storage.",
+       "page": 59
       },
       {
        "type": "de",
@@ -874,7 +928,8 @@
       },
       {
        "type": "en",
-       "text": "Ammunition and firearms must be kept away from unsupervised children."
+       "text": "Ammunition and firearms must be kept away from unsupervised children.",
+       "page": 59
       },
       {
        "type": "de",
@@ -882,7 +937,8 @@
       },
       {
        "type": "en",
-       "text": "Store firearms unloaded. Lock the firearm and the ammunition separately when storing them or lock them in a secure container, receptacle or room that cannot be easily broken into."
+       "text": "Store firearms unloaded. Lock the firearm and the ammunition separately when storing them or lock them in a secure container, receptacle or room that cannot be easily broken into.",
+       "page": 59
       },
       {
        "type": "de",
@@ -913,7 +969,8 @@
       },
       {
        "type": "en",
-       "text": "At the firing range, load a firearm only when you have reached the shooting area and you are ready to shoot. Completely unload the firearm before you leave the shooting area."
+       "text": "At the firing range, load a firearm only when you have reached the shooting area and you are ready to shoot. Completely unload the firearm before you leave the shooting area.",
+       "page": 59
       },
       {
        "type": "de",
@@ -921,7 +978,8 @@
       },
       {
        "type": "en",
-       "text": "Always make sure a firearm is unloaded before you pass it to anyone or anytime it leaves your hands. Whenever possible, leave the action open."
+       "text": "Always make sure a firearm is unloaded before you pass it to anyone or anytime it leaves your hands. Whenever possible, leave the action open.",
+       "page": 59
       },
       {
        "type": "de",
@@ -929,7 +987,8 @@
       },
       {
        "type": "en",
-       "text": "Never accept a loaded firearm from anyone."
+       "text": "Never accept a loaded firearm from anyone.",
+       "page": 59
       },
       {
        "type": "de",
@@ -937,7 +996,8 @@
       },
       {
        "type": "en",
-       "text": "Never run with a loaded firearm. Never climb or cross an obstacle with a loaded firearm. Never jump a ditch with a loaded firearm."
+       "text": "Never run with a loaded firearm. Never climb or cross an obstacle with a loaded firearm. Never jump a ditch with a loaded firearm.",
+       "page": 59
       },
       {
        "type": "de",
@@ -945,7 +1005,8 @@
       },
       {
        "type": "en",
-       "text": "Do not lean loaded firearms against a vehicle, tree or wall. They could fall over and discharge."
+       "text": "Do not lean loaded firearms against a vehicle, tree or wall. They could fall over and discharge.",
+       "page": 59
       },
       {
        "type": "de",
@@ -953,7 +1014,8 @@
       },
       {
        "type": "en",
-       "text": "Transport only unloaded firearms by vehicle or boat."
+       "text": "Transport only unloaded firearms by vehicle or boat.",
+       "page": 60
       },
       {
        "type": "de",
@@ -982,7 +1044,8 @@
       },
       {
        "type": "en",
-       "text": "Always examine the bore for obstructions before loading."
+       "text": "Always examine the bore for obstructions before loading.",
+       "page": 60
       },
       {
        "type": "de",
@@ -990,7 +1053,8 @@
       },
       {
        "type": "en",
-       "text": "Always check that you are using the right ammunition. Use only the ammunition for which the firearm was designed. Carry only the type of ammunition you intend to shoot."
+       "text": "Always check that you are using the right ammunition. Use only the ammunition for which the firearm was designed. Carry only the type of ammunition you intend to shoot.",
+       "page": 60
       },
       {
        "type": "de",
@@ -998,7 +1062,8 @@
       },
       {
        "type": "en",
-       "text": "Never rely on the firearm's safety. Safeties wear down and may not work properly. A loaded firearm may fire even with the safety on. All mechanical devices can fail."
+       "text": "Never rely on the firearm's safety. Safeties wear down and may not work properly. A loaded firearm may fire even with the safety on. All mechanical devices can fail.",
+       "page": 60
       },
       {
        "type": "de",
@@ -1010,7 +1075,8 @@
       },
       {
        "type": "en",
-       "text": "Positively identify your target. Do not shoot when in doubt. Never fire at a movement, a colour, a sound or a shape."
+       "text": "Positively identify your target. Do not shoot when in doubt. Never fire at a movement, a colour, a sound or a shape.",
+       "page": 60
       },
       {
        "type": "de",
@@ -1018,7 +1084,8 @@
       },
       {
        "type": "en",
-       "text": "Never use a scope as a substitute for binoculars to identify persons, animals or objects."
+       "text": "Never use a scope as a substitute for binoculars to identify persons, animals or objects.",
+       "page": 60
       },
       {
        "type": "de",
@@ -1030,7 +1097,8 @@
       },
       {
        "type": "en",
-       "text": "Never shoot if your bullet may hit a hard surface or water. Never shoot at a target near a building. Never shoot at a target on top of a hill. Only shoot when you are sure no one is ahead of you."
+       "text": "Never shoot if your bullet may hit a hard surface or water. Never shoot at a target near a building. Never shoot at a target on top of a hill. Only shoot when you are sure no one is ahead of you.",
+       "page": 61
       },
       {
        "type": "de",
@@ -1063,7 +1131,8 @@
       },
       {
        "type": "en",
-       "text": "Secure locking devices prevent a firearm from being fired. To work effectively, they must be installed properly."
+       "text": "Secure locking devices prevent a firearm from being fired. To work effectively, they must be installed properly.",
+       "page": 61
       },
       {
        "type": "de",
@@ -1071,7 +1140,8 @@
       },
       {
        "type": "en",
-       "text": "In some cases, they are required by law."
+       "text": "In some cases, they are required by law.",
+       "page": 61
       },
       {
        "type": "de",
@@ -1111,7 +1181,8 @@
       },
       {
        "type": "en",
-       "text": "Rifled barrels have a series of spiral grooves inside the barrel. The ridges of metal between the grooves are called lands. The lands and grooves together make up the rifling."
+       "text": "Rifled barrels have a series of spiral grooves inside the barrel. The ridges of metal between the grooves are called lands. The lands and grooves together make up the rifling.",
+       "page": 64
       },
       {
        "type": "de",
@@ -1119,7 +1190,8 @@
       },
       {
        "type": "en",
-       "text": "Rifling makes the bullet spin as it leaves the barrel so that it will be stable in flight, thus making the bullet more accurate."
+       "text": "Rifling makes the bullet spin as it leaves the barrel so that it will be stable in flight, thus making the bullet more accurate.",
+       "page": 64
       },
       {
        "type": "de",
@@ -1132,7 +1204,8 @@
       },
       {
        "type": "en",
-       "text": "A calibre is a measurement of bore diameter in either thousands of an inch (Imperial) or in millimeters (Metric)."
+       "text": "A calibre is a measurement of bore diameter in either thousands of an inch (Imperial) or in millimeters (Metric).",
+       "page": 64
       },
       {
        "type": "de",
@@ -1140,7 +1213,8 @@
       },
       {
        "type": "en",
-       "text": "Always consult the data stamp on the barrel of your firearm to find out the exact name of the ammunition that it fits."
+       "text": "Always consult the data stamp on the barrel of your firearm to find out the exact name of the ammunition that it fits.",
+       "page": 64
       },
       {
        "type": "de",
@@ -1172,7 +1246,8 @@
       },
       {
        "type": "en",
-       "text": "Two kinds of cartridges commonly available are: rim-fire and centre-fire. These terms describe where the primer is located at the base of the cartridge casing."
+       "text": "Two kinds of cartridges commonly available are: rim-fire and centre-fire. These terms describe where the primer is located at the base of the cartridge casing.",
+       "page": 66
       },
       {
        "type": "img",
@@ -1181,7 +1256,8 @@
       },
       {
        "type": "en",
-       "text": "Rim-fire ammunition's priming chemical fills the space inside the bottom rim of a thin brass or copper cartridge casing. The soft rim dents when struck by the firing pin."
+       "text": "Rim-fire ammunition's priming chemical fills the space inside the bottom rim of a thin brass or copper cartridge casing. The soft rim dents when struck by the firing pin.",
+       "page": 71
       },
       {
        "type": "de",
@@ -1189,7 +1265,8 @@
       },
       {
        "type": "en",
-       "text": "Centre-fire ammunition is used for higher power firearms. The primer is located at the centre of the base of the cartridge case."
+       "text": "Centre-fire ammunition is used for higher power firearms. The primer is located at the centre of the base of the cartridge case.",
+       "page": 71
       },
       {
        "type": "de",
@@ -1202,7 +1279,8 @@
       },
       {
        "type": "en",
-       "text": "Dry firing means to initiate the firing sequence without a cartridge in the chamber. Dry firing any firearm can damage the firearm."
+       "text": "Dry firing means to initiate the firing sequence without a cartridge in the chamber. Dry firing any firearm can damage the firearm.",
+       "page": 71
       },
       {
        "type": "de",
@@ -1233,7 +1311,8 @@
       },
       {
        "type": "en",
-       "text": "Always make sure the cartridge name on the head stamp matches the information on the data stamp, if available, on the barrel of the firearm. This is the most important point to remember when selecting ammunition."
+       "text": "Always make sure the cartridge name on the head stamp matches the information on the data stamp, if available, on the barrel of the firearm. This is the most important point to remember when selecting ammunition.",
+       "page": 66
       },
       {
        "type": "de",
@@ -1250,7 +1329,8 @@
       },
       {
        "type": "en",
-       "text": "For example, cartridges with different names are not interchangeable (.303 Savage and .303 British, 7-mm Mauser and 7-mm Remington Magnum, .300 Savage and .300 Win Mag)."
+       "text": "For example, cartridges with different names are not interchangeable (.303 Savage and .303 British, 7-mm Mauser and 7-mm Remington Magnum, .300 Savage and .300 Win Mag).",
+       "page": 72
       },
       {
        "type": "de",
@@ -1262,7 +1342,8 @@
       },
       {
        "type": "en",
-       "text": "If there is no data stamp, take the firearm to a qualified individual. They can measure the chamber and advise on proper ammunition."
+       "text": "If there is no data stamp, take the firearm to a qualified individual. They can measure the chamber and advise on proper ammunition.",
+       "page": 66
       },
       {
        "type": "de",
@@ -1292,7 +1373,8 @@
       },
       {
        "type": "en",
-       "text": "Shotgun barrels are sized by gauge instead of calibre. Gauge is calculated by the number of lead balls (each having the same diameter as the bore) that weigh one pound."
+       "text": "Shotgun barrels are sized by gauge instead of calibre. Gauge is calculated by the number of lead balls (each having the same diameter as the bore) that weigh one pound.",
+       "page": 75
       },
       {
        "type": "de",
@@ -1300,7 +1382,8 @@
       },
       {
        "type": "en",
-       "text": "One exception to this rule is the .410-cal. shotgun. It is measured as a calibre because it was developed later."
+       "text": "One exception to this rule is the .410-cal. shotgun. It is measured as a calibre because it was developed later.",
+       "page": 75
       },
       {
        "type": "de",
@@ -1313,7 +1396,8 @@
       },
       {
        "type": "en",
-       "text": "The bore of a shotgun barrel is usually smooth and may be narrowed at the muzzle end. This narrowing is called the choke. The choke of a shotgun barrel helps control the spread of the shot after it is fired."
+       "text": "The bore of a shotgun barrel is usually smooth and may be narrowed at the muzzle end. This narrowing is called the choke. The choke of a shotgun barrel helps control the spread of the shot after it is fired.",
+       "page": 77
       },
       {
        "type": "de",
@@ -1358,7 +1442,8 @@
      "blocks": [
       {
        "type": "en",
-       "text": "Shotgun ammunition is centre-fire. The casing or hull has a thick, solid base."
+       "text": "Shotgun ammunition is centre-fire. The casing or hull has a thick, solid base.",
+       "page": 80
       },
       {
        "type": "de",
@@ -1366,7 +1451,8 @@
       },
       {
        "type": "en",
-       "text": "Shotgun shell components are similar to those of rifle cartridges. However, there are five components, not four."
+       "text": "Shotgun shell components are similar to those of rifle cartridges. However, there are five components, not four.",
+       "page": 80
       },
       {
        "type": "de",
@@ -1392,7 +1478,8 @@
       },
       {
        "type": "en",
-       "text": "NOTE: These dimensions refer to the lengths of the shells after firing."
+       "text": "NOTE: These dimensions refer to the lengths of the shells after firing.",
+       "page": 84
       },
       {
        "type": "de",
@@ -1400,7 +1487,8 @@
       },
       {
        "type": "en",
-       "text": "Do not attempt to use longer ammunition than indicated on the barrel data stamp. If you do, the barrel might burst."
+       "text": "Do not attempt to use longer ammunition than indicated on the barrel data stamp. If you do, the barrel might burst.",
+       "page": 86
       },
       {
        "type": "de",
@@ -1412,7 +1500,8 @@
       },
       {
        "type": "en",
-       "text": "An easy mistake to make is loading and chambering a 20-gauge shotgun shell into a 12-gauge shotgun. The small shell will slide through the chamber and stick in the forcing cone. Users may then insert a 12-gauge shell behind the 20-gauge shell. When fired, the barrel may burst."
+       "text": "An easy mistake to make is loading and chambering a 20-gauge shotgun shell into a 12-gauge shotgun. The small shell will slide through the chamber and stick in the forcing cone. Users may then insert a 12-gauge shell behind the 20-gauge shell. When fired, the barrel may burst.",
+       "page": 87
       },
       {
        "type": "de",
@@ -1440,7 +1529,8 @@
      "blocks": [
       {
        "type": "en",
-       "text": "Ballistics is the study of projectiles in flight."
+       "text": "Ballistics is the study of projectiles in flight.",
+       "page": 89
       },
       {
        "type": "de",
@@ -1448,7 +1538,8 @@
       },
       {
        "type": "en",
-       "text": "Shotguns can fire shot more than the length of a football field. Some rifles can fire bullets further than five kilometers."
+       "text": "Shotguns can fire shot more than the length of a football field. Some rifles can fire bullets further than five kilometers.",
+       "page": 89
       },
       {
        "type": "de",
@@ -1470,7 +1561,8 @@
       },
       {
        "type": "en",
-       "text": "Gravity pulls the bullet down toward the ground as it is travelling forward. Air resistance holds back the passage of the bullet. Velocity is the speed at which a bullet travels. Mass is the weight of the bullet."
+       "text": "Gravity pulls the bullet down toward the ground as it is travelling forward. Air resistance holds back the passage of the bullet. Velocity is the speed at which a bullet travels. Mass is the weight of the bullet.",
+       "page": 91
       },
       {
        "type": "de",
@@ -1478,7 +1570,8 @@
       },
       {
        "type": "en",
-       "text": "The trajectory of a projectile is slightly curved. It crosses the line of sight twice on the way to the target."
+       "text": "The trajectory of a projectile is slightly curved. It crosses the line of sight twice on the way to the target.",
+       "page": 91
       },
       {
        "type": "de",
@@ -1491,7 +1584,8 @@
       },
       {
        "type": "en",
-       "text": "You are responsible for where the bullet stops."
+       "text": "You are responsible for where the bullet stops.",
+       "page": 91
       },
       {
        "type": "de",
@@ -1525,7 +1619,8 @@
       },
       {
        "type": "en",
-       "text": "A misfire is a cartridge that does not fire. Misfired cartridges should not be reused in the firearm and must be disposed of properly."
+       "text": "A misfire is a cartridge that does not fire. Misfired cartridges should not be reused in the firearm and must be disposed of properly.",
+       "page": 92
       },
       {
        "type": "de",
@@ -1533,7 +1628,8 @@
       },
       {
        "type": "en",
-       "text": "A hangfire is a delayed fire in which the firing pin strikes the primer but it does not create enough flame to ignite the powder instantly."
+       "text": "A hangfire is a delayed fire in which the firing pin strikes the primer but it does not create enough flame to ignite the powder instantly.",
+       "page": 92
       },
       {
        "type": "de",
@@ -1541,7 +1637,8 @@
       },
       {
        "type": "en",
-       "text": "A primer pop (squib load) happens when the cartridge does not contain any gunpowder. The firearms will discharge the primer without the usual noise or recoil. The bullet may lodge in the barrel. If another bullet is fired, the barrel may rupture."
+       "text": "A primer pop (squib load) happens when the cartridge does not contain any gunpowder. The firearms will discharge the primer without the usual noise or recoil. The bullet may lodge in the barrel. If another bullet is fired, the barrel may rupture.",
+       "page": 92
       },
       {
        "type": "de",
@@ -1553,7 +1650,8 @@
       },
       {
        "type": "en",
-       "text": "If the trigger is pulled and there is no noticeable discharge, wait 60 seconds while pointing the muzzle in a safe direction. If there is no hangfire within 60 seconds, open the action and unload the firearm. PROVE the firearm safe to ensure there is no blockage lodged in the barrel."
+       "text": "If the trigger is pulled and there is no noticeable discharge, wait 60 seconds while pointing the muzzle in a safe direction. If there is no hangfire within 60 seconds, open the action and unload the firearm. PROVE the firearm safe to ensure there is no blockage lodged in the barrel.",
+       "page": 92
       },
       {
        "type": "de",
@@ -1565,7 +1663,8 @@
       },
       {
        "type": "en",
-       "text": "Ammunition for a non-restricted firearm may only be stored in a place where it is not within easy access to the firearm, unless the ammunition is stored, together with or separately from the firearm, in a securely locked container or receptacle that cannot be easily broken open or into."
+       "text": "Ammunition for a non-restricted firearm may only be stored in a place where it is not within easy access to the firearm, unless the ammunition is stored, together with or separately from the firearm, in a securely locked container or receptacle that cannot be easily broken open or into.",
+       "page": 93
       },
       {
        "type": "de",
@@ -1573,7 +1672,8 @@
       },
       {
        "type": "en",
-       "text": "Ammunition for a non-restricted firearm must not be displayed with the firearm."
+       "text": "Ammunition for a non-restricted firearm must not be displayed with the firearm.",
+       "page": 93
       },
       {
        "type": "de",
@@ -1581,7 +1681,8 @@
       },
       {
        "type": "en",
-       "text": "All ammunition should be stored in a cool, dry place, preferably in a vented container."
+       "text": "All ammunition should be stored in a cool, dry place, preferably in a vented container.",
+       "page": 93
       },
       {
        "type": "de",
