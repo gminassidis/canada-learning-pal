@@ -1,6 +1,6 @@
 {
  "_schema": "Vokabeln, Richtung immer Englisch nach Deutsch. cat: fach | pruefung | praxis. verify=true heisst: Wortlaut noch gegen das Handbuch prüfen.",
- "_status": "Pruefungssprache, ACTS und PROVE, Fachbegriffe aus Einfuehrung und Modul 1 bis 5. Module 6 bis 11 folgen.",
+ "_status": "Pruefungssprache, ACTS und PROVE, Fachbegriffe aus Einfuehrung und Modul 1 bis 6. Module 7 bis 11 folgen.",
  "terms": [
   {
    "id": "which-of-the-following",
@@ -1821,6 +1821,222 @@
    "sub": "Störungen",
    "explDe": "Munition gehört kühl, trocken und belüftet gelagert. Ein dichter Behälter kann im Brandfall zur Explosionsgefahr werden.",
    "source": "S. 93"
+  },
+  {
+   "id": "receiver",
+   "en": "receiver",
+   "de": "Gehäuse, System",
+   "cat": "fach",
+   "sub": "Waffe und Teile",
+   "explDe": "Der Gehäuseblock, der den Verschluss aufnimmt. Viele Sicherungen sitzen darauf oder daran.",
+   "source": "S. 103"
+  },
+  {
+   "id": "sear",
+   "en": "sear",
+   "de": "Abzugsstollen",
+   "cat": "fach",
+   "sub": "Waffe und Teile",
+   "explDe": "Teil im Abzugswerk. Die Sicherung blockiert Abzug, Abzugsstollen, Hahn oder Schlagbolzen.",
+   "source": "S. 102"
+  },
+  {
+   "id": "breech",
+   "en": "breech",
+   "de": "Verschlussende",
+   "cat": "fach",
+   "sub": "Waffe und Teile",
+   "explDe": "Das hintere Ende des Laufs. Von dort aus wird der Lauf auf Verstopfungen geprüft, wann immer das möglich ist.",
+   "source": "S. 110"
+  },
+  {
+   "id": "fore-end",
+   "en": "fore-end",
+   "de": "Vorderschaft",
+   "cat": "fach",
+   "sub": "Waffe und Teile",
+   "explDe": "Der vordere Teil des Schafts. Beim Vorderschaftrepetierer wird er vor und zurück bewegt.",
+   "source": "S. 133"
+  },
+  {
+   "id": "action-release",
+   "en": "action release",
+   "de": "Verschlussentriegelung",
+   "cat": "fach",
+   "sub": "Waffe und Teile",
+   "explDe": "Der Mechanismus, der den Verschluss zum Öffnen oder Schließen freigibt. Wo er sitzt, hängt von Hersteller und Modell ab.",
+   "source": "S. 107"
+  },
+  {
+   "id": "follower",
+   "en": "follower",
+   "de": "Zubringer",
+   "cat": "fach",
+   "sub": "Waffe und Teile",
+   "explDe": "Das Teil im Magazin, das die Patronen nach oben drückt. Beim Prüfen muss man ihn sehen oder fühlen, dann ist das Magazin sicher leer.",
+   "source": "S. 109"
+  },
+  {
+   "id": "slide-tang-safety",
+   "en": "slide/tang safety",
+   "de": "Schiebesicherung",
+   "cat": "fach",
+   "sub": "Sicherungen",
+   "explDe": "Wird mit dem Daumen vor oder zurück geschoben. Bei Flinten oben auf dem Gehäuse, bei Büchsen meist rechts.",
+   "source": "S. 103"
+  },
+  {
+   "id": "pivot-safety",
+   "en": "pivot/lever/rocker safety",
+   "de": "Kippsicherung",
+   "cat": "fach",
+   "sub": "Sicherungen",
+   "explDe": "Wird gekippt statt geschoben. Sitzt oft über dem Abzug, links oder rechts am Verschluss.",
+   "source": "S. 103"
+  },
+  {
+   "id": "wing-safety",
+   "en": "wing safety",
+   "de": "Flügelsicherung",
+   "cat": "fach",
+   "sub": "Sicherungen",
+   "explDe": "Sitzt am Verschluss von Kammerverschlusswaffen und wird seitlich umgelegt.",
+   "source": "S. 104"
+  },
+  {
+   "id": "trigger-block-safety",
+   "en": "trigger block/lever safety",
+   "de": "Abzugssperre am Unterhebel",
+   "cat": "fach",
+   "sub": "Sicherungen",
+   "explDe": "Bei Unterhebelwaffen. Die Waffe schießt erst, wenn der Hebel fest an den Schaft gedrückt ist.",
+   "source": "S. 104"
+  },
+  {
+   "id": "half-cock",
+   "en": "half-cock",
+   "de": "Halbspannung",
+   "cat": "fach",
+   "sub": "Sicherungen",
+   "explDe": "Mittlere von drei Hahnstellungen. Der Hahn wird bis zum ersten Klick zurückgezogen, weg vom Schlagbolzen. Dann gilt die Sicherung als ON.",
+   "source": "S. 105"
+  },
+  {
+   "id": "cross-bolt-safety",
+   "en": "cross-bolt safety",
+   "de": "Querbolzensicherung",
+   "cat": "fach",
+   "sub": "Sicherungen",
+   "explDe": "Ein Druckknopf quer durch das Gehäuse. Ein sichtbarer roter Ring bedeutet: Sicherung AUS, die Waffe kann schießen.",
+   "source": "S. 106"
+  },
+  {
+   "id": "magazine-disconnect",
+   "en": "magazine disconnect",
+   "de": "Magazinsicherung",
+   "cat": "fach",
+   "sub": "Sicherungen",
+   "explDe": "Innere Sicherung, die das Schießen ohne eingesetztes Magazin verhindert.",
+   "source": "S. 138"
+  },
+  {
+   "id": "repeating-firearm",
+   "en": "repeating firearm",
+   "de": "Repetierwaffe",
+   "cat": "fach",
+   "sub": "Verschlussarten",
+   "explDe": "Hat ein Patronenlager, fasst aber mehrere Patronen. Nach jedem Schuss führt eine Handbewegung die nächste zu.",
+   "source": "S. 120"
+  },
+  {
+   "id": "single-shot",
+   "en": "single shot",
+   "de": "Einzellader",
+   "cat": "fach",
+   "sub": "Verschlussarten",
+   "explDe": "Nimmt nur eine Patrone auf, die nach jedem Schuss von Hand nachgelegt wird.",
+   "source": "S. 116"
+  },
+  {
+   "id": "box-magazine",
+   "en": "box magazine",
+   "de": "Kastenmagazin",
+   "cat": "fach",
+   "sub": "Verschlussarten",
+   "explDe": "Kastenförmig, sitzt meist unter dem Verschluss. Manche lassen sich über einen Knopf abnehmen, andere sind fest eingebaut.",
+   "source": "S. 121"
+  },
+  {
+   "id": "tubular-magazine",
+   "en": "tubular magazine",
+   "de": "Röhrenmagazin",
+   "cat": "fach",
+   "sub": "Verschlussarten",
+   "explDe": "Röhre unter dem Lauf oder im Schaft. Oft mit herausziehbarem Innenrohr.",
+   "source": "S. 122"
+  },
+  {
+   "id": "detachable-magazine",
+   "en": "detachable magazine",
+   "de": "abnehmbares Magazin",
+   "cat": "fach",
+   "sub": "Verschlussarten",
+   "explDe": "Beim Entladen kommt es zuerst heraus, erst danach wird der Verschluss geöffnet.",
+   "source": "S. 109"
+  },
+  {
+   "id": "loading-port",
+   "en": "loading port",
+   "de": "Ladeöffnung",
+   "cat": "fach",
+   "sub": "Verschlussarten",
+   "explDe": "Die Öffnung, durch die Patronen ins Magazin gelangen.",
+   "source": "S. 122"
+  },
+  {
+   "id": "slide-action",
+   "en": "slide or trombone action",
+   "de": "andere Namen für pump action",
+   "cat": "fach",
+   "sub": "Verschlussarten",
+   "explDe": "Der Vorderschaftrepetierer heißt auch slide action oder trombone action.",
+   "source": "S. 133"
+  },
+  {
+   "id": "direct-control",
+   "en": "direct control",
+   "de": "direkte Kontrolle",
+   "cat": "fach",
+   "sub": "Handhabung",
+   "explDe": "Das Handbuch definiert sie als: die Waffe in Sichtweite und in Armlänge. Nur solange gilt eine geprüfte Waffe weiter als sicher.",
+   "source": "S. 109"
+  },
+  {
+   "id": "to-chamber",
+   "en": "to chamber",
+   "de": "ins Patronenlager einführen",
+   "cat": "fach",
+   "sub": "Handhabung",
+   "explDe": "Eine Patrone ins Lager bringen. Der Verschluss tut das beim Schließen.",
+   "source": "S. 49"
+  },
+  {
+   "id": "to-extract",
+   "en": "to extract",
+   "de": "ausziehen",
+   "cat": "fach",
+   "sub": "Handhabung",
+   "explDe": "Die leere Hülse aus dem Patronenlager ziehen.",
+   "source": "S. 138"
+  },
+  {
+   "id": "bore-light",
+   "en": "bore light",
+   "de": "Lauflampe",
+   "cat": "fach",
+   "sub": "Handhabung",
+   "explDe": "Hilfsmittel, um in den Lauf zu leuchten, statt hineinzusehen.",
+   "source": "S. 110"
   }
  ]
 }

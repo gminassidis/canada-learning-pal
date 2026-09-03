@@ -1,6 +1,6 @@
 {
  "_schema": "Fragenpool. type mc = Multiple Choice, tf = True/False. stemEn ist das, was in der Pruefung steht, stemDe ist nur Hilfe. Jede Frage traegt eine Fundstelle.",
- "_status": "Uebungsfragen, keine echten Pruefungsfragen. Aus den pruefbaren Aussagen des Handbuchs abgeleitet, Formulierung im Stil der Pruefung. Einfuehrung und Module 1 bis 5 abgedeckt.",
+ "_status": "Uebungsfragen, keine echten Pruefungsfragen. Aus den pruefbaren Aussagen des Handbuchs abgeleitet, Formulierung im Stil der Pruefung. Einfuehrung und Module 1 bis 6 abgedeckt.",
  "questions": [
   {
    "id": "q-acts-01",
@@ -2514,6 +2514,701 @@
      "de": "Egal wie, Hauptsache weggeschlossen.",
      "correct": false,
      "whyDe": "Verschluss ist Pflicht, ersetzt aber nicht kühl, trocken und belüftet."
+    }
+   ]
+  },
+  {
+   "id": "q-m6-01",
+   "type": "mc",
+   "unit": "m6-sicherungen",
+   "source": "S. 103",
+   "tags": [
+    "sicherung"
+   ],
+   "stemEn": "Which safety is located on top of the receiver and is operated by sliding it forward or backward with your thumb?",
+   "stemDe": "Welche Sicherung sitzt oben auf dem Gehäuse und wird mit dem Daumen vor oder zurück geschoben?",
+   "options": [
+    {
+     "en": "The slide/tang safety.",
+     "de": "Die Schiebesicherung.",
+     "correct": true,
+     "whyDe": "Bei Flinten oben auf dem Gehäuse, bei Büchsen meist rechts. Dies ist die erste Review-Frage des Moduls."
+    },
+    {
+     "en": "The cross-bolt safety.",
+     "de": "Die Querbolzensicherung.",
+     "correct": false,
+     "whyDe": "Die ist ein Druckknopf quer durch das Gehäuse."
+    },
+    {
+     "en": "The wing safety.",
+     "de": "Die Flügelsicherung.",
+     "correct": false,
+     "whyDe": "Die sitzt am Verschluss und wird umgelegt."
+    },
+    {
+     "en": "The trigger block safety.",
+     "de": "Die Abzugssperre.",
+     "correct": false,
+     "whyDe": "Die wirkt über den Unterhebel."
+    }
+   ]
+  },
+  {
+   "id": "q-m6-02",
+   "type": "mc",
+   "unit": "m6-sicherungen",
+   "source": "S. 105",
+   "tags": [
+    "sicherung"
+   ],
+   "stemEn": "Which safety involves pulling the hammer back to the first click, away from the firing pin?",
+   "stemDe": "Bei welcher Sicherung wird der Hahn bis zum ersten Klick zurückgezogen, weg vom Schlagbolzen?",
+   "options": [
+    {
+     "en": "The half-cock safety.",
+     "de": "Die Halbspannung des Hahns.",
+     "correct": true,
+     "whyDe": "Halbspannung gilt als gesichert, Vollspannung als entsichert. Dies ist die zweite Review-Frage."
+    },
+    {
+     "en": "The wing safety.",
+     "de": "Die Flügelsicherung.",
+     "correct": false,
+     "whyDe": "Die hat mit dem Hahn nichts zu tun."
+    },
+    {
+     "en": "The magazine disconnect.",
+     "de": "Die Magazinsicherung.",
+     "correct": false,
+     "whyDe": "Die verhindert das Schießen ohne eingesetztes Magazin."
+    },
+    {
+     "en": "The pivot safety.",
+     "de": "Die Kippsicherung.",
+     "correct": false,
+     "whyDe": "Die wird gekippt, nicht gespannt."
+    }
+   ]
+  },
+  {
+   "id": "q-m6-03",
+   "type": "mc",
+   "unit": "m6-sicherungen",
+   "source": "S. 106",
+   "tags": [
+    "sicherung"
+   ],
+   "stemEn": "On a cross-bolt safety, what does a visible red ring indicate?",
+   "stemDe": "Was bedeutet ein sichtbarer roter Ring an der Querbolzensicherung?",
+   "options": [
+    {
+     "en": "The safety is OFF and the firearm can be fired.",
+     "de": "Die Sicherung ist AUS, die Waffe kann schießen.",
+     "correct": true,
+     "whyDe": "Rot heißt hier nicht sicher, sondern das Gegenteil. Dies ist die dritte Review-Frage."
+    },
+    {
+     "en": "The safety is ON and the firearm cannot fire.",
+     "de": "Die Sicherung ist AN, die Waffe kann nicht schießen.",
+     "correct": false,
+     "whyDe": "Genau umgekehrt. Diese Verwechslung ist gefährlich."
+    },
+    {
+     "en": "The magazine is empty.",
+     "de": "Das Magazin ist leer.",
+     "correct": false,
+     "whyDe": "Damit hat der Ring nichts zu tun."
+    },
+    {
+     "en": "The chamber is loaded.",
+     "de": "Das Patronenlager ist geladen.",
+     "correct": false,
+     "whyDe": "Auch das zeigt er nicht an."
+    }
+   ]
+  },
+  {
+   "id": "q-m6-04",
+   "type": "mc",
+   "unit": "m6-sicherungen",
+   "source": "S. 104",
+   "tags": [
+    "sicherung"
+   ],
+   "stemEn": "Which safety is released when the lever is pulled tight against the stock, allowing the firearm to fire?",
+   "stemDe": "Welche Sicherung wird gelöst, wenn der Hebel fest an den Schaft gedrückt wird?",
+   "options": [
+    {
+     "en": "The trigger block/lever safety.",
+     "de": "Die Abzugssperre am Unterhebel.",
+     "correct": true,
+     "whyDe": "Sie findet sich an Unterhebelwaffen. Dies ist die vierte Review-Frage."
+    },
+    {
+     "en": "The slide/tang safety.",
+     "de": "Die Schiebesicherung.",
+     "correct": false,
+     "whyDe": "Die wird mit dem Daumen geschoben."
+    },
+    {
+     "en": "The half-cock safety.",
+     "de": "Die Halbspannung.",
+     "correct": false,
+     "whyDe": "Die betrifft die Stellung des Hahns."
+    },
+    {
+     "en": "The wing safety.",
+     "de": "Die Flügelsicherung.",
+     "correct": false,
+     "whyDe": "Die sitzt am Verschluss."
+    }
+   ]
+  },
+  {
+   "id": "q-m6-05",
+   "type": "mc",
+   "unit": "m6-sicherungen",
+   "source": "S. 102",
+   "tags": [
+    "sicherung"
+   ],
+   "stemEn": "What does a safety block in order to prevent the firearm from firing?",
+   "stemDe": "Was blockiert eine Sicherung, um den Schuss zu verhindern?",
+   "options": [
+    {
+     "en": "One or more of the trigger, sear, hammer or firing pin.",
+     "de": "Abzug, Abzugsstollen, Hahn oder Schlagbolzen, eines oder mehrere davon.",
+     "correct": true,
+     "whyDe": "Sie unterbricht damit die Schussfolge."
+    },
+    {
+     "en": "The muzzle.",
+     "de": "Die Mündung.",
+     "correct": false,
+     "whyDe": "Die wird nicht blockiert."
+    },
+    {
+     "en": "The magazine follower.",
+     "de": "Den Zubringer im Magazin.",
+     "correct": false,
+     "whyDe": "Der schiebt die Patronen nach."
+    },
+    {
+     "en": "The barrel.",
+     "de": "Den Lauf.",
+     "correct": false,
+     "whyDe": "Der bleibt frei."
+    }
+   ]
+  },
+  {
+   "id": "q-m6-06",
+   "type": "tf",
+   "unit": "m6-sicherungen",
+   "source": "S. 105",
+   "tags": [
+    "sicherung"
+   ],
+   "stemEn": "If a firearm has a half-cock position, that position is always a safety.",
+   "stemDe": "Wenn eine Waffe eine Halbspannung hat, ist diese Stellung immer eine Sicherung.",
+   "answer": false,
+   "whyDe": "Falsch. Das Handbuch sagt ausdrücklich, dass nicht jede Waffe die Halbspannung als Sicherung nutzt. Im Zweifel ins Handbuch des Herstellers sehen."
+  },
+  {
+   "id": "q-m6-07",
+   "type": "tf",
+   "unit": "m6-sicherungen",
+   "source": "S. 106",
+   "tags": [
+    "sicherung"
+   ],
+   "stemEn": "There is one standard rule across all manufacturers for indicating the safety position.",
+   "stemDe": "Es gibt eine für alle Hersteller einheitliche Kennzeichnung der Sicherungsstellung.",
+   "answer": false,
+   "whyDe": "Falsch. Eine einheitliche Regel gibt es nicht. Fehlt eine Kennzeichnung, wird die Waffe erst entladen und in sichere Richtung gebracht, bevor man die Bedienung nachliest."
+  },
+  {
+   "id": "q-m6-08",
+   "type": "mc",
+   "unit": "m6-ablauf",
+   "source": "S. 109",
+   "tags": [
+    "entladen"
+   ],
+   "stemEn": "When unloading a firearm with a detachable magazine, what comes first?",
+   "stemDe": "Was kommt beim Entladen einer Waffe mit abnehmbarem Magazin zuerst?",
+   "options": [
+    {
+     "en": "Remove the magazine, then open the action.",
+     "de": "Erst das Magazin heraus, dann den Verschluss öffnen.",
+     "correct": true,
+     "whyDe": "Andersherum könnte beim Schließen des Verschlusses eine weitere Patrone zugeführt werden."
+    },
+    {
+     "en": "Open the action, then remove the magazine.",
+     "de": "Erst den Verschluss öffnen, dann das Magazin.",
+     "correct": false,
+     "whyDe": "Genau diese Reihenfolge warnt das Handbuch ab."
+    },
+    {
+     "en": "Look down the bore first.",
+     "de": "Zuerst in den Lauf sehen.",
+     "correct": false,
+     "whyDe": "Der Lauf kommt als letzter Schritt, nach Observe und Verify."
+    },
+    {
+     "en": "Put the safety OFF first.",
+     "de": "Zuerst entsichern.",
+     "correct": false,
+     "whyDe": "Die Sicherung bleibt an, wenn sie beim Entladen anbleiben kann."
+    }
+   ]
+  },
+  {
+   "id": "q-m6-09",
+   "type": "tf",
+   "unit": "m6-ablauf",
+   "source": "S. 109",
+   "tags": [
+    "entladen"
+   ],
+   "stemEn": "After removing all ammunition during the unloading procedure, the action should be left open.",
+   "stemDe": "Nach dem Entfernen der Munition bleibt der Verschluss offen.",
+   "answer": true,
+   "whyDe": "Richtig. Leave the action open. Offen sieht jeder sofort, dass die Waffe leer ist."
+  },
+  {
+   "id": "q-m6-10",
+   "type": "mc",
+   "unit": "m6-ablauf",
+   "source": "S. 109",
+   "tags": [
+    "entladen"
+   ],
+   "stemEn": "During the Verify step, what confirms that the magazine is empty?",
+   "stemDe": "Woran erkennst du beim Schritt Verify, dass das Magazin leer ist?",
+   "options": [
+    {
+     "en": "Seeing or feeling the follower.",
+     "de": "Den Zubringer sehen oder fühlen.",
+     "correct": true,
+     "whyDe": "Wo ein Zubringer vorhanden ist, muss er sichtbar oder fühlbar sein."
+    },
+    {
+     "en": "Hearing no rattle when shaking the firearm.",
+     "de": "Kein Klappern beim Schütteln.",
+     "correct": false,
+     "whyDe": "Steht so nicht im Handbuch und ist unzuverlässig."
+    },
+    {
+     "en": "The safety moving freely.",
+     "de": "Die Sicherung lässt sich leicht bewegen.",
+     "correct": false,
+     "whyDe": "Damit hat es nichts zu tun."
+    },
+    {
+     "en": "The action closing smoothly.",
+     "de": "Der Verschluss schließt leicht.",
+     "correct": false,
+     "whyDe": "Ebenfalls nicht."
+    }
+   ]
+  },
+  {
+   "id": "q-m6-11",
+   "type": "mc",
+   "unit": "m6-ablauf",
+   "source": "S. 109",
+   "tags": [
+    "handhabung"
+   ],
+   "stemEn": "How does the handbook define direct control of a firearm?",
+   "stemDe": "Wie definiert das Handbuch die direkte Kontrolle über eine Waffe?",
+   "options": [
+    {
+     "en": "Having the firearm within eyesight and/or an arm's reach.",
+     "de": "Die Waffe in Sichtweite und in Armlänge haben.",
+     "correct": true,
+     "whyDe": "Nur solange gilt eine geprüfte Waffe weiter als sicher."
+    },
+    {
+     "en": "Having the firearm locked in a container.",
+     "de": "Die Waffe in einem verschlossenen Behälter haben.",
+     "correct": false,
+     "whyDe": "Das betrifft die Lagerung, nicht die direkte Kontrolle."
+    },
+    {
+     "en": "Being the registered owner of the firearm.",
+     "de": "Der eingetragene Besitzer sein.",
+     "correct": false,
+     "whyDe": "Eine Rechtsfrage, nicht die Definition hier."
+    },
+    {
+     "en": "Having the firearm unloaded.",
+     "de": "Die Waffe entladen haben.",
+     "correct": false,
+     "whyDe": "Entladen ist Voraussetzung, aber nicht die Definition von direkter Kontrolle."
+    }
+   ]
+  },
+  {
+   "id": "q-m6-12",
+   "type": "mc",
+   "unit": "m6-ablauf",
+   "source": "S. 110",
+   "tags": [
+    "handhabung"
+   ],
+   "stemEn": "From which end should you look through the barrel when checking for obstructions?",
+   "stemDe": "Von welchem Ende aus siehst du beim Prüfen durch den Lauf?",
+   "options": [
+    {
+     "en": "From the back or breech end, whenever possible.",
+     "de": "Vom hinteren Ende, wann immer möglich.",
+     "correct": true,
+     "whyDe": "Geht das nicht, muss die Waffe zuvor entladen, der Verschluss offen und das Lager leer sein."
+    },
+    {
+     "en": "From the muzzle end, always.",
+     "de": "Immer von der Mündung.",
+     "correct": false,
+     "whyDe": "Nur wenn es nicht anders geht, und dann nur an der nachweislich leeren Waffe."
+    },
+    {
+     "en": "It does not matter which end.",
+     "de": "Das Ende spielt keine Rolle.",
+     "correct": false,
+     "whyDe": "Es spielt sehr wohl eine Rolle."
+    },
+    {
+     "en": "Neither, the barrel should never be inspected.",
+     "de": "Gar nicht, der Lauf wird nie geprüft.",
+     "correct": false,
+     "whyDe": "Das E in PROVE verlangt genau diese Prüfung."
+    }
+   ]
+  },
+  {
+   "id": "q-m6-13",
+   "type": "tf",
+   "unit": "m6-ablauf",
+   "source": "S. 110",
+   "tags": [
+    "handhabung"
+   ],
+   "stemEn": "A cleaning patch that does not completely fill the bore may still detect any obstruction.",
+   "stemDe": "Ein Pflaster, das den Lauf nicht ganz ausfüllt, findet trotzdem jede Verstopfung.",
+   "answer": false,
+   "whyDe": "Falsch. Unless the patch fills the bore completely, obstructions may not be detected."
+  },
+  {
+   "id": "q-m6-14",
+   "type": "mc",
+   "unit": "m6-ablauf",
+   "source": "S. 110",
+   "tags": [
+    "laden"
+   ],
+   "stemEn": "What is the first step of the loading procedure?",
+   "stemDe": "Was ist der erste Schritt beim Laden?",
+   "options": [
+    {
+     "en": "Going through the complete unloading procedure, ACTS and PROVE it safe.",
+     "de": "Den vollständigen Entladevorgang durchgehen, ACTS und PROVE.",
+     "correct": true,
+     "whyDe": "Geladen wird erst, wenn zweifelsfrei feststeht, dass die Waffe leer und frei ist."
+    },
+    {
+     "en": "Putting the ammunition in the magazine.",
+     "de": "Die Munition ins Magazin geben.",
+     "correct": false,
+     "whyDe": "Das kommt später."
+    },
+    {
+     "en": "Closing the action.",
+     "de": "Den Verschluss schließen.",
+     "correct": false,
+     "whyDe": "Das ist einer der letzten Schritte."
+    },
+    {
+     "en": "Taking the safety off.",
+     "de": "Die Sicherung ausschalten.",
+     "correct": false,
+     "whyDe": "Die Sicherung bleibt an, solange das möglich ist."
+    }
+   ]
+  },
+  {
+   "id": "q-m6-15",
+   "type": "mc",
+   "unit": "m6-magazine",
+   "source": "S. 121",
+   "tags": [
+    "magazin"
+   ],
+   "stemEn": "What are the two common types of magazines?",
+   "stemDe": "Welche zwei Magazinbauarten sind üblich?",
+   "options": [
+    {
+     "en": "Box and tubular.",
+     "de": "Kastenmagazin und Röhrenmagazin.",
+     "correct": true,
+     "whyDe": "Das Kastenmagazin sitzt meist unter dem Verschluss, das Röhrenmagazin unter dem Lauf oder im Schaft."
+    },
+    {
+     "en": "Box and drum.",
+     "de": "Kastenmagazin und Trommelmagazin.",
+     "correct": false,
+     "whyDe": "Das Trommelmagazin nennt das Handbuch hier nicht."
+    },
+    {
+     "en": "Tubular and rotary.",
+     "de": "Röhrenmagazin und Rotationsmagazin.",
+     "correct": false,
+     "whyDe": "Ebenfalls nicht."
+    },
+    {
+     "en": "Internal and external.",
+     "de": "Innen und außen.",
+     "correct": false,
+     "whyDe": "Das ist keine Einteilung des Handbuchs."
+    }
+   ]
+  },
+  {
+   "id": "q-m6-16",
+   "type": "mc",
+   "unit": "m6-magazine",
+   "source": "S. 122",
+   "tags": [
+    "magazin"
+   ],
+   "stemEn": "How do you unload a tubular magazine whose inner tube cannot be removed?",
+   "stemDe": "Wie entlädst du ein Röhrenmagazin, dessen Innenrohr sich nicht herausziehen lässt?",
+   "options": [
+    {
+     "en": "Close and open the action several times, with extra care, since the firearm is in the ready-to-fire position.",
+     "de": "Den Verschluss mehrfach öffnen und schließen, besonders vorsichtig, weil die Waffe dabei schussbereit ist.",
+     "correct": true,
+     "whyDe": "Anschließend prüfen, ob der Zubringer sichtbar oder fühlbar ist."
+    },
+    {
+     "en": "Shake the firearm until the ammunition falls out.",
+     "de": "Die Waffe schütteln, bis alles herausfällt.",
+     "correct": false,
+     "whyDe": "Steht nicht im Handbuch und ist unsicher."
+    },
+    {
+     "en": "Fire the remaining rounds.",
+     "de": "Die restlichen Patronen verschießen.",
+     "correct": false,
+     "whyDe": "Entladen heißt nicht abschießen."
+    },
+    {
+     "en": "Leave it, tubular magazines empty themselves.",
+     "de": "Nichts tun, sie leeren sich selbst.",
+     "correct": false,
+     "whyDe": "Munition kann durch Schmutz, Rost oder Dellen sogar hängen bleiben."
+    }
+   ]
+  },
+  {
+   "id": "q-m6-17",
+   "type": "mc",
+   "unit": "m6-selbstlader",
+   "source": "S. 138",
+   "tags": [
+    "verschluss"
+   ],
+   "stemEn": "How does a semi-automatic action reload the chamber?",
+   "stemDe": "Wie führt der Selbstlader die nächste Patrone zu?",
+   "options": [
+    {
+     "en": "It uses part of the energy of the expanding gas from the burning powder.",
+     "de": "Er nutzt einen Teil der Gasenergie des Schusses.",
+     "correct": true,
+     "whyDe": "Eine Handbewegung ist dafür nicht nötig. Je Abzug fällt trotzdem nur ein Schuss."
+    },
+    {
+     "en": "The shooter pumps the fore-end back and forth.",
+     "de": "Der Schütze bewegt den Vorderschaft.",
+     "correct": false,
+     "whyDe": "Das ist der Vorderschaftrepetierer."
+    },
+    {
+     "en": "The shooter moves a lever behind the trigger.",
+     "de": "Der Schütze bewegt einen Hebel hinter dem Abzug.",
+     "correct": false,
+     "whyDe": "Das ist der Unterhebel."
+    },
+    {
+     "en": "A spring in the stock pushes the bolt.",
+     "de": "Eine Feder im Schaft schiebt den Verschluss.",
+     "correct": false,
+     "whyDe": "So beschreibt es das Handbuch nicht."
+    }
+   ]
+  },
+  {
+   "id": "q-m6-18",
+   "type": "mc",
+   "unit": "m6-vorderschaft",
+   "source": "S. 133",
+   "tags": [
+    "verschluss"
+   ],
+   "stemEn": "The pump action is also known by which other names?",
+   "stemDe": "Welche anderen Namen hat der Vorderschaftrepetierer?",
+   "options": [
+    {
+     "en": "Slide action or trombone action.",
+     "de": "Slide action oder trombone action.",
+     "correct": true,
+     "whyDe": "Beide können in der Prüfung auftauchen."
+    },
+    {
+     "en": "Break action or hinge action.",
+     "de": "Break action oder hinge action.",
+     "correct": false,
+     "whyDe": "Das ist der Kipplauf."
+    },
+    {
+     "en": "Bolt action or door-bolt action.",
+     "de": "Bolt action.",
+     "correct": false,
+     "whyDe": "Das ist der Kammerverschluss."
+    },
+    {
+     "en": "Rocker action.",
+     "de": "Rocker action.",
+     "correct": false,
+     "whyDe": "Rocker ist eine Sicherungsbauart, keine Verschlussart."
+    }
+   ]
+  },
+  {
+   "id": "q-m6-19",
+   "type": "mc",
+   "unit": "m6-magazine",
+   "source": "S. 120",
+   "tags": [
+    "verschluss"
+   ],
+   "stemEn": "Which of the following is NOT one of the common repeating actions?",
+   "stemDe": "Welche gehört NICHT zu den üblichen Repetierbauarten?",
+   "options": [
+    {
+     "en": "Hinge (or break) action.",
+     "de": "Kipplauf.",
+     "correct": true,
+     "whyDe": "Das ist die gesuchte Antwort. Das Handbuch nennt Kammerverschluss, Unterhebel, Vorderschaftrepetierer und Selbstlader."
+    },
+    {
+     "en": "Bolt action.",
+     "de": "Kammerverschluss.",
+     "correct": false,
+     "whyDe": "Gehört dazu."
+    },
+    {
+     "en": "Lever action.",
+     "de": "Unterhebel.",
+     "correct": false,
+     "whyDe": "Gehört dazu."
+    },
+    {
+     "en": "Pump action.",
+     "de": "Vorderschaftrepetierer.",
+     "correct": false,
+     "whyDe": "Gehört dazu."
+    }
+   ]
+  },
+  {
+   "id": "q-m6-20",
+   "type": "tf",
+   "unit": "m6-selbstlader",
+   "source": "S. 138",
+   "tags": [
+    "verschluss",
+    "recht"
+   ],
+   "stemEn": "Centre-fire semi-automatic rifles and shotguns are limited to 5-shot magazines.",
+   "stemDe": "Für Zentralfeuer-Selbstlader gilt eine Magazingrenze von fünf Patronen.",
+   "answer": true,
+   "whyDe": "Richtig. Randfeuerbüchsen sind ausgenommen, ebenso Waffen ohne Selbstladefunktion, also Vorderschaft-, Unterhebel- und Kammerverschlusswaffen."
+  },
+  {
+   "id": "q-m6-21",
+   "type": "mc",
+   "unit": "m6-kipplauf",
+   "source": "S. 112",
+   "tags": [
+    "verschluss"
+   ],
+   "stemEn": "How does a hinge action open?",
+   "stemDe": "Wie öffnet sich ein Kipplauf?",
+   "options": [
+    {
+     "en": "It breaks open near the breech like a door hinge.",
+     "de": "Er klappt am hinteren Ende auf wie eine Tür in ihren Angeln.",
+     "correct": true,
+     "whyDe": "Deshalb sieht man beim Öffnen direkt in Patronenlager und Lauf."
+    },
+    {
+     "en": "The bolt handle is lifted and pulled back.",
+     "de": "Der Kammerstängel wird angehoben und zurückgezogen.",
+     "correct": false,
+     "whyDe": "Das ist der Kammerverschluss."
+    },
+    {
+     "en": "The fore-end slides back.",
+     "de": "Der Vorderschaft wird zurückgezogen.",
+     "correct": false,
+     "whyDe": "Das ist der Vorderschaftrepetierer."
+    },
+    {
+     "en": "Gas pressure opens it automatically.",
+     "de": "Der Gasdruck öffnet ihn selbsttätig.",
+     "correct": false,
+     "whyDe": "Das ist der Selbstlader."
+    }
+   ]
+  },
+  {
+   "id": "q-m6-22",
+   "type": "mc",
+   "unit": "m6-kammer",
+   "source": "S. 116",
+   "tags": [
+    "verschluss"
+   ],
+   "stemEn": "A bolt action operates in a similar way to which everyday object?",
+   "stemDe": "Der Kammerverschluss arbeitet ähnlich wie welcher Alltagsgegenstand?",
+   "options": [
+    {
+     "en": "A door bolt.",
+     "de": "Ein Türriegel.",
+     "correct": true,
+     "whyDe": "Das Handbuch nennt genau diesen Vergleich. Die Bauart ist sehr stabil und wird vor allem bei Büchsen verwendet."
+    },
+    {
+     "en": "A cigarette lighter.",
+     "de": "Ein Feuerzeug.",
+     "correct": false,
+     "whyDe": "Das ist der Vergleich für das Radschloss."
+    },
+    {
+     "en": "A garden hose nozzle.",
+     "de": "Eine Gartenschlauchdüse.",
+     "correct": false,
+     "whyDe": "Das ist der Vergleich für die Würgebohrung."
+    },
+    {
+     "en": "A door hinge.",
+     "de": "Ein Türscharnier.",
+     "correct": false,
+     "whyDe": "Das ist der Vergleich für den Kipplauf."
     }
    ]
   }

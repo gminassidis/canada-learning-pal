@@ -1,6 +1,6 @@
 {
  "_schema": "Lerneinheiten. Bloecke: de = deutsche Erklaerung, en = englischer Originalsatz aus dem Handbuch, img = Abbildung, terms = Begriffsliste. source = Seite im Handbuch.",
- "_status": "Einfuehrung und Module 1 bis 5 fertig. Module 6 bis 11 folgen.",
+ "_status": "Einfuehrung und Module 1 bis 6 fertig. Module 7 bis 11 folgen.",
  "chapters": [
   {
    "id": "einfuehrung",
@@ -15,11 +15,11 @@
      "blocks": [
       {
        "type": "de",
-       "text": "Fast jeder Unfall mit einer Schusswaffe lässt sich verhindern, wenn vier Regeln eingehalten werden. Das Handbuch nennt sie die Vital Four ACTS. Die Anfangsbuchstaben der vier Regeln ergeben das Wort ACTS. Lerne die Sätze auf Englisch, denn genau so stehen sie im Handbuch und werden sie im Kurs abgefragt."
+       "text": "Fast jeder Unfall mit einer Schusswaffe lässt sich verhindern, wenn vier Regeln eingehalten werden. Das Handbuch nennt sie die Vital Four ACTS. Die Anfangsbuchstaben der vier Regeln ergeben das Wort ACTS. Die Sätze sind auf Englisch zu lernen. In dieser Form stehen sie im Handbuch und werden im Kurs abgefragt."
       },
       {
        "type": "de",
-       "text": "Merke dir zuerst nur die vier Anfangsbuchstaben: A, C, T, S."
+       "text": "Die vier Anfangsbuchstaben lauten A, C, T, S."
       },
       {
        "type": "en",
@@ -94,7 +94,7 @@
      "blocks": [
       {
        "type": "de",
-       "text": "ACTS sagt dir, dass du prüfen musst. PROVE sagt dir, wie. Es sind fünf Schritte in fester Reihenfolge, und die Anfangsbuchstaben ergeben das Wort PROVE. Die Reihenfolge ist prüfungsrelevant, im schriftlichen wie im praktischen Teil."
+       "text": "ACTS verlangt, dass die Waffe geprüft wird. PROVE beschreibt den Ablauf dieser Prüfung: fünf Schritte in fester Reihenfolge, deren Anfangsbuchstaben das Wort PROVE ergeben. Die Reihenfolge wird im schriftlichen wie im praktischen Teil abgefragt."
       },
       {
        "type": "en",
@@ -103,7 +103,7 @@
       },
       {
        "type": "de",
-       "text": "P wie Point. Beachte das Wort safest, also die sicherste. Nicht irgendeine sichere Richtung, sondern die sicherste verfügbare. Danach wird gefragt."
+       "text": "P wie Point. Entscheidend ist das Wort safest: nicht irgendeine sichere Richtung, sondern die sicherste verfügbare. Diese Unterscheidung wird geprüft."
       },
       {
        "type": "en",
@@ -193,7 +193,7 @@
       },
       {
        "type": "de",
-       "text": "Merke die Zahl: 30 Tage nach einem Umzug. Solche Fristen sind typische Prüfungsfragen."
+       "text": "Die Frist beträgt 30 Tage nach einem Umzug. Fristen dieser Art werden in der Prüfung abgefragt."
       },
       {
        "type": "de",
@@ -260,7 +260,12 @@
      "blocks": [
       {
        "type": "de",
-       "text": "Dieses Modul ist Geschichte, aber vier Bauarten solltest du auseinanderhalten können, weil danach gefragt wird. Alle vier sind Vorderlader, sie unterscheiden sich nur darin, wie das Pulver gezündet wird."
+       "text": "Das Modul behandelt die Entwicklung der Schusswaffe. Vier Zündsysteme sind zu unterscheiden. Alle vier gehören zu Vorderladern und unterscheiden sich darin, wie das Pulver gezündet wird."
+      },
+      {
+       "type": "img",
+       "src": "assets/cannon.webp",
+       "captionDe": "Abbildung 1 aus dem Handbuch: die Kanone, der Ausgangspunkt der Entwicklung."
       },
       {
        "type": "de",
@@ -276,6 +281,11 @@
        "text": "Nachteil also: Wind und Regen löschen die Lunte."
       },
       {
+       "type": "img",
+       "src": "assets/matchlock.webp",
+       "captionDe": "Abbildung 2: das Luntenschloss. Die glimmende Lunte wird in die Pfanne getaucht."
+      },
+      {
        "type": "de",
        "text": "Radschloss, wheel lock, ab den 1600ern."
       },
@@ -287,6 +297,11 @@
       {
        "type": "de",
        "text": "Wie ein Feuerzeug. Eine Feder wird mit einem Schlüssel aufgezogen. Nachteil: kompliziert, teuer, langsames Aufziehen, und die Feder versagte oft."
+      },
+      {
+       "type": "img",
+       "src": "assets/wheel-lock.webp",
+       "captionDe": "Abbildung 3: das Radschloss. Ein aufgezogenes Rad reibt am Pyrit und schlägt Funken."
       },
       {
        "type": "de",
@@ -302,6 +317,11 @@
        "text": "Beide erzeugen einen Funken, das ist die Gemeinsamkeit, nach der gefragt wird. Das Steinschloss schlägt dafür Feuerstein gegen Stahl. Es war leichter, einfacher und billiger und wurde deshalb zum Standard."
       },
       {
+       "type": "img",
+       "src": "assets/flintlock.webp",
+       "captionDe": "Abbildung 4: das Steinschloss. Der Feuerstein im Hahn schlägt gegen den Stahl."
+      },
+      {
        "type": "de",
        "text": "Perkussionszündhütchen, percussion cap, ab den 1800ern."
       },
@@ -313,6 +333,11 @@
       {
        "type": "de",
        "text": "Ein kleines Metallkäppchen, das beim Schlag explodiert. Damit beginnt die Entwicklung zu den Repetierwaffen. Nachteil: das Käppchen ist von Pulver und Geschoss getrennt."
+      },
+      {
+       "type": "img",
+       "src": "assets/percussion-cap.webp",
+       "captionDe": "Abbildung 6: das Perkussionszündhütchen auf dem Piston."
       },
       {
        "type": "terms",
@@ -334,7 +359,7 @@
      "blocks": [
       {
        "type": "de",
-       "text": "Der wichtigste Teil von Modul 1. Frühe Waffen waren alle Vorderlader, geladen wurde vorn durch die Mündung. Das dauerte, und je Lauf gab es nur einen Schuss."
+       "text": "Frühe Waffen waren durchweg Vorderlader, geladen wurde vorn durch die Mündung. Das Laden dauerte lange, und je Lauf stand nur ein Schuss zur Verfügung."
       },
       {
        "type": "en",
@@ -356,7 +381,7 @@
       },
       {
        "type": "de",
-       "text": "Das Handbuch nennt vier Vorteile der Patrone, und danach wird gefragt."
+       "text": "Das Handbuch nennt vier Vorteile der Patrone."
       },
       {
        "type": "en",
@@ -420,7 +445,7 @@
       },
       {
        "type": "de",
-       "text": "Die vierte ist die Falle in der Prüfung:"
+       "text": "Die vierte Sorte wird in der Prüfung besonders häufig abgefragt:"
       },
       {
        "type": "en",
@@ -438,7 +463,7 @@
       },
       {
        "type": "de",
-       "text": "Und die wichtigste Regel überhaupt: rauchloses Pulver gehört nie in einen Vorderlader. Umgekehrt gehört Schwarzpulver nie in eine moderne Patronenwaffe, die nicht dafür gebaut ist."
+       "text": "Die wichtigste Regel des Abschnitts: rauchloses Pulver gehört nie in einen Vorderlader. Umgekehrt gehört Schwarzpulver nie in eine moderne Patronenwaffe, die nicht dafür gebaut ist."
       },
       {
        "type": "terms",
@@ -490,7 +515,7 @@
       },
       {
        "type": "de",
-       "text": "Das eigentliche Problem beim Vorderlader: man sieht nicht, ob schon eine Ladung im Lauf steckt. Es gibt kein Patronenlager, in das man hineinsehen kann."
+       "text": "Beim Vorderlader lässt sich nicht erkennen, ob bereits eine Ladung im Lauf steckt. Ein Patronenlager, in das man hineinsehen könnte, gibt es nicht."
       },
       {
        "type": "en",
@@ -499,7 +524,12 @@
       },
       {
        "type": "de",
-       "text": "Die Lösung ist der markierte Ladestock. Steckt man ihn in den leeren Lauf, steht die Markierung an der Mündung. Steht sie darüber, ist etwas drin. Danach wird ausdrücklich gefragt."
+       "text": "Abhilfe schafft der markierte Ladestock. Im leeren Lauf steht die Markierung an der Mündung. Steht sie darüber, befindet sich eine Ladung im Lauf."
+      },
+      {
+       "type": "img",
+       "src": "assets/loading-1.webp",
+       "captionDe": "Abbildung 10 aus dem Handbuch: einen Vorderlader laden, Schritt für Schritt."
       },
       {
        "type": "img",
@@ -514,6 +544,11 @@
       {
        "type": "de",
        "text": "Pulver immer mit einem Maß abfüllen, nie direkt aus dem Vorratsbehälter oder dem Pulverhorn in die Mündung schütten. Ein Funke im Lauf würde sonst den ganzen Vorrat zünden."
+      },
+      {
+       "type": "img",
+       "src": "assets/loading-2.webp",
+       "captionDe": "Abbildung 11: Fortsetzung des Ladevorgangs."
       },
       {
        "type": "en",
@@ -545,7 +580,7 @@
      "blocks": [
       {
        "type": "de",
-       "text": "Aus der Liste des Handbuchs sind vier Punkte besonders prüfungsrelevant."
+       "text": "Das Handbuch führt eine Liste von Geboten und Verboten. Vier Punkte daraus werden regelmäßig geprüft."
       },
       {
        "type": "en",
@@ -554,7 +589,7 @@
       },
       {
        "type": "de",
-       "text": "Merke die Zahl: mindestens 60 Sekunden. Ein Versager wird behandelt wie ein Nachzünder, der jede Sekunde losgehen kann. Die Mündung bleibt die ganze Zeit in sicherer Richtung."
+       "text": "Die Wartezeit beträgt mindestens 60 Sekunden. Ein Versager wird behandelt wie ein Nachzünder, der jederzeit auslösen kann. Die Mündung bleibt währenddessen in sicherer Richtung."
       },
       {
        "type": "en",
@@ -563,7 +598,7 @@
       },
       {
        "type": "de",
-       "text": "Schutzbrille und Gehörschutz. Nach diesen beiden wird ausdrücklich gefragt."
+       "text": "Vorgeschrieben sind Schutzbrille und Gehörschutz."
       },
       {
        "type": "en",
@@ -726,7 +761,7 @@
      "blocks": [
       {
        "type": "de",
-       "text": "Fast alle modernen Waffen folgen derselben Abfolge in vier Schritten. Sie zu erklären ist eine der Review-Fragen."
+       "text": "Fast alle modernen Waffen folgen derselben Abfolge in vier Schritten."
       },
       {
        "type": "en",
@@ -793,7 +828,7 @@
      "blocks": [
       {
        "type": "de",
-       "text": "Zwei Zahlen musst du hier können: zwei häufige Bauarten und sechs Verschlussarten. Beides sind Review-Fragen."
+       "text": "Der Abschnitt unterscheidet zwei häufige Bauarten und sechs Verschlussarten. Beide Aufzählungen werden abgefragt."
       },
       {
        "type": "en",
@@ -811,7 +846,7 @@
       },
       {
        "type": "de",
-       "text": "Sechs Verschlussarten: Vorderlader, Kipplauf, Kammerverschluss, Unterhebel, Vorderschaftrepetierer, Selbstlader. Diese sechs englischen Bezeichnungen musst du wiedererkennen, im schriftlichen wie im praktischen Teil."
+       "text": "Sechs Verschlussarten: Vorderlader, Kipplauf, Kammerverschluss, Unterhebel, Vorderschaftrepetierer, Selbstlader. Diese sechs englischen Bezeichnungen sind im schriftlichen wie im praktischen Teil wiederzuerkennen."
       },
       {
        "type": "img",
@@ -860,7 +895,7 @@
       },
       {
        "type": "de",
-       "text": "Achtung bei Luftdruckwaffen. Viele fallen wegen ihrer Leistung unter das Waffengesetz."
+       "text": "Luftdruckwaffen sind ein Sonderfall. Viele fallen wegen ihrer Leistung unter das Waffengesetz."
       },
       {
        "type": "en",
@@ -869,7 +904,7 @@
       },
       {
        "type": "de",
-       "text": "Und der Satz, auf den die letzte Review-Frage des Moduls zielt: ACTS und PROVE gelten für alle Klassen, Luft-, Feder- und Gasdruckwaffen eingeschlossen."
+       "text": "ACTS und PROVE gelten für alle Klassen, Luft-, Feder- und Gasdruckwaffen eingeschlossen."
       },
       {
        "type": "terms",
@@ -897,7 +932,7 @@
      "blocks": [
       {
        "type": "de",
-       "text": "Das Gesetz gibt eine Untergrenze vor. Erfahrene Nutzer gehen darüber hinaus. Die folgenden Punkte sind solche empfohlenen Praktiken, und sie kommen in Prüfungsfragen vor."
+       "text": "Das Gesetz gibt eine Untergrenze vor. Erfahrene Nutzer gehen darüber hinaus. Die folgenden Punkte sind solche empfohlenen Praktiken."
       },
       {
        "type": "en",
@@ -906,7 +941,7 @@
       },
       {
        "type": "de",
-       "text": "Rund um die Uhr verantwortlich, ohne Ausnahme. Achte auf die Formulierung 24 hours a day, das ist so eine Stelle, an der eine True-False-Frage hängt."
+       "text": "Die Verantwortung besteht rund um die Uhr, ohne Ausnahme. Die Formulierung 24 hours a day ist wörtlich zu merken."
       },
       {
        "type": "en",
@@ -992,7 +1027,7 @@
       },
       {
        "type": "de",
-       "text": "Nimm nie eine geladene Waffe an. Auch nicht von einem Freund, auch nicht, wenn er sagt, sie sei sicher. Das ist eine der Review-Fragen des Handbuchs."
+       "text": "Eine geladene Waffe wird nie angenommen, auch nicht von einem Freund und auch nicht auf dessen Versicherung hin, sie sei sicher."
       },
       {
        "type": "en",
@@ -1040,7 +1075,7 @@
      "blocks": [
       {
        "type": "de",
-       "text": "Dieser Abschnitt liefert besonders viele Prüfungsfragen, weil er klare Ja-Nein-Regeln enthält."
+       "text": "Der Abschnitt fasst die Regeln zusammen, die vor der Schussabgabe gelten. Sie sind als klare Gebote und Verbote formuliert."
       },
       {
        "type": "en",
@@ -1058,7 +1093,7 @@
       },
       {
        "type": "de",
-       "text": "Nur die Munition verwenden, für die die Waffe gebaut ist. Und nur die Sorte mitnehmen, die du auch verschießen willst. Deshalb ist es falsch, wenn drei Leute mit unterschiedlichen Kalibern ihre Munition zusammen auf das Armaturenbrett legen. Auch das ist eine Review-Frage des Handbuchs."
+       "text": "Es wird nur die Munition verwendet, für die die Waffe gebaut ist, und nur die Sorte mitgeführt, die auch verschossen werden soll. Aus diesem Grund ist es falsch, wenn mehrere Schützen mit unterschiedlichen Kalibern ihre Munition gemeinsam auf dem Armaturenbrett ablegen."
       },
       {
        "type": "en",
@@ -1089,7 +1124,7 @@
       },
       {
        "type": "de",
-       "text": "Das Zielfernrohr ist kein Fernglas. Wer damit die Landschaft absucht, richtet die Mündung auf alles, was er anschaut. Auch das ist eine Review-Frage."
+       "text": "Das Zielfernrohr ist kein Fernglas. Wer damit das Gelände absucht, richtet die Mündung auf alles, was er anschaut."
       },
       {
        "type": "de",
@@ -1102,7 +1137,7 @@
       },
       {
        "type": "de",
-       "text": "Harte Oberfläche oder Wasser, weil das Geschoss als Querschläger abprallen kann. Nahe an einem Gebäude. Ein Ziel auf einer Hügelkuppe, weil dahinter der Himmel ist und du nicht siehst, was dahinter liegt. Und niemand vor dir. Diese vier sind die Antwort auf die erste Review-Frage von Modul 4."
+       "text": "Die vier Fälle sind: harte Oberfläche oder Wasser, weil das Geschoss als Querschläger abprallen kann; ein Gebäude in der Nähe; ein Ziel auf einer Hügelkuppe, weil dahinter offener Himmel liegt und nicht einsehbar ist, was sich dort befindet; und Personen vor dem Schützen."
       },
       {
        "type": "terms",
@@ -1177,7 +1212,7 @@
      "blocks": [
       {
        "type": "de",
-       "text": "Das größte Modul, und es dreht sich um eine einzige Frage: passt diese Munition in diese Waffe? Fast jede Prüfungsfrage hier hängt daran."
+       "text": "Das Modul behandelt die Munition für Büchse und Flinte. Leitfrage ist durchgehend, ob eine bestimmte Munition zu einer bestimmten Waffe passt."
       },
       {
        "type": "en",
@@ -1218,7 +1253,12 @@
       },
       {
        "type": "de",
-       "text": "Und die Regel, die im ganzen Modul wiederkehrt: der Daten-Stempel am Lauf sagt dir, welche Munition hineingehört."
+       "text": "Der Daten-Stempel am Lauf gibt an, welche Munition in die Waffe gehört. Diese Regel kehrt im ganzen Modul wieder."
+      },
+      {
+       "type": "img",
+       "src": "assets/chambered.webp",
+       "captionDe": "Abbildung 27 aus dem Handbuch: Schnitt durch eine Patrone im Patronenlager."
       },
       {
        "type": "terms",
@@ -1261,7 +1301,12 @@
       },
       {
        "type": "de",
-       "text": "Beim Randfeuer sitzt der Zündsatz im Rand des Hülsenbodens. Der Schlagbolzen trifft den Rand und quetscht ihn ein. Typisch ist die .22, es gibt sie als BB, short, long und long rifle. Achtung: die .22 magnum ist damit nicht austauschbar."
+       "text": "Beim Randfeuer sitzt der Zündsatz im Rand des Hülsenbodens. Der Schlagbolzen trifft den Rand und quetscht ihn ein. Typisch ist die .22, erhältlich als BB, short, long und long rifle. Mit der .22 magnum ist sie nicht austauschbar."
+      },
+      {
+       "type": "img",
+       "src": "assets/rim-fire-cut.webp",
+       "captionDe": "Abbildung 21: Schnitt durch eine Randfeuerpatrone. Der Schlagbolzen trifft den Rand."
       },
       {
        "type": "en",
@@ -1271,6 +1316,11 @@
       {
        "type": "de",
        "text": "Beim Zentralfeuer sitzt das Zündhütchen mittig im Boden. Diese Bauart wird für leistungsstärkere Waffen verwendet. Auch jede Schrotpatrone ist Zentralfeuer."
+      },
+      {
+       "type": "img",
+       "src": "assets/centre-fire-cut.webp",
+       "captionDe": "Abbildung 22: Schnitt durch eine Zentralfeuerpatrone."
       },
       {
        "type": "img",
@@ -1284,7 +1334,12 @@
       },
       {
        "type": "de",
-       "text": "Nebenbei ein Begriff, der gern abgefragt wird: dry firing heißt, den Schuss auszulösen, ohne dass eine Patrone im Lager ist. Das kann die Waffe beschädigen."
+       "text": "Dry firing bezeichnet das Auslösen des Schusses, ohne dass eine Patrone im Lager ist. Es kann die Waffe beschädigen."
+      },
+      {
+       "type": "img",
+       "src": "assets/bullet-compare.webp",
+       "captionDe": "Abbildung 25: Büchsengeschosse im Vergleich."
       },
       {
        "type": "terms",
@@ -1307,7 +1362,7 @@
      "blocks": [
       {
        "type": "de",
-       "text": "Hier steckt die wichtigste Sicherheitsregel des ganzen Moduls, und sie ist wörtlich so im Handbuch markiert."
+       "text": "Der Abschnitt behandelt die Benennung von Patronen und die Kennzeichnung von Waffe und Munition. Er enthält die Regel, die das Handbuch als wichtigsten Punkt der Munitionswahl bezeichnet."
       },
       {
        "type": "en",
@@ -1347,7 +1402,7 @@
       },
       {
        "type": "de",
-       "text": "Und die Antwort auf eine der Review-Fragen: fehlt der Daten-Stempel, gehört die Waffe zu einem Fachmann, der das Patronenlager ausmisst. Bei gebrauchten Waffen kann der Stempel auch falsch sein, etwa nach einem Umbau."
+       "text": "Fehlt der Daten-Stempel, gehört die Waffe zu einem Fachmann, der das Patronenlager ausmisst. Bei gebrauchten Waffen kann der Stempel falsch sein, etwa nach einem Umbau."
       },
       {
        "type": "terms",
@@ -1369,7 +1424,7 @@
      "blocks": [
       {
        "type": "de",
-       "text": "Bei Flinten wird anders gemessen als bei Büchsen, und das ist eine beliebte Prüfungsfrage."
+       "text": "Flinten werden nach einem anderen System vermessen als Büchsen. Der Abschnitt behandelt dieses System und die Würgebohrung."
       },
       {
        "type": "en",
@@ -1406,6 +1461,11 @@
       {
        "type": "de",
        "text": "Vier Stufen, von eng nach offen: full choke, modified, improved cylinder, cylinder bore. Cylinder bore heißt gar keine Verengung und wird für grobe Schrote und Flintenlaufgeschosse verwendet."
+      },
+      {
+       "type": "img",
+       "src": "assets/cart-vs-shell.webp",
+       "captionDe": "Tabelle 6 aus dem Handbuch: Büchsenpatrone und Schrotpatrone im Vergleich."
       },
       {
        "type": "img",
@@ -1456,7 +1516,7 @@
       },
       {
        "type": "de",
-       "text": "Merke die Zahl: die Büchsenpatrone hat vier Bestandteile, die Schrotpatrone fünf. Der fünfte ist der Pfropfen, der wad, zwischen Pulver und Schrot."
+       "text": "Die Büchsenpatrone hat vier Bestandteile, die Schrotpatrone fünf. Der fünfte ist der Pfropfen, der wad, zwischen Pulver und Schrot."
       },
       {
        "type": "img",
@@ -1474,7 +1534,7 @@
       },
       {
        "type": "de",
-       "text": "Bei der Länge lauert eine Falle. Die 12-gauge gibt es üblicherweise mit 70 mm, 76 mm und 89 mm."
+       "text": "Bei der Länge ist eine Besonderheit zu beachten. Die 12-gauge gibt es üblicherweise mit 70 mm, 76 mm und 89 mm."
       },
       {
        "type": "en",
@@ -1484,6 +1544,11 @@
       {
        "type": "de",
        "text": "Die Längenangabe gilt für die abgeschossene Hülse. Wer eine ungeschossene Patrone misst, hält eine 3-Zoll-Patrone für eine 2¾-Zoll-Patrone und lädt womöglich zu lang."
+      },
+      {
+       "type": "img",
+       "src": "assets/shell-in-chamber.webp",
+       "captionDe": "Abbildung 34: eine Schrotpatrone im Patronenlager."
       },
       {
        "type": "en",
@@ -1496,7 +1561,7 @@
       },
       {
        "type": "de",
-       "text": "Und der gefährlichste Verwechslungsfehler, den das Handbuch ausdrücklich schildert:"
+       "text": "Einen Verwechslungsfehler schildert das Handbuch ausdrücklich als besonders gefährlich:"
       },
       {
        "type": "en",
@@ -1506,6 +1571,11 @@
       {
        "type": "de",
        "text": "Eine 20er Patrone rutscht durch das Lager einer 12er und bleibt im Übergangskegel stecken. Wer dann eine 12er dahinter lädt und schießt, sprengt den Lauf. Menschen sind daran gestorben."
+      },
+      {
+       "type": "img",
+       "src": "assets/exploded-chamber.webp",
+       "captionDe": "Abbildung 36: ein geplatztes Patronenlager. Das ist die Folge."
       },
       {
        "type": "terms",
@@ -1534,7 +1604,7 @@
       },
       {
        "type": "de",
-       "text": "Ballistik ist die Lehre von Geschossen im Flug. Wichtig ist sie aus einem einzigen Grund: du musst wissen, wie weit dein Schuss noch gefährlich ist."
+       "text": "Ballistik ist die Lehre von Geschossen im Flug. Für den sicheren Umgang ist sie wichtig, weil sich aus ihr ergibt, wie weit ein Schuss noch gefährlich ist."
       },
       {
        "type": "en",
@@ -1557,7 +1627,7 @@
       },
       {
        "type": "de",
-       "text": "Die Flugbahn ist der Weg des Geschosses. Vier Einflüsse nennt das Handbuch, und danach wird ausdrücklich gefragt."
+       "text": "Die Flugbahn ist der Weg des Geschosses. Das Handbuch nennt vier Einflussgrößen."
       },
       {
        "type": "en",
@@ -1589,7 +1659,7 @@
       },
       {
        "type": "de",
-       "text": "Der Satz, auf den alles hinausläuft: du bist dafür verantwortlich, wo dein Geschoss stehen bleibt."
+       "text": "Die Verantwortung dafür, wo das Geschoss stehen bleibt, liegt beim Schützen."
       },
       {
        "type": "terms",
@@ -1615,7 +1685,7 @@
      "blocks": [
       {
        "type": "de",
-       "text": "Drei Störungen musst du unterscheiden können. Sie werden regelmäßig abgefragt, und im praktischen Teil kann eine davon nachgestellt werden."
+       "text": "Der Abschnitt behandelt drei Störungen beim Schuss sowie die Vorschriften zur Lagerung von Munition. Die Störungen werden regelmäßig geprüft, im praktischen Teil kann eine davon nachgestellt werden."
       },
       {
        "type": "en",
@@ -1633,7 +1703,7 @@
       },
       {
        "type": "de",
-       "text": "Der Nachzünder geht verspätet los. Der Schlagbolzen hat getroffen, aber die Flamme reicht nicht, um das Pulver sofort zu entzünden. Das ist die Störung, nach der die Review-Frage mit der Verzögerung von mehreren Sekunden sucht."
+       "text": "Der Nachzünder löst verspätet aus. Der Schlagbolzen hat das Zündhütchen getroffen, aber die Flamme reicht nicht, um das Pulver sofort zu entzünden. Zwischen Abzug und Schuss liegen mehrere Sekunden."
       },
       {
        "type": "en",
@@ -1668,7 +1738,7 @@
       },
       {
        "type": "de",
-       "text": "Munition darf grundsätzlich nicht in leichter Reichweite der Waffe liegen. Die einzige Ausnahme: wenn sie in einem sicher verschlossenen Behälter liegt, in den man nicht leicht einbrechen kann. Dann darf sie sogar zusammen mit der Waffe darin liegen. Das ist die Antwort auf die erste Review-Frage."
+       "text": "Munition darf grundsätzlich nicht in leichter Reichweite der Waffe liegen. Die einzige Ausnahme ist ein sicher verschlossener Behälter, in den nicht leicht eingebrochen werden kann. Darin darf die Munition auch zusammen mit der Waffe aufbewahrt werden."
       },
       {
        "type": "en",
@@ -1677,7 +1747,7 @@
       },
       {
        "type": "de",
-       "text": "Zusammen ausgestellt werden dürfen Waffe und Munition nie. Auch das ist eine Review-Frage, und die Antwort ist schlicht nein."
+       "text": "Zusammen ausgestellt werden dürfen Waffe und Munition nicht."
       },
       {
        "type": "en",
@@ -1698,6 +1768,643 @@
         "vented-container",
         "locked-container",
         "storage"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "modul6",
+   "titleDe": "Modul 6: Verschlusssysteme bedienen",
+   "titleEn": "Module 6: Operating Firearms Actions",
+   "units": [
+    {
+     "id": "m6-sicherungen",
+     "titleDe": "Die Sicherungen",
+     "titleEn": "Safeties",
+     "source": "S. 102 bis S. 107",
+     "blocks": [
+      {
+       "type": "de",
+       "text": "Das Modul behandelt das Bedienen der Verschlusssysteme. Es beginnt mit den Sicherungen. Von den fünf Review-Fragen des Moduls betreffen vier diesen Abschnitt, meist mit der Aufgabe, eine Bauart am Merkmal zu benennen."
+      },
+      {
+       "type": "en",
+       "text": "The safety is designed to prevent the firearm from firing by interrupting the firing sequence. The safety blocks one or more of the trigger, sear, hammer or firing pin.",
+       "page": 102
+      },
+      {
+       "type": "de",
+       "text": "Die Sicherung unterbricht die Schussfolge, indem sie Abzug, Abzugsstollen, Hahn oder Schlagbolzen blockiert."
+      },
+      {
+       "type": "en",
+       "text": "Always use the safety, but never rely on it to prevent firing.",
+       "page": 102
+      },
+      {
+       "type": "de",
+       "text": "Der Grundsatz des Abschnitts: die Sicherung wird immer benutzt, aber man verlässt sich nie auf sie."
+      },
+      {
+       "type": "img",
+       "src": "assets/actions-overview.webp",
+       "captionDe": "Abbildung 40 aus dem Handbuch: die Verschlussarten im Überblick."
+      },
+      {
+       "type": "de",
+       "text": "Sechs Bauarten sind zu unterscheiden."
+      },
+      {
+       "type": "en",
+       "text": "This safety is common on shotguns and rifles. It is usually on the right side of the receiver on rifles, and the top of the receiver on shotguns.",
+       "page": 103
+      },
+      {
+       "type": "de",
+       "text": "Die Schiebesicherung, slide oder tang safety. Sie wird mit dem Daumen vor oder zurück geschoben. Bei Flinten sitzt sie oben auf dem Gehäuse, bei Büchsen meist rechts. Nach dieser Bauart fragt die erste Review-Frage."
+      },
+      {
+       "type": "img",
+       "src": "assets/safety-side.webp",
+       "captionDe": "Abbildung 41: Schiebesicherung."
+      },
+      {
+       "type": "en",
+       "text": "This safety is commonly found on modern firearms as well as on older military firearms. It is often located above the trigger area on the left or right side of the bolt.",
+       "page": 103
+      },
+      {
+       "type": "de",
+       "text": "Die Kippsicherung, pivot, lever oder rocker safety. Sie wird gekippt statt geschoben."
+      },
+      {
+       "type": "img",
+       "src": "assets/safety-pivot.webp",
+       "captionDe": "Abbildung 42: Kippsicherung."
+      },
+      {
+       "type": "en",
+       "text": "The wing safety is frequently used on the bolt of a bolt-action firearm.",
+       "page": 104
+      },
+      {
+       "type": "de",
+       "text": "Die Flügelsicherung sitzt am Verschluss von Kammerverschlusswaffen."
+      },
+      {
+       "type": "img",
+       "src": "assets/safety-wing.webp",
+       "captionDe": "Abbildung 43: Flügelsicherung."
+      },
+      {
+       "type": "en",
+       "text": "It is a mechanism that ensures the lever-action firearm will not fire unless the lever action is pressed firmly against the stock.",
+       "page": 104
+      },
+      {
+       "type": "de",
+       "text": "Die Abzugssperre am Unterhebel. Die Waffe schießt erst, wenn der Hebel fest an den Schaft gedrückt ist. Nach dieser Bauart fragt die vierte Review-Frage."
+      },
+      {
+       "type": "img",
+       "src": "assets/safety-trigger.webp",
+       "captionDe": "Abbildung 44: Abzugssperre am Unterhebel."
+      },
+      {
+       "type": "de",
+       "text": "Die Halbspannung des Hahns. Der Hahn hat drei Stellungen."
+      },
+      {
+       "type": "en",
+       "text": "When the hammer is fully forward resting on the firing pin, a sudden blow on the hammer may discharge the firearm.",
+       "page": 105
+      },
+      {
+       "type": "de",
+       "text": "Ganz vorn auf dem Schlagbolzen: ein Schlag auf den Hahn kann den Schuss auslösen. Halb zurückgezogen, bis zum ersten Klick: die Sicherung gilt als ON. Ganz zurück: Vollspannung, die Sicherung gilt als OFF. Nach dieser Stellung fragt die zweite Review-Frage."
+      },
+      {
+       "type": "en",
+       "text": "The presence of a half cock on a firearm does not guarantee it is a safety. Some firearms do not use it as a safety.",
+       "page": 105
+      },
+      {
+       "type": "de",
+       "text": "Einschränkung: nicht jede Waffe mit Halbspannung nutzt diese auch als Sicherung. Im Zweifel ins Handbuch des Herstellers sehen."
+      },
+      {
+       "type": "en",
+       "text": "The cross-bolt safety is a push-button type of safety. Red means that the safety is OFF, and the firearm can be fired.",
+       "page": 106
+      },
+      {
+       "type": "de",
+       "text": "Die Querbolzensicherung ist ein Druckknopf quer durch das Gehäuse. Ein sichtbarer roter Ring bedeutet: Sicherung AUS, die Waffe kann schießen. Rot heißt also nicht sicher, sondern das Gegenteil. Danach fragt die dritte Review-Frage."
+      },
+      {
+       "type": "img",
+       "src": "assets/safety-crossbolt.webp",
+       "captionDe": "Abbildung 45: Querbolzensicherung."
+      },
+      {
+       "type": "en",
+       "text": "However, there is not one standard rule for indicating the safety position.",
+       "page": 106
+      },
+      {
+       "type": "de",
+       "text": "Eine einheitliche Kennzeichnung gibt es nicht. Fehlt sie ganz, wird die Waffe zuerst entladen und in sichere Richtung gebracht, und erst danach die Bedienung im Handbuch des Herstellers nachgelesen."
+      },
+      {
+       "type": "en",
+       "text": "Before loading any firearm, determine the ON position of the safety.",
+       "page": 106
+      },
+      {
+       "type": "de",
+       "text": "Vor jedem Laden muss klar sein, welche Stellung die gesicherte ist."
+      },
+      {
+       "type": "terms",
+       "ids": [
+        "slide-tang-safety",
+        "pivot-safety",
+        "wing-safety",
+        "trigger-block-safety",
+        "half-cock",
+        "full-cock",
+        "cross-bolt-safety",
+        "magazine-disconnect",
+        "receiver",
+        "sear",
+        "action-release"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "m6-ablauf",
+     "titleDe": "Entladen und Laden, der allgemeine Ablauf",
+     "titleEn": "General loading and unloading procedures",
+     "source": "S. 108 bis S. 111",
+     "blocks": [
+      {
+       "type": "de",
+       "text": "Der Ablauf ist für alle Verschlussarten derselbe. Nur die Handgriffe unterscheiden sich. Vor jedem Entladen stehen ACTS und PROVE."
+      },
+      {
+       "type": "en",
+       "text": "1. Point the firearm in the safest available direction throughout the unloading procedure. Make sure that nothing touches the trigger throughout this procedure. Put the safety ON, if it can be left on during the unloading process.",
+       "page": 109
+      },
+      {
+       "type": "de",
+       "text": "Erster Schritt: Richtung halten, während des gesamten Vorgangs. Nichts berührt den Abzug. Die Sicherung bleibt an, wenn sie beim Entladen anbleiben kann."
+      },
+      {
+       "type": "en",
+       "text": "2. Remove all ammunition as follows: If the firearm has a detachable magazine, remove the magazine from the firearm first. Open the action to remove any ammunition from the chamber. Leave the action open.",
+       "page": 109
+      },
+      {
+       "type": "de",
+       "text": "Zweiter Schritt, und hier liegt die häufigste Prüfungsfrage zur Reihenfolge: bei einem abnehmbaren Magazin kommt erst das Magazin heraus, danach wird der Verschluss geöffnet. Andersherum könnte beim Schließen eine weitere Patrone zugeführt werden. Der Verschluss bleibt anschließend offen."
+      },
+      {
+       "type": "en",
+       "text": "3. Observe the chamber(s) to confirm that there is no ammunition or empty casing(s).",
+       "page": 109
+      },
+      {
+       "type": "de",
+       "text": "Dritter Schritt: ins Patronenlager sehen. Weder Patrone noch leere Hülse."
+      },
+      {
+       "type": "en",
+       "text": "4. Verify by inspecting the feeding path to make sure it is empty of ammunition, empty casings, or foreign objects. Make certain that you see or feel the follower, if one is present.",
+       "page": 109
+      },
+      {
+       "type": "de",
+       "text": "Vierter Schritt: den Zuführweg prüfen. Wo ein Zubringer vorhanden ist, muss man ihn sehen oder fühlen. Erst dann ist sicher, dass das Magazin leer ist."
+      },
+      {
+       "type": "en",
+       "text": "5. Examine the bore(s) for lubricant, rust or obstructions, every time you pick up a firearm.",
+       "page": 109
+      },
+      {
+       "type": "de",
+       "text": "Fünfter Schritt: in den Lauf sehen, auf Öl, Rost und Verstopfungen. Jedes Mal, wenn die Waffe in die Hand genommen wird."
+      },
+      {
+       "type": "en",
+       "text": "Direct control is defined as having the firearm within eyesight and/or an arm's reach of the shooter.",
+       "page": 99
+      },
+      {
+       "type": "de",
+       "text": "Das Handbuch definiert hier auch, was direkte Kontrolle heißt: die Waffe in Sichtweite und in Armlänge. Nur solange gilt eine geprüfte Waffe weiter als sicher."
+      },
+      {
+       "type": "en",
+       "text": "Whenever possible, this should be done by looking through the barrel from the BACK or breech end.",
+       "page": 110
+      },
+      {
+       "type": "de",
+       "text": "Beim Prüfen des Laufs gilt: wann immer möglich vom hinteren Ende her hineinsehen, nicht von der Mündung. Geht das nicht, muss die Waffe zuvor entladen, der Verschluss offen und das Lager leer sein. Alternativ eine Lauflampe oder ein Stab mit Pflaster verwenden."
+      },
+      {
+       "type": "en",
+       "text": "Unless the patch fills the bore completely, obstructions may not be detected.",
+       "page": 110
+      },
+      {
+       "type": "de",
+       "text": "Das Pflaster muss den Lauf ganz ausfüllen, sonst übersieht man die Verstopfung."
+      },
+      {
+       "type": "de",
+       "text": "Das Laden folgt acht Schritten, und der erste davon ist der vollständige Entladevorgang. Man beginnt also immer damit, sich zu vergewissern, dass die Waffe leer ist."
+      },
+      {
+       "type": "en",
+       "text": "6. Where possible, with the action open, select and load the correct ammunition by matching the data stamp on the firearm with the head stamp on the cartridge/shell or ammunition box.",
+       "page": 110
+      },
+      {
+       "type": "de",
+       "text": "Bei Schritt sechs kehrt die Regel aus Modul 5 wieder: Bodenstempel der Patrone gegen Daten-Stempel der Waffe abgleichen. Danach Verschluss schließen und sichern."
+      },
+      {
+       "type": "terms",
+       "ids": [
+        "direct-control",
+        "follower",
+        "detachable-magazine",
+        "breech",
+        "bore-light",
+        "to-chamber",
+        "action-release"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "m6-kipplauf",
+     "titleDe": "Kipplauf",
+     "titleEn": "Hinge (or break) action",
+     "source": "S. 112 bis S. 115",
+     "blocks": [
+      {
+       "type": "en",
+       "text": "The hinge (or break) action firearm opens or breaks near the breech like the movement of a door hinge.",
+       "page": 112
+      },
+      {
+       "type": "de",
+       "text": "Der Kipplauf öffnet sich am hinteren Ende wie eine Tür in ihren Angeln. Es gibt ihn mit einem und mit mehreren Läufen."
+      },
+      {
+       "type": "en",
+       "text": "The safety mechanism is usually located on top of the action above the trigger area. It is often a slide/tang safety or exposed hammer which must be completely down or on half cock to be safe.",
+       "page": 112
+      },
+      {
+       "type": "de",
+       "text": "Die Sicherung sitzt meist oben auf dem Gehäuse über dem Abzug. Häufig ist es eine Schiebesicherung oder ein außenliegender Hahn, der ganz vorn oder in Halbspannung stehen muss."
+      },
+      {
+       "type": "img",
+       "src": "assets/hinge-action-fig.webp",
+       "captionDe": "Abbildung 46 aus dem Handbuch: der Kipplauf."
+      },
+      {
+       "type": "de",
+       "text": "Der Kipplauf ist der einzige Verschluss, bei dem man beim Öffnen unmittelbar in beide Patronenlager und durch beide Läufe sehen kann. Deshalb ist er im praktischen Teil oft die erste Waffe."
+      },
+      {
+       "type": "terms",
+       "ids": [
+        "hinge-action",
+        "breech",
+        "slide-tang-safety",
+        "half-cock"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "m6-kammer",
+     "titleDe": "Kammerverschluss",
+     "titleEn": "Bolt action: single shot and repeater",
+     "source": "S. 116 bis S. 120 und S. 124 bis S. 129",
+     "blocks": [
+      {
+       "type": "en",
+       "text": "A bolt action firearm operates something like a door bolt. This action is very strong and is most often used on rifles.",
+       "page": 116
+      },
+      {
+       "type": "de",
+       "text": "Der Kammerverschluss arbeitet wie ein Türriegel. Er ist sehr stabil und wird vor allem bei Büchsen verwendet. Es gibt ihn als Einzellader und als Repetierer."
+      },
+      {
+       "type": "img",
+       "src": "assets/bolt-action-fig.webp",
+       "captionDe": "Abbildung 47 aus dem Handbuch: der Kammerverschluss."
+      },
+      {
+       "type": "en",
+       "text": "The safety mechanism is usually located on top of the action above the trigger area on the left or right side of the bolt. This is often a lever safety but can also be a slide/tang located directly behind the bolt.",
+       "page": 116
+      },
+      {
+       "type": "de",
+       "text": "Die Sicherung sitzt meist über dem Abzug, links oder rechts am Verschluss. Häufig eine Kippsicherung, manchmal eine Schiebesicherung direkt hinter dem Verschluss."
+      },
+      {
+       "type": "img",
+       "src": "assets/bolt-single.webp",
+       "captionDe": "Abbildung 48: ein Einzellader mit Kammerverschluss, der die leere Hülse auswirft."
+      },
+      {
+       "type": "img",
+       "src": "assets/bolt-repeater.webp",
+       "captionDe": "Abbildung 52: der Kammerverschluss als Repetierer."
+      },
+      {
+       "type": "en",
+       "text": "4. Close the actions by moving the bolt handle forward and down, locking the cartridge into the chamber.",
+       "page": 120
+      },
+      {
+       "type": "de",
+       "text": "Beim Laden wird der Kammerstängel nach vorn und nach unten bewegt. Damit ist die Patrone im Lager verriegelt."
+      },
+      {
+       "type": "terms",
+       "ids": [
+        "bolt-action",
+        "single-shot",
+        "repeating-firearm",
+        "wing-safety",
+        "to-extract"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "m6-magazine",
+     "titleDe": "Repetierwaffen und ihre Magazine",
+     "titleEn": "Operating repeating firearms",
+     "source": "S. 120 bis S. 124",
+     "blocks": [
+      {
+       "type": "en",
+       "text": "Many firearms are repeaters. Although they have only one chamber, they can be fired several times in a row because they hold more than one cartridge or shell.",
+       "page": 120
+      },
+      {
+       "type": "de",
+       "text": "Eine Repetierwaffe hat nur ein Patronenlager, fasst aber mehrere Patronen. Nach jedem Schuss führt eine Handbewegung die nächste zu. Vier Verschlussarten gehören dazu: Kammerverschluss, Unterhebel, Vorderschaftrepetierer und Selbstlader."
+      },
+      {
+       "type": "de",
+       "text": "Zwei Magazinbauarten sind zu unterscheiden."
+      },
+      {
+       "type": "en",
+       "text": "The usual location of a box magazine is shown in Figure 49. Some box magazines may be removed by depressing a button or latch. Some are not removable.",
+       "page": 121
+      },
+      {
+       "type": "de",
+       "text": "Das Kastenmagazin sitzt meist unter dem Verschluss. Manche lassen sich über einen Knopf abnehmen, andere sind fest eingebaut."
+      },
+      {
+       "type": "img",
+       "src": "assets/magazine-box.webp",
+       "captionDe": "Abbildung 49 aus dem Handbuch: das Kastenmagazin."
+      },
+      {
+       "type": "en",
+       "text": "The tubular magazine is usually found in one of two locations: Under the barrel; or In the stock.",
+       "page": 122
+      },
+      {
+       "type": "de",
+       "text": "Das Röhrenmagazin liegt entweder unter dem Lauf oder im Schaft."
+      },
+      {
+       "type": "img",
+       "src": "assets/magazine-tube-c.webp",
+       "captionDe": "Abbildung 50: Röhrenmagazin einer Zentralfeuerwaffe."
+      },
+      {
+       "type": "img",
+       "src": "assets/magazine-tube-r.webp",
+       "captionDe": "Abbildung 51: Röhrenmagazin einer Randfeuerwaffe."
+      },
+      {
+       "type": "en",
+       "text": "To unload tubular magazines, remove the inside tube and let the ammunition drop out of the end of the fixed-tubular magazine or the loading port.",
+       "page": 122
+      },
+      {
+       "type": "de",
+       "text": "Zum Entladen wird das Innenrohr herausgezogen, dann fällt die Munition heraus."
+      },
+      {
+       "type": "en",
+       "text": "If the inner tube is not removable, close and open the action several times to be sure that there is no ammunition in the magazine. Take extra care in performing this procedure because when doing so, the firearm is in the ready-to-fire position.",
+       "page": 122
+      },
+      {
+       "type": "de",
+       "text": "Lässt sich das Innenrohr nicht herausziehen, wird der Verschluss mehrfach geöffnet und geschlossen. Dabei ist besondere Vorsicht geboten, denn die Waffe befindet sich in dieser Zeit in schussbereitem Zustand."
+      },
+      {
+       "type": "en",
+       "text": "Ammunition could hang-up in the tubular magazine, due to dirt, rust or dents. Always be sure you can feel or see the magazine follower to confirm that all the ammunition is out.",
+       "page": 122
+      },
+      {
+       "type": "de",
+       "text": "Im Röhrenmagazin kann Munition durch Schmutz, Rost oder Dellen hängen bleiben. Sicher leer ist es erst, wenn der Zubringer zu sehen oder zu fühlen ist."
+      },
+      {
+       "type": "terms",
+       "ids": [
+        "repeating-firearm",
+        "box-magazine",
+        "tubular-magazine",
+        "detachable-magazine",
+        "loading-port",
+        "follower"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "m6-unterhebel",
+     "titleDe": "Unterhebel",
+     "titleEn": "Lever-action repeaters",
+     "source": "S. 129 bis S. 133",
+     "blocks": [
+      {
+       "type": "en",
+       "text": "A lever-action firearm has a metal handle located just behind the trigger. This action is most often used on rifles.",
+       "page": 129
+      },
+      {
+       "type": "de",
+       "text": "Der Unterhebel ist ein Metallgriff direkt hinter dem Abzug. Diese Bauart wird vor allem bei Büchsen verwendet."
+      },
+      {
+       "type": "img",
+       "src": "assets/lever-action-fig.webp",
+       "captionDe": "Abbildung 53 aus dem Handbuch: der Unterhebel."
+      },
+      {
+       "type": "en",
+       "text": "In most cases, the safety mechanism is an exposed hammer. The hammer has three positions - forward, half cock and full cock.",
+       "page": 129
+      },
+      {
+       "type": "de",
+       "text": "Die Sicherung ist meist der außenliegende Hahn mit seinen drei Stellungen. Halbspannung heißt gesichert, Vollspannung heißt entsichert."
+      },
+      {
+       "type": "en",
+       "text": "This type of lever action often will not fire unless the lever is fully squeezed against the stock depressing the trigger-block safety.",
+       "page": 129
+      },
+      {
+       "type": "de",
+       "text": "Dazu kommt häufig die Abzugssperre: die Waffe schießt erst, wenn der Hebel ganz an den Schaft gedrückt ist. Manche neueren Unterhebelwaffen haben zusätzlich eine Schiebe- oder Querbolzensicherung."
+      },
+      {
+       "type": "en",
+       "text": "4. Close the action by moving the lever, feeding and locking a cartridge into the chamber.",
+       "page": 133
+      },
+      {
+       "type": "de",
+       "text": "Beim Laden führt die Hebelbewegung die Patrone zu und verriegelt sie."
+      },
+      {
+       "type": "terms",
+       "ids": [
+        "lever-action",
+        "trigger-block-safety",
+        "half-cock",
+        "cross-bolt-safety"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "m6-vorderschaft",
+     "titleDe": "Vorderschaftrepetierer",
+     "titleEn": "Pump-action repeaters",
+     "source": "S. 133 bis S. 137",
+     "blocks": [
+      {
+       "type": "en",
+       "text": "The pump-action firearm is sometimes called the slide or trombone action because the fore-end of the stock is pumped back and forth to operate the action.",
+       "page": 133
+      },
+      {
+       "type": "de",
+       "text": "Beim Vorderschaftrepetierer wird der Vorderschaft vor und zurück bewegt. Andere Namen dafür sind slide action und trombone action, beide können in der Prüfung auftauchen."
+      },
+      {
+       "type": "img",
+       "src": "assets/pump-action-fig.webp",
+       "captionDe": "Abbildung 54 aus dem Handbuch: der Vorderschaftrepetierer."
+      },
+      {
+       "type": "en",
+       "text": "It permits rapid reloading with a simple movement of the firearm-supporting hand without moving the muzzle away from the target. This action is most commonly used on shotguns. Either a box or a tubular magazine may be used.",
+       "page": 133
+      },
+      {
+       "type": "de",
+       "text": "Der Vorteil: schnelles Nachladen mit der stützenden Hand, ohne die Mündung vom Ziel zu nehmen. Diese Bauart wird vor allem bei Flinten verwendet, mit Kasten- oder Röhrenmagazin."
+      },
+      {
+       "type": "terms",
+       "ids": [
+        "pump-action",
+        "slide-action",
+        "fore-end",
+        "tubular-magazine",
+        "box-magazine"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "m6-selbstlader",
+     "titleDe": "Selbstlader",
+     "titleEn": "Semi-automatic action repeaters",
+     "source": "S. 138 bis S. 142",
+     "blocks": [
+      {
+       "type": "en",
+       "text": "With each pull of the trigger, the semi-automatic action uses part of the energy of the expanding gas from the burning powder to extract the empty cartridge case and to reload the chamber.",
+       "page": 138
+      },
+      {
+       "type": "de",
+       "text": "Der Selbstlader nutzt einen Teil der Gasenergie des Schusses, um die leere Hülse auszuziehen und die nächste Patrone zuzuführen. Eine Handbewegung ist dafür nicht nötig. Trotzdem fällt je Abzug nur ein Schuss, sonst wäre es keine halbautomatische Waffe."
+      },
+      {
+       "type": "img",
+       "src": "assets/semi-auto-seq.webp",
+       "captionDe": "Abbildung 55 aus dem Handbuch: die Schussfolge beim Selbstlader."
+      },
+      {
+       "type": "en",
+       "text": "Semi-automatic safeties vary considerably. The safety mechanisms commonly used are cross-bolt/button and slide/tang types. Occasionally, internal safeties such as a magazine disconnect are used. These prevent the firearm from firing when the magazine is not in place.",
+       "page": 138
+      },
+      {
+       "type": "de",
+       "text": "Die Sicherungen sind hier sehr unterschiedlich. Üblich sind Querbolzen- und Schiebesicherung. Manche haben zusätzlich eine Magazinsicherung, die das Schießen ohne eingesetztes Magazin verhindert."
+      },
+      {
+       "type": "en",
+       "text": "For example, centre-fire semi-automatic rifles and shotguns including grandfathered full-automatics and converted full-automatics have 5-shot magazines.",
+       "page": 124
+      },
+      {
+       "type": "de",
+       "text": "Für Magazine gelten gesetzliche Grenzen. Bei Zentralfeuer-Selbstladern sind es fünf Patronen. Randfeuerbüchsen sind davon ausgenommen, ebenso Waffen ohne Selbstladefunktion, also Vorderschaft-, Unterhebel- und Kammerverschlusswaffen."
+      },
+      {
+       "type": "en",
+       "text": "Firearms jammed with a cartridge or shell in the chamber(s) can be a hazard. This hazard, if not dealt with properly, may result in a serious incident. Consult a qualified person or gunsmith.",
+       "page": 92
+      },
+      {
+       "type": "de",
+       "text": "Zum Schluss der Hinweis, der auch schon in Modul 5 stand: eine verklemmte Patrone im Lager ist gefährlich. Das löst kein Anfänger selbst, sondern ein Fachmann."
+      },
+      {
+       "type": "terms",
+       "ids": [
+        "semi-automatic",
+        "magazine-disconnect",
+        "cross-bolt-safety",
+        "to-extract",
+        "to-jam",
+        "rim-fire",
+        "centre-fire"
        ]
       }
      ]
