@@ -11,6 +11,7 @@ SRC     = ROOT / "src"
 CONTENT = ROOT / "content"
 ASSETS  = ROOT / "assets"
 OUT     = ROOT / "dist" / "lernen.html"
+PAGES   = ROOT / "index.html"   # GitHub Pages bedient die Wurzel
 
 LIMIT_MB = 16  # Grenze, wenn die Datei als Artifact veröffentlicht wird
 
@@ -62,6 +63,8 @@ def main():
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(html, encoding="utf-8")
+    PAGES.write_text(html, encoding="utf-8")          # gleiche Datei, fuer Pages
+    (ROOT / ".nojekyll").write_text("", encoding="utf-8")
 
     mb = OUT.stat().st_size / 1024 / 1024
     c = json.loads(content)
@@ -70,7 +73,7 @@ def main():
     nu = sum(len(ch.get("units", []) or [])
              for ch in c.get("units", {}).get("chapters", []) or [])
 
-    print(f"  {OUT.relative_to(ROOT)}  {mb:.2f} MB")
+    print(f"  {OUT.relative_to(ROOT)} und index.html  {mb:.2f} MB")
     print(f"  {nu} Lerneinheiten, {nq} Fragen, {nv} Vokabeln")
     if mb > LIMIT_MB:
         print(f"  ! über {LIMIT_MB} MB, Bilder stärker komprimieren")
