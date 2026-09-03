@@ -91,7 +91,10 @@ eingehalten:
 1. Die RCMP ist als Quelle genannt, hier und in der App selbst.
 2. Diese Seite ist **keine offizielle Fassung** und steht in keiner Verbindung
    zur RCMP oder zum Canadian Firearms Program.
-3. Abbildungen und englische Passagen sind unverändert übernommen. Deutsche
+3. Die Abbildungen stammen unverändert aus dem Handbuch. Die englischen Passagen
+   sind wörtliche Auszüge: Aufzählungen sind zu einem Absatz zusammengefasst,
+   Querverweise wie `(Figure 18)` weggelassen, einzelne Stellen gekürzt. Jedes
+   Zitat trägt die Seitenzahl, dort steht der vollständige Wortlaut. Deutsche
    Texte sind Erklärung, keine amtliche Übersetzung.
 
 **Die Übungsfragen sind keine echten Prüfungsfragen.** Der Fragenpool der

@@ -2768,6 +2768,33 @@
    "sub": "Verbotenes",
    "explDe": "Zählt nach der Definition ebenfalls als Munition.",
    "source": "S. 198"
+  },
+  {
+   "id": "written-examination",
+   "en": "written examination",
+   "de": "schriftliche Prüfung",
+   "cat": "fach",
+   "sub": "Kurs und Prüfung",
+   "explDe": "Einer der beiden Prüfungsteile, die das Handbuch nennt.",
+   "source": "S. 19"
+  },
+  {
+   "id": "practical-examination",
+   "en": "practical examination",
+   "de": "praktische Prüfung",
+   "cat": "fach",
+   "sub": "Kurs und Prüfung",
+   "explDe": "Der andere Prüfungsteil. Scharf geschossen wird im Kurs nicht.",
+   "source": "S. 19"
+  },
+  {
+   "id": "instructor",
+   "en": "instructor and examiner",
+   "de": "Kursleiter und Prüfer",
+   "cat": "fach",
+   "sub": "Kurs und Prüfung",
+   "explDe": "Beide müssen vom obersten Waffenbeauftragten der Provinz oder des Territoriums bestellt sein.",
+   "source": "S. 19"
   }
  ]
 }

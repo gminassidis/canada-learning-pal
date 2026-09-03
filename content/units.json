@@ -17,6 +17,60 @@
      "blocks": []
     },
     {
+     "id": "intro-kurs",
+     "titleDe": "Wie der Kurs aufgebaut ist",
+     "titleEn": "Course Objectives",
+     "source": "S. 18 bis S. 20",
+     "blocks": [
+      {
+       "type": "de",
+       "text": "Der CFSC ist ein Einführungskurs für Menschen ohne Vorerfahrung. Wer zusätzlich beschränkte Waffen erwerben will, muss den zweiten Kurs machen, den CRFSC."
+      },
+      {
+       "type": "en",
+       "text": "The Canadian Firearms Safety Course consists of two parts. One is classroom instruction. The other is learning the material in this handbook. There will be both written and practical examinations.",
+       "page": 19
+      },
+      {
+       "type": "de",
+       "text": "Das ist der einzige Satz, den das Handbuch über die Prüfungen sagt: es gibt eine schriftliche und eine praktische. Wie viele Fragen gestellt werden, wie viel Prozent zum Bestehen nötig sind und welche Themen wie oft vorkommen, steht nirgends darin. Solche Angaben in dieser App stammen deshalb nicht aus dem Handbuch, sondern aus der Kursinformation."
+      },
+      {
+       "type": "en",
+       "text": "Live firing exercises, however, are not offered as part of this course.",
+       "page": 19
+      },
+      {
+       "type": "de",
+       "text": "Scharf geschossen wird im Kurs nicht."
+      },
+      {
+       "type": "de",
+       "text": "Das Handbuch nennt sechs Kursziele: Waffen und Munition sicher handhaben, sie sicher benutzen, die Waffengesetze einhalten, und nicht beschränkte Waffen und Munition sicher aufbewahren, ausstellen und transportieren."
+      },
+      {
+       "type": "en",
+       "text": "Please note that all Canadian Firearm Safety Course instructors and examiners must be designated by the Chief Firearms Officer for the province or territory in which you are taking the course.",
+       "page": 19
+      },
+      {
+       "type": "de",
+       "text": "Kursleiter und Prüfer müssen vom obersten Waffenbeauftragten der Provinz oder des Territoriums bestellt sein. Für deinen Onkel also vom CFO des Yukon."
+      },
+      {
+       "type": "terms",
+       "ids": [
+        "written-examination",
+        "practical-examination",
+        "instructor",
+        "cfo",
+        "non-restricted",
+        "restricted"
+       ]
+      }
+     ]
+    },
+    {
      "id": "intro-acts",
      "titleDe": "Die vier Grundregeln: ACTS",
      "titleEn": "The Vital Four ACTS of Firearm Safety",
@@ -24,7 +78,7 @@
      "blocks": [
       {
        "type": "de",
-       "text": "Fast jeder Unfall mit einer Schusswaffe lässt sich verhindern, wenn vier Regeln eingehalten werden. Das Handbuch nennt sie die Vital Four ACTS. Die Anfangsbuchstaben der vier Regeln ergeben das Wort ACTS. Die Sätze sind auf Englisch zu lernen. In dieser Form stehen sie im Handbuch und werden im Kurs abgefragt."
+       "text": "Fast jeder Unfall mit einer Schusswaffe lässt sich verhindern, wenn vier Regeln eingehalten werden. Das Handbuch nennt sie die Vital Four ACTS. Die Anfangsbuchstaben der vier Regeln ergeben das Wort ACTS. Die Sätze sind auf Englisch zu lernen. In dieser Form stehen sie im Handbuch."
       },
       {
        "type": "de",
@@ -37,7 +91,7 @@
       },
       {
        "type": "de",
-       "text": "A wie Assume. Geh immer davon aus, dass die Waffe geladen ist, auch wenn dir jemand das Gegenteil sagt und auch wenn du sie eben selbst entladen hast. Jede Waffe gilt als mögliche Gefahr."
+       "text": "A wie Assume. Geh davon aus, dass die Waffe geladen ist, auch wenn dir jemand das Gegenteil sagt. Jede Waffe gilt als mögliche Gefahr. Eine Ausnahme nennt das Handbuch selbst: eine Waffe, die du entladen und mit PROVE geprüft hast, gilt als sicher, solange sie in deiner direkten Kontrolle bleibt."
       },
       {
        "type": "en",
@@ -73,7 +127,7 @@
       },
       {
        "type": "de",
-       "text": "Waffen werden nur offen und entladen weitergegeben und nur so angenommen. Das ist eine der Regeln, nach denen im praktischen Teil geprüft wird."
+       "text": "Waffen werden nur offen und entladen weitergegeben und nur so angenommen. Das Handbuch nennt das eine unverzichtbare Regel."
       },
       {
        "type": "img",
@@ -103,7 +157,7 @@
      "blocks": [
       {
        "type": "de",
-       "text": "ACTS verlangt, dass die Waffe geprüft wird. PROVE beschreibt den Ablauf dieser Prüfung: fünf Schritte in fester Reihenfolge, deren Anfangsbuchstaben das Wort PROVE ergeben. Die Reihenfolge wird im schriftlichen wie im praktischen Teil abgefragt."
+       "text": "ACTS verlangt, dass die Waffe geprüft wird. PROVE beschreibt den Ablauf dieser Prüfung: fünf Schritte in fester Reihenfolge, deren Anfangsbuchstaben das Wort PROVE ergeben. Das Handbuch bezeichnet sie als die Schritte, die zum sicheren Entladen jeder Waffe einzuhalten sind."
       },
       {
        "type": "en",
@@ -112,7 +166,7 @@
       },
       {
        "type": "de",
-       "text": "P wie Point. Entscheidend ist das Wort safest: nicht irgendeine sichere Richtung, sondern die sicherste verfügbare. Diese Unterscheidung wird geprüft."
+       "text": "P wie Point. Entscheidend ist das Wort safest: nicht irgendeine sichere Richtung, sondern die sicherste verfügbare."
       },
       {
        "type": "en",
@@ -184,7 +238,7 @@
      "blocks": [
       {
        "type": "de",
-       "text": "In Kanada regeln drei Ebenen den Umgang mit Waffen: der Bund, die Provinz beziehungsweise das Territorium, und die Gemeinde. Für die Prüfung musst du wissen, welche Ebene wofür zuständig ist."
+       "text": "In Kanada regeln drei Ebenen den Umgang mit Waffen: der Bund, die Provinz beziehungsweise das Territorium, und die Gemeinde. Welche Ebene wofür zuständig ist, stellt das Handbuch in einer eigenen Tabelle gegenüber."
       },
       {
        "type": "de",
@@ -202,7 +256,7 @@
       },
       {
        "type": "de",
-       "text": "Die Frist beträgt 30 Tage nach einem Umzug. Fristen dieser Art werden in der Prüfung abgefragt."
+       "text": "Die Frist beträgt 30 Tage nach einem Umzug."
       },
       {
        "type": "de",
@@ -227,7 +281,7 @@
       },
       {
        "type": "de",
-       "text": "Mit einer Waffe auf einen Menschen zu zielen ist strafbar, und zwar unabhängig davon, ob sie geladen ist. Bis zu fünf Jahre Haft, oder im abgekürzten Verfahren 5.000 Dollar Geldstrafe und bis zu sechs Monate."
+       "text": "Ohne rechtfertigenden Grund mit einer Waffe auf einen Menschen zu zielen ist strafbar, und zwar unabhängig davon, ob sie geladen ist. Das without lawful excuse im Originaltext gehört zum Tatbestand. Die Strafe: bis zu fünf Jahre Haft, oder im abgekürzten Verfahren 5.000 Dollar Geldstrafe und bis zu sechs Monate."
       },
       {
        "type": "en",
@@ -474,7 +528,7 @@
       },
       {
        "type": "de",
-       "text": "Die vierte Sorte wird in der Prüfung besonders häufig abgefragt:"
+       "text": "Für die vierte Sorte gilt eine ausdrückliche Einschränkung:"
       },
       {
        "type": "en",
@@ -609,7 +663,7 @@
      "blocks": [
       {
        "type": "de",
-       "text": "Das Handbuch führt eine Liste von Geboten und Verboten. Vier Punkte daraus werden regelmäßig geprüft."
+       "text": "Das Handbuch führt eine Liste von Geboten und Verboten. Vier Punkte daraus sind hier herausgegriffen, weil sie konkrete Zahlen oder Ausrüstung nennen."
       },
       {
        "type": "en",
@@ -867,7 +921,7 @@
      "blocks": [
       {
        "type": "de",
-       "text": "Der Abschnitt unterscheidet zwei häufige Bauarten und sechs Verschlussarten. Beide Aufzählungen werden abgefragt."
+       "text": "Der Abschnitt unterscheidet zwei häufige Bauarten und sechs Verschlussarten. Nach beiden Aufzählungen fragen die Review-Fragen des Moduls."
       },
       {
        "type": "en",
@@ -885,7 +939,7 @@
       },
       {
        "type": "de",
-       "text": "Sechs Verschlussarten: Vorderlader, Kipplauf, Kammerverschluss, Unterhebel, Vorderschaftrepetierer, Selbstlader. Diese sechs englischen Bezeichnungen sind im schriftlichen wie im praktischen Teil wiederzuerkennen."
+       "text": "Sechs Verschlussarten: Vorderlader, Kipplauf, Kammerverschluss, Unterhebel, Vorderschaftrepetierer, Selbstlader. In der Abbildung des Handbuchs stehen die englischen Bezeichnungen direkt an den Waffen."
       },
       {
        "type": "img",
@@ -1744,7 +1798,7 @@
      "blocks": [
       {
        "type": "de",
-       "text": "Der Abschnitt behandelt drei Störungen beim Schuss sowie die Vorschriften zur Lagerung von Munition. Die Störungen werden regelmäßig geprüft, im praktischen Teil kann eine davon nachgestellt werden."
+       "text": "Der Abschnitt behandelt drei Störungen beim Schuss sowie die Vorschriften zur Lagerung von Munition."
       },
       {
        "type": "en",
@@ -1766,7 +1820,7 @@
       },
       {
        "type": "en",
-       "text": "A primer pop (squib load) happens when the cartridge does not contain any gunpowder. The firearms will discharge the primer without the usual noise or recoil. The bullet may lodge in the barrel. If another bullet is fired, the barrel may rupture.",
+       "text": "A primer pop (squib load) happens when the cartridge does not contain any gunpowder. The firearms will discharge the primer without the usual noise or recoil. This may have enough force to push the bullet out of the case, but the bullet may lodge in the barrel. If another bullet is fired, the barrel may rupture and possibly cause injury.",
        "page": 92
       },
       {
@@ -1775,7 +1829,7 @@
       },
       {
        "type": "de",
-       "text": "Für alle drei gilt dieselbe Regel, und die Zahl darin ist prüfungsrelevant:"
+       "text": "Für alle drei gilt dieselbe Regel:"
       },
       {
        "type": "en",
@@ -2039,7 +2093,7 @@
       },
       {
        "type": "de",
-       "text": "Zweiter Schritt, und hier liegt die häufigste Prüfungsfrage zur Reihenfolge: bei einem abnehmbaren Magazin kommt erst das Magazin heraus, danach wird der Verschluss geöffnet. Andersherum könnte beim Schließen eine weitere Patrone zugeführt werden. Der Verschluss bleibt anschließend offen."
+       "text": "Zweiter Schritt, und hier kommt es auf die Reihenfolge an: bei einem abnehmbaren Magazin kommt erst das Magazin heraus, danach wird der Verschluss geöffnet. Andersherum könnte beim Schließen eine weitere Patrone zugeführt werden. Der Verschluss bleibt anschließend offen."
       },
       {
        "type": "en",
@@ -2153,7 +2207,7 @@
       },
       {
        "type": "de",
-       "text": "Der Kipplauf ist der einzige Verschluss, bei dem man beim Öffnen unmittelbar in beide Patronenlager und durch beide Läufe sehen kann. Deshalb ist er im praktischen Teil oft die erste Waffe."
+       "text": "Nach dem Öffnen sieht man beim Kipplauf unmittelbar in das Patronenlager und durch den Lauf."
       },
       {
        "type": "terms",
@@ -2389,7 +2443,7 @@
       },
       {
        "type": "de",
-       "text": "Beim Vorderschaftrepetierer wird der Vorderschaft vor und zurück bewegt. Andere Namen dafür sind slide action und trombone action, beide können in der Prüfung auftauchen."
+       "text": "Beim Vorderschaftrepetierer wird der Vorderschaft vor und zurück bewegt. Das Handbuch nennt zwei weitere Namen dafür: slide action und trombone action."
       },
       {
        "type": "img",
@@ -3195,7 +3249,7 @@
       },
       {
        "type": "de",
-       "text": "Der Abzug wird bei Büchse und Flinte unterschiedlich bedient, und das ist eine beliebte Prüfungsfrage."
+       "text": "Der Abzug wird bei Büchse und Flinte unterschiedlich bedient."
       },
       {
        "type": "en",
@@ -3653,7 +3707,7 @@
      "kind": "intro",
      "titleDe": "Modul 11: Aufbewahrung, Ausstellen, Transport",
      "titleEn": "Module 11: Safe Storage, Display, Transportation and Handling of Non-Restricted Firearms",
-     "source": "S. 197 bis S. 214",
+     "source": "S. 197 bis S. 207",
      "lead": "Die Vorschriften zur Aufbewahrung, zum Ausstellen, zum Transport und zur Handhabung, dazu verbotene Munition und Vorrichtungen und die Strafen.",
      "blocks": [],
      "img": "assets/div-m11.webp"

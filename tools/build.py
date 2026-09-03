@@ -88,6 +88,27 @@ def embed_images(bundle, html):
     return html
 
 
+# Aussagen darueber, was in der Pruefung vorkommt, sind aus dem Handbuch nicht
+# belegbar. Zulaessig ist nur der Verweis auf eine Review-Frage, die dort steht.
+CLAIM = re.compile(
+    r"(in der Pr\u00fcfung|im praktischen Teil|im schriftlichen Teil|im Kurs abgefragt|"
+    r"Pr\u00fcfungsfrage|pr\u00fcfungsrelevant|werden abgefragt|erfahrungsgem\u00e4\u00df|"
+    r"beliebte Frage)", re.IGNORECASE)
+
+
+def claims(units):
+    out = []
+    for ch in units:
+        for u in ch.get("units", []):
+            for blk in u.get("blocks", []):
+                if blk.get("type") != "de":
+                    continue
+                for sent in re.split(r"(?<=[.!?:])\s+", blk["text"]):
+                    if CLAIM.search(sent) and "Review-Frage" not in sent:
+                        out.append((u["id"], sent.strip()))
+    return out
+
+
 def check(bundle):
     """Inhaltliche Pruefung. Faengt genau die Fehler, die man beim Einpflegen macht."""
     units = bundle.get("units", {}).get("chapters", []) or []
@@ -134,6 +155,9 @@ def check(bundle):
                 problems.append(f'{q["id"]}: answer muss true oder false sein')
             if not q.get("whyDe"):
                 problems.append(f'{q["id"]}: keine Begruendung')
+
+    for uid, sent in claims(units):
+        problems.append(f'{uid}: unbelegte Aussage zur Pruefung: "{sent[:70]}"')
 
     offen = [t["id"] for t in terms if t.get("verify")]
     return problems, offen
