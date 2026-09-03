@@ -45,14 +45,116 @@ function termById(id) {
   for (var i = 0; i < VOCAB.length; i++) if (VOCAB[i].id === id) return VOCAB[i];
   return null;
 }
-function speak(text) {
-  try {
-    if (!window.speechSynthesis) return;
-    window.speechSynthesis.cancel();
+/* Aussprache. Klingt einfach, ist es nicht:
+   - iOS gibt Sprache erst frei, nachdem einmal innerhalb einer echten
+     Nutzergeste gesprochen wurde.
+   - cancel() unmittelbar vor speak() verschluckt dort die Ausgabe.
+   - eine Sprache zu setzen reicht nicht, es braucht eine vorhandene Stimme.
+   - Stimmen werden in manchen Browsern erst nachträglich geladen.
+   Und wenn nichts geht, soll es das sagen statt stumm zu bleiben. */
+
+var Speech = (function () {
+  var list = [], primed = false;
+
+  function supported() {
+    return typeof window.speechSynthesis !== 'undefined'
+        && typeof window.SpeechSynthesisUtterance === 'function';
+  }
+  function load() {
+    if (!supported()) return;
+    try { list = window.speechSynthesis.getVoices() || []; } catch (e) { list = []; }
+  }
+  if (supported()) {
+    load();
+    try { window.speechSynthesis.onvoiceschanged = load; } catch (e) {}
+  }
+
+  function englishVoice() {
+    var want = ['en-ca', 'en-us', 'en-gb', 'en-au', 'en'];
+    for (var i = 0; i < want.length; i++) {
+      for (var k = 0; k < list.length; k++) {
+        var lang = String(list[k].lang || '').replace('_', '-').toLowerCase();
+        if (lang.indexOf(want[i]) === 0) return list[k];
+      }
+    }
+    return null;
+  }
+
+  function prime() {
+    if (primed || !supported()) return;
+    primed = true;
+    try {
+      var u = new SpeechSynthesisUtterance(' ');
+      u.volume = 0;
+      window.speechSynthesis.speak(u);
+    } catch (e) {}
+  }
+
+  function say(text, onStart, onDone, onFail) {
+    if (!supported()) { onFail('Dieses Gerät kann keinen Text vorlesen.'); return; }
+    load();
+    var s = window.speechSynthesis;
+    var v = englishVoice();
     var u = new SpeechSynthesisUtterance(text);
-    u.lang = 'en-CA'; u.rate = 0.85;
-    window.speechSynthesis.speak(u);
-  } catch (e) {}
+    if (v) { u.voice = v; u.lang = v.lang; } else { u.lang = 'en-US'; }
+    u.rate = 0.8;
+
+    var settled = false;
+    u.onstart = function () { settled = true; onStart(); };
+    u.onend   = function () { settled = true; onDone(); };
+    u.onerror = function () {
+      settled = true; onDone();
+      onFail(v ? 'Vorlesen hat nicht geklappt.'
+               : 'Auf diesem Gerät ist keine englische Stimme installiert.');
+    };
+
+    try {
+      if (s.speaking || s.pending) {
+        s.cancel();
+        setTimeout(function () { s.speak(u); }, 60);
+      } else {
+        s.speak(u);              // synchron, sonst geht die Nutzergeste verloren
+      }
+    } catch (e) {
+      onDone(); onFail('Vorlesen hat nicht geklappt.'); return;
+    }
+
+    // Manche Systeme melden weder Start noch Fehler. Dann nach kurzer Zeit sagen,
+    // dass nichts kommt, statt den Knopf hängen zu lassen.
+    setTimeout(function () {
+      if (!settled) {
+        onDone();
+        onFail('Auf diesem Gerät ist keine englische Stimme verfügbar.');
+      }
+    }, 1500);
+  }
+
+  return { say: say, prime: prime };
+})();
+
+document.addEventListener('pointerdown', Speech.prime, { once: true });
+document.addEventListener('touchstart',  Speech.prime, { once: true });
+
+var toastTimer = null;
+function toast(msg) {
+  var t = el('toast');
+  t.textContent = msg;
+  t.hidden = false;
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(function () { t.hidden = true; }, 5000);
+}
+
+/* Haengt an alle Vorleseknopfe unterhalb von root die Bedienung. */
+function wireSpeak(root) {
+  root.querySelectorAll('[data-say]').forEach(function (b) {
+    b.addEventListener('click', function (e) {
+      e.preventDefault();
+      Speech.say(b.dataset.say,
+        function () { b.classList.add('on'); },
+        function () { b.classList.remove('on'); },
+        function (msg) { b.classList.remove('on'); toast(msg); });
+    });
+  });
 }
 
 /* ---------------- Tabs ---------------- */
@@ -170,9 +272,7 @@ function renderUnit(id) {
   box.querySelectorAll('[data-go]').forEach(function (b) {
     b.addEventListener('click', function () { renderUnit(b.dataset.go); window.scrollTo(0, 0); });
   });
-  box.querySelectorAll('[data-say]').forEach(function (b) {
-    b.addEventListener('click', function () { speak(b.dataset.say); });
-  });
+  wireSpeak(box);
 }
 
 function nextPrev(f) {
@@ -287,12 +387,12 @@ function renderQuestion() {
   h += '</div>';
   h += '<div class="btn-row"><button class="ghost small" id="help">'
      + (s.help ? 'Deutsch ausblenden' : 'Deutsch einblenden') + '</button>'
-     + '<button class="ghost small" id="say">' + SPK + ' Vorlesen</button></div>';
+     + '<button class="ghost small" id="say" data-say="' + esc(it.stemEn) + '">' + SPK + ' Vorlesen</button></div>';
   h += '<div id="feedback"></div>';
 
   el('quiz-run').innerHTML = h;
   el('help').addEventListener('click', function () { s.help = !s.help; renderQuestion(); });
-  el('say').addEventListener('click', function () { speak(it.stemEn); });
+  wireSpeak(el('quiz-run'));
   el('quiz-run').querySelectorAll('.opt').forEach(function (b) {
     b.addEventListener('click', function () { answer(parseInt(b.dataset.i, 10)); });
   });
@@ -440,9 +540,7 @@ function renderVocabList() {
         }).join('') + '</ul>';
   }).join('');
 
-  box.querySelectorAll('[data-say]').forEach(function (b) {
-    b.addEventListener('click', function () { speak(b.dataset.say); });
-  });
+  wireSpeak(box);
 }
 
 function pickCard() {
@@ -478,7 +576,7 @@ function renderCard() {
     if (card.source) h += '<div class="src">Handbuch ' + esc(card.source) + '</div>';
   }
   h += '</div>';
-  h += '<div class="btn-row"><button class="ghost small" id="c-say">' + SPK + ' Vorlesen</button></div>';
+  h += '<div class="btn-row"><button class="ghost small" id="c-say" data-say="' + esc(card.en) + '">' + SPK + ' Vorlesen</button></div>';
 
   if (!cardShown) {
     h += '<div class="btn-row"><button class="primary" id="c-show">Antwort zeigen</button></div>';
@@ -490,7 +588,6 @@ function renderCard() {
   }
 
   box.innerHTML = h;
-  el('c-say').addEventListener('click', function () { speak(card.en); });
   if (el('c-show')) el('c-show').addEventListener('click', function () { cardShown = true; renderCard(); });
   box.querySelectorAll('[data-g]').forEach(function (b) {
     b.addEventListener('click', function () { grade(parseInt(b.dataset.g, 10)); });

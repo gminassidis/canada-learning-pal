@@ -353,3 +353,17 @@ button.small svg { width: 15px; height: 15px; vertical-align: -2px; margin-right
 
 a { color: var(--river); text-underline-offset: 2px; }
 a:hover { text-decoration-thickness: 2px; }
+
+/* Vorlesen: sichtbarer Zustand, und eine Meldung statt Stille, wenn es nicht geht */
+.speak.on, button.small.on { color: var(--fireweed); }
+.speak.on { opacity: 1; }
+
+.toast {
+  position: fixed; left: 16px; right: 16px;
+  bottom: calc(70px + env(safe-area-inset-bottom));
+  z-index: 40; margin: 0 auto; max-width: 420px;
+  background: var(--ink); color: var(--paper);
+  border-radius: var(--r); padding: 12px 14px;
+  font-size: 14px; line-height: 1.4; text-align: center;
+  box-shadow: 0 6px 24px rgba(0,0,0,.22);
+}

@@ -1,6 +1,6 @@
 {
  "_schema": "Vokabeln, Richtung immer Englisch nach Deutsch. cat: fach | pruefung | praxis. verify=true heisst: Wortlaut noch gegen das Handbuch prüfen.",
- "_status": "Pruefungssprache, ACTS und PROVE sowie die Fachbegriffe aus Einfuehrung und Modul 4 sind fertig. Weitere Module folgen.",
+ "_status": "Pruefungssprache, ACTS und PROVE, dazu die Fachbegriffe aus Einfuehrung und Modul 1 bis 4. Module 5 bis 11 folgen.",
  "terms": [
   {
    "id": "which-of-the-following",
@@ -856,8 +856,8 @@
    "de": "Verschluss",
    "cat": "fach",
    "sub": "Waffe und Teile",
-   "explDe": "Der bewegliche Teil, der die Patrone zuführt und das Patronenlager schließt. Offen lassen heißt: jeder sieht, dass die Waffe leer ist.",
-   "source": "S. 59"
+   "explDe": "Enthält die Teile, die die Patrone zuführen, den Schuss auslösen und die Hülse auswerfen. Abzug, Sicherung und Magazin gehören alle dazu.",
+   "source": "S. 49"
   },
   {
    "id": "safety",
@@ -1092,6 +1092,411 @@
    "sub": "Recht und Erlaubnis",
    "explDe": "Die Stelle, der du innerhalb von 30 Tagen einen Umzug melden musst.",
    "source": "S. 23"
+  },
+  {
+   "id": "barrel",
+   "en": "barrel",
+   "de": "Lauf",
+   "cat": "fach",
+   "sub": "Waffe und Teile",
+   "explDe": "Rohr, meist aus Metall. Darin läuft das Geschoss beim Schuss nach vorn.",
+   "source": "S. 48"
+  },
+  {
+   "id": "data-stamp",
+   "en": "data stamp",
+   "de": "Daten-Stempel am Lauf",
+   "cat": "fach",
+   "sub": "Waffe und Teile",
+   "explDe": "Aufdruck am Lauf, der angibt, welche Patrone in diese Waffe gehört.",
+   "source": "S. 48"
+  },
+  {
+   "id": "stock",
+   "en": "stock",
+   "de": "Schaft",
+   "cat": "fach",
+   "sub": "Waffe und Teile",
+   "explDe": "Der Griffteil, meist Holz oder Kunststoff. Er führt den Finger beim Aufnehmen automatisch zum Abzug, deshalb ist das T in ACTS so wichtig.",
+   "source": "S. 50"
+  },
+  {
+   "id": "firing-pin",
+   "en": "firing pin",
+   "de": "Schlagbolzen",
+   "cat": "fach",
+   "sub": "Waffe und Teile",
+   "explDe": "Trifft das Zündhütchen und löst damit den Schuss aus.",
+   "source": "S. 51"
+  },
+  {
+   "id": "hammer",
+   "en": "hammer",
+   "de": "Hahn",
+   "cat": "fach",
+   "sub": "Waffe und Teile",
+   "explDe": "Schlägt auf Schlagbolzen oder Zündhütchen.",
+   "source": "S. 51"
+  },
+  {
+   "id": "to-eject",
+   "en": "to eject",
+   "de": "auswerfen",
+   "cat": "fach",
+   "sub": "Waffe und Teile",
+   "explDe": "Die abgeschossene oder ungenutzte Patrone aus der Waffe befördern. Eine der drei Aufgaben des Verschlusses.",
+   "source": "S. 49"
+  },
+  {
+   "id": "firing-sequence",
+   "en": "firing sequence",
+   "de": "Schussfolge",
+   "cat": "fach",
+   "sub": "Munition und Schuss",
+   "explDe": "Die vier Schritte vom Abzug bis zum Geschoss im Lauf.",
+   "source": "S. 51"
+  },
+  {
+   "id": "bolt-action",
+   "en": "bolt action",
+   "de": "Kammerverschluss",
+   "cat": "fach",
+   "sub": "Verschlussarten",
+   "explDe": "Wird über einen Kammerstängel von Hand geöffnet und geschlossen.",
+   "source": "S. 52"
+  },
+  {
+   "id": "lever-action",
+   "en": "lever action",
+   "de": "Unterhebelverschluss",
+   "cat": "fach",
+   "sub": "Verschlussarten",
+   "explDe": "Wird über einen Hebel unter dem Schaft bedient.",
+   "source": "S. 52"
+  },
+  {
+   "id": "pump-action",
+   "en": "pump action",
+   "de": "Vorderschaftrepetierer",
+   "cat": "fach",
+   "sub": "Verschlussarten",
+   "explDe": "Wird durch Vor- und Zurückziehen des Vorderschafts bedient.",
+   "source": "S. 52"
+  },
+  {
+   "id": "hinge-action",
+   "en": "hinge (or break) action",
+   "de": "Kipplaufverschluss",
+   "cat": "fach",
+   "sub": "Verschlussarten",
+   "explDe": "Der Lauf klappt zum Laden nach unten weg. Auch break action genannt.",
+   "source": "S. 52"
+  },
+  {
+   "id": "semi-automatic",
+   "en": "semi-automatic action",
+   "de": "Selbstlader",
+   "cat": "fach",
+   "sub": "Verschlussarten",
+   "explDe": "Lädt nach jedem Schuss selbst nach, schießt aber nur einen Schuss je Abzug.",
+   "source": "S. 52"
+  },
+  {
+   "id": "shotgun",
+   "en": "shotgun",
+   "de": "Flinte",
+   "cat": "fach",
+   "sub": "Verschlussarten",
+   "explDe": "Eine der beiden häufigen nicht beschränkten Bauarten. Verschießt meist Schrot.",
+   "source": "S. 52"
+  },
+  {
+   "id": "rifle",
+   "en": "rifle",
+   "de": "Büchse, Gewehr",
+   "cat": "fach",
+   "sub": "Verschlussarten",
+   "explDe": "Die andere häufige nicht beschränkte Bauart. Gezogener Lauf, ein Geschoss.",
+   "source": "S. 52"
+  },
+  {
+   "id": "long-gun",
+   "en": "long gun",
+   "de": "Langwaffe",
+   "cat": "fach",
+   "sub": "Verschlussarten",
+   "explDe": "Sammelbegriff für Flinte und Büchse, also die nicht beschränkten Waffen.",
+   "source": "S. 52"
+  },
+  {
+   "id": "restricted",
+   "en": "restricted",
+   "de": "beschränkt",
+   "cat": "fach",
+   "sub": "Recht und Erlaubnis",
+   "explDe": "Mittlere Klasse. Eigener Kurs, der CRFSC, nicht Teil des CFSC.",
+   "source": "S. 54"
+  },
+  {
+   "id": "prohibited",
+   "en": "prohibited",
+   "de": "verboten",
+   "cat": "fach",
+   "sub": "Recht und Erlaubnis",
+   "explDe": "Strengste Klasse mit den härtesten Auflagen.",
+   "source": "S. 54"
+  },
+  {
+   "id": "air-gun",
+   "en": "air gun",
+   "de": "Luftdruckwaffe",
+   "cat": "fach",
+   "sub": "Recht und Erlaubnis",
+   "explDe": "Viele fallen wegen ihrer Leistung unter das Waffengesetz. ACTS und PROVE gelten auch für sie.",
+   "source": "S. 54"
+  },
+  {
+   "id": "muzzleloader",
+   "en": "muzzleloader",
+   "de": "Vorderlader",
+   "cat": "fach",
+   "sub": "Munition und Schuss",
+   "explDe": "Wird vorn durch die Mündung geladen. Ein Schuss je Lauf.",
+   "source": "S. 33"
+  },
+  {
+   "id": "breechloader",
+   "en": "breechloader",
+   "de": "Hinterlader",
+   "cat": "fach",
+   "sub": "Munition und Schuss",
+   "explDe": "Wird hinten geladen. Frühe Versuche scheiterten, weil Gas nach hinten entwich.",
+   "source": "S. 33"
+  },
+  {
+   "id": "cartridge",
+   "en": "cartridge",
+   "de": "Patrone",
+   "cat": "fach",
+   "sub": "Munition und Schuss",
+   "explDe": "Geschoss, Pulverladung und Zündhütchen in einer Einheit.",
+   "source": "S. 33"
+  },
+  {
+   "id": "shell",
+   "en": "shell",
+   "de": "Schrotpatrone",
+   "cat": "fach",
+   "sub": "Munition und Schuss",
+   "explDe": "Die Patrone der Flinte. Enthält zusätzlich einen Pfropfen.",
+   "source": "S. 33"
+  },
+  {
+   "id": "primer",
+   "en": "primer",
+   "de": "Zündhütchen",
+   "cat": "fach",
+   "sub": "Munition und Schuss",
+   "explDe": "Wird vom Schlagbolzen getroffen und entzündet die Pulverladung.",
+   "source": "S. 33"
+  },
+  {
+   "id": "powder-charge",
+   "en": "powder charge",
+   "de": "Pulverladung",
+   "cat": "fach",
+   "sub": "Munition und Schuss",
+   "explDe": "Das Treibmittel. Verbrennt und erzeugt das Gas, das treibt.",
+   "source": "S. 33"
+  },
+  {
+   "id": "projectile",
+   "en": "projectile",
+   "de": "Geschoss",
+   "cat": "fach",
+   "sub": "Munition und Schuss",
+   "explDe": "Was den Lauf verlässt. Bei der Büchse ein Geschoss, bei der Flinte oft Schrot.",
+   "source": "S. 33"
+  },
+  {
+   "id": "wad",
+   "en": "wad",
+   "de": "Pfropfen",
+   "cat": "fach",
+   "sub": "Munition und Schuss",
+   "explDe": "Trennt in der Schrotpatrone das Pulver von den Schroten.",
+   "source": "S. 33"
+  },
+  {
+   "id": "casing",
+   "en": "casing",
+   "de": "Hülse",
+   "cat": "fach",
+   "sub": "Munition und Schuss",
+   "explDe": "Der Körper der Patrone. Dehnt sich beim Schuss aus und dichtet hinten ab.",
+   "source": "S. 33"
+  },
+  {
+   "id": "head-stamp",
+   "en": "head stamp",
+   "de": "Bodenstempel",
+   "cat": "fach",
+   "sub": "Munition und Schuss",
+   "explDe": "Aufdruck auf dem Patronenboden, gibt die Sorte an.",
+   "source": "S. 34"
+  },
+  {
+   "id": "matchlock",
+   "en": "matchlock",
+   "de": "Luntenschloss",
+   "cat": "fach",
+   "sub": "Munition und Schuss",
+   "explDe": "Früheste tragbare Bauart, 1400er. Versagte bei Wind und Regen.",
+   "source": "S. 32"
+  },
+  {
+   "id": "wheel-lock",
+   "en": "wheel lock",
+   "de": "Radschloss",
+   "cat": "fach",
+   "sub": "Munition und Schuss",
+   "explDe": "1600er, arbeitet wie ein Feuerzeug. Teuer und störanfällig.",
+   "source": "S. 32"
+  },
+  {
+   "id": "flintlock",
+   "en": "flintlock",
+   "de": "Steinschloss",
+   "cat": "fach",
+   "sub": "Munition und Schuss",
+   "explDe": "1600er, erzeugt den Funken durch Feuerstein auf Stahl. Zuverlässiger als die beiden davor.",
+   "source": "S. 32"
+  },
+  {
+   "id": "percussion-cap",
+   "en": "percussion cap",
+   "de": "Zündhütchen am Vorderlader",
+   "cat": "fach",
+   "sub": "Munition und Schuss",
+   "explDe": "1800er, kleines Metallkäppchen, das beim Schlag explodiert.",
+   "source": "S. 32"
+  },
+  {
+   "id": "black-powder",
+   "en": "black powder",
+   "de": "Schwarzpulver",
+   "cat": "fach",
+   "sub": "Vorderlader",
+   "explDe": "Gilt als Explosivstoff. Entzündet sich durch Hitze, Reibung, statische Elektrizität oder Schlag.",
+   "source": "S. 38"
+  },
+  {
+   "id": "smokeless-powder",
+   "en": "smokeless powder",
+   "de": "rauchloses Pulver",
+   "cat": "fach",
+   "sub": "Vorderlader",
+   "explDe": "Modernes Pulver. Gehört NIE in einen Vorderlader.",
+   "source": "S. 42"
+  },
+  {
+   "id": "ramrod",
+   "en": "ramrod",
+   "de": "Ladestock",
+   "cat": "fach",
+   "sub": "Vorderlader",
+   "explDe": "Stab zum Setzen der Ladung. Markiert zeigt er, ob der Lauf leer oder geladen ist.",
+   "source": "S. 39"
+  },
+  {
+   "id": "powder-measure",
+   "en": "powder measure",
+   "de": "Pulvermaß",
+   "cat": "fach",
+   "sub": "Vorderlader",
+   "explDe": "Damit wird abgemessen. Nie direkt aus dem Vorratsbehälter schütten.",
+   "source": "S. 42"
+  },
+  {
+   "id": "powder-horn",
+   "en": "powder horn",
+   "de": "Pulverhorn",
+   "cat": "fach",
+   "sub": "Vorderlader",
+   "explDe": "Vorratsbehälter. Niemals direkt daraus in die Mündung schütten.",
+   "source": "S. 43"
+  },
+  {
+   "id": "priming-pan",
+   "en": "priming pan",
+   "de": "Zündpfanne",
+   "cat": "fach",
+   "sub": "Vorderlader",
+   "explDe": "Die Pfanne am Steinschloss, in der das Zündpulver liegt.",
+   "source": "S. 39"
+  },
+  {
+   "id": "full-cock",
+   "en": "full-cock position",
+   "de": "voll gespannt",
+   "cat": "fach",
+   "sub": "Vorderlader",
+   "explDe": "Hahn ganz gespannt, die Waffe ist schussbereit.",
+   "source": "S. 39"
+  },
+  {
+   "id": "nipple",
+   "en": "nipple",
+   "de": "Piston, Zündkegel",
+   "cat": "fach",
+   "sub": "Vorderlader",
+   "explDe": "Der Zapfen, auf dem beim Perkussionsschloss das Zündhütchen sitzt.",
+   "source": "S. 44"
+  },
+  {
+   "id": "hangfire",
+   "en": "hangfire",
+   "de": "Nachzünder",
+   "cat": "fach",
+   "sub": "Vorderlader",
+   "explDe": "Der Schuss löst verzögert aus. Mindestens 60 Sekunden warten, Mündung in sicherer Richtung.",
+   "source": "S. 44"
+  },
+  {
+   "id": "misfire",
+   "en": "misfire",
+   "de": "Versager",
+   "cat": "fach",
+   "sub": "Vorderlader",
+   "explDe": "Der Schuss löst nicht aus. Wird behandelt wie ein Nachzünder.",
+   "source": "S. 44"
+  },
+  {
+   "id": "gunsmith",
+   "en": "gunsmith",
+   "de": "Büchsenmacher",
+   "cat": "fach",
+   "sub": "Vorderlader",
+   "explDe": "Alte Waffen vor Gebrauch von einem Fachmann prüfen lassen.",
+   "source": "S. 43"
+  },
+  {
+   "id": "safety-glasses",
+   "en": "safety glasses",
+   "de": "Schutzbrille",
+   "cat": "fach",
+   "sub": "Vorderlader",
+   "explDe": "Beim Schießen mit dem Vorderlader vorgeschrieben.",
+   "source": "S. 44"
+  },
+  {
+   "id": "hearing-protection",
+   "en": "hearing protection",
+   "de": "Gehörschutz",
+   "cat": "fach",
+   "sub": "Vorderlader",
+   "explDe": "Zweites Pflichtstück beim Schießen mit dem Vorderlader.",
+   "source": "S. 44"
   }
  ]
 }

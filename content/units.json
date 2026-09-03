@@ -1,6 +1,6 @@
 {
  "_schema": "Lerneinheiten. Bloecke: de = deutsche Erklaerung, en = englischer Originalsatz aus dem Handbuch, img = Abbildung, terms = Begriffsliste. source = Seite im Handbuch.",
- "_status": "Einfuehrung und Modul 4 fertig. Module 1 bis 3 und 5 bis 11 folgen.",
+ "_status": "Einfuehrung und Module 1 bis 4 fertig. Module 5 bis 11 folgen.",
  "chapters": [
   {
    "id": "einfuehrung",
@@ -226,6 +226,607 @@
         "blaze-orange",
         "dwelling",
         "canadian-firearms-program"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "modul1",
+   "titleDe": "Modul 1: Einführung in Schusswaffen",
+   "titleEn": "Module 1: Introduction to Firearms",
+   "units": [
+    {
+     "id": "m1-zuendung",
+     "titleDe": "Wie Waffen gezündet wurden",
+     "titleEn": "The evolution of firearms",
+     "source": "S. 28 bis S. 32",
+     "blocks": [
+      {
+       "type": "de",
+       "text": "Dieses Modul ist Geschichte, aber vier Bauarten solltest du auseinanderhalten können, weil danach gefragt wird. Alle vier sind Vorderlader, sie unterscheiden sich nur darin, wie das Pulver gezündet wird."
+      },
+      {
+       "type": "de",
+       "text": "Luntenschloss, matchlock, ab den 1400ern. Die erste tragbare Waffe. Eine glimmende Lunte wird in die Zündpfanne getaucht."
+      },
+      {
+       "type": "en",
+       "text": "The matchlock made it possible for the user to aim and fire while holding the firearm with both hands, but rain or wind could put out the match/wick."
+      },
+      {
+       "type": "de",
+       "text": "Nachteil also: Wind und Regen löschen die Lunte."
+      },
+      {
+       "type": "de",
+       "text": "Radschloss, wheel lock, ab den 1600ern."
+      },
+      {
+       "type": "en",
+       "text": "The wheel lock worked much like a modern cigarette lighter."
+      },
+      {
+       "type": "de",
+       "text": "Wie ein Feuerzeug. Eine Feder wird mit einem Schlüssel aufgezogen. Nachteil: kompliziert, teuer, langsames Aufziehen, und die Feder versagte oft."
+      },
+      {
+       "type": "de",
+       "text": "Steinschloss, flintlock, ebenfalls ab den 1600ern."
+      },
+      {
+       "type": "en",
+       "text": "The flintlock has an ignition mechanism similar to the wheel lock. It produced its spark by striking a flint against steel."
+      },
+      {
+       "type": "de",
+       "text": "Beide erzeugen einen Funken, das ist die Gemeinsamkeit, nach der gefragt wird. Das Steinschloss schlägt dafür Feuerstein gegen Stahl. Es war leichter, einfacher und billiger und wurde deshalb zum Standard."
+      },
+      {
+       "type": "de",
+       "text": "Perkussionszündhütchen, percussion cap, ab den 1800ern."
+      },
+      {
+       "type": "en",
+       "text": "It was a small metal case (cap) containing material that would explode when struck."
+      },
+      {
+       "type": "de",
+       "text": "Ein kleines Metallkäppchen, das beim Schlag explodiert. Damit beginnt die Entwicklung zu den Repetierwaffen. Nachteil: das Käppchen ist von Pulver und Geschoss getrennt."
+      },
+      {
+       "type": "terms",
+       "ids": [
+        "matchlock",
+        "wheel-lock",
+        "flintlock",
+        "percussion-cap",
+        "muzzleloader"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "m1-patrone",
+     "titleDe": "Von der Ladung zur Patrone",
+     "titleEn": "Cartridges",
+     "source": "S. 33 und S. 34",
+     "blocks": [
+      {
+       "type": "de",
+       "text": "Der wichtigste Teil von Modul 1. Frühe Waffen waren alle Vorderlader, geladen wurde vorn durch die Mündung. Das dauerte, und je Lauf gab es nur einen Schuss."
+      },
+      {
+       "type": "en",
+       "text": "Attempts were made to develop firearms that loaded from the back. They were called breechloaders."
+      },
+      {
+       "type": "de",
+       "text": "Hinterlader scheiterten zunächst, weil die Gase beim Schuss nach hinten entwichen. Erst die Patrone löste das Problem."
+      },
+      {
+       "type": "en",
+       "text": "These cartridges contained the bullet or shot, the main powder charge and the primer, in one package."
+      },
+      {
+       "type": "de",
+       "text": "Die Patrone fasst Geschoss, Pulverladung und Zündhütchen in einer Einheit zusammen. Beim Schuss dehnt sich die Hülse aus und dichtet hinten ab. Genau das war die Lösung."
+      },
+      {
+       "type": "de",
+       "text": "Das Handbuch nennt vier Vorteile der Patrone, und danach wird gefragt."
+      },
+      {
+       "type": "en",
+       "text": "1. They were easily loaded into the breech. 2. The expanding case prevented gas leakage. 3. They were largely weatherproof. 4. They were more reliable."
+      },
+      {
+       "type": "de",
+       "text": "Leicht zu laden, dicht, weitgehend wetterfest, zuverlässiger."
+      },
+      {
+       "type": "en",
+       "text": "Cartridges called shells were developed for use in shotguns. In addition, a wad separates the powder from the projectiles."
+      },
+      {
+       "type": "de",
+       "text": "Die Flintenpatrone heißt shell. Der Unterschied zur Büchsenpatrone: ein Pfropfen, der wad, trennt das Pulver von den Schroten. Die Hülse kann aus Metall, Pappe oder Kunststoff sein."
+      },
+      {
+       "type": "img",
+       "src": "assets/cartridges.webp",
+       "captionDe": "Abbildung 7 aus dem Handbuch: moderne Munition und Bodenstempel."
+      },
+      {
+       "type": "terms",
+       "ids": [
+        "cartridge",
+        "shell",
+        "primer",
+        "powder-charge",
+        "projectile",
+        "wad",
+        "casing",
+        "head-stamp",
+        "breechloader"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "modul2",
+   "titleDe": "Modul 2: Vorderlader",
+   "titleEn": "Module 2: Muzzleloaders",
+   "units": [
+    {
+     "id": "m2-pulver",
+     "titleDe": "Schwarzpulver und seine Sorten",
+     "titleEn": "Types of black powder",
+     "source": "S. 37",
+     "blocks": [
+      {
+       "type": "de",
+       "text": "Vorderlader werden mit Schwarzpulver geladen. Es gibt vier Körnungen, unterschieden durch die Anzahl der F."
+      },
+      {
+       "type": "de",
+       "text": "Fg ist sehr grob, für große Kaliber. FFg ist feiner, für Vorderladerflinten und großkalibrige Büchsen ab .45. FFFg ist noch feiner und die häufigste Sorte."
+      },
+      {
+       "type": "de",
+       "text": "Die vierte ist die Falle in der Prüfung:"
+      },
+      {
+       "type": "en",
+       "text": "FFFFg: The finest granules, also called priming powder. Used only in the priming pans of flintlocks. Never use this type of powder as powder charge."
+      },
+      {
+       "type": "de",
+       "text": "FFFFg ist reines Zündpulver für die Pfanne des Steinschlosses. Es darf niemals als Treibladung verwendet werden."
+      },
+      {
+       "type": "en",
+       "text": "Never use smokeless powder in a muzzleloader."
+      },
+      {
+       "type": "de",
+       "text": "Und die wichtigste Regel überhaupt: rauchloses Pulver gehört nie in einen Vorderlader. Umgekehrt gehört Schwarzpulver nie in eine moderne Patronenwaffe, die nicht dafür gebaut ist."
+      },
+      {
+       "type": "terms",
+       "ids": [
+        "black-powder",
+        "smokeless-powder",
+        "priming-pan",
+        "calibre"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "m2-laden",
+     "titleDe": "Vorderlader prüfen und laden",
+     "titleEn": "Loading muzzleloaders",
+     "source": "S. 38 bis S. 42",
+     "blocks": [
+      {
+       "type": "de",
+       "text": "Beim Vorderlader wird das Pulver vorn durch die Mündung eingefüllt, danach kommen Pflaster und Kugel oder Schrot. Hinten am Lauf sitzt ein Loch, durch das der Funke oder die Flamme ins Innere gelangt und die Ladung zündet."
+      },
+      {
+       "type": "en",
+       "text": "Black powder is classified as an explosive and is easily ignited by heat, friction, static electricity or a sharp blow and must be handled with extreme care."
+      },
+      {
+       "type": "de",
+       "text": "Schwarzpulver gilt als Explosivstoff. Hitze, Reibung, statische Elektrizität oder ein Schlag reichen zum Zünden."
+      },
+      {
+       "type": "img",
+       "src": "assets/muzzleloader.webp",
+       "captionDe": "Abbildung 8 aus dem Handbuch: ein Vorderlader."
+      },
+      {
+       "type": "de",
+       "text": "Ein Vorderlader ist sicherer zu handhaben, wenn er nicht gezündet werden kann. Das Handbuch nennt vier Schritte, um das sicherzustellen:"
+      },
+      {
+       "type": "en",
+       "text": "1. Point the muzzle in the safest available direction and keep finger off the trigger and out of the trigger guard. 2. Check that the hammer is not in full-cock position. 3. Check for a percussion cap or see if the priming pan is primed. 4. If the firearm is primed, remove cap or priming powder."
+      },
+      {
+       "type": "de",
+       "text": "Also: Mündung sicher, Finger weg, Hahn nicht voll gespannt, Zündhütchen beziehungsweise Zündpfanne prüfen und gegebenenfalls entfernen."
+      },
+      {
+       "type": "de",
+       "text": "Das eigentliche Problem beim Vorderlader: man sieht nicht, ob schon eine Ladung im Lauf steckt. Es gibt kein Patronenlager, in das man hineinsehen kann."
+      },
+      {
+       "type": "en",
+       "text": "Experienced shooters mark the firearm's ramrod at a level that shows the bore depth when the bore is empty."
+      },
+      {
+       "type": "de",
+       "text": "Die Lösung ist der markierte Ladestock. Steckt man ihn in den leeren Lauf, steht die Markierung an der Mündung. Steht sie darüber, ist etwas drin. Danach wird ausdrücklich gefragt."
+      },
+      {
+       "type": "img",
+       "src": "assets/ramrod.webp",
+       "captionDe": "Abbildung 9 aus dem Handbuch: richtig markierter Ladestock."
+      },
+      {
+       "type": "en",
+       "text": "Always use a volumetric measure to put powder into the muzzle; never pour directly from the main powder container."
+      },
+      {
+       "type": "de",
+       "text": "Pulver immer mit einem Maß abfüllen, nie direkt aus dem Vorratsbehälter oder dem Pulverhorn in die Mündung schütten. Ein Funke im Lauf würde sonst den ganzen Vorrat zünden."
+      },
+      {
+       "type": "en",
+       "text": "Under safe-storage regulations, black-powder firearms are considered loaded when powder and/or ball are in the barrel."
+      },
+      {
+       "type": "de",
+       "text": "Rechtlich wichtig: ein Vorderlader gilt als geladen, sobald Pulver oder Kugel im Lauf sind."
+      },
+      {
+       "type": "terms",
+       "ids": [
+        "ramrod",
+        "powder-measure",
+        "powder-horn",
+        "full-cock",
+        "hammer",
+        "nipple"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "m2-regeln",
+     "titleDe": "Was man tut und was nicht",
+     "titleEn": "DOs and DON'Ts of muzzleloading",
+     "source": "S. 43 und S. 44",
+     "blocks": [
+      {
+       "type": "de",
+       "text": "Aus der Liste des Handbuchs sind vier Punkte besonders prüfungsrelevant."
+      },
+      {
+       "type": "en",
+       "text": "Do treat a misfire as a hangfire that could fire at any second. Wait at least 60 seconds with the firearm pointed in a safe direction."
+      },
+      {
+       "type": "de",
+       "text": "Merke die Zahl: mindestens 60 Sekunden. Ein Versager wird behandelt wie ein Nachzünder, der jede Sekunde losgehen kann. Die Mündung bleibt die ganze Zeit in sicherer Richtung."
+      },
+      {
+       "type": "en",
+       "text": "Do wear safety glasses and hearing protection during the firing sequence."
+      },
+      {
+       "type": "de",
+       "text": "Schutzbrille und Gehörschutz. Nach diesen beiden wird ausdrücklich gefragt."
+      },
+      {
+       "type": "en",
+       "text": "Don't store a muzzleloader with powder in it."
+      },
+      {
+       "type": "de",
+       "text": "Nie mit Pulver im Lauf lagern."
+      },
+      {
+       "type": "en",
+       "text": "Don't lean over or stand in front of the muzzle at any time."
+      },
+      {
+       "type": "de",
+       "text": "Nie über die Mündung beugen oder davorstehen."
+      },
+      {
+       "type": "de",
+       "text": "Schwarzpulverwaffen müssen nach jedem Schießen gereinigt werden. Schwarzpulver ist stark korrosiv und zieht Feuchtigkeit an, das gibt Rost. Falsch gereinigt bildet sich Kohlenstoff im Lauf, und dann kann ein glimmender Rest zurückbleiben, was beim Nachladen gefährlich wird."
+      },
+      {
+       "type": "terms",
+       "ids": [
+        "hangfire",
+        "misfire",
+        "safety-glasses",
+        "hearing-protection",
+        "gunsmith",
+        "black-powder"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "modul3",
+   "titleDe": "Modul 3: Wichtige Waffenteile",
+   "titleEn": "Module 3: Major Firearms Parts",
+   "units": [
+    {
+     "id": "m3-teile",
+     "titleDe": "Die drei Hauptteile",
+     "titleEn": "Major firearms parts",
+     "source": "S. 47 bis S. 50",
+     "blocks": [
+      {
+       "type": "de",
+       "text": "Damit du eine Waffe sicher bedienen kannst, musst du ihre Teile kennen. Das Handbuch teilt jede moderne Waffe in drei Hauptteile."
+      },
+      {
+       "type": "en",
+       "text": "Modern firearms consist of three major parts: the barrel, the action and the stock."
+      },
+      {
+       "type": "de",
+       "text": "Lauf, Verschluss und Schaft. Diese drei musst du auf Englisch nennen können, das ist die erste Review-Frage des Moduls."
+      },
+      {
+       "type": "img",
+       "src": "assets/bolt-action.webp",
+       "captionDe": "Abbildung 12 aus dem Handbuch: Büchse mit Kammerverschluss."
+      },
+      {
+       "type": "img",
+       "src": "assets/pump-action.webp",
+       "captionDe": "Abbildung 13 aus dem Handbuch: Flinte mit Vorderschaftrepetierer."
+      },
+      {
+       "type": "en",
+       "text": "The barrel is a tube, typically made of metal. The opening at the end of the barrel from which the bullet or shot emerges is called the muzzle."
+      },
+      {
+       "type": "de",
+       "text": "Der Lauf ist ein Rohr. Vorn die Mündung. Oft steht auf dem Lauf ein Aufdruck, der data stamp, der angibt, welche Patrone hineingehört."
+      },
+      {
+       "type": "en",
+       "text": "The action contains the parts that do the following: Chamber the cartridge. Fire the ammunition. Ejects the unfired cartridges and fired cartridge/shell casings."
+      },
+      {
+       "type": "de",
+       "text": "Der Verschluss hat drei Aufgaben: die Patrone zuführen, den Schuss auslösen, die Hülse auswerfen. Und wichtig: Abzug, Sicherung und Magazin gehören alle zum Verschluss."
+      },
+      {
+       "type": "en",
+       "text": "The trigger releases the hammer or firing pin that fires the cartridge."
+      },
+      {
+       "type": "de",
+       "text": "Der Abzug gibt Hahn oder Schlagbolzen frei. Der Abzugsbügel ist der feste Ring darum, der verhindern soll, dass etwas versehentlich den Abzug berührt."
+      },
+      {
+       "type": "en",
+       "text": "Safeties usually block some part of the action to prevent firing. Some firearms do not have safeties."
+      },
+      {
+       "type": "de",
+       "text": "Die Sicherung blockiert meist einen Teil des Verschlusses. Manche Waffen haben gar keine. Was ON und OFF bedeuten, ist eine eigene Review-Frage:"
+      },
+      {
+       "type": "en",
+       "text": "The safety should be ON / SAFETY POSITION whenever a firearm is loaded. It should only be moved to OFF / FIRING POSITION when required."
+      },
+      {
+       "type": "de",
+       "text": "ON heißt gesichert, OFF heißt schussbereit. Solange die Waffe geladen ist, gehört sie auf ON. Und trotzdem gilt weiter: verlass dich nie darauf."
+      },
+      {
+       "type": "en",
+       "text": "The magazine is a device that holds cartridges in repeating firearms. The magazine can be either fixed or removable."
+      },
+      {
+       "type": "de",
+       "text": "Das Magazin hält die Patronen. Es ist entweder fest eingebaut oder abnehmbar."
+      },
+      {
+       "type": "en",
+       "text": "Stocks are designed to automatically align your finger with the trigger when you pick up the firearm."
+      },
+      {
+       "type": "de",
+       "text": "Der Schaft ist der Griffteil. Er führt den Finger beim Aufnehmen von selbst zum Abzug. Genau deshalb ist das T in ACTS eine eigene Regel."
+      },
+      {
+       "type": "terms",
+       "ids": [
+        "barrel",
+        "action",
+        "stock",
+        "muzzle",
+        "data-stamp",
+        "trigger",
+        "trigger-guard",
+        "safety",
+        "magazine",
+        "hammer",
+        "firing-pin",
+        "to-eject"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "m3-abfolge",
+     "titleDe": "Die Schussfolge",
+     "titleEn": "The firing sequence",
+     "source": "S. 51",
+     "blocks": [
+      {
+       "type": "de",
+       "text": "Fast alle modernen Waffen folgen derselben Abfolge in vier Schritten. Sie zu erklären ist eine der Review-Fragen."
+      },
+      {
+       "type": "en",
+       "text": "1. A squeeze on the trigger releases the firing mechanism. This results in the firing pin striking the primer of the cartridge."
+      },
+      {
+       "type": "de",
+       "text": "Erstens: Der Abzug gibt den Mechanismus frei, der Schlagbolzen trifft das Zündhütchen."
+      },
+      {
+       "type": "en",
+       "text": "2. When struck by the firing pin, the primer explodes. This projects a flame into the cartridge body."
+      },
+      {
+       "type": "de",
+       "text": "Zweitens: Das Zündhütchen explodiert und schießt eine Flamme in die Patrone."
+      },
+      {
+       "type": "en",
+       "text": "3. The flame from the primer ignites the powder. The powder burns and produces rapidly expanding gases."
+      },
+      {
+       "type": "de",
+       "text": "Drittens: Die Flamme entzündet das Pulver, es verbrennt und erzeugt sich schnell ausdehnendes Gas."
+      },
+      {
+       "type": "en",
+       "text": "4. The high-pressure gas drives the bullet or shot forward down the barrel."
+      },
+      {
+       "type": "de",
+       "text": "Viertens: Das Gas treibt Geschoss oder Schrot durch den Lauf nach vorn."
+      },
+      {
+       "type": "de",
+       "text": "Merke die Kette: Abzug, Schlagbolzen, Zündhütchen, Pulver, Gas, Geschoss."
+      },
+      {
+       "type": "img",
+       "src": "assets/firing-sequence.webp",
+       "captionDe": "Abbildung 14 aus dem Handbuch: die Schussfolge."
+      },
+      {
+       "type": "terms",
+       "ids": [
+        "firing-sequence",
+        "firing-pin",
+        "primer",
+        "powder-charge",
+        "projectile"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "m3-verschluss",
+     "titleDe": "Bauarten und Verschlussarten",
+     "titleEn": "Action types",
+     "source": "S. 52 und S. 53",
+     "blocks": [
+      {
+       "type": "de",
+       "text": "Zwei Zahlen musst du hier können: zwei häufige Bauarten und sechs Verschlussarten. Beides sind Review-Fragen."
+      },
+      {
+       "type": "en",
+       "text": "The two common types of non-restricted firearms (long guns) are as follows: Shotguns. Rifles."
+      },
+      {
+       "type": "de",
+       "text": "Die beiden häufigen nicht beschränkten Bauarten sind Flinte und Büchse. Zusammen heißen sie long guns, Langwaffen."
+      },
+      {
+       "type": "en",
+       "text": "The basic types of modern actions used in these firearms are as follows: Muzzleloader (percussion cap and flint) action. Hinge (or break) action. Bolt action. Lever action. Pump action. Semi-automatic action."
+      },
+      {
+       "type": "de",
+       "text": "Sechs Verschlussarten: Vorderlader, Kipplauf, Kammerverschluss, Unterhebel, Vorderschaftrepetierer, Selbstlader. Diese sechs englischen Bezeichnungen musst du wiedererkennen, im schriftlichen wie im praktischen Teil."
+      },
+      {
+       "type": "img",
+       "src": "assets/action-types.webp",
+       "captionDe": "Abbildung 15 aus dem Handbuch: die Verschlussarten."
+      },
+      {
+       "type": "terms",
+       "ids": [
+        "bolt-action",
+        "lever-action",
+        "pump-action",
+        "hinge-action",
+        "semi-automatic",
+        "muzzleloader",
+        "shotgun",
+        "rifle",
+        "long-gun"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "m3-klassen",
+     "titleDe": "Die drei Waffenklassen",
+     "titleEn": "Classification of firearms",
+     "source": "S. 54",
+     "blocks": [
+      {
+       "type": "de",
+       "text": "Das kanadische Recht kennt drei Klassen. Von ihnen hängt ab, welche Auflagen für eine Waffe gelten."
+      },
+      {
+       "type": "en",
+       "text": "The classification of firearms is as follows: Non-restricted. Restricted. Prohibited."
+      },
+      {
+       "type": "de",
+       "text": "Nicht beschränkt, beschränkt, verboten. Verbotene Waffen unterliegen den strengsten Auflagen, beschränkte weniger strengen, nicht beschränkte den geringsten. Dein Kurs, der CFSC, deckt genau die nicht beschränkten ab."
+      },
+      {
+       "type": "en",
+       "text": "Many air guns, due to their high power, are included in the provisions of the Firearms Act and its Regulations."
+      },
+      {
+       "type": "de",
+       "text": "Achtung bei Luftdruckwaffen. Viele fallen wegen ihrer Leistung unter das Waffengesetz."
+      },
+      {
+       "type": "en",
+       "text": "The Vital Four ACTS of Firearm Safety and PROVE apply to all classes of firearms."
+      },
+      {
+       "type": "de",
+       "text": "Und der Satz, auf den die letzte Review-Frage des Moduls zielt: ACTS und PROVE gelten für alle Klassen, Luft-, Feder- und Gasdruckwaffen eingeschlossen."
+      },
+      {
+       "type": "terms",
+       "ids": [
+        "non-restricted",
+        "restricted",
+        "prohibited",
+        "air-gun"
        ]
       }
      ]

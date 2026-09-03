@@ -1,6 +1,6 @@
 {
  "_schema": "Fragenpool. type mc = Multiple Choice, tf = True/False. stemEn ist das, was in der Pruefung steht, stemDe ist nur Hilfe. Jede Frage traegt eine Fundstelle.",
- "_status": "Uebungsfragen, keine echten Pruefungsfragen. Aus den pruefbaren Aussagen des Handbuchs abgeleitet, Formulierung im Stil der Pruefung. Einfuehrung und Modul 4 abgedeckt.",
+ "_status": "Uebungsfragen, keine echten Pruefungsfragen. Aus den pruefbaren Aussagen des Handbuchs abgeleitet, Formulierung im Stil der Pruefung. Einfuehrung und Module 1 bis 4 abgedeckt.",
  "questions": [
   {
    "id": "q-acts-01",
@@ -836,6 +836,989 @@
    "stemDe": "Jede Verschlusseinrichtung passt an jede Waffe.",
    "answer": false,
    "whyDe": "Falsch. Das Handbuch sagt ausdrücklich, dass nicht jede Einrichtung zu jeder Waffe passt. Im Zweifel beim Händler fragen."
+  },
+  {
+   "id": "q-m1-01",
+   "type": "mc",
+   "unit": "m1-zuendung",
+   "source": "S. 28",
+   "tags": [
+    "geschichte"
+   ],
+   "stemEn": "What was the main disadvantage of the matchlock?",
+   "stemDe": "Was war der größte Nachteil des Luntenschlosses?",
+   "options": [
+    {
+     "en": "Rain or wind could put out the match.",
+     "de": "Regen oder Wind konnten die Lunte löschen.",
+     "correct": true,
+     "whyDe": "So steht es im Handbuch. Dazu kam die Gefahr durch Glutteilchen nahe am Pulver."
+    },
+    {
+     "en": "The spring often failed.",
+     "de": "Die Feder versagte oft.",
+     "correct": false,
+     "whyDe": "Das ist der Nachteil des Radschlosses."
+    },
+    {
+     "en": "The flint wore out.",
+     "de": "Der Feuerstein nutzte sich ab.",
+     "correct": false,
+     "whyDe": "Das betrifft das Steinschloss."
+    },
+    {
+     "en": "The cap separated from powder and bullet.",
+     "de": "Das Käppchen war von Pulver und Geschoss getrennt.",
+     "correct": false,
+     "whyDe": "Das ist der Nachteil des Perkussionszündhütchens."
+    }
+   ]
+  },
+  {
+   "id": "q-m1-02",
+   "type": "mc",
+   "unit": "m1-zuendung",
+   "source": "S. 29",
+   "tags": [
+    "geschichte"
+   ],
+   "stemEn": "The wheel lock worked much like which everyday object?",
+   "stemDe": "Das Radschloss funktionierte wie welcher Alltagsgegenstand?",
+   "options": [
+    {
+     "en": "A modern cigarette lighter.",
+     "de": "Ein modernes Feuerzeug.",
+     "correct": true,
+     "whyDe": "Genau dieser Vergleich steht im Handbuch."
+    },
+    {
+     "en": "A modern match.",
+     "de": "Ein Streichholz.",
+     "correct": false,
+     "whyDe": "Das beschreibt eher das Luntenschloss."
+    },
+    {
+     "en": "A modern battery.",
+     "de": "Eine Batterie.",
+     "correct": false,
+     "whyDe": "Kommt im Handbuch nicht vor."
+    },
+    {
+     "en": "A modern clock.",
+     "de": "Eine Uhr.",
+     "correct": false,
+     "whyDe": "Aufgezogen wurde es zwar, aber der Vergleich im Handbuch ist das Feuerzeug."
+    }
+   ]
+  },
+  {
+   "id": "q-m1-03",
+   "type": "mc",
+   "unit": "m1-zuendung",
+   "source": "S. 30",
+   "tags": [
+    "geschichte"
+   ],
+   "stemEn": "How did the flintlock produce its spark?",
+   "stemDe": "Wie erzeugte das Steinschloss seinen Funken?",
+   "options": [
+    {
+     "en": "By striking a flint against steel.",
+     "de": "Durch Schlagen von Feuerstein gegen Stahl.",
+     "correct": true,
+     "whyDe": "Das ist der Kern des Steinschlosses. Es war leichter und billiger als das Radschloss und wurde deshalb zum Standard."
+    },
+    {
+     "en": "By plunging a burning wick into the pan.",
+     "de": "Durch Eintauchen einer glimmenden Lunte.",
+     "correct": false,
+     "whyDe": "Das ist das Luntenschloss."
+    },
+    {
+     "en": "By striking a percussion cap.",
+     "de": "Durch Schlag auf ein Zündhütchen.",
+     "correct": false,
+     "whyDe": "Das kam erst in den 1800ern."
+    },
+    {
+     "en": "By an electric spark.",
+     "de": "Durch einen elektrischen Funken.",
+     "correct": false,
+     "whyDe": "Gab es damals nicht."
+    }
+   ]
+  },
+  {
+   "id": "q-m1-04",
+   "type": "mc",
+   "unit": "m1-patrone",
+   "source": "S. 33",
+   "tags": [
+    "munition"
+   ],
+   "stemEn": "A modern cartridge contains which of the following in one package?",
+   "stemDe": "Was enthält eine moderne Patrone in einer Einheit?",
+   "options": [
+    {
+     "en": "The bullet or shot, the powder charge and the primer.",
+     "de": "Geschoss oder Schrot, Pulverladung und Zündhütchen.",
+     "correct": true,
+     "whyDe": "Diese drei in einer Einheit, genau das machte den Hinterlader praktisch."
+    },
+    {
+     "en": "The bullet and the powder charge only.",
+     "de": "Nur Geschoss und Pulverladung.",
+     "correct": false,
+     "whyDe": "Das Zündhütchen fehlt."
+    },
+    {
+     "en": "The powder charge and the primer only.",
+     "de": "Nur Pulverladung und Zündhütchen.",
+     "correct": false,
+     "whyDe": "Das Geschoss fehlt."
+    },
+    {
+     "en": "The bullet and the primer only.",
+     "de": "Nur Geschoss und Zündhütchen.",
+     "correct": false,
+     "whyDe": "Die Pulverladung fehlt."
+    }
+   ]
+  },
+  {
+   "id": "q-m1-05",
+   "type": "mc",
+   "unit": "m1-patrone",
+   "source": "S. 33",
+   "tags": [
+    "munition"
+   ],
+   "stemEn": "All of the following are advantages of modern cartridges EXCEPT:",
+   "stemDe": "Alle folgenden sind Vorteile der modernen Patrone, AUSSER:",
+   "options": [
+    {
+     "en": "They can be reloaded through the muzzle.",
+     "de": "Sie lassen sich durch die Mündung laden.",
+     "correct": true,
+     "whyDe": "Das ist die gesuchte Ausnahme. Durch die Mündung lädt man den Vorderlader, und genau davon wollte man weg."
+    },
+    {
+     "en": "They were easily loaded into the breech.",
+     "de": "Sie ließen sich leicht hinten einlegen.",
+     "correct": false,
+     "whyDe": "Vorteil eins im Handbuch."
+    },
+    {
+     "en": "The expanding case prevented gas leakage.",
+     "de": "Die sich dehnende Hülse verhinderte Gasaustritt.",
+     "correct": false,
+     "whyDe": "Vorteil zwei, und das war das eigentliche Problem der frühen Hinterlader."
+    },
+    {
+     "en": "They were largely weatherproof.",
+     "de": "Sie waren weitgehend wetterfest.",
+     "correct": false,
+     "whyDe": "Vorteil drei."
+    }
+   ]
+  },
+  {
+   "id": "q-m1-06",
+   "type": "mc",
+   "unit": "m1-patrone",
+   "source": "S. 33",
+   "tags": [
+    "munition"
+   ],
+   "stemEn": "In a shotgun shell, what is the purpose of the wad?",
+   "stemDe": "Wozu dient der Pfropfen in der Schrotpatrone?",
+   "options": [
+    {
+     "en": "It separates the powder from the projectiles.",
+     "de": "Er trennt das Pulver von den Schroten.",
+     "correct": true,
+     "whyDe": "Das ist der Unterschied zur Büchsenpatrone."
+    },
+    {
+     "en": "It seals the breech against gas.",
+     "de": "Er dichtet den Verschluss gegen Gas ab.",
+     "correct": false,
+     "whyDe": "Das macht die sich ausdehnende Hülse."
+    },
+    {
+     "en": "It ignites the powder.",
+     "de": "Er entzündet das Pulver.",
+     "correct": false,
+     "whyDe": "Das macht das Zündhütchen."
+    },
+    {
+     "en": "It marks the calibre.",
+     "de": "Er zeigt das Kaliber an.",
+     "correct": false,
+     "whyDe": "Das steht im Bodenstempel."
+    }
+   ]
+  },
+  {
+   "id": "q-m1-07",
+   "type": "tf",
+   "unit": "m1-patrone",
+   "source": "S. 33",
+   "tags": [
+    "munition"
+   ],
+   "stemEn": "Early breechloaders failed because expanding gases leaked back through the breech.",
+   "stemDe": "Frühe Hinterlader scheiterten, weil Gase nach hinten durch den Verschluss entwichen.",
+   "answer": true,
+   "whyDe": "Richtig. Erst die Patrone löste das, weil sich ihre Hülse beim Schuss ausdehnt und hinten abdichtet."
+  },
+  {
+   "id": "q-m2-01",
+   "type": "mc",
+   "unit": "m2-pulver",
+   "source": "S. 37",
+   "tags": [
+    "vorderlader"
+   ],
+   "stemEn": "Which type of powder is safe to use in a muzzleloader?",
+   "stemDe": "Welche Pulversorte darf in einen Vorderlader?",
+   "options": [
+    {
+     "en": "Black powder or a black-powder substitute.",
+     "de": "Schwarzpulver oder ein Ersatzstoff dafür.",
+     "correct": true,
+     "whyDe": "Nur diese beiden, und immer nach Angabe des Herstellers."
+    },
+    {
+     "en": "Smokeless powder.",
+     "de": "Rauchloses Pulver.",
+     "correct": false,
+     "whyDe": "Never use smokeless powder in a muzzleloader. Das ist eine der wichtigsten Regeln des Moduls."
+    },
+    {
+     "en": "Any powder of the correct calibre.",
+     "de": "Jedes Pulver im richtigen Kaliber.",
+     "correct": false,
+     "whyDe": "Pulver hat kein Kaliber, und die Sorte ist entscheidend."
+    },
+    {
+     "en": "Smokeless powder, if the charge is reduced.",
+     "de": "Rauchloses Pulver bei verringerter Ladung.",
+     "correct": false,
+     "whyDe": "Auch dann nicht. Die Regel kennt keine Ausnahme."
+    }
+   ]
+  },
+  {
+   "id": "q-m2-02",
+   "type": "mc",
+   "unit": "m2-pulver",
+   "source": "S. 37",
+   "tags": [
+    "vorderlader"
+   ],
+   "stemEn": "FFFFg powder is used for which purpose?",
+   "stemDe": "Wofür wird FFFFg verwendet?",
+   "options": [
+    {
+     "en": "Only as priming powder in the priming pans of flintlocks.",
+     "de": "Nur als Zündpulver in der Pfanne von Steinschlössern.",
+     "correct": true,
+     "whyDe": "Es ist die feinste Körnung und darf nie als Treibladung dienen."
+    },
+    {
+     "en": "As the main powder charge in big-bore rifles.",
+     "de": "Als Treibladung in großkalibrigen Büchsen.",
+     "correct": false,
+     "whyDe": "Ausdrücklich verboten: never use this type of powder as powder charge."
+    },
+    {
+     "en": "In nearly all cap and ball revolvers.",
+     "de": "In fast allen Perkussionsrevolvern.",
+     "correct": false,
+     "whyDe": "Das ist FFFg."
+    },
+    {
+     "en": "In larger bore muskets.",
+     "de": "In großkalibrigen Musketen.",
+     "correct": false,
+     "whyDe": "Das ist Fg."
+    }
+   ]
+  },
+  {
+   "id": "q-m2-03",
+   "type": "tf",
+   "unit": "m2-laden",
+   "source": "S. 42",
+   "tags": [
+    "vorderlader"
+   ],
+   "stemEn": "It is acceptable to pour powder into a muzzleloader directly from a powder horn.",
+   "stemDe": "Man darf Pulver direkt aus dem Pulverhorn in den Vorderlader schütten.",
+   "answer": false,
+   "whyDe": "Falsch. Immer ein Pulvermaß benutzen, nie direkt aus dem Vorratsbehälter. Ein Funke im Lauf würde sonst den ganzen Vorrat zünden. Dies ist eine Review-Frage."
+  },
+  {
+   "id": "q-m2-04",
+   "type": "mc",
+   "unit": "m2-laden",
+   "source": "S. 39",
+   "tags": [
+    "vorderlader"
+   ],
+   "stemEn": "Which component is used to check whether a muzzleloader is already loaded?",
+   "stemDe": "Womit prüft man, ob ein Vorderlader schon geladen ist?",
+   "options": [
+    {
+     "en": "A marked ramrod.",
+     "de": "Ein markierter Ladestock.",
+     "correct": true,
+     "whyDe": "Beim leeren Lauf steht die Markierung an der Mündung. Steht sie darüber, ist etwas drin. Dies ist eine Review-Frage."
+    },
+    {
+     "en": "The priming pan.",
+     "de": "Die Zündpfanne.",
+     "correct": false,
+     "whyDe": "Die zeigt nur, ob gezündet werden kann, nicht ob eine Ladung im Lauf ist."
+    },
+    {
+     "en": "The data stamp.",
+     "de": "Der Daten-Stempel.",
+     "correct": false,
+     "whyDe": "Der nennt nur die zulässige Munition."
+    },
+    {
+     "en": "The magazine.",
+     "de": "Das Magazin.",
+     "correct": false,
+     "whyDe": "Ein Vorderlader hat kein Magazin."
+    }
+   ]
+  },
+  {
+   "id": "q-m2-05",
+   "type": "mc",
+   "unit": "m2-regeln",
+   "source": "S. 44",
+   "tags": [
+    "vorderlader"
+   ],
+   "stemEn": "How long must you wait after a misfire with a muzzleloader?",
+   "stemDe": "Wie lange musst du nach einem Versager beim Vorderlader warten?",
+   "options": [
+    {
+     "en": "At least 60 seconds, with the firearm pointed in a safe direction.",
+     "de": "Mindestens 60 Sekunden, Mündung in sicherer Richtung.",
+     "correct": true,
+     "whyDe": "Ein Versager wird behandelt wie ein Nachzünder, der jede Sekunde losgehen kann. Dies ist eine Review-Frage."
+    },
+    {
+     "en": "At least 10 seconds.",
+     "de": "Mindestens 10 Sekunden.",
+     "correct": false,
+     "whyDe": "Zu kurz."
+    },
+    {
+     "en": "At least 30 seconds.",
+     "de": "Mindestens 30 Sekunden.",
+     "correct": false,
+     "whyDe": "Zu kurz. Das Handbuch nennt 60 Sekunden."
+    },
+    {
+     "en": "No waiting is required if the cap is removed.",
+     "de": "Kein Warten, wenn das Zündhütchen ab ist.",
+     "correct": false,
+     "whyDe": "Erst wird gewartet, vorher wird nichts angefasst."
+    }
+   ]
+  },
+  {
+   "id": "q-m2-06",
+   "type": "mc",
+   "unit": "m2-regeln",
+   "source": "S. 44",
+   "tags": [
+    "vorderlader"
+   ],
+   "stemEn": "Which two items of personal protective equipment must be worn when firing a muzzleloader?",
+   "stemDe": "Welche zwei Schutzausrüstungen sind beim Schießen mit dem Vorderlader vorgeschrieben?",
+   "options": [
+    {
+     "en": "Safety glasses and hearing protection.",
+     "de": "Schutzbrille und Gehörschutz.",
+     "correct": true,
+     "whyDe": "Beide ausdrücklich genannt. Dies ist eine Review-Frage."
+    },
+    {
+     "en": "Gloves and a helmet.",
+     "de": "Handschuhe und Helm.",
+     "correct": false,
+     "whyDe": "Stehen nicht im Handbuch."
+    },
+    {
+     "en": "Blaze orange clothing and gloves.",
+     "de": "Signalorange und Handschuhe.",
+     "correct": false,
+     "whyDe": "Signalorange betrifft die Jagd, nicht den Vorderlader."
+    },
+    {
+     "en": "Hearing protection only.",
+     "de": "Nur Gehörschutz.",
+     "correct": false,
+     "whyDe": "Die Schutzbrille fehlt."
+    }
+   ]
+  },
+  {
+   "id": "q-m2-07",
+   "type": "tf",
+   "unit": "m2-laden",
+   "source": "S. 42",
+   "tags": [
+    "vorderlader",
+    "lagerung"
+   ],
+   "stemEn": "Under safe-storage regulations, a black-powder firearm is considered loaded when powder and/or ball are in the barrel.",
+   "stemDe": "Nach den Lagerungsvorschriften gilt eine Schwarzpulverwaffe als geladen, sobald Pulver oder Kugel im Lauf sind.",
+   "answer": true,
+   "whyDe": "Richtig, und rechtlich wichtig: es braucht kein Zündhütchen, damit sie als geladen gilt."
+  },
+  {
+   "id": "q-m2-08",
+   "type": "tf",
+   "unit": "m2-regeln",
+   "source": "S. 44",
+   "tags": [
+    "vorderlader",
+    "lagerung"
+   ],
+   "stemEn": "A muzzleloader may be stored with powder left in the barrel.",
+   "stemDe": "Ein Vorderlader darf mit Pulver im Lauf gelagert werden.",
+   "answer": false,
+   "whyDe": "Falsch. Don't store a muzzleloader with powder in it."
+  },
+  {
+   "id": "q-m2-09",
+   "type": "mc",
+   "unit": "m2-laden",
+   "source": "S. 38",
+   "tags": [
+    "vorderlader"
+   ],
+   "stemEn": "How is black powder classified?",
+   "stemDe": "Wie wird Schwarzpulver eingestuft?",
+   "options": [
+    {
+     "en": "As an explosive.",
+     "de": "Als Explosivstoff.",
+     "correct": true,
+     "whyDe": "Es entzündet sich durch Hitze, Reibung, statische Elektrizität oder einen Schlag."
+    },
+    {
+     "en": "As a flammable liquid.",
+     "de": "Als brennbare Flüssigkeit.",
+     "correct": false,
+     "whyDe": "Es ist ein Feststoff."
+    },
+    {
+     "en": "As a corrosive substance only.",
+     "de": "Nur als ätzender Stoff.",
+     "correct": false,
+     "whyDe": "Korrosiv ist es auch, eingestuft wird es aber als Explosivstoff."
+    },
+    {
+     "en": "As a non-hazardous material.",
+     "de": "Als ungefährlich.",
+     "correct": false,
+     "whyDe": "Das Gegenteil ist der Fall."
+    }
+   ]
+  },
+  {
+   "id": "q-m3-01",
+   "type": "mc",
+   "unit": "m3-teile",
+   "source": "S. 47",
+   "tags": [
+    "teile"
+   ],
+   "stemEn": "What are the three major parts of a modern firearm?",
+   "stemDe": "Was sind die drei Hauptteile einer modernen Waffe?",
+   "options": [
+    {
+     "en": "The barrel, the action and the stock.",
+     "de": "Lauf, Verschluss und Schaft.",
+     "correct": true,
+     "whyDe": "Diese drei. Dies ist die erste Review-Frage des Moduls."
+    },
+    {
+     "en": "The barrel, the trigger and the magazine.",
+     "de": "Lauf, Abzug und Magazin.",
+     "correct": false,
+     "whyDe": "Abzug und Magazin sind Teile des Verschlusses, keine Hauptteile."
+    },
+    {
+     "en": "The muzzle, the chamber and the bore.",
+     "de": "Mündung, Patronenlager und Lauf.",
+     "correct": false,
+     "whyDe": "Das sind alles Teile beziehungsweise Stellen am Lauf."
+    },
+    {
+     "en": "The stock, the safety and the barrel.",
+     "de": "Schaft, Sicherung und Lauf.",
+     "correct": false,
+     "whyDe": "Die Sicherung gehört zum Verschluss."
+    }
+   ]
+  },
+  {
+   "id": "q-m3-02",
+   "type": "mc",
+   "unit": "m3-teile",
+   "source": "S. 49",
+   "tags": [
+    "teile"
+   ],
+   "stemEn": "Which of the following are all parts of the action?",
+   "stemDe": "Was gehört alles zum Verschluss?",
+   "options": [
+    {
+     "en": "The trigger, the safety and the magazine.",
+     "de": "Abzug, Sicherung und Magazin.",
+     "correct": true,
+     "whyDe": "Alle drei zählt das Handbuch ausdrücklich zum Verschluss."
+    },
+    {
+     "en": "The barrel, the muzzle and the bore.",
+     "de": "Lauf, Mündung und Laufinneres.",
+     "correct": false,
+     "whyDe": "Das gehört alles zum Lauf."
+    },
+    {
+     "en": "The stock and the trigger guard.",
+     "de": "Schaft und Abzugsbügel.",
+     "correct": false,
+     "whyDe": "Der Schaft ist ein eigener Hauptteil."
+    },
+    {
+     "en": "The muzzle and the data stamp.",
+     "de": "Mündung und Daten-Stempel.",
+     "correct": false,
+     "whyDe": "Beides am Lauf."
+    }
+   ]
+  },
+  {
+   "id": "q-m3-03",
+   "type": "mc",
+   "unit": "m3-teile",
+   "source": "S. 49",
+   "tags": [
+    "teile"
+   ],
+   "stemEn": "The action contains the parts that do which of the following?",
+   "stemDe": "Welche Aufgaben hat der Verschluss?",
+   "options": [
+    {
+     "en": "Chamber the cartridge, fire the ammunition and eject the casings.",
+     "de": "Die Patrone zuführen, den Schuss auslösen und die Hülsen auswerfen.",
+     "correct": true,
+     "whyDe": "Genau diese drei Aufgaben nennt das Handbuch."
+    },
+    {
+     "en": "Aim the firearm and absorb recoil.",
+     "de": "Zielen und Rückstoß aufnehmen.",
+     "correct": false,
+     "whyDe": "Das gehört eher zu Schaft und Visierung."
+    },
+    {
+     "en": "Store the ammunition and clean the bore.",
+     "de": "Munition lagern und den Lauf reinigen.",
+     "correct": false,
+     "whyDe": "Munition hält das Magazin, gereinigt wird von Hand."
+    },
+    {
+     "en": "Prevent the firearm from firing.",
+     "de": "Das Abfeuern verhindern.",
+     "correct": false,
+     "whyDe": "Das ist die Aufgabe der Sicherung, und die ist nur ein Teil des Verschlusses."
+    }
+   ]
+  },
+  {
+   "id": "q-m3-04",
+   "type": "mc",
+   "unit": "m3-teile",
+   "source": "S. 49",
+   "tags": [
+    "sicherung"
+   ],
+   "stemEn": "What do 'safety ON' and 'safety OFF' mean?",
+   "stemDe": "Was bedeuten safety ON und safety OFF?",
+   "options": [
+    {
+     "en": "ON is the safety position, OFF is the firing position.",
+     "de": "ON heißt gesichert, OFF heißt schussbereit.",
+     "correct": true,
+     "whyDe": "Solange die Waffe geladen ist, gehört sie auf ON. Dies ist eine Review-Frage. Trotzdem gilt: verlass dich nie darauf."
+    },
+    {
+     "en": "ON means the firearm is ready to fire.",
+     "de": "ON heißt schussbereit.",
+     "correct": false,
+     "whyDe": "Genau umgekehrt."
+    },
+    {
+     "en": "ON means the magazine is locked.",
+     "de": "ON heißt, das Magazin ist verriegelt.",
+     "correct": false,
+     "whyDe": "Die Sicherung blockiert einen Teil des Verschlusses, nicht das Magazin."
+    },
+    {
+     "en": "There is no difference on modern firearms.",
+     "de": "Bei modernen Waffen gibt es keinen Unterschied.",
+     "correct": false,
+     "whyDe": "Den gibt es sehr wohl."
+    }
+   ]
+  },
+  {
+   "id": "q-m3-05",
+   "type": "tf",
+   "unit": "m3-teile",
+   "source": "S. 49",
+   "tags": [
+    "teile"
+   ],
+   "stemEn": "Every firearm has a safety.",
+   "stemDe": "Jede Waffe hat eine Sicherung.",
+   "answer": false,
+   "whyDe": "Falsch. Some firearms do not have safeties. Und selbst wo eine vorhanden ist, darf man sich nicht auf sie verlassen."
+  },
+  {
+   "id": "q-m3-06",
+   "type": "tf",
+   "unit": "m3-teile",
+   "source": "S. 49",
+   "tags": [
+    "teile"
+   ],
+   "stemEn": "A magazine can be either fixed or removable.",
+   "stemDe": "Ein Magazin kann fest eingebaut oder abnehmbar sein.",
+   "answer": true,
+   "whyDe": "Richtig. Wo es sitzt, hängt von Hersteller und Modell ab."
+  },
+  {
+   "id": "q-m3-07",
+   "type": "mc",
+   "unit": "m3-abfolge",
+   "source": "S. 51",
+   "tags": [
+    "schussfolge"
+   ],
+   "stemEn": "In the firing sequence, what does the firing pin strike?",
+   "stemDe": "Was trifft der Schlagbolzen in der Schussfolge?",
+   "options": [
+    {
+     "en": "The primer of the cartridge.",
+     "de": "Das Zündhütchen der Patrone.",
+     "correct": true,
+     "whyDe": "Der Abzug gibt den Mechanismus frei, der Schlagbolzen trifft das Zündhütchen."
+    },
+    {
+     "en": "The powder charge.",
+     "de": "Die Pulverladung.",
+     "correct": false,
+     "whyDe": "Die wird erst durch die Flamme des Zündhütchens entzündet."
+    },
+    {
+     "en": "The bullet.",
+     "de": "Das Geschoss.",
+     "correct": false,
+     "whyDe": "Das wird vom Gas nach vorn getrieben."
+    },
+    {
+     "en": "The casing.",
+     "de": "Die Hülse.",
+     "correct": false,
+     "whyDe": "Die dehnt sich beim Schuss aus und dichtet ab."
+    }
+   ]
+  },
+  {
+   "id": "q-m3-08",
+   "type": "mc",
+   "unit": "m3-abfolge",
+   "source": "S. 51",
+   "tags": [
+    "schussfolge"
+   ],
+   "stemEn": "Which of the following is the correct firing sequence?",
+   "stemDe": "Welche Schussfolge ist richtig?",
+   "options": [
+    {
+     "en": "Trigger, firing pin, primer, powder, gas, projectile.",
+     "de": "Abzug, Schlagbolzen, Zündhütchen, Pulver, Gas, Geschoss.",
+     "correct": true,
+     "whyDe": "So beschreibt es das Handbuch in vier Schritten."
+    },
+    {
+     "en": "Trigger, primer, firing pin, powder, gas, projectile.",
+     "de": "Abzug, Zündhütchen, Schlagbolzen, Pulver, Gas, Geschoss.",
+     "correct": false,
+     "whyDe": "Der Schlagbolzen kommt vor dem Zündhütchen, er trifft es ja."
+    },
+    {
+     "en": "Firing pin, trigger, powder, primer, gas, projectile.",
+     "de": "Schlagbolzen, Abzug, Pulver, Zündhütchen, Gas, Geschoss.",
+     "correct": false,
+     "whyDe": "Der Abzug steht am Anfang."
+    },
+    {
+     "en": "Trigger, firing pin, powder, primer, gas, projectile.",
+     "de": "Abzug, Schlagbolzen, Pulver, Zündhütchen, Gas, Geschoss.",
+     "correct": false,
+     "whyDe": "Das Zündhütchen zündet das Pulver, nicht umgekehrt."
+    }
+   ]
+  },
+  {
+   "id": "q-m3-09",
+   "type": "mc",
+   "unit": "m3-verschluss",
+   "source": "S. 52",
+   "tags": [
+    "verschluss"
+   ],
+   "stemEn": "What are the two common types of non-restricted firearms?",
+   "stemDe": "Was sind die beiden häufigen nicht beschränkten Bauarten?",
+   "options": [
+    {
+     "en": "Shotguns and rifles.",
+     "de": "Flinten und Büchsen.",
+     "correct": true,
+     "whyDe": "Zusammen heißen sie long guns. Dies ist eine Review-Frage."
+    },
+    {
+     "en": "Rifles and handguns.",
+     "de": "Büchsen und Kurzwaffen.",
+     "correct": false,
+     "whyDe": "Kurzwaffen sind in aller Regel beschränkt und Sache des anderen Kurses."
+    },
+    {
+     "en": "Shotguns and handguns.",
+     "de": "Flinten und Kurzwaffen.",
+     "correct": false,
+     "whyDe": "Siehe oben."
+    },
+    {
+     "en": "Muzzleloaders and handguns.",
+     "de": "Vorderlader und Kurzwaffen.",
+     "correct": false,
+     "whyDe": "Der Vorderlader ist eine Verschlussart, keine der beiden Bauarten."
+    }
+   ]
+  },
+  {
+   "id": "q-m3-10",
+   "type": "mc",
+   "unit": "m3-verschluss",
+   "source": "S. 52",
+   "tags": [
+    "verschluss"
+   ],
+   "stemEn": "Which of the following is NOT one of the six basic action types?",
+   "stemDe": "Welche gehört NICHT zu den sechs Verschlussarten?",
+   "options": [
+    {
+     "en": "Revolver action.",
+     "de": "Revolververschluss.",
+     "correct": true,
+     "whyDe": "Das ist die gesuchte Antwort. Der Revolver zählt nicht zu den sechs, er gehört zum Bereich der beschränkten Waffen."
+    },
+    {
+     "en": "Hinge (or break) action.",
+     "de": "Kipplauf.",
+     "correct": false,
+     "whyDe": "Gehört dazu."
+    },
+    {
+     "en": "Lever action.",
+     "de": "Unterhebel.",
+     "correct": false,
+     "whyDe": "Gehört dazu."
+    },
+    {
+     "en": "Semi-automatic action.",
+     "de": "Selbstlader.",
+     "correct": false,
+     "whyDe": "Gehört dazu."
+    }
+   ]
+  },
+  {
+   "id": "q-m3-11",
+   "type": "mc",
+   "unit": "m3-verschluss",
+   "source": "S. 52",
+   "tags": [
+    "verschluss"
+   ],
+   "stemEn": "Which action is operated by sliding the fore-end back and forth?",
+   "stemDe": "Welcher Verschluss wird durch Vor- und Zurückziehen des Vorderschafts bedient?",
+   "options": [
+    {
+     "en": "Pump action.",
+     "de": "Vorderschaftrepetierer.",
+     "correct": true,
+     "whyDe": "Daher der Name. Im Handbuch die Flinte in Abbildung 13."
+    },
+    {
+     "en": "Bolt action.",
+     "de": "Kammerverschluss.",
+     "correct": false,
+     "whyDe": "Der wird über den Kammerstängel bedient."
+    },
+    {
+     "en": "Lever action.",
+     "de": "Unterhebel.",
+     "correct": false,
+     "whyDe": "Der über einen Hebel unter dem Schaft."
+    },
+    {
+     "en": "Hinge action.",
+     "de": "Kipplauf.",
+     "correct": false,
+     "whyDe": "Da klappt der Lauf nach unten weg."
+    }
+   ]
+  },
+  {
+   "id": "q-m3-12",
+   "type": "mc",
+   "unit": "m3-klassen",
+   "source": "S. 54",
+   "tags": [
+    "klassen"
+   ],
+   "stemEn": "What are the three legislated classes of firearms in Canada?",
+   "stemDe": "Welche drei Waffenklassen kennt das kanadische Recht?",
+   "options": [
+    {
+     "en": "Non-restricted, restricted and prohibited.",
+     "de": "Nicht beschränkt, beschränkt, verboten.",
+     "correct": true,
+     "whyDe": "Verbotene unterliegen den strengsten Auflagen, nicht beschränkte den geringsten. Dies ist eine Review-Frage."
+    },
+    {
+     "en": "Long gun, handgun and air gun.",
+     "de": "Langwaffe, Kurzwaffe, Luftdruckwaffe.",
+     "correct": false,
+     "whyDe": "Das sind Bauarten, keine Rechtsklassen."
+    },
+    {
+     "en": "Hunting, sporting and collecting.",
+     "de": "Jagd, Sport, Sammlung.",
+     "correct": false,
+     "whyDe": "Das sind Verwendungszwecke."
+    },
+    {
+     "en": "Federal, provincial and municipal.",
+     "de": "Bund, Provinz, Gemeinde.",
+     "correct": false,
+     "whyDe": "Das sind die Ebenen der Gesetzgebung."
+    }
+   ]
+  },
+  {
+   "id": "q-m3-13",
+   "type": "tf",
+   "unit": "m3-klassen",
+   "source": "S. 54",
+   "tags": [
+    "klassen",
+    "acts"
+   ],
+   "stemEn": "All air, spring or gas firearms must be treated like firearms, and ACTS and PROVE apply to them.",
+   "stemDe": "Luft-, Feder- und Gasdruckwaffen sind wie Schusswaffen zu behandeln, ACTS und PROVE gelten auch für sie.",
+   "answer": true,
+   "whyDe": "Richtig. Viele Luftdruckwaffen fallen wegen ihrer Leistung unter das Waffengesetz, und ACTS und PROVE gelten ohnehin für alle Klassen. Dies ist eine Review-Frage."
+  },
+  {
+   "id": "q-m3-14",
+   "type": "mc",
+   "unit": "m3-teile",
+   "source": "S. 48",
+   "tags": [
+    "teile"
+   ],
+   "stemEn": "What is the data stamp on a barrel for?",
+   "stemDe": "Wozu dient der Daten-Stempel am Lauf?",
+   "options": [
+    {
+     "en": "It identifies the cartridge information required for that firearm.",
+     "de": "Er gibt an, welche Patrone in diese Waffe gehört.",
+     "correct": true,
+     "whyDe": "Deshalb ist er die erste Stelle, an der man nachsieht, bevor man Munition wählt."
+    },
+    {
+     "en": "It shows the date of manufacture only.",
+     "de": "Er zeigt nur das Baujahr.",
+     "correct": false,
+     "whyDe": "Es geht um die Munitionsangabe."
+    },
+    {
+     "en": "It shows the classification of the firearm.",
+     "de": "Er zeigt die Waffenklasse.",
+     "correct": false,
+     "whyDe": "Die ergibt sich aus dem Gesetz, nicht aus dem Lauf."
+    },
+    {
+     "en": "It marks the safest muzzle direction.",
+     "de": "Er markiert die sichere Mündungsrichtung.",
+     "correct": false,
+     "whyDe": "Das ergibt sich aus der Lage, nicht aus einem Aufdruck."
+    }
+   ]
+  },
+  {
+   "id": "q-m3-15",
+   "type": "mc",
+   "unit": "m3-teile",
+   "source": "S. 50",
+   "tags": [
+    "teile",
+    "acts"
+   ],
+   "stemEn": "Why must you be especially careful when picking up a firearm by the stock?",
+   "stemDe": "Warum musst du beim Aufnehmen am Schaft besonders aufpassen?",
+   "options": [
+    {
+     "en": "The stock aligns your finger with the trigger automatically.",
+     "de": "Der Schaft führt den Finger von selbst zum Abzug.",
+     "correct": true,
+     "whyDe": "Genau deshalb ist das T in ACTS eine eigene Regel: Finger weg vom Abzug und aus dem Abzugsbügel, schon beim Aufnehmen."
+    },
+    {
+     "en": "The stock is usually slippery.",
+     "de": "Der Schaft ist meist rutschig.",
+     "correct": false,
+     "whyDe": "Steht so nicht im Handbuch."
+    },
+    {
+     "en": "The stock holds the ammunition.",
+     "de": "Im Schaft steckt die Munition.",
+     "correct": false,
+     "whyDe": "Die hält das Magazin."
+    },
+    {
+     "en": "The stock releases the safety.",
+     "de": "Der Schaft löst die Sicherung.",
+     "correct": false,
+     "whyDe": "Tut er nicht."
+    }
+   ]
   }
  ]
 }

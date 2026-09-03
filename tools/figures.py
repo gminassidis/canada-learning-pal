@@ -25,6 +25,14 @@ FIGURES = [
     ("acts",            "clip",  57, (230, 656)),
     ("prove",           "clip",  58, ( 95, 492)),
     ("locking-devices", "image", 61, "p0061-01.png"),
+    # Modul 1 bis 3
+    ("cartridges",      "image", 34, "p0034-01.png"),
+    ("muzzleloader",    "image", 38, "p0038-01.png"),
+    ("ramrod",          "image", 40, "p0040-01.jpeg"),
+    ("bolt-action",     "image", 48, "p0048-01.jpeg"),
+    ("pump-action",     "image", 48, "p0048-02.png"),
+    ("firing-sequence", "image", 51, "p0051-01.png"),
+    ("action-types",    "image", 53, "p0053-01.png"),
 ]
 
 
