@@ -28,38 +28,127 @@ def load_content():
     return bundle
 
 
-def embed_images(html):
-    """src="assets/x.webp" -> src="data:image/webp;base64,..." """
-    missing = []
+def data_uri(rel):
+    """assets/x.webp -> data:image/webp;base64,... Gibt None zurueck, wenn es fehlt."""
+    f = ROOT / rel
+    if not f.exists():
+        return None
+    mime = mimetypes.guess_type(f.name)[0] or "application/octet-stream"
+    return f"data:{mime};base64,{base64.b64encode(f.read_bytes()).decode('ascii')}"
+
+
+def embed_images(bundle, html):
+    """Bilder einbetten, damit die fertige Datei offline laeuft.
+
+    Die Pfade stehen in den Inhalten, nicht im HTML: die App baut das
+    img-Tag erst zur Laufzeit. Deshalb wird hier der Inhalt umgeschrieben,
+    nicht der Text der Seite. Der Durchlauf ueber das HTML bleibt fuer
+    Bilder, die direkt in der Vorlage stehen.
+    """
+    missing, n = [], 0
+
+    for ch in bundle.get("units", {}).get("chapters", []) or []:
+        for u in ch.get("units", []) or []:
+            for b in u.get("blocks", []) or []:
+                if b.get("type") != "img":
+                    continue
+                uri = data_uri(b["src"])
+                if uri is None:
+                    missing.append(b["src"])
+                else:
+                    b["src"] = uri
+                    n += 1
 
     def repl(m):
-        rel = m.group(1)
-        f = ROOT / rel
-        if not f.exists():
-            missing.append(rel)
+        uri = data_uri(m.group(1))
+        if uri is None:
+            missing.append(m.group(1))
             return m.group(0)
-        mime = mimetypes.guess_type(f.name)[0] or "application/octet-stream"
-        b64 = base64.b64encode(f.read_bytes()).decode("ascii")
-        return f'src="data:{mime};base64,{b64}"'
+        return f'src="{uri}"'
 
     html = re.sub(r'src="(assets/[^"]+)"', repl, html)
+
     for rel in sorted(set(missing)):
         print(f"  ! Bild fehlt: {rel}")
+    if n:
+        print(f"  {n} Abbildungen eingebettet")
     return html
 
 
+def check(bundle):
+    """Inhaltliche Pruefung. Faengt genau die Fehler, die man beim Einpflegen macht."""
+    units = bundle.get("units", {}).get("chapters", []) or []
+    qs    = bundle.get("questions", {}).get("questions", []) or []
+    terms = bundle.get("vocab", {}).get("terms", []) or []
+
+    unit_ids = {u["id"] for ch in units for u in ch.get("units", [])}
+    term_ids = {t["id"] for t in terms}
+    problems = []
+
+    for ch in units:
+        for u in ch.get("units", []):
+            for b in u.get("blocks", []):
+                if b["type"] == "terms":
+                    for tid in b.get("ids", []):
+                        if tid not in term_ids:
+                            problems.append(f'{u["id"]}: Begriff "{tid}" gibt es nicht')
+                if b["type"] == "img":
+                    if not (ROOT / b["src"]).exists():
+                        problems.append(f'{u["id"]}: Bild {b["src"]} fehlt')
+            if not u.get("source"):
+                problems.append(f'{u["id"]}: keine Fundstelle')
+
+    seen = set()
+    for q in qs:
+        if q["id"] in seen:
+            problems.append(f'{q["id"]}: doppelte Fragennummer')
+        seen.add(q["id"])
+        if q.get("unit") and q["unit"] not in unit_ids:
+            problems.append(f'{q["id"]}: Lerneinheit "{q["unit"]}" gibt es nicht')
+        if not q.get("source"):
+            problems.append(f'{q["id"]}: keine Fundstelle')
+        if q["type"] == "mc":
+            n = sum(1 for o in q.get("options", []) if o.get("correct"))
+            if n != 1:
+                problems.append(f'{q["id"]}: {n} richtige Antworten, genau eine erwartet')
+            for o in q.get("options", []):
+                if not o.get("whyDe"):
+                    problems.append(f'{q["id"]}: Option ohne Begruendung')
+        elif q["type"] == "tf":
+            if not isinstance(q.get("answer"), bool):
+                problems.append(f'{q["id"]}: answer muss true oder false sein')
+            if not q.get("whyDe"):
+                problems.append(f'{q["id"]}: keine Begruendung')
+
+    offen = [t["id"] for t in terms if t.get("verify")]
+    return problems, offen
+
+
 def main():
+    bundle = load_content()
+    problems, offen = check(bundle)
+    for m in problems:
+        print(f"  ! {m}")
+    if problems:
+        print(f"  {len(problems)} Probleme, Bau abgebrochen")
+        return 1
+    if offen:
+        print(f"  {len(offen)} Begriffe noch gegen das Handbuch zu pruefen")
+
     tpl = (SRC / "index.html").read_text(encoding="utf-8")
     css = (SRC / "app.css").read_text(encoding="utf-8")
     js  = (SRC / "app.js").read_text(encoding="utf-8")
-    content = json.dumps(load_content(), ensure_ascii=False, separators=(",", ":"))
+
+    # Bilder zuerst: sie stecken in den Inhalten und muessen vor dem
+    # Serialisieren zu data-URIs werden.
+    tpl = embed_images(bundle, tpl)
+    content = json.dumps(bundle, ensure_ascii=False, separators=(",", ":"))
 
     fonts = (SRC / "fonts.css").read_text(encoding="utf-8")
     html = tpl.replace("/*INJECT_FONTS*/", fonts)
     html = html.replace("/*INJECT_CSS*/", css)
     html = html.replace("/*INJECT_CONTENT*/", content)
     html = html.replace("/*INJECT_JS*/", js)
-    html = embed_images(html)
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(html, encoding="utf-8")

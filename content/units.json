@@ -1,24 +1,497 @@
 {
-  "_schema": "Lerneinheiten. Jeder Block ist entweder englisches Original (en), deutsche Erklärung (de), eine Abbildung (img) oder eine Begriffsliste (terms). Feld source = Seite im Handbuch.",
-  "_status": "PLATZHALTER. Wird aus dem RCMP Student Handbook befüllt.",
-  "chapters": [
+ "_schema": "Lerneinheiten. Bloecke: de = deutsche Erklaerung, en = englischer Originalsatz aus dem Handbuch, img = Abbildung, terms = Begriffsliste. source = Seite im Handbuch.",
+ "_status": "Einfuehrung und Modul 4 fertig. Module 1 bis 3 und 5 bis 11 folgen.",
+ "chapters": [
+  {
+   "id": "einfuehrung",
+   "titleDe": "Einführung",
+   "titleEn": "Introduction to the Canadian Firearms Safety Course",
+   "units": [
     {
-      "id": "ch1",
-      "titleDe": "PLATZHALTER Kapiteltitel",
-      "titleEn": "PLACEHOLDER chapter title",
-      "units": [
-        {
-          "id": "ch1-u1",
-          "titleDe": "PLATZHALTER Lerneinheit",
-          "titleEn": "PLACEHOLDER unit title",
-          "source": "S. ??",
-          "blocks": [
-            { "type": "de", "text": "PLATZHALTER: deutsche Erklärung des Sachverhalts, kurz und in ganzen Sätzen." },
-            { "type": "en", "text": "PLACEHOLDER: verbatim English sentence from the handbook that carries the testable fact." },
-            { "type": "terms", "ids": ["placeholder-term"] }
-          ]
-        }
-      ]
+     "id": "intro-acts",
+     "titleDe": "Die vier Grundregeln: ACTS",
+     "titleEn": "The Vital Four ACTS of Firearm Safety",
+     "source": "S. 21 und S. 57",
+     "blocks": [
+      {
+       "type": "de",
+       "text": "Fast jeder Unfall mit einer Schusswaffe lässt sich verhindern, wenn vier Regeln eingehalten werden. Das Handbuch nennt sie die Vital Four ACTS. Die Anfangsbuchstaben der vier Regeln ergeben das Wort ACTS. Lerne die Sätze auf Englisch, denn genau so stehen sie im Handbuch und werden sie im Kurs abgefragt."
+      },
+      {
+       "type": "de",
+       "text": "Merke dir zuerst nur die vier Anfangsbuchstaben: A, C, T, S."
+      },
+      {
+       "type": "en",
+       "text": "Assume every firearm is loaded."
+      },
+      {
+       "type": "de",
+       "text": "A wie Assume. Geh immer davon aus, dass die Waffe geladen ist, auch wenn dir jemand das Gegenteil sagt und auch wenn du sie eben selbst entladen hast. Jede Waffe gilt als mögliche Gefahr."
+      },
+      {
+       "type": "en",
+       "text": "Control the muzzle direction at all times."
+      },
+      {
+       "type": "de",
+       "text": "C wie Control. Die muzzle ist die Mündung, also das vordere Ende des Laufs, aus dem das Geschoss austritt. Sie muss jederzeit in die sicherste verfügbare Richtung zeigen und niemals auf dich selbst oder eine andere Person."
+      },
+      {
+       "type": "en",
+       "text": "Trigger finger must be kept off the trigger and out of the trigger guard."
+      },
+      {
+       "type": "de",
+       "text": "T wie Trigger. Der trigger ist der Abzug, der trigger guard der Bügel darum herum. Der Finger bleibt von beidem weg, und zwar schon in dem Moment, in dem du die Waffe aufnimmst, nicht erst wenn du sie hältst."
+      },
+      {
+       "type": "en",
+       "text": "See that the firearm is unloaded - PROVE it safe."
+      },
+      {
+       "type": "de",
+       "text": "S wie See. Überzeuge dich selbst davon, dass die Waffe entladen ist, indem du den PROVE-Ablauf durchgehst. Patronenlager und Magazin müssen beide leer sein. Das machst du jedes Mal, wenn du eine Waffe in die Hand nimmst, aus welchem Grund auch immer."
+      },
+      {
+       "type": "en",
+       "text": "Pass or accept only open and unloaded firearms."
+      },
+      {
+       "type": "de",
+       "text": "Waffen werden nur offen und entladen weitergegeben und nur so angenommen. Das ist eine der Regeln, nach denen im praktischen Teil geprüft wird."
+      },
+      {
+       "type": "img",
+       "src": "assets/acts.webp",
+       "captionDe": "Abbildung 16 aus dem Handbuch. Genau diese Tafel wirst du im Kurs sehen."
+      },
+      {
+       "type": "terms",
+       "ids": [
+        "firearm",
+        "loaded",
+        "unloaded",
+        "muzzle",
+        "trigger",
+        "trigger-guard",
+        "chamber",
+        "magazine"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "intro-prove",
+     "titleDe": "Der Ablauf zum Sichermachen: PROVE",
+     "titleEn": "PROVE It Safe",
+     "source": "S. 22 und S. 58",
+     "blocks": [
+      {
+       "type": "de",
+       "text": "ACTS sagt dir, dass du prüfen musst. PROVE sagt dir, wie. Es sind fünf Schritte in fester Reihenfolge, und die Anfangsbuchstaben ergeben das Wort PROVE. Die Reihenfolge ist prüfungsrelevant, im schriftlichen wie im praktischen Teil."
+      },
+      {
+       "type": "en",
+       "text": "Point the firearm in the safest available direction."
+      },
+      {
+       "type": "de",
+       "text": "P wie Point. Beachte das Wort safest, also die sicherste. Nicht irgendeine sichere Richtung, sondern die sicherste verfügbare. Danach wird gefragt."
+      },
+      {
+       "type": "en",
+       "text": "Remove all ammunition."
+      },
+      {
+       "type": "de",
+       "text": "R wie Remove. Die gesamte Munition heraus, auch die im Magazin."
+      },
+      {
+       "type": "en",
+       "text": "Observe the chamber."
+      },
+      {
+       "type": "de",
+       "text": "O wie Observe. Sieh in das Patronenlager hinein, also dorthin, wo die Patrone beim Schuss liegt. Sieh wirklich hin, taste nicht."
+      },
+      {
+       "type": "en",
+       "text": "Verify the feeding path."
+      },
+      {
+       "type": "de",
+       "text": "V wie Verify. Der feeding path ist der Zuführweg, also der Weg, auf dem eine Patrone vom Magazin ins Patronenlager gelangt. Auch der muss leer sein."
+      },
+      {
+       "type": "en",
+       "text": "Examine the bore for obstructions."
+      },
+      {
+       "type": "de",
+       "text": "E wie Examine. Der bore ist das Innere des Laufs. Prüfe, ob etwas darin steckt, mit dem Auge oder mit einem Stab. Ein verstopfter Lauf kann beim Schuss bersten."
+      },
+      {
+       "type": "en",
+       "text": "The firearm is now unloaded and safe until it leaves the direct control of the person who unloaded and PROVEd it safe."
+      },
+      {
+       "type": "de",
+       "text": "Wichtiger Nachsatz: Die Waffe gilt nur so lange als sicher, wie sie in der direkten Kontrolle derjenigen Person bleibt, die sie entladen und geprüft hat. Gibst du sie aus der Hand und bekommst sie zurück, fängst du wieder bei P an."
+      },
+      {
+       "type": "img",
+       "src": "assets/prove.webp",
+       "captionDe": "Abbildung 17 aus dem Handbuch, die fünf Schritte in ihrer Reihenfolge."
+      },
+      {
+       "type": "terms",
+       "ids": [
+        "bore",
+        "obstruction",
+        "feeding-path",
+        "chamber",
+        "ammunition"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "intro-recht",
+     "titleDe": "Rechtliche Pflichten",
+     "titleEn": "Legal Responsibilities",
+     "source": "S. 23 bis S. 25",
+     "blocks": [
+      {
+       "type": "de",
+       "text": "In Kanada regeln drei Ebenen den Umgang mit Waffen: der Bund, die Provinz beziehungsweise das Territorium, und die Gemeinde. Für die Prüfung musst du wissen, welche Ebene wofür zuständig ist."
+      },
+      {
+       "type": "de",
+       "text": "Der Bund regelt Erlaubnis und Besitz, über den Firearms Act und das Strafgesetzbuch."
+      },
+      {
+       "type": "en",
+       "text": "All firearm owners need a valid firearm licence."
+      },
+      {
+       "type": "en",
+       "text": "If you are the holder of a valid Firearms Licence, you must inform the Canadian Firearms Program within 30 days, when you change your address."
+      },
+      {
+       "type": "de",
+       "text": "Merke die Zahl: 30 Tage nach einem Umzug. Solche Fristen sind typische Prüfungsfragen."
+      },
+      {
+       "type": "de",
+       "text": "Es gibt zwei Erlaubnisarten. Die PAL erlaubt Erwerb und Besitz, die POL nur den Besitz. Mit einer PAL darfst du Waffen derselben Klasse leihen, kaufen, erben oder auf andere Weise erwerben. Mit einer POL darfst du nur leihen."
+      },
+      {
+       "type": "de",
+       "text": "Die Provinz oder das Territorium regelt vor allem die Jagd. Im Yukon gilt Territorialrecht. Manche Gebiete verlangen zum Beispiel Signalorange beim Jagen oder verbieten das Schießen in einem bestimmten Abstand zu Straßen und Wohnhäusern."
+      },
+      {
+       "type": "de",
+       "text": "Die Gemeinde regelt Örtliches. Manche verbieten jeden Schuss im Gemeindegebiet, andere regeln Uhrzeiten oder Abstände zu Wohnhäusern."
+      },
+      {
+       "type": "de",
+       "text": "Zwei Straftatbestände nennt das Handbuch ausdrücklich. Beide solltest du kennen."
+      },
+      {
+       "type": "en",
+       "text": "Every person commits an offence who, without lawful excuse, points a firearm at another person, whether the firearm is loaded or unloaded."
+      },
+      {
+       "type": "de",
+       "text": "Mit einer Waffe auf einen Menschen zu zielen ist strafbar, und zwar unabhängig davon, ob sie geladen ist. Bis zu fünf Jahre Haft, oder im abgekürzten Verfahren 5.000 Dollar Geldstrafe und bis zu sechs Monate."
+      },
+      {
+       "type": "en",
+       "text": "Every person who stores, displays, transports or handles any firearm in a manner contrary to the Storage, Display, Transportation and Handling of Firearms by Individuals Regulations is guilty of an offence."
+      },
+      {
+       "type": "de",
+       "text": "Falsches Lagern, Ausstellen, Transportieren oder Handhaben ist ebenfalls strafbar. Beim ersten Mal bis zu zwei Jahre, im Wiederholungsfall bis zu fünf."
+      },
+      {
+       "type": "terms",
+       "ids": [
+        "firearm-licence",
+        "pal",
+        "pol",
+        "non-restricted",
+        "indictable-offence",
+        "summary-conviction",
+        "blaze-orange",
+        "dwelling",
+        "canadian-firearms-program"
+       ]
+      }
+     ]
     }
-  ]
+   ]
+  },
+  {
+   "id": "modul4",
+   "titleDe": "Modul 4: Grundlegende Waffensicherheit",
+   "titleEn": "Module 4: Basic Firearm Safety",
+   "units": [
+    {
+     "id": "m4-praxis",
+     "titleDe": "Umgang mit Waffe und Munition",
+     "titleEn": "Firearms and ammunition safety practices",
+     "source": "S. 59",
+     "blocks": [
+      {
+       "type": "de",
+       "text": "Das Gesetz gibt eine Untergrenze vor. Erfahrene Nutzer gehen darüber hinaus. Die folgenden Punkte sind solche empfohlenen Praktiken, und sie kommen in Prüfungsfragen vor."
+      },
+      {
+       "type": "en",
+       "text": "All firearms and ammunition under your control are your responsibility 24 hours a day."
+      },
+      {
+       "type": "de",
+       "text": "Rund um die Uhr verantwortlich, ohne Ausnahme. Achte auf die Formulierung 24 hours a day, das ist so eine Stelle, an der eine True-False-Frage hängt."
+      },
+      {
+       "type": "en",
+       "text": "Firearms are safer when stored and transported under lock and key."
+      },
+      {
+       "type": "de",
+       "text": "Unter Verschluss lagern und transportieren. Beispiele nennt das Handbuch selbst: Abzugsschlösser, Kabelschlösser und sicher verschlossene Behälter."
+      },
+      {
+       "type": "en",
+       "text": "Keep firearms and ammunition out of sight during transport and storage."
+      },
+      {
+       "type": "de",
+       "text": "Außer Sichtweite halten. Das senkt die Diebstahlgefahr und verhindert, dass Unbefugte an die Waffe kommen."
+      },
+      {
+       "type": "en",
+       "text": "Ammunition and firearms must be kept away from unsupervised children."
+      },
+      {
+       "type": "de",
+       "text": "Von unbeaufsichtigten Kindern fernhalten. Unerlaubte Lagerung ist eine Straftat."
+      },
+      {
+       "type": "en",
+       "text": "Store firearms unloaded. Lock the firearm and the ammunition separately when storing them or lock them in a secure container, receptacle or room that cannot be easily broken into."
+      },
+      {
+       "type": "de",
+       "text": "Entladen lagern. Waffe und Munition getrennt abschließen, oder beides zusammen in einem Behälter oder Raum, in den man nicht leicht einbrechen kann."
+      },
+      {
+       "type": "terms",
+       "ids": [
+        "ammunition",
+        "secure-locking-device",
+        "trigger-lock",
+        "cable-lock",
+        "locked-container",
+        "storage"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "m4-laden",
+     "titleDe": "Nur zum tatsächlichen Gebrauch laden",
+     "titleEn": "Load a firearm only for actual use",
+     "source": "S. 59 und S. 60",
+     "blocks": [
+      {
+       "type": "de",
+       "text": "Die Grundregel lautet: geladen wird nur dann, wenn du gleich schießen willst und dort, wo das sicher und erlaubt ist. Zu jeder anderen Zeit ist die Waffe entladen."
+      },
+      {
+       "type": "en",
+       "text": "At the firing range, load a firearm only when you have reached the shooting area and you are ready to shoot. Completely unload the firearm before you leave the shooting area."
+      },
+      {
+       "type": "de",
+       "text": "Auf dem Schießstand: erst laden, wenn du am Stand stehst und schießbereit bist. Vollständig entladen, bevor du den Stand verlässt."
+      },
+      {
+       "type": "en",
+       "text": "Always make sure a firearm is unloaded before you pass it to anyone or anytime it leaves your hands. Whenever possible, leave the action open."
+      },
+      {
+       "type": "de",
+       "text": "Vor jeder Weitergabe entladen, und wenn möglich den Verschluss offen lassen. Die action ist der Verschluss, also der bewegliche Teil, der die Patrone zuführt und das Patronenlager verschließt. Offen bedeutet: jeder sieht sofort, dass nichts drin ist."
+      },
+      {
+       "type": "en",
+       "text": "Never accept a loaded firearm from anyone."
+      },
+      {
+       "type": "de",
+       "text": "Nimm nie eine geladene Waffe an. Auch nicht von einem Freund, auch nicht, wenn er sagt, sie sei sicher. Das ist eine der Review-Fragen des Handbuchs."
+      },
+      {
+       "type": "en",
+       "text": "Never run with a loaded firearm. Never climb or cross an obstacle with a loaded firearm. Never jump a ditch with a loaded firearm."
+      },
+      {
+       "type": "de",
+       "text": "Nicht rennen, nicht klettern, nicht über Hindernisse oder Gräben steigen, solange die Waffe geladen ist."
+      },
+      {
+       "type": "en",
+       "text": "Do not lean loaded firearms against a vehicle, tree or wall. They could fall over and discharge."
+      },
+      {
+       "type": "de",
+       "text": "Geladene Waffen nicht anlehnen. Sie können umfallen und sich dabei entladen, also einen Schuss auslösen."
+      },
+      {
+       "type": "en",
+       "text": "Transport only unloaded firearms by vehicle or boat."
+      },
+      {
+       "type": "de",
+       "text": "Im Fahrzeug und im Boot nur entladen transportieren. Die Bewegung kann dich stolpern lassen oder die Waffe fallen lassen, und geladen löst sich dann womöglich ein Schuss."
+      },
+      {
+       "type": "terms",
+       "ids": [
+        "action",
+        "discharge",
+        "unintentional-discharge",
+        "firing-range"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "m4-schuss",
+     "titleDe": "Sicher sein, bevor du schießt",
+     "titleEn": "Be sure before you shoot",
+     "source": "S. 60 und S. 61",
+     "blocks": [
+      {
+       "type": "de",
+       "text": "Dieser Abschnitt liefert besonders viele Prüfungsfragen, weil er klare Ja-Nein-Regeln enthält."
+      },
+      {
+       "type": "en",
+       "text": "Always examine the bore for obstructions before loading."
+      },
+      {
+       "type": "de",
+       "text": "Vor dem Laden immer den Lauf auf Verstopfungen prüfen."
+      },
+      {
+       "type": "en",
+       "text": "Always check that you are using the right ammunition. Use only the ammunition for which the firearm was designed. Carry only the type of ammunition you intend to shoot."
+      },
+      {
+       "type": "de",
+       "text": "Nur die Munition verwenden, für die die Waffe gebaut ist. Und nur die Sorte mitnehmen, die du auch verschießen willst. Deshalb ist es falsch, wenn drei Leute mit unterschiedlichen Kalibern ihre Munition zusammen auf das Armaturenbrett legen. Auch das ist eine Review-Frage des Handbuchs."
+      },
+      {
+       "type": "en",
+       "text": "Never rely on the firearm's safety. Safeties wear down and may not work properly. A loaded firearm may fire even with the safety on. All mechanical devices can fail."
+      },
+      {
+       "type": "de",
+       "text": "Verlass dich nie auf die Sicherung. Die safety ist die mechanische Sicherung an der Waffe. Sie nutzt sich ab und kann versagen. Eine geladene Waffe kann auch mit eingelegter Sicherung losgehen."
+      },
+      {
+       "type": "de",
+       "text": "Beim Ziel gilt: erst sicher identifizieren, dann schießen."
+      },
+      {
+       "type": "en",
+       "text": "Positively identify your target. Do not shoot when in doubt. Never fire at a movement, a colour, a sound or a shape."
+      },
+      {
+       "type": "de",
+       "text": "Niemals auf eine Bewegung, eine Farbe, ein Geräusch oder einen Umriss schießen. Im Zweifel nicht schießen."
+      },
+      {
+       "type": "en",
+       "text": "Never use a scope as a substitute for binoculars to identify persons, animals or objects."
+      },
+      {
+       "type": "de",
+       "text": "Das Zielfernrohr ist kein Fernglas. Wer damit die Landschaft absucht, richtet die Mündung auf alles, was er anschaut. Auch das ist eine Review-Frage."
+      },
+      {
+       "type": "de",
+       "text": "Und du musst wissen, wo dein Geschoss landen kann, auch hinter dem Ziel. Vier Situationen nennt das Handbuch als gefährlichen Hintergrund."
+      },
+      {
+       "type": "en",
+       "text": "Never shoot if your bullet may hit a hard surface or water. Never shoot at a target near a building. Never shoot at a target on top of a hill. Only shoot when you are sure no one is ahead of you."
+      },
+      {
+       "type": "de",
+       "text": "Harte Oberfläche oder Wasser, weil das Geschoss als Querschläger abprallen kann. Nahe an einem Gebäude. Ein Ziel auf einer Hügelkuppe, weil dahinter der Himmel ist und du nicht siehst, was dahinter liegt. Und niemand vor dir. Diese vier sind die Antwort auf die erste Review-Frage von Modul 4."
+      },
+      {
+       "type": "terms",
+       "ids": [
+        "safety",
+        "target",
+        "background",
+        "ricochet",
+        "scope",
+        "binoculars",
+        "field-of-fire",
+        "calibre"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "m4-schloss",
+     "titleDe": "Sichere Verschlusseinrichtungen",
+     "titleEn": "Secure locking devices",
+     "source": "S. 61",
+     "blocks": [
+      {
+       "type": "de",
+       "text": "Eine secure locking device ist eine Vorrichtung, die das Abfeuern der Waffe verhindert. Sie wirkt nur, wenn sie richtig angebracht ist, und nicht jede passt an jede Waffe."
+      },
+      {
+       "type": "en",
+       "text": "Secure locking devices prevent a firearm from being fired. To work effectively, they must be installed properly."
+      },
+      {
+       "type": "de",
+       "text": "Die häufigsten Bauarten nennt das Handbuch: Abzugsschlösser mit Schlüssel oder Zahlenkombination, sowie Ketten- und Kabelschlösser. Alle blockieren die Bedienung."
+      },
+      {
+       "type": "en",
+       "text": "In some cases, they are required by law."
+      },
+      {
+       "type": "de",
+       "text": "In bestimmten Fällen sind sie gesetzlich vorgeschrieben. Welche das genau sind, steht in Modul 11 über Lagerung und Transport."
+      },
+      {
+       "type": "img",
+       "src": "assets/locking-devices.webp",
+       "captionDe": "Abbildung 18 aus dem Handbuch, verschiedene Verschlusseinrichtungen."
+      },
+      {
+       "type": "terms",
+       "ids": [
+        "secure-locking-device",
+        "trigger-lock",
+        "cable-lock"
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
 }

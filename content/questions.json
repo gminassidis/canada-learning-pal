@@ -1,32 +1,841 @@
 {
-  "_schema": "Fragenpool. type mc = Multiple Choice, tf = True/False. stemEn ist das, was er in der Prüfung liest. stemDe ist nur Hilfe. Jede Frage braucht source.",
-  "_status": "PLATZHALTER. Regel: keine Frage ohne Fundstelle im Handbuch.",
-  "questions": [
+ "_schema": "Fragenpool. type mc = Multiple Choice, tf = True/False. stemEn ist das, was in der Pruefung steht, stemDe ist nur Hilfe. Jede Frage traegt eine Fundstelle.",
+ "_status": "Uebungsfragen, keine echten Pruefungsfragen. Aus den pruefbaren Aussagen des Handbuchs abgeleitet, Formulierung im Stil der Pruefung. Einfuehrung und Modul 4 abgedeckt.",
+ "questions": [
+  {
+   "id": "q-acts-01",
+   "type": "mc",
+   "unit": "intro-acts",
+   "source": "S. 21",
+   "tags": [
+    "acts"
+   ],
+   "stemEn": "In the Vital Four ACTS, what does the letter A stand for?",
+   "stemDe": "Wofür steht das A in ACTS?",
+   "options": [
     {
-      "id": "q001",
-      "type": "mc",
-      "unit": "ch1-u1",
-      "source": "S. ??",
-      "tags": ["platzhalter"],
-      "stemEn": "PLACEHOLDER: Which of the following is required?",
-      "stemDe": "PLATZHALTER: Welches der folgenden ist vorgeschrieben?",
-      "options": [
-        { "en": "PLACEHOLDER correct option", "de": "PLATZHALTER richtige Option", "correct": true,  "whyDe": "PLATZHALTER: warum das richtig ist, mit Verweis aufs Handbuch." },
-        { "en": "PLACEHOLDER wrong option A",  "de": "PLATZHALTER falsche Option A",  "correct": false, "whyDe": "PLATZHALTER: warum das falsch ist." },
-        { "en": "PLACEHOLDER wrong option B",  "de": "PLATZHALTER falsche Option B",  "correct": false, "whyDe": "PLATZHALTER: warum das falsch ist." },
-        { "en": "All of the above",            "de": "Alle der genannten",            "correct": false, "whyDe": "PLATZHALTER: warum das falsch ist." }
-      ]
+     "en": "Assume every firearm is loaded.",
+     "de": "Geh davon aus, dass jede Waffe geladen ist.",
+     "correct": true,
+     "whyDe": "Das A steht für Assume. Jede Waffe gilt als mögliche Gefahr, unabhängig davon, was dir jemand sagt."
     },
     {
-      "id": "q002",
-      "type": "tf",
-      "unit": "ch1-u1",
-      "source": "S. ??",
-      "tags": ["platzhalter"],
-      "stemEn": "PLACEHOLDER: A statement that is either true or false.",
-      "stemDe": "PLATZHALTER: Eine Aussage, die wahr oder falsch ist.",
-      "answer": true,
-      "whyDe": "PLATZHALTER: Begründung mit Fundstelle."
+     "en": "Always examine the bore.",
+     "de": "Prüfe immer den Lauf.",
+     "correct": false,
+     "whyDe": "Das gehört zu PROVE, nicht zu ACTS, und beginnt dort mit E."
+    },
+    {
+     "en": "Aim only at a safe target.",
+     "de": "Ziele nur auf ein sicheres Ziel.",
+     "correct": false,
+     "whyDe": "Klingt richtig, steht aber so nicht in ACTS."
+    },
+    {
+     "en": "Accept only unloaded firearms.",
+     "de": "Nimm nur entladene Waffen an.",
+     "correct": false,
+     "whyDe": "Richtige Regel, aber sie steht unter S wie See, nicht unter A."
     }
-  ]
+   ]
+  },
+  {
+   "id": "q-acts-02",
+   "type": "mc",
+   "unit": "intro-acts",
+   "source": "S. 21",
+   "tags": [
+    "acts"
+   ],
+   "stemEn": "According to the Vital Four ACTS, in which direction must the muzzle be kept?",
+   "stemDe": "In welche Richtung muss die Mündung zeigen?",
+   "options": [
+    {
+     "en": "In the safest available direction.",
+     "de": "In die sicherste verfügbare Richtung.",
+     "correct": true,
+     "whyDe": "Das Handbuch schreibt safest available, also die sicherste verfügbare. Genau dieses Wort wird geprüft."
+    },
+    {
+     "en": "In any direction that is not towards a person.",
+     "de": "In jede Richtung, die nicht auf eine Person zeigt.",
+     "correct": false,
+     "whyDe": "Zu wenig. Verlangt ist die sicherste verfügbare Richtung, nicht irgendeine."
+    },
+    {
+     "en": "Towards the ground at all times.",
+     "de": "Jederzeit zum Boden.",
+     "correct": false,
+     "whyDe": "Der Boden ist nicht immer die sicherste Richtung, zum Beispiel wegen Abprallern."
+    },
+    {
+     "en": "Towards the target only.",
+     "de": "Nur auf das Ziel.",
+     "correct": false,
+     "whyDe": "Gilt nicht beim Tragen, Weitergeben oder Prüfen."
+    }
+   ]
+  },
+  {
+   "id": "q-acts-03",
+   "type": "tf",
+   "unit": "intro-acts",
+   "source": "S. 21",
+   "tags": [
+    "acts"
+   ],
+   "stemEn": "The trigger finger must be kept off the trigger and out of the trigger guard as soon as you pick up a firearm.",
+   "stemDe": "Der Abzugsfinger bleibt vom Abzug und aus dem Abzugsbügel weg, sobald du die Waffe aufnimmst.",
+   "answer": true,
+   "whyDe": "Richtig. Das Handbuch nennt ausdrücklich den Moment des Aufnehmens, nicht erst das Halten."
+  },
+  {
+   "id": "q-acts-04",
+   "type": "mc",
+   "unit": "intro-acts",
+   "source": "S. 21",
+   "tags": [
+    "acts",
+    "prove"
+   ],
+   "stemEn": "To see that a firearm is unloaded, which parts must you check?",
+   "stemDe": "Was musst du prüfen, um sicher zu sein, dass die Waffe entladen ist?",
+   "options": [
+    {
+     "en": "Both the chamber and the magazine.",
+     "de": "Patronenlager und Magazin, beide.",
+     "correct": true,
+     "whyDe": "Das Handbuch nennt beide ausdrücklich. Nur eines von beiden reicht nicht."
+    },
+    {
+     "en": "The chamber only.",
+     "de": "Nur das Patronenlager.",
+     "correct": false,
+     "whyDe": "Zu wenig. Im Magazin kann weiter Munition sein."
+    },
+    {
+     "en": "The magazine only.",
+     "de": "Nur das Magazin.",
+     "correct": false,
+     "whyDe": "Zu wenig. Im Patronenlager kann weiter eine Patrone liegen."
+    },
+    {
+     "en": "The bore only.",
+     "de": "Nur den Lauf.",
+     "correct": false,
+     "whyDe": "Der Lauf wird auf Verstopfungen geprüft, das ist eine andere Frage."
+    }
+   ]
+  },
+  {
+   "id": "q-acts-05",
+   "type": "tf",
+   "unit": "intro-acts",
+   "source": "S. 21",
+   "tags": [
+    "acts"
+   ],
+   "stemEn": "A firearm may be passed to another person while the action is closed, as long as it is unloaded.",
+   "stemDe": "Eine Waffe darf mit geschlossenem Verschluss weitergegeben werden, solange sie entladen ist.",
+   "answer": false,
+   "whyDe": "Falsch. Das Handbuch verlangt: pass or accept only open and unloaded firearms. Offen und entladen, beides."
+  },
+  {
+   "id": "q-prove-01",
+   "type": "mc",
+   "unit": "intro-prove",
+   "source": "S. 22",
+   "tags": [
+    "prove"
+   ],
+   "stemEn": "What is the first step of PROVE?",
+   "stemDe": "Was ist der erste Schritt von PROVE?",
+   "options": [
+    {
+     "en": "Point the firearm in the safest available direction.",
+     "de": "Richte die Waffe in die sicherste verfügbare Richtung.",
+     "correct": true,
+     "whyDe": "P wie Point. Die Richtung kommt vor allem anderen."
+    },
+    {
+     "en": "Remove all ammunition.",
+     "de": "Entferne die gesamte Munition.",
+     "correct": false,
+     "whyDe": "Das ist R, der zweite Schritt."
+    },
+    {
+     "en": "Observe the chamber.",
+     "de": "Sieh in das Patronenlager.",
+     "correct": false,
+     "whyDe": "Das ist O, der dritte Schritt."
+    },
+    {
+     "en": "Examine the bore for obstructions.",
+     "de": "Untersuche den Lauf auf Verstopfungen.",
+     "correct": false,
+     "whyDe": "Das ist E, der letzte Schritt."
+    }
+   ]
+  },
+  {
+   "id": "q-prove-02",
+   "type": "mc",
+   "unit": "intro-prove",
+   "source": "S. 22",
+   "tags": [
+    "prove"
+   ],
+   "stemEn": "In PROVE, the letter V stands for which step?",
+   "stemDe": "Welcher Schritt steckt hinter dem V in PROVE?",
+   "options": [
+    {
+     "en": "Verify the feeding path.",
+     "de": "Prüfe den Zuführweg.",
+     "correct": true,
+     "whyDe": "V wie Verify. Der Zuführweg ist der Weg vom Magazin ins Patronenlager."
+    },
+    {
+     "en": "Verify the safety is on.",
+     "de": "Prüfe, ob die Sicherung eingelegt ist.",
+     "correct": false,
+     "whyDe": "Auf die Sicherung darf man sich nie verlassen, sie ist kein Schritt in PROVE."
+    },
+    {
+     "en": "View the muzzle.",
+     "de": "Sieh auf die Mündung.",
+     "correct": false,
+     "whyDe": "Kommt in PROVE nicht vor, und in den Lauf sieht man von der anderen Seite."
+    },
+    {
+     "en": "Verify the licence.",
+     "de": "Prüfe die Erlaubnis.",
+     "correct": false,
+     "whyDe": "PROVE beschreibt Handgriffe an der Waffe, nichts Rechtliches."
+    }
+   ]
+  },
+  {
+   "id": "q-prove-03",
+   "type": "mc",
+   "unit": "intro-prove",
+   "source": "S. 22",
+   "tags": [
+    "prove"
+   ],
+   "stemEn": "Which of the following is the correct order of the PROVE steps?",
+   "stemDe": "Welche Reihenfolge der PROVE-Schritte ist richtig?",
+   "options": [
+    {
+     "en": "Point, Remove, Observe, Verify, Examine",
+     "de": "Point, Remove, Observe, Verify, Examine",
+     "correct": true,
+     "whyDe": "So steht es im Handbuch. Die Reihenfolge ist Teil der Prüfung."
+    },
+    {
+     "en": "Point, Observe, Remove, Verify, Examine",
+     "de": "Point, Observe, Remove, Verify, Examine",
+     "correct": false,
+     "whyDe": "Remove kommt vor Observe. Erst die Munition raus, dann hineinsehen."
+    },
+    {
+     "en": "Remove, Point, Observe, Examine, Verify",
+     "de": "Remove, Point, Observe, Examine, Verify",
+     "correct": false,
+     "whyDe": "Point steht immer am Anfang, und Examine am Ende."
+    },
+    {
+     "en": "Point, Remove, Verify, Observe, Examine",
+     "de": "Point, Remove, Verify, Observe, Examine",
+     "correct": false,
+     "whyDe": "Observe kommt vor Verify. Erst das Patronenlager, dann der Zuführweg."
+    }
+   ]
+  },
+  {
+   "id": "q-prove-04",
+   "type": "tf",
+   "unit": "intro-prove",
+   "source": "S. 22",
+   "tags": [
+    "prove"
+   ],
+   "stemEn": "Once a firearm has been PROVEd safe, it remains safe even after it leaves the direct control of the person who PROVEd it.",
+   "stemDe": "Eine einmal geprüfte Waffe bleibt sicher, auch wenn sie die direkte Kontrolle der prüfenden Person verlässt.",
+   "answer": false,
+   "whyDe": "Falsch. Die Waffe gilt nur so lange als sicher, wie sie in der direkten Kontrolle der Person bleibt, die sie entladen und geprüft hat. Danach beginnt PROVE wieder von vorn."
+  },
+  {
+   "id": "q-prove-05",
+   "type": "mc",
+   "unit": "intro-prove",
+   "source": "S. 22",
+   "tags": [
+    "prove"
+   ],
+   "stemEn": "Why must the bore be examined?",
+   "stemDe": "Warum muss der Lauf untersucht werden?",
+   "options": [
+    {
+     "en": "To check for obstructions.",
+     "de": "Um auf Verstopfungen zu prüfen.",
+     "correct": true,
+     "whyDe": "Ein Fremdkörper im Lauf kann beim Schuss dazu führen, dass der Lauf birst."
+    },
+    {
+     "en": "To check that the safety works.",
+     "de": "Um zu prüfen, ob die Sicherung funktioniert.",
+     "correct": false,
+     "whyDe": "Auf die Sicherung darf man sich ohnehin nie verlassen."
+    },
+    {
+     "en": "To check the calibre.",
+     "de": "Um das Kaliber zu prüfen.",
+     "correct": false,
+     "whyDe": "Das Kaliber steht an der Waffe, nicht im Lauf."
+    },
+    {
+     "en": "To check for rust only.",
+     "de": "Nur um auf Rost zu prüfen.",
+     "correct": false,
+     "whyDe": "Zu eng. Es geht um jede Verstopfung."
+    }
+   ]
+  },
+  {
+   "id": "q-recht-01",
+   "type": "mc",
+   "unit": "intro-recht",
+   "source": "S. 23",
+   "tags": [
+    "recht"
+   ],
+   "stemEn": "Within how many days must a licence holder inform the Canadian Firearms Program of a change of address?",
+   "stemDe": "Innerhalb wie vieler Tage muss ein Erlaubnisinhaber einen Umzug melden?",
+   "options": [
+    {
+     "en": "Within 30 days.",
+     "de": "Innerhalb von 30 Tagen.",
+     "correct": true,
+     "whyDe": "30 Tage. Solche Fristen sind typische Prüfungsfragen."
+    },
+    {
+     "en": "Within 7 days.",
+     "de": "Innerhalb von 7 Tagen.",
+     "correct": false,
+     "whyDe": "Zu kurz, das Handbuch nennt 30 Tage."
+    },
+    {
+     "en": "Within 60 days.",
+     "de": "Innerhalb von 60 Tagen.",
+     "correct": false,
+     "whyDe": "Zu lang, das Handbuch nennt 30 Tage."
+    },
+    {
+     "en": "There is no time limit.",
+     "de": "Es gibt keine Frist.",
+     "correct": false,
+     "whyDe": "Es gibt eine Frist, und zwar 30 Tage."
+    }
+   ]
+  },
+  {
+   "id": "q-recht-02",
+   "type": "mc",
+   "unit": "intro-recht",
+   "source": "S. 23",
+   "tags": [
+    "recht",
+    "pal"
+   ],
+   "stemEn": "Which licence permits the holder to buy or otherwise acquire a firearm?",
+   "stemDe": "Welche Erlaubnis erlaubt den Erwerb einer Waffe?",
+   "options": [
+    {
+     "en": "The Possession and Acquisition Licence (PAL).",
+     "de": "Die Besitz- und Erwerbserlaubnis (PAL).",
+     "correct": true,
+     "whyDe": "Acquisition heißt Erwerb. Mit der PAL darf man leihen, kaufen, erben und erwerben."
+    },
+    {
+     "en": "The Possession Only Licence (POL).",
+     "de": "Die reine Besitzerlaubnis (POL).",
+     "correct": false,
+     "whyDe": "Possession Only heißt nur Besitz. Damit darf man leihen, aber nicht erwerben."
+    },
+    {
+     "en": "A hunting licence.",
+     "de": "Eine Jagderlaubnis.",
+     "correct": false,
+     "whyDe": "Die Jagderlaubnis ist etwas anderes und ersetzt keine Waffenerlaubnis."
+    },
+    {
+     "en": "No licence is required.",
+     "de": "Es ist keine Erlaubnis nötig.",
+     "correct": false,
+     "whyDe": "Jeder Waffenbesitzer braucht eine gültige Erlaubnis."
+    }
+   ]
+  },
+  {
+   "id": "q-recht-03",
+   "type": "mc",
+   "unit": "intro-recht",
+   "source": "S. 23",
+   "tags": [
+    "recht"
+   ],
+   "stemEn": "Which level of government would typically require a hunter to wear blaze orange clothing?",
+   "stemDe": "Welche staatliche Ebene schreibt typischerweise Signalorange beim Jagen vor?",
+   "options": [
+    {
+     "en": "Provincial or territorial.",
+     "de": "Provinz oder Territorium.",
+     "correct": true,
+     "whyDe": "Jagdrecht liegt bei Provinz und Territorium. Für deinen Onkel also Yukon."
+    },
+    {
+     "en": "Federal.",
+     "de": "Der Bund.",
+     "correct": false,
+     "whyDe": "Der Bund regelt Erlaubnis und Besitz, nicht die Jagdkleidung."
+    },
+    {
+     "en": "Municipal.",
+     "de": "Die Gemeinde.",
+     "correct": false,
+     "whyDe": "Die Gemeinde regelt Örtliches wie Schießzeiten und Abstände."
+    },
+    {
+     "en": "None of the above.",
+     "de": "Keine der genannten.",
+     "correct": false,
+     "whyDe": "Provinz und Territorium regeln das."
+    }
+   ]
+  },
+  {
+   "id": "q-recht-04",
+   "type": "mc",
+   "unit": "intro-recht",
+   "source": "S. 23",
+   "tags": [
+    "recht"
+   ],
+   "stemEn": "A municipality may do which of the following?",
+   "stemDe": "Was darf eine Gemeinde tun?",
+   "options": [
+    {
+     "en": "Prohibit the discharge of a firearm within its boundaries.",
+     "de": "Jeden Schuss im Gemeindegebiet verbieten.",
+     "correct": true,
+     "whyDe": "Manche Gemeinden verbieten die Schussabgabe vollständig, andere regeln Zeiten und Abstände zu Wohnhäusern."
+    },
+    {
+     "en": "Issue firearm licences.",
+     "de": "Waffenerlaubnisse ausstellen.",
+     "correct": false,
+     "whyDe": "Das macht der Bund über das Canadian Firearms Program."
+    },
+    {
+     "en": "Change the classification of a firearm.",
+     "de": "Die Waffenklasse ändern.",
+     "correct": false,
+     "whyDe": "Die Klassifizierung ist Bundessache."
+    },
+    {
+     "en": "Set the minimum age for a licence.",
+     "de": "Das Mindestalter festlegen.",
+     "correct": false,
+     "whyDe": "Auch das ist Bundessache."
+    }
+   ]
+  },
+  {
+   "id": "q-recht-05",
+   "type": "tf",
+   "unit": "intro-recht",
+   "source": "S. 24",
+   "tags": [
+    "recht"
+   ],
+   "stemEn": "Pointing a firearm at another person is only an offence if the firearm is loaded.",
+   "stemDe": "Mit einer Waffe auf eine Person zu zielen ist nur strafbar, wenn sie geladen ist.",
+   "answer": false,
+   "whyDe": "Falsch. Das Handbuch sagt ausdrücklich whether the firearm is loaded or unloaded. Ob geladen oder nicht spielt keine Rolle."
+  },
+  {
+   "id": "q-m4-01",
+   "type": "tf",
+   "unit": "m4-praxis",
+   "source": "S. 59",
+   "tags": [
+    "lagerung"
+   ],
+   "stemEn": "All firearms and ammunition under your control are your responsibility 24 hours a day.",
+   "stemDe": "Für alle Waffen und Munition in deiner Obhut bist du rund um die Uhr verantwortlich.",
+   "answer": true,
+   "whyDe": "Richtig, und zwar wörtlich so im Handbuch: 24 hours a day."
+  },
+  {
+   "id": "q-m4-02",
+   "type": "mc",
+   "unit": "m4-praxis",
+   "source": "S. 59",
+   "tags": [
+    "lagerung"
+   ],
+   "stemEn": "How should firearms and ammunition be stored?",
+   "stemDe": "Wie sollen Waffe und Munition gelagert werden?",
+   "options": [
+    {
+     "en": "Firearms unloaded, and firearm and ammunition locked separately or in a secure container that cannot easily be broken into.",
+     "de": "Waffe entladen, Waffe und Munition getrennt abgeschlossen oder zusammen in einem Behälter, in den man nicht leicht einbrechen kann.",
+     "correct": true,
+     "whyDe": "So steht es im Handbuch. Entladen, und dann getrennt abschließen oder gemeinsam sicher wegschließen."
+    },
+    {
+     "en": "Loaded, so the firearm is ready in an emergency.",
+     "de": "Geladen, damit die Waffe im Notfall bereit ist.",
+     "correct": false,
+     "whyDe": "Gelagert wird immer entladen."
+    },
+    {
+     "en": "Together in an unlocked cabinet.",
+     "de": "Zusammen in einem unverschlossenen Schrank.",
+     "correct": false,
+     "whyDe": "Unverschlossen genügt nicht."
+    },
+    {
+     "en": "In plain view so they can be checked easily.",
+     "de": "Gut sichtbar, damit man sie leicht kontrollieren kann.",
+     "correct": false,
+     "whyDe": "Genau umgekehrt: außer Sichtweite, das senkt die Diebstahlgefahr."
+    }
+   ]
+  },
+  {
+   "id": "q-m4-03",
+   "type": "mc",
+   "unit": "m4-laden",
+   "source": "S. 59",
+   "tags": [
+    "laden"
+   ],
+   "stemEn": "When should a firearm be loaded?",
+   "stemDe": "Wann soll eine Waffe geladen werden?",
+   "options": [
+    {
+     "en": "Only when you intend to use it, where it can be safely and legally discharged.",
+     "de": "Nur wenn du sie gleich benutzen willst und dort, wo das sicher und erlaubt ist.",
+     "correct": true,
+     "whyDe": "Zu jeder anderen Zeit ist die Waffe entladen."
+    },
+    {
+     "en": "Whenever you are carrying it in the field.",
+     "de": "Immer wenn du sie im Gelände trägst.",
+     "correct": false,
+     "whyDe": "Tragen allein ist kein Grund zu laden."
+    },
+    {
+     "en": "As soon as you arrive at the firing range.",
+     "de": "Sobald du am Schießstand ankommst.",
+     "correct": false,
+     "whyDe": "Erst am Schießplatz selbst und schießbereit, nicht schon bei der Ankunft."
+    },
+    {
+     "en": "Whenever the safety is on.",
+     "de": "Immer wenn die Sicherung eingelegt ist.",
+     "correct": false,
+     "whyDe": "Die Sicherung ist kein Grund zu laden und kein Ersatz für Sicherheit."
+    }
+   ]
+  },
+  {
+   "id": "q-m4-04",
+   "type": "tf",
+   "unit": "m4-laden",
+   "source": "S. 59",
+   "tags": [
+    "laden"
+   ],
+   "stemEn": "It is safe to accept a loaded firearm from a friend.",
+   "stemDe": "Es ist in Ordnung, eine geladene Waffe von einem Freund anzunehmen.",
+   "answer": false,
+   "whyDe": "Falsch. Never accept a loaded firearm from anyone. Das gilt auch für Freunde. Dies ist eine der Review-Fragen von Modul 4."
+  },
+  {
+   "id": "q-m4-05",
+   "type": "mc",
+   "unit": "m4-laden",
+   "source": "S. 59",
+   "tags": [
+    "laden"
+   ],
+   "stemEn": "All of the following are recommended practices EXCEPT:",
+   "stemDe": "Alle folgenden sind empfohlene Praktiken, AUSSER:",
+   "options": [
+    {
+     "en": "Leaning a loaded firearm against a vehicle while you open the door.",
+     "de": "Eine geladene Waffe ans Fahrzeug lehnen, während du die Tür öffnest.",
+     "correct": true,
+     "whyDe": "Das ist die Ausnahme, also die gesuchte Antwort. Angelehnte Waffen können umfallen und einen Schuss auslösen."
+    },
+    {
+     "en": "Leaving the action open whenever possible.",
+     "de": "Den Verschluss offen lassen, wann immer es geht.",
+     "correct": false,
+     "whyDe": "Das ist empfohlen, also nicht die gesuchte Ausnahme."
+    },
+    {
+     "en": "Unloading a firearm before transporting it.",
+     "de": "Die Waffe vor dem Transport entladen.",
+     "correct": false,
+     "whyDe": "Das ist empfohlen und teils vorgeschrieben."
+    },
+    {
+     "en": "Completely unloading before leaving the shooting area.",
+     "de": "Vor dem Verlassen des Schießplatzes vollständig entladen.",
+     "correct": false,
+     "whyDe": "Das ist empfohlen."
+    }
+   ]
+  },
+  {
+   "id": "q-m4-06",
+   "type": "tf",
+   "unit": "m4-laden",
+   "source": "S. 60",
+   "tags": [
+    "transport"
+   ],
+   "stemEn": "A firearm may be transported in a vehicle while loaded if the trip is short.",
+   "stemDe": "Eine Waffe darf im Fahrzeug geladen transportiert werden, wenn die Fahrt kurz ist.",
+   "answer": false,
+   "whyDe": "Falsch. Transport only unloaded firearms by vehicle or boat. Die Länge der Fahrt ändert daran nichts."
+  },
+  {
+   "id": "q-m4-07",
+   "type": "mc",
+   "unit": "m4-schuss",
+   "source": "S. 60",
+   "tags": [
+    "sicherung"
+   ],
+   "stemEn": "Can the safety mechanism on a firearm be relied upon?",
+   "stemDe": "Kann man sich auf die Sicherung einer Waffe verlassen?",
+   "options": [
+    {
+     "en": "No. Safeties can wear down and a loaded firearm may fire even with the safety on.",
+     "de": "Nein. Sicherungen nutzen sich ab, und eine geladene Waffe kann auch mit eingelegter Sicherung losgehen.",
+     "correct": true,
+     "whyDe": "Never rely on the firearm's safety. Alle mechanischen Vorrichtungen können versagen. Dies ist eine der Review-Fragen von Modul 4."
+    },
+    {
+     "en": "Yes, if the firearm is new.",
+     "de": "Ja, wenn die Waffe neu ist.",
+     "correct": false,
+     "whyDe": "Auch neue Sicherungen können versagen."
+    },
+    {
+     "en": "Yes, if it was checked before use.",
+     "de": "Ja, wenn sie vorher geprüft wurde.",
+     "correct": false,
+     "whyDe": "Eine Prüfung ändert nichts daran, dass man sich nicht darauf verlassen darf."
+    },
+    {
+     "en": "Yes, for non-restricted firearms only.",
+     "de": "Ja, aber nur bei nicht beschränkten Waffen.",
+     "correct": false,
+     "whyDe": "Die Regel gilt für alle Waffen."
+    }
+   ]
+  },
+  {
+   "id": "q-m4-08",
+   "type": "tf",
+   "unit": "m4-schuss",
+   "source": "S. 60",
+   "tags": [
+    "sicherung"
+   ],
+   "stemEn": "A loaded firearm may fire even when the safety is on.",
+   "stemDe": "Eine geladene Waffe kann auch mit eingelegter Sicherung losgehen.",
+   "answer": true,
+   "whyDe": "Richtig, und genau deshalb ist die Sicherung kein Ersatz für die vier ACTS."
+  },
+  {
+   "id": "q-m4-09",
+   "type": "tf",
+   "unit": "m4-schuss",
+   "source": "S. 60",
+   "tags": [
+    "ziel"
+   ],
+   "stemEn": "A scope may be used instead of binoculars to glass the terrain and identify a target.",
+   "stemDe": "Ein Zielfernrohr darf statt eines Fernglases benutzt werden, um das Gelände abzusuchen.",
+   "answer": false,
+   "whyDe": "Falsch. Never use a scope as a substitute for binoculars. Wer durch das Zielfernrohr sucht, richtet die Mündung auf alles, was er ansieht. Dies ist eine Review-Frage."
+  },
+  {
+   "id": "q-m4-10",
+   "type": "mc",
+   "unit": "m4-schuss",
+   "source": "S. 61",
+   "tags": [
+    "ziel"
+   ],
+   "stemEn": "Which of the following is NOT a dangerous background when shooting?",
+   "stemDe": "Welcher Hintergrund ist beim Schießen NICHT gefährlich?",
+   "options": [
+    {
+     "en": "A high earth bank directly behind the target.",
+     "de": "Ein hoher Erdwall direkt hinter dem Ziel.",
+     "correct": true,
+     "whyDe": "Das ist die gesuchte Antwort. Erde fängt das Geschoss auf. Die anderen drei nennt das Handbuch ausdrücklich als gefährlich."
+    },
+    {
+     "en": "Water behind the target.",
+     "de": "Wasser hinter dem Ziel.",
+     "correct": false,
+     "whyDe": "Gefährlich. Wasser kann einen Abpraller verursachen."
+    },
+    {
+     "en": "A target on top of a hill.",
+     "de": "Ein Ziel auf einer Hügelkuppe.",
+     "correct": false,
+     "whyDe": "Gefährlich. Dahinter ist offener Himmel, du siehst nicht, was dahinter liegt."
+    },
+    {
+     "en": "A building near the target.",
+     "de": "Ein Gebäude in der Nähe des Ziels.",
+     "correct": false,
+     "whyDe": "Gefährlich, ausdrücklich im Handbuch genannt."
+    }
+   ]
+  },
+  {
+   "id": "q-m4-11",
+   "type": "mc",
+   "unit": "m4-schuss",
+   "source": "S. 60",
+   "tags": [
+    "ziel"
+   ],
+   "stemEn": "You see a movement in the brush while hunting. What should you do?",
+   "stemDe": "Du siehst beim Jagen eine Bewegung im Gebüsch. Was tust du?",
+   "options": [
+    {
+     "en": "Do not shoot. Positively identify the target first.",
+     "de": "Nicht schießen. Zuerst das Ziel zweifelsfrei bestimmen.",
+     "correct": true,
+     "whyDe": "Never fire at a movement, a colour, a sound or a shape. Im Zweifel nicht schießen."
+    },
+    {
+     "en": "Shoot if the movement matches the animal you are hunting.",
+     "de": "Schießen, wenn die Bewegung zum gejagten Tier passt.",
+     "correct": false,
+     "whyDe": "Auf eine Bewegung wird nie geschossen."
+    },
+    {
+     "en": "Fire a warning shot.",
+     "de": "Einen Warnschuss abgeben.",
+     "correct": false,
+     "whyDe": "Kommt im Handbuch nicht vor und verstößt gegen die Grundregeln."
+    },
+    {
+     "en": "Use the scope to identify it.",
+     "de": "Mit dem Zielfernrohr identifizieren.",
+     "correct": false,
+     "whyDe": "Das Zielfernrohr ist kein Fernglas."
+    }
+   ]
+  },
+  {
+   "id": "q-m4-12",
+   "type": "mc",
+   "unit": "m4-schuss",
+   "source": "S. 60",
+   "tags": [
+    "munition"
+   ],
+   "stemEn": "Three people with rifles of different calibres are travelling together. How should their ammunition be handled?",
+   "stemDe": "Drei Leute mit Gewehren unterschiedlichen Kalibers fahren zusammen. Wie mit der Munition umgehen?",
+   "options": [
+    {
+     "en": "Each carries only the ammunition for their own firearm, kept out of sight.",
+     "de": "Jeder führt nur die Munition für die eigene Waffe mit, außer Sichtweite.",
+     "correct": true,
+     "whyDe": "Carry only the type of ammunition you intend to shoot, und Munition gehört außer Sichtweite. Dies ist eine Review-Frage von Modul 4."
+    },
+    {
+     "en": "All ammunition together on the dashboard so it is easy to reach.",
+     "de": "Alles zusammen aufs Armaturenbrett, damit man drankommt.",
+     "correct": false,
+     "whyDe": "Gleich zwei Fehler: gemischte Kaliber und offen sichtbar."
+    },
+    {
+     "en": "All ammunition in one box, since calibres cannot be confused.",
+     "de": "Alles in eine Kiste, Kaliber kann man nicht verwechseln.",
+     "correct": false,
+     "whyDe": "Doch, genau deshalb soll man nur die eigene Sorte mitführen."
+    },
+    {
+     "en": "Ammunition may be left loaded in the firearms during transport.",
+     "de": "Die Munition darf beim Transport in den Waffen bleiben.",
+     "correct": false,
+     "whyDe": "Im Fahrzeug wird nur entladen transportiert."
+    }
+   ]
+  },
+  {
+   "id": "q-m4-13",
+   "type": "mc",
+   "unit": "m4-schloss",
+   "source": "S. 61",
+   "tags": [
+    "lagerung"
+   ],
+   "stemEn": "What is the purpose of a secure locking device?",
+   "stemDe": "Wozu dient eine sichere Verschlusseinrichtung?",
+   "options": [
+    {
+     "en": "It prevents the firearm from being fired.",
+     "de": "Sie verhindert, dass die Waffe abgefeuert wird.",
+     "correct": true,
+     "whyDe": "Genau das ist ihr Zweck, und sie wirkt nur, wenn sie richtig angebracht ist."
+    },
+    {
+     "en": "It prevents the firearm from being stolen.",
+     "de": "Sie verhindert den Diebstahl der Waffe.",
+     "correct": false,
+     "whyDe": "Gegen Diebstahl hilft Wegschließen und Außersichtweite, nicht das Schloss selbst."
+    },
+    {
+     "en": "It keeps the barrel free of obstructions.",
+     "de": "Sie hält den Lauf frei von Verstopfungen.",
+     "correct": false,
+     "whyDe": "Damit hat sie nichts zu tun."
+    },
+    {
+     "en": "It replaces the need for a firearm licence.",
+     "de": "Sie ersetzt die Waffenerlaubnis.",
+     "correct": false,
+     "whyDe": "Eine Erlaubnis braucht jeder Besitzer, unabhängig davon."
+    }
+   ]
+  },
+  {
+   "id": "q-m4-14",
+   "type": "tf",
+   "unit": "m4-schloss",
+   "source": "S. 61",
+   "tags": [
+    "lagerung"
+   ],
+   "stemEn": "Every secure locking device is compatible with every firearm.",
+   "stemDe": "Jede Verschlusseinrichtung passt an jede Waffe.",
+   "answer": false,
+   "whyDe": "Falsch. Das Handbuch sagt ausdrücklich, dass nicht jede Einrichtung zu jeder Waffe passt. Im Zweifel beim Händler fragen."
+  }
+ ]
 }

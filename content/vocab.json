@@ -1,6 +1,6 @@
 {
  "_schema": "Vokabeln, Richtung immer Englisch nach Deutsch. cat: fach | pruefung | praxis. verify=true heisst: Wortlaut noch gegen das Handbuch prüfen.",
- "_status": "Prüfungssprache fertig. ACTS und PROVE wörtlich aus dem Handbuch. Gesprochene Kommandos noch zu prüfen. Fachbegriffe folgen.",
+ "_status": "Pruefungssprache, ACTS und PROVE sowie die Fachbegriffe aus Einfuehrung und Modul 4 sind fertig. Weitere Module folgen.",
  "terms": [
   {
    "id": "which-of-the-following",
@@ -750,6 +750,348 @@
    "explDe": "Was der Prüfer sagt.",
    "source": "Praxisteil",
    "verify": true
+  },
+  {
+   "id": "firearm",
+   "en": "firearm",
+   "de": "Schusswaffe",
+   "cat": "fach",
+   "sub": "Waffe und Teile",
+   "explDe": "Der Oberbegriff. Im ganzen Handbuch steht firearm, nie gun.",
+   "source": "S. 21"
+  },
+  {
+   "id": "loaded",
+   "en": "loaded",
+   "de": "geladen",
+   "cat": "fach",
+   "sub": "Waffe und Teile",
+   "explDe": "Munition ist in der Waffe. Gegenteil von unloaded.",
+   "source": "S. 21"
+  },
+  {
+   "id": "unloaded",
+   "en": "unloaded",
+   "de": "entladen",
+   "cat": "fach",
+   "sub": "Waffe und Teile",
+   "explDe": "Keine Munition in Patronenlager und Magazin.",
+   "source": "S. 21"
+  },
+  {
+   "id": "muzzle",
+   "en": "muzzle",
+   "de": "Mündung",
+   "cat": "fach",
+   "sub": "Waffe und Teile",
+   "explDe": "Vorderes Ende des Laufs, dort tritt das Geschoss aus. Das C in ACTS dreht sich darum.",
+   "source": "S. 21"
+  },
+  {
+   "id": "trigger",
+   "en": "trigger",
+   "de": "Abzug",
+   "cat": "fach",
+   "sub": "Waffe und Teile",
+   "explDe": "Der Hebel, der den Schuss auslöst.",
+   "source": "S. 21"
+  },
+  {
+   "id": "trigger-guard",
+   "en": "trigger guard",
+   "de": "Abzugsbügel",
+   "cat": "fach",
+   "sub": "Waffe und Teile",
+   "explDe": "Der Bügel um den Abzug. Der Finger bleibt auch da draußen, nicht nur vom Abzug weg.",
+   "source": "S. 21"
+  },
+  {
+   "id": "chamber",
+   "en": "chamber",
+   "de": "Patronenlager",
+   "cat": "fach",
+   "sub": "Waffe und Teile",
+   "explDe": "Die Kammer, in der die Patrone beim Schuss liegt. Das O in PROVE.",
+   "source": "S. 22"
+  },
+  {
+   "id": "magazine",
+   "en": "magazine",
+   "de": "Magazin",
+   "cat": "fach",
+   "sub": "Waffe und Teile",
+   "explDe": "Behälter für die Patronen. Muss beim Prüfen genauso leer sein wie das Patronenlager.",
+   "source": "S. 21"
+  },
+  {
+   "id": "bore",
+   "en": "bore",
+   "de": "Lauf, Laufinneres",
+   "cat": "fach",
+   "sub": "Waffe und Teile",
+   "explDe": "Das Innere des Laufs. Das E in PROVE.",
+   "source": "S. 22"
+  },
+  {
+   "id": "obstruction",
+   "en": "obstruction",
+   "de": "Verstopfung, Hindernis",
+   "cat": "fach",
+   "sub": "Waffe und Teile",
+   "explDe": "Etwas, das im Lauf steckt. Beim Schuss kann der Lauf dann bersten.",
+   "source": "S. 22"
+  },
+  {
+   "id": "feeding-path",
+   "en": "feeding path",
+   "de": "Zuführweg",
+   "cat": "fach",
+   "sub": "Waffe und Teile",
+   "explDe": "Der Weg, auf dem eine Patrone vom Magazin ins Patronenlager gelangt. Das V in PROVE.",
+   "source": "S. 22"
+  },
+  {
+   "id": "action",
+   "en": "action",
+   "de": "Verschluss",
+   "cat": "fach",
+   "sub": "Waffe und Teile",
+   "explDe": "Der bewegliche Teil, der die Patrone zuführt und das Patronenlager schließt. Offen lassen heißt: jeder sieht, dass die Waffe leer ist.",
+   "source": "S. 59"
+  },
+  {
+   "id": "safety",
+   "en": "safety",
+   "de": "Sicherung",
+   "cat": "fach",
+   "sub": "Waffe und Teile",
+   "explDe": "Mechanische Sicherung an der Waffe. Auf sie darf man sich nie verlassen.",
+   "source": "S. 60"
+  },
+  {
+   "id": "ammunition",
+   "en": "ammunition",
+   "de": "Munition",
+   "cat": "fach",
+   "sub": "Munition und Schuss",
+   "explDe": "Sammelbegriff. Nur die verwenden, für die die Waffe gebaut ist.",
+   "source": "S. 60"
+  },
+  {
+   "id": "calibre",
+   "en": "calibre",
+   "de": "Kaliber",
+   "cat": "fach",
+   "sub": "Munition und Schuss",
+   "explDe": "Größenangabe von Waffe und Patrone. Unterschiedliche Kaliber nie mischen.",
+   "source": "S. 62"
+  },
+  {
+   "id": "discharge",
+   "en": "to discharge a firearm",
+   "de": "einen Schuss abgeben",
+   "cat": "fach",
+   "sub": "Munition und Schuss",
+   "explDe": "Das Verb für Schießen in der Rechtssprache.",
+   "source": "S. 59"
+  },
+  {
+   "id": "unintentional-discharge",
+   "en": "unintentional discharge",
+   "de": "ungewollte Schussabgabe",
+   "cat": "fach",
+   "sub": "Munition und Schuss",
+   "explDe": "Ein Schuss, den niemand auslösen wollte. Der Grund für fast alle Transportregeln.",
+   "source": "S. 60"
+  },
+  {
+   "id": "firing-range",
+   "en": "firing range",
+   "de": "Schießstand",
+   "cat": "fach",
+   "sub": "Munition und Schuss",
+   "explDe": "Dort erst laden, wenn du am Stand und schießbereit bist.",
+   "source": "S. 59"
+  },
+  {
+   "id": "target",
+   "en": "target",
+   "de": "Ziel",
+   "cat": "fach",
+   "sub": "Munition und Schuss",
+   "explDe": "Muss zweifelsfrei erkannt sein, bevor geschossen wird.",
+   "source": "S. 60"
+  },
+  {
+   "id": "background",
+   "en": "background",
+   "de": "Hintergrund hinter dem Ziel",
+   "cat": "fach",
+   "sub": "Munition und Schuss",
+   "explDe": "Was hinter dem Ziel liegt. Dafür bist du genauso verantwortlich wie für das Ziel.",
+   "source": "S. 60"
+  },
+  {
+   "id": "ricochet",
+   "en": "ricochet",
+   "de": "Querschläger, Abpraller",
+   "cat": "fach",
+   "sub": "Munition und Schuss",
+   "explDe": "Ein Geschoss, das von einer harten Fläche oder von Wasser abprallt.",
+   "source": "S. 61"
+  },
+  {
+   "id": "field-of-fire",
+   "en": "field of fire",
+   "de": "Schussfeld",
+   "cat": "fach",
+   "sub": "Munition und Schuss",
+   "explDe": "Der freie Bereich zwischen dir und dem Ziel.",
+   "source": "S. 60"
+  },
+  {
+   "id": "scope",
+   "en": "scope",
+   "de": "Zielfernrohr",
+   "cat": "fach",
+   "sub": "Munition und Schuss",
+   "explDe": "Sitzt auf der Waffe. Nie als Fernglas benutzen, sonst zielst du auf alles, was du ansiehst.",
+   "source": "S. 60"
+  },
+  {
+   "id": "binoculars",
+   "en": "binoculars",
+   "de": "Fernglas",
+   "cat": "fach",
+   "sub": "Munition und Schuss",
+   "explDe": "Das richtige Gerät zum Absuchen des Geländes.",
+   "source": "S. 60"
+  },
+  {
+   "id": "secure-locking-device",
+   "en": "secure locking device",
+   "de": "sichere Verschlusseinrichtung",
+   "cat": "fach",
+   "sub": "Sicherung und Lagerung",
+   "explDe": "Vorrichtung, die das Abfeuern verhindert. Wirkt nur richtig angebracht.",
+   "source": "S. 61"
+  },
+  {
+   "id": "trigger-lock",
+   "en": "trigger lock",
+   "de": "Abzugsschloss",
+   "cat": "fach",
+   "sub": "Sicherung und Lagerung",
+   "explDe": "Bauart mit Schlüssel oder Zahlenkombination.",
+   "source": "S. 61"
+  },
+  {
+   "id": "cable-lock",
+   "en": "cable lock",
+   "de": "Kabelschloss",
+   "cat": "fach",
+   "sub": "Sicherung und Lagerung",
+   "explDe": "Kabel oder Kette, blockiert die Bedienung.",
+   "source": "S. 61"
+  },
+  {
+   "id": "locked-container",
+   "en": "locked container",
+   "de": "verschlossener Behälter",
+   "cat": "fach",
+   "sub": "Sicherung und Lagerung",
+   "explDe": "Behälter, Kasten oder Raum, in den man nicht leicht einbrechen kann.",
+   "source": "S. 59"
+  },
+  {
+   "id": "storage",
+   "en": "storage",
+   "de": "Lagerung, Aufbewahrung",
+   "cat": "fach",
+   "sub": "Sicherung und Lagerung",
+   "explDe": "Eines der vier Wörter aus der Vorschrift: storage, display, transportation, handling.",
+   "source": "S. 25"
+  },
+  {
+   "id": "firearm-licence",
+   "en": "firearm licence",
+   "de": "Waffenerlaubnis",
+   "cat": "fach",
+   "sub": "Recht und Erlaubnis",
+   "explDe": "Jeder Waffenbesitzer braucht eine gültige.",
+   "source": "S. 23"
+  },
+  {
+   "id": "pal",
+   "en": "Possession and Acquisition Licence (PAL)",
+   "de": "Besitz- und Erwerbserlaubnis",
+   "cat": "fach",
+   "sub": "Recht und Erlaubnis",
+   "explDe": "Erlaubt leihen, kaufen, erben und erwerben. Das ist die, die dein Onkel will.",
+   "source": "S. 23"
+  },
+  {
+   "id": "pol",
+   "en": "Possession Only Licence (POL)",
+   "de": "reine Besitzerlaubnis",
+   "cat": "fach",
+   "sub": "Recht und Erlaubnis",
+   "explDe": "Erlaubt nur leihen und besitzen, nicht erwerben.",
+   "source": "S. 23"
+  },
+  {
+   "id": "non-restricted",
+   "en": "non-restricted",
+   "de": "nicht beschränkt",
+   "cat": "fach",
+   "sub": "Recht und Erlaubnis",
+   "explDe": "Die Waffenklasse, um die es im CFSC geht. Restricted ist ein eigener Kurs.",
+   "source": "S. 23"
+  },
+  {
+   "id": "indictable-offence",
+   "en": "indictable offence",
+   "de": "schwerere Straftat",
+   "cat": "fach",
+   "sub": "Recht und Erlaubnis",
+   "explDe": "Die schwerere der beiden Verfahrensarten, bis zu fünf Jahre Haft.",
+   "source": "S. 24"
+  },
+  {
+   "id": "summary-conviction",
+   "en": "summary conviction",
+   "de": "abgekürztes Verfahren",
+   "cat": "fach",
+   "sub": "Recht und Erlaubnis",
+   "explDe": "Die leichtere Verfahrensart, 5.000 Dollar Geldstrafe und bis zu sechs Monate.",
+   "source": "S. 24"
+  },
+  {
+   "id": "blaze-orange",
+   "en": "blaze orange",
+   "de": "Signalorange",
+   "cat": "fach",
+   "sub": "Recht und Erlaubnis",
+   "explDe": "In manchen Provinzen und Territorien beim Jagen vorgeschrieben.",
+   "source": "S. 23"
+  },
+  {
+   "id": "dwelling",
+   "en": "dwelling",
+   "de": "Wohngebäude",
+   "cat": "fach",
+   "sub": "Recht und Erlaubnis",
+   "explDe": "Taucht in Abstandsregeln auf: nicht in der Nähe von Wohnhäusern schießen.",
+   "source": "S. 23"
+  },
+  {
+   "id": "canadian-firearms-program",
+   "en": "Canadian Firearms Program (CFP)",
+   "de": "kanadisches Waffenprogramm",
+   "cat": "fach",
+   "sub": "Recht und Erlaubnis",
+   "explDe": "Die Stelle, der du innerhalb von 30 Tagen einen Umzug melden musst.",
+   "source": "S. 23"
   }
  ]
 }

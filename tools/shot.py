@@ -19,6 +19,11 @@ def run(pw, theme, suffix):
         pg.click(f'nav.tabs button[data-tab="{tab}"]'); pg.wait_for_timeout(250)
         pg.screenshot(path=str(out / f"{name}{suffix}.png"))
 
+    # in eine Lerneinheit hinein
+    pg.click('nav.tabs button[data-tab="learn"]'); pg.wait_for_timeout(200)
+    pg.click('#learn-index button[data-unit]'); pg.wait_for_timeout(350)
+    pg.screenshot(path=str(out / f"8-lektion{suffix}.png"), full_page=True)
+
     pg.click('nav.tabs button[data-tab="quiz"]'); pg.wait_for_timeout(150)
     pg.click("#quiz-go"); pg.wait_for_timeout(250)
     pg.click("#help"); pg.wait_for_timeout(150)
