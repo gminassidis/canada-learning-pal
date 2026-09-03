@@ -1,6 +1,6 @@
 {
  "_schema": "Fragenpool. type mc = Multiple Choice, tf = True/False. stemEn ist das, was in der Pruefung steht, stemDe ist nur Hilfe. Jede Frage traegt eine Fundstelle.",
- "_status": "Uebungsfragen, keine echten Pruefungsfragen. Aus den pruefbaren Aussagen des Handbuchs abgeleitet, Formulierung im Stil der Pruefung. Einfuehrung und Module 1 bis 4 abgedeckt.",
+ "_status": "Uebungsfragen, keine echten Pruefungsfragen. Aus den pruefbaren Aussagen des Handbuchs abgeleitet, Formulierung im Stil der Pruefung. Einfuehrung und Module 1 bis 5 abgedeckt.",
  "questions": [
   {
    "id": "q-acts-01",
@@ -1817,6 +1817,703 @@
      "de": "Der Schaft löst die Sicherung.",
      "correct": false,
      "whyDe": "Tut er nicht."
+    }
+   ]
+  },
+  {
+   "id": "q-m5-01",
+   "type": "mc",
+   "unit": "m5-zug",
+   "source": "S. 64",
+   "tags": [
+    "lauf"
+   ],
+   "stemEn": "What is the purpose of rifling in a barrel?",
+   "stemDe": "Wozu dienen Züge und Felder im Lauf?",
+   "options": [
+    {
+     "en": "It makes the bullet spin so that it is stable in flight and more accurate.",
+     "de": "Sie versetzen das Geschoss in Drehung, das macht es stabil und treffsicher.",
+     "correct": true,
+     "whyDe": "Genau dafür sind sie da."
+    },
+    {
+     "en": "It slows the bullet down inside the barrel.",
+     "de": "Sie bremsen das Geschoss im Lauf.",
+     "correct": false,
+     "whyDe": "Das Gegenteil ist beabsichtigt."
+    },
+    {
+     "en": "It seals the chamber against gas.",
+     "de": "Sie dichten das Patronenlager ab.",
+     "correct": false,
+     "whyDe": "Das macht die sich ausdehnende Hülse."
+    },
+    {
+     "en": "It controls the spread of the shot.",
+     "de": "Sie steuern die Verteilung der Schrote.",
+     "correct": false,
+     "whyDe": "Das macht die Würgebohrung an der Flinte."
+    }
+   ]
+  },
+  {
+   "id": "q-m5-02",
+   "type": "mc",
+   "unit": "m5-zug",
+   "source": "S. 64",
+   "tags": [
+    "lauf"
+   ],
+   "stemEn": "In a rifled barrel, what are the lands?",
+   "stemDe": "Was sind die lands im gezogenen Lauf?",
+   "options": [
+    {
+     "en": "The ridges of metal between the grooves.",
+     "de": "Die Stege zwischen den Zügen.",
+     "correct": true,
+     "whyDe": "Züge sind die Rillen, Felder die Stege dazwischen. Zusammen das rifling."
+    },
+    {
+     "en": "The spiral grooves themselves.",
+     "de": "Die spiraligen Rillen selbst.",
+     "correct": false,
+     "whyDe": "Das sind die grooves."
+    },
+    {
+     "en": "The markings on the head stamp.",
+     "de": "Die Zeichen auf dem Bodenstempel.",
+     "correct": false,
+     "whyDe": "Damit haben sie nichts zu tun."
+    },
+    {
+     "en": "The narrowing at the muzzle.",
+     "de": "Die Verengung an der Mündung.",
+     "correct": false,
+     "whyDe": "Das ist die Würgebohrung, und die gibt es an der Flinte."
+    }
+   ]
+  },
+  {
+   "id": "q-m5-03",
+   "type": "mc",
+   "unit": "m5-patronen",
+   "source": "S. 71",
+   "tags": [
+    "munition"
+   ],
+   "stemEn": "What distinguishes a rim-fire cartridge from a centre-fire cartridge?",
+   "stemDe": "Was unterscheidet Randfeuer von Zentralfeuer?",
+   "options": [
+    {
+     "en": "Where the primer is located and where the firing pin strikes.",
+     "de": "Wo das Zündhütchen sitzt und wohin der Schlagbolzen trifft.",
+     "correct": true,
+     "whyDe": "Beim Randfeuer im Rand des Bodens, beim Zentralfeuer in der Mitte."
+    },
+    {
+     "en": "The length of the barrel.",
+     "de": "Die Länge des Laufs.",
+     "correct": false,
+     "whyDe": "Das hat damit nichts zu tun."
+    },
+    {
+     "en": "The type of powder used.",
+     "de": "Die Pulversorte.",
+     "correct": false,
+     "whyDe": "Beide verwenden modernes Pulver."
+    },
+    {
+     "en": "Whether the firearm is restricted.",
+     "de": "Ob die Waffe beschränkt ist.",
+     "correct": false,
+     "whyDe": "Das ist eine Rechtsfrage, keine Frage der Patrone."
+    }
+   ]
+  },
+  {
+   "id": "q-m5-04",
+   "type": "tf",
+   "unit": "m5-patronen",
+   "source": "S. 71",
+   "tags": [
+    "munition"
+   ],
+   "stemEn": "The .22 cartridge is interchangeable with the .22 magnum cartridge.",
+   "stemDe": "Die .22 ist mit der .22 magnum austauschbar.",
+   "answer": false,
+   "whyDe": "Falsch. Das Handbuch sagt ausdrücklich, dass sie nicht austauschbar sind, obwohl beide 22 im Namen tragen."
+  },
+  {
+   "id": "q-m5-05",
+   "type": "mc",
+   "unit": "m5-patronen",
+   "source": "S. 71",
+   "tags": [
+    "munition"
+   ],
+   "stemEn": "What does 'dry firing' mean?",
+   "stemDe": "Was bedeutet dry firing?",
+   "options": [
+    {
+     "en": "Initiating the firing sequence without a cartridge in the chamber.",
+     "de": "Den Schuss auslösen, ohne dass eine Patrone im Lager ist.",
+     "correct": true,
+     "whyDe": "Es kann die Waffe beschädigen."
+    },
+    {
+     "en": "Firing in dry weather conditions.",
+     "de": "Bei trockenem Wetter schießen.",
+     "correct": false,
+     "whyDe": "Mit dem Wetter hat es nichts zu tun."
+    },
+    {
+     "en": "Firing without lubricating the barrel.",
+     "de": "Ohne geölten Lauf schießen.",
+     "correct": false,
+     "whyDe": "Kommt im Handbuch nicht vor."
+    },
+    {
+     "en": "Firing black powder without a patch.",
+     "de": "Schwarzpulver ohne Pflaster schießen.",
+     "correct": false,
+     "whyDe": "Betrifft den Vorderlader, ist aber nicht gemeint."
+    }
+   ]
+  },
+  {
+   "id": "q-m5-06",
+   "type": "mc",
+   "unit": "m5-namen",
+   "source": "S. 66",
+   "tags": [
+    "munition"
+   ],
+   "stemEn": "What is the most important point to remember when selecting ammunition?",
+   "stemDe": "Was ist der wichtigste Punkt bei der Munitionswahl?",
+   "options": [
+    {
+     "en": "The cartridge name on the head stamp must match the data stamp on the barrel.",
+     "de": "Der Bodenstempel der Patrone muss zum Daten-Stempel am Lauf passen.",
+     "correct": true,
+     "whyDe": "Das Handbuch nennt genau das den wichtigsten Punkt."
+    },
+    {
+     "en": "The bullet must be as heavy as possible.",
+     "de": "Das Geschoss soll möglichst schwer sein.",
+     "correct": false,
+     "whyDe": "Gewicht und Form richten sich nach Waffe und Ziel, das ist nicht der Kernpunkt."
+    },
+    {
+     "en": "The ammunition must be from the same manufacturer as the firearm.",
+     "de": "Die Munition muss vom selben Hersteller sein wie die Waffe.",
+     "correct": false,
+     "whyDe": "Ausdrücklich nicht nötig, das Handbuch nennt sogar ein Gegenbeispiel."
+    },
+    {
+     "en": "The cartridge must be new and unused.",
+     "de": "Die Patrone muss neu und ungebraucht sein.",
+     "correct": false,
+     "whyDe": "Alt und korrodiert soll sie nicht sein, aber das ist nicht der wichtigste Punkt."
+    }
+   ]
+  },
+  {
+   "id": "q-m5-07",
+   "type": "mc",
+   "unit": "m5-namen",
+   "source": "S. 66",
+   "tags": [
+    "munition",
+    "lauf"
+   ],
+   "stemEn": "What safety precaution should be taken with a firearm that has no data stamp?",
+   "stemDe": "Was tust du mit einer Waffe ohne Daten-Stempel?",
+   "options": [
+    {
+     "en": "Take it to a qualified individual who can measure the chamber and advise on ammunition.",
+     "de": "Zu einem Fachmann bringen, der das Patronenlager ausmisst und die Munition bestimmt.",
+     "correct": true,
+     "whyDe": "Dies ist eine der Review-Fragen. Bei gebrauchten Waffen kann ein Stempel auch falsch sein, etwa nach einem Umbau."
+    },
+    {
+     "en": "Use the smallest available calibre to be safe.",
+     "de": "Sicherheitshalber das kleinste Kaliber verwenden.",
+     "correct": false,
+     "whyDe": "Gefährlich. Eine zu kleine Patrone kann im Lauf stecken bleiben."
+    },
+    {
+     "en": "Match the ammunition to a similar-looking firearm.",
+     "de": "Munition von einer ähnlich aussehenden Waffe nehmen.",
+     "correct": false,
+     "whyDe": "Ähnliches Aussehen sagt nichts über das Patronenlager."
+    },
+    {
+     "en": "Fire one test round and observe the result.",
+     "de": "Einen Probeschuss abgeben.",
+     "correct": false,
+     "whyDe": "Genau das kann die Waffe sprengen."
+    }
+   ]
+  },
+  {
+   "id": "q-m5-08",
+   "type": "tf",
+   "unit": "m5-namen",
+   "source": "S. 72",
+   "tags": [
+    "munition"
+   ],
+   "stemEn": "Cartridges with the same number in their name, such as .303 Savage and .303 British, are interchangeable.",
+   "stemDe": "Patronen mit derselben Zahl im Namen, etwa .303 Savage und .303 British, sind austauschbar.",
+   "answer": false,
+   "whyDe": "Falsch, und das ist eine gefährliche Verwechslung. Das Handbuch nennt genau dieses Beispielpaar als nicht austauschbar."
+  },
+  {
+   "id": "q-m5-09",
+   "type": "mc",
+   "unit": "m5-flinte",
+   "source": "S. 75",
+   "tags": [
+    "flinte"
+   ],
+   "stemEn": "How is the gauge of a shotgun determined?",
+   "stemDe": "Wie ergibt sich die Kaliberzahl einer Flinte?",
+   "options": [
+    {
+     "en": "By the number of lead balls of bore diameter that together weigh one pound.",
+     "de": "Aus der Zahl der Bleikugeln vom Laufdurchmesser, die zusammen ein Pfund wiegen.",
+     "correct": true,
+     "whyDe": "Zwölf solche Kugeln ergeben eine 12-gauge. Je größer die Zahl, desto kleiner der Lauf."
+    },
+    {
+     "en": "By the bore diameter in thousandths of an inch.",
+     "de": "Aus dem Durchmesser in Tausendstel Zoll.",
+     "correct": false,
+     "whyDe": "So wird das Kaliber der Büchse gemessen, nicht die Kaliberzahl der Flinte."
+    },
+    {
+     "en": "By the length of the barrel in inches.",
+     "de": "Aus der Lauflänge in Zoll.",
+     "correct": false,
+     "whyDe": "Die Lauflänge spielt keine Rolle."
+    },
+    {
+     "en": "By the weight of the shot charge.",
+     "de": "Aus dem Gewicht der Schrotladung.",
+     "correct": false,
+     "whyDe": "Es geht um Kugeln vom Durchmesser des Laufs, nicht um die Ladung."
+    }
+   ]
+  },
+  {
+   "id": "q-m5-10",
+   "type": "mc",
+   "unit": "m5-flinte",
+   "source": "S. 75",
+   "tags": [
+    "flinte"
+   ],
+   "stemEn": "Which shotgun is the exception, being measured as a calibre rather than a gauge?",
+   "stemDe": "Welche Flinte ist die Ausnahme und wird als Kaliber angegeben?",
+   "options": [
+    {
+     "en": "The .410.",
+     "de": "Die .410.",
+     "correct": true,
+     "whyDe": "Sie kam später und wird deshalb als Kaliber geführt."
+    },
+    {
+     "en": "The 12 gauge.",
+     "de": "Die 12-gauge.",
+     "correct": false,
+     "whyDe": "Ganz normale Kaliberzahl."
+    },
+    {
+     "en": "The 20 gauge.",
+     "de": "Die 20-gauge.",
+     "correct": false,
+     "whyDe": "Ebenfalls normal."
+    },
+    {
+     "en": "The 28 gauge.",
+     "de": "Die 28-gauge.",
+     "correct": false,
+     "whyDe": "Ebenfalls normal."
+    }
+   ]
+  },
+  {
+   "id": "q-m5-11",
+   "type": "mc",
+   "unit": "m5-flinte",
+   "source": "S. 77",
+   "tags": [
+    "flinte"
+   ],
+   "stemEn": "Which choke produces the most open pattern?",
+   "stemDe": "Welche Würgebohrung ergibt die offenste Schrotgarbe?",
+   "options": [
+    {
+     "en": "Cylinder bore.",
+     "de": "Cylinder bore, also gar keine Verengung.",
+     "correct": true,
+     "whyDe": "Keine Verengung, offenste Verteilung. Wird für grobe Schrote und Flintenlaufgeschosse verwendet."
+    },
+    {
+     "en": "Full choke.",
+     "de": "Full choke.",
+     "correct": false,
+     "whyDe": "Die ergibt die engste Garbe."
+    },
+    {
+     "en": "Modified choke.",
+     "de": "Modified choke.",
+     "correct": false,
+     "whyDe": "Offener als full, aber nicht am offensten."
+    },
+    {
+     "en": "Improved cylinder.",
+     "de": "Improved cylinder.",
+     "correct": false,
+     "whyDe": "Noch offener als modified, aber cylinder bore ist offener."
+    }
+   ]
+  },
+  {
+   "id": "q-m5-12",
+   "type": "tf",
+   "unit": "m5-schrot",
+   "source": "S. 80",
+   "tags": [
+    "flinte",
+    "munition"
+   ],
+   "stemEn": "A shotgun shell has five components, while a rifle cartridge has four.",
+   "stemDe": "Die Schrotpatrone hat fünf Bestandteile, die Büchsenpatrone vier.",
+   "answer": true,
+   "whyDe": "Richtig. Der fünfte ist der Pfropfen, der wad, zwischen Pulver und Schrot."
+  },
+  {
+   "id": "q-m5-13",
+   "type": "mc",
+   "unit": "m5-schrot",
+   "source": "S. 84",
+   "tags": [
+    "flinte"
+   ],
+   "stemEn": "Shotgun shell lengths such as 70 mm or 76 mm refer to what?",
+   "stemDe": "Worauf beziehen sich Längenangaben wie 70 mm oder 76 mm bei Schrotpatronen?",
+   "options": [
+    {
+     "en": "The length of the shell after firing.",
+     "de": "Die Länge der abgeschossenen Hülse.",
+     "correct": true,
+     "whyDe": "Deshalb ist Messen einer ungeschossenen Patrone irreführend: man hält eine 3-Zoll-Patrone für eine 2¾-Zoll-Patrone."
+    },
+    {
+     "en": "The length of the unfired shell.",
+     "de": "Die Länge der ungeschossenen Patrone.",
+     "correct": false,
+     "whyDe": "Genau das ist der Irrtum, vor dem das Handbuch warnt."
+    },
+    {
+     "en": "The length of the barrel.",
+     "de": "Die Länge des Laufs.",
+     "correct": false,
+     "whyDe": "Nein."
+    },
+    {
+     "en": "The length of the shot column.",
+     "de": "Die Länge der Schrotsäule.",
+     "correct": false,
+     "whyDe": "Nein."
+    }
+   ]
+  },
+  {
+   "id": "q-m5-14",
+   "type": "mc",
+   "unit": "m5-schrot",
+   "source": "S. 87",
+   "tags": [
+    "flinte",
+    "munition"
+   ],
+   "stemEn": "Why is chambering a 20-gauge shell in a 12-gauge shotgun so dangerous?",
+   "stemDe": "Warum ist eine 20er Patrone in einer 12er Flinte so gefährlich?",
+   "options": [
+    {
+     "en": "The small shell sticks in the forcing cone, and a 12-gauge shell loaded behind it may burst the barrel.",
+     "de": "Die kleine Patrone bleibt im Übergangskegel stecken, und eine dahinter geladene 12er sprengt beim Schuss den Lauf.",
+     "correct": true,
+     "whyDe": "Das Handbuch schildert genau diesen Ablauf. Menschen sind daran gestorben."
+    },
+    {
+     "en": "The shell will not fit into the chamber at all.",
+     "de": "Sie passt gar nicht ins Lager.",
+     "correct": false,
+     "whyDe": "Sie passt eben zu leicht und rutscht durch."
+    },
+    {
+     "en": "The primer will not be struck by the firing pin.",
+     "de": "Der Schlagbolzen trifft nicht.",
+     "correct": false,
+     "whyDe": "Das ist nicht die Gefahr."
+    },
+    {
+     "en": "The shot pattern will be too open.",
+     "de": "Die Schrotgarbe wird zu offen.",
+     "correct": false,
+     "whyDe": "Es geht um einen berstenden Lauf, nicht um die Garbe."
+    }
+   ]
+  },
+  {
+   "id": "q-m5-15",
+   "type": "mc",
+   "unit": "m5-ballistik",
+   "source": "S. 91",
+   "tags": [
+    "ballistik"
+   ],
+   "stemEn": "Which of the following factors affect the trajectory of a bullet?",
+   "stemDe": "Welche Faktoren beeinflussen die Flugbahn eines Geschosses?",
+   "options": [
+    {
+     "en": "Gravity, air resistance, velocity and mass.",
+     "de": "Schwerkraft, Luftwiderstand, Geschwindigkeit und Masse.",
+     "correct": true,
+     "whyDe": "Diese vier nennt das Handbuch. Dies ist eine Review-Frage."
+    },
+    {
+     "en": "Gravity and choke only.",
+     "de": "Nur Schwerkraft und Würgebohrung.",
+     "correct": false,
+     "whyDe": "Die Würgebohrung betrifft die Schrotgarbe, nicht die Flugbahn eines Geschosses."
+    },
+    {
+     "en": "The colour and shape of the target.",
+     "de": "Farbe und Form des Ziels.",
+     "correct": false,
+     "whyDe": "Das Ziel beeinflusst die Flugbahn nicht."
+    },
+    {
+     "en": "The calibre of the firearm only.",
+     "de": "Nur das Kaliber.",
+     "correct": false,
+     "whyDe": "Zu wenig, es sind vier Faktoren."
+    }
+   ]
+  },
+  {
+   "id": "q-m5-16",
+   "type": "tf",
+   "unit": "m5-ballistik",
+   "source": "S. 91",
+   "tags": [
+    "ballistik"
+   ],
+   "stemEn": "The trajectory of a projectile crosses the line of sight twice on the way to the target.",
+   "stemDe": "Die Flugbahn kreuzt die Visierlinie auf dem Weg zum Ziel zweimal.",
+   "answer": true,
+   "whyDe": "Richtig. Weil die Mündung zum Ausgleich der Schwerkraft leicht angehoben wird, steigt das Geschoss zunächst über die Visierlinie und fällt danach wieder darunter."
+  },
+  {
+   "id": "q-m5-17",
+   "type": "mc",
+   "unit": "m5-stoerung",
+   "source": "S. 92",
+   "tags": [
+    "stoerung"
+   ],
+   "stemEn": "Which malfunction involves a delay of several seconds between pulling the trigger and the cartridge firing?",
+   "stemDe": "Welche Störung bedeutet mehrere Sekunden Verzögerung zwischen Abzug und Schuss?",
+   "options": [
+    {
+     "en": "A hangfire.",
+     "de": "Ein Nachzünder.",
+     "correct": true,
+     "whyDe": "Der Schlagbolzen trifft das Zündhütchen, aber die Flamme reicht nicht, um das Pulver sofort zu entzünden. Dies ist eine Review-Frage."
+    },
+    {
+     "en": "A misfire.",
+     "de": "Ein Versager.",
+     "correct": false,
+     "whyDe": "Bei dem zündet die Patrone gar nicht."
+    },
+    {
+     "en": "A primer pop.",
+     "de": "Ein Schwachschuss.",
+     "correct": false,
+     "whyDe": "Bei dem fehlt das Pulver, es knallt kaum und es gibt keinen Rückstoß."
+    },
+    {
+     "en": "A jam.",
+     "de": "Ein Klemmer.",
+     "correct": false,
+     "whyDe": "Da sitzt eine Patrone oder Hülse fest."
+    }
+   ]
+  },
+  {
+   "id": "q-m5-18",
+   "type": "mc",
+   "unit": "m5-stoerung",
+   "source": "S. 92",
+   "tags": [
+    "stoerung"
+   ],
+   "stemEn": "You pull the trigger and there is no noticeable discharge. What must you do?",
+   "stemDe": "Du ziehst ab und es kommt kein deutlicher Schuss. Was tust du?",
+   "options": [
+    {
+     "en": "Wait 60 seconds with the muzzle in a safe direction, then open the action, unload and PROVE it safe.",
+     "de": "60 Sekunden warten, Mündung sicher, dann Verschluss öffnen, entladen und PROVE.",
+     "correct": true,
+     "whyDe": "Und beim PROVE prüfen, ob etwas im Lauf steckt."
+    },
+    {
+     "en": "Immediately open the action and remove the cartridge.",
+     "de": "Sofort öffnen und die Patrone herausnehmen.",
+     "correct": false,
+     "whyDe": "Gefährlich. Zündet die Patrone außerhalb des Lagers, kann die berstende Hülse verletzen."
+    },
+    {
+     "en": "Pull the trigger again right away.",
+     "de": "Sofort noch einmal abziehen.",
+     "correct": false,
+     "whyDe": "Auf keinen Fall, es kann ein Nachzünder sein."
+    },
+    {
+     "en": "Wait 10 seconds, then continue shooting.",
+     "de": "10 Sekunden warten, dann weiterschießen.",
+     "correct": false,
+     "whyDe": "Zu kurz, und weiterschießen ist bei einem möglichen Schwachschuss lebensgefährlich."
+    }
+   ]
+  },
+  {
+   "id": "q-m5-19",
+   "type": "mc",
+   "unit": "m5-stoerung",
+   "source": "S. 92",
+   "tags": [
+    "stoerung"
+   ],
+   "stemEn": "A shot sounds much quieter than usual and there is no recoil. What must you suspect?",
+   "stemDe": "Ein Schuss klingt viel leiser als sonst und es gibt keinen Rückstoß. Woran denkst du?",
+   "options": [
+    {
+     "en": "A primer pop (squib load): the bullet may be lodged in the barrel.",
+     "de": "Ein Schwachschuss: das Geschoss kann im Lauf stecken.",
+     "correct": true,
+     "whyDe": "In der Patrone fehlte das Pulver. Wer jetzt weiterschießt, sprengt womöglich den Lauf."
+    },
+    {
+     "en": "A hangfire, so you should fire again.",
+     "de": "Ein Nachzünder, also noch einmal schießen.",
+     "correct": false,
+     "whyDe": "Weiterschießen ist genau der gefährliche Fehler."
+    },
+    {
+     "en": "Nothing unusual, some ammunition is quieter.",
+     "de": "Nichts Besonderes, manche Munition ist leiser.",
+     "correct": false,
+     "whyDe": "Ein leiser Schuss ohne Rückstoß ist ein Alarmzeichen."
+    },
+    {
+     "en": "The choke is too open.",
+     "de": "Die Würgebohrung ist zu offen.",
+     "correct": false,
+     "whyDe": "Damit hat es nichts zu tun."
+    }
+   ]
+  },
+  {
+   "id": "q-m5-20",
+   "type": "mc",
+   "unit": "m5-stoerung",
+   "source": "S. 93",
+   "tags": [
+    "lagerung"
+   ],
+   "stemEn": "Under what circumstances may ammunition be stored together with a non-restricted firearm?",
+   "stemDe": "Unter welchen Umständen darf Munition zusammen mit einer nicht beschränkten Waffe gelagert werden?",
+   "options": [
+    {
+     "en": "Only in a securely locked container or receptacle that cannot easily be broken into.",
+     "de": "Nur in einem sicher verschlossenen Behälter, in den man nicht leicht einbrechen kann.",
+     "correct": true,
+     "whyDe": "Sonst gilt: Munition nicht in leichter Reichweite der Waffe. Dies ist eine Review-Frage."
+    },
+    {
+     "en": "Whenever the firearm is unloaded.",
+     "de": "Immer wenn die Waffe entladen ist.",
+     "correct": false,
+     "whyDe": "Entladen allein genügt nicht."
+    },
+    {
+     "en": "Whenever a trigger lock is fitted.",
+     "de": "Immer wenn ein Abzugsschloss angebracht ist.",
+     "correct": false,
+     "whyDe": "Das Schloss sichert die Waffe, ersetzt aber nicht den verschlossenen Behälter."
+    },
+    {
+     "en": "Never, under any circumstances.",
+     "de": "Nie, unter keinen Umständen.",
+     "correct": false,
+     "whyDe": "Zu streng. Im sicher verschlossenen Behälter ist es erlaubt."
+    }
+   ]
+  },
+  {
+   "id": "q-m5-21",
+   "type": "tf",
+   "unit": "m5-stoerung",
+   "source": "S. 93",
+   "tags": [
+    "lagerung"
+   ],
+   "stemEn": "It is acceptable to display a non-restricted firearm together with its ammunition.",
+   "stemDe": "Eine nicht beschränkte Waffe darf zusammen mit ihrer Munition ausgestellt werden.",
+   "answer": false,
+   "whyDe": "Falsch. Ammunition must not be displayed with the firearm. Dies ist eine Review-Frage, und die Antwort ist schlicht nein."
+  },
+  {
+   "id": "q-m5-22",
+   "type": "mc",
+   "unit": "m5-stoerung",
+   "source": "S. 93",
+   "tags": [
+    "lagerung"
+   ],
+   "stemEn": "What are the preferred conditions for storing ammunition?",
+   "stemDe": "Wie soll Munition gelagert werden?",
+   "options": [
+    {
+     "en": "Cool and dry, preferably in a vented container.",
+     "de": "Kühl und trocken, am besten in einem belüfteten Behälter.",
+     "correct": true,
+     "whyDe": "Dies ist eine Review-Frage. Ein dichter Behälter kann im Brandfall zur Explosionsgefahr werden."
+    },
+    {
+     "en": "Warm and dry, in a sealed container.",
+     "de": "Warm und trocken, in einem dichten Behälter.",
+     "correct": false,
+     "whyDe": "Dicht ist gerade falsch, und warm ebenfalls."
+    },
+    {
+     "en": "Cool and humid, in a sealed container.",
+     "de": "Kühl und feucht, dicht verschlossen.",
+     "correct": false,
+     "whyDe": "Feuchtigkeit führt zu Korrosion."
+    },
+    {
+     "en": "Any conditions, as long as it is locked away.",
+     "de": "Egal wie, Hauptsache weggeschlossen.",
+     "correct": false,
+     "whyDe": "Verschluss ist Pflicht, ersetzt aber nicht kühl, trocken und belüftet."
     }
    ]
   }

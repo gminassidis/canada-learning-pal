@@ -1,6 +1,6 @@
 {
  "_schema": "Lerneinheiten. Bloecke: de = deutsche Erklaerung, en = englischer Originalsatz aus dem Handbuch, img = Abbildung, terms = Begriffsliste. source = Seite im Handbuch.",
- "_status": "Einfuehrung und Module 1 bis 4 fertig. Module 5 bis 11 folgen.",
+ "_status": "Einfuehrung und Module 1 bis 5 fertig. Module 6 bis 11 folgen.",
  "chapters": [
   {
    "id": "einfuehrung",
@@ -1088,6 +1088,515 @@
         "secure-locking-device",
         "trigger-lock",
         "cable-lock"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "modul5",
+   "titleDe": "Modul 5: Munition",
+   "titleEn": "Module 5: Ammunition",
+   "units": [
+    {
+     "id": "m5-zug",
+     "titleDe": "Züge, Felder und Kaliber",
+     "titleEn": "Rifling and calibre",
+     "source": "S. 64 und S. 65",
+     "blocks": [
+      {
+       "type": "de",
+       "text": "Das größte Modul, und es dreht sich um eine einzige Frage: passt diese Munition in diese Waffe? Fast jede Prüfungsfrage hier hängt daran."
+      },
+      {
+       "type": "en",
+       "text": "Rifled barrels have a series of spiral grooves inside the barrel. The ridges of metal between the grooves are called lands. The lands and grooves together make up the rifling."
+      },
+      {
+       "type": "de",
+       "text": "Im Lauf einer Büchse verlaufen spiralige Rillen. Die Rillen heißen grooves, die stehen gebliebenen Stege dazwischen lands. Zusammen sind sie das rifling."
+      },
+      {
+       "type": "en",
+       "text": "Rifling makes the bullet spin as it leaves the barrel so that it will be stable in flight, thus making the bullet more accurate."
+      },
+      {
+       "type": "de",
+       "text": "Sie versetzen das Geschoss in Drehung. Das macht es im Flug stabil und damit treffsicher. Ein Flintenlauf ist dagegen meist glatt, ein smooth bore."
+      },
+      {
+       "type": "img",
+       "src": "assets/rifling.webp",
+       "captionDe": "Abbildung 19 aus dem Handbuch: gezogener und glatter Lauf."
+      },
+      {
+       "type": "en",
+       "text": "A calibre is a measurement of bore diameter in either thousands of an inch (Imperial) or in millimeters (Metric)."
+      },
+      {
+       "type": "de",
+       "text": "Das Kaliber ist der Durchmesser des Laufinneren, angegeben in Tausendstel Zoll oder in Millimetern. Zollmaße werden von Feld zu Feld gemessen, metrische von Zug zu Zug."
+      },
+      {
+       "type": "en",
+       "text": "Always consult the data stamp on the barrel of your firearm to find out the exact name of the ammunition that it fits."
+      },
+      {
+       "type": "de",
+       "text": "Und die Regel, die im ganzen Modul wiederkehrt: der Daten-Stempel am Lauf sagt dir, welche Munition hineingehört."
+      },
+      {
+       "type": "terms",
+       "ids": [
+        "rifling",
+        "grooves",
+        "lands",
+        "rifled-barrel",
+        "smooth-bore",
+        "calibre",
+        "data-stamp"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "m5-patronen",
+     "titleDe": "Randfeuer und Zentralfeuer",
+     "titleEn": "Types of cartridges",
+     "source": "S. 66 bis S. 71",
+     "blocks": [
+      {
+       "type": "de",
+       "text": "Es gibt zwei Grundarten von Patronen. Der Unterschied liegt darin, wo das Zündhütchen sitzt und wohin der Schlagbolzen trifft."
+      },
+      {
+       "type": "en",
+       "text": "Two kinds of cartridges commonly available are: rim-fire and centre-fire. These terms describe where the primer is located at the base of the cartridge casing."
+      },
+      {
+       "type": "img",
+       "src": "assets/rim-centre-fire.webp",
+       "captionDe": "Abbildung 20 aus dem Handbuch: Randfeuer und Zentralfeuer mit Bodenstempel."
+      },
+      {
+       "type": "en",
+       "text": "Rim-fire ammunition's priming chemical fills the space inside the bottom rim of a thin brass or copper cartridge casing. The soft rim dents when struck by the firing pin."
+      },
+      {
+       "type": "de",
+       "text": "Beim Randfeuer sitzt der Zündsatz im Rand des Hülsenbodens. Der Schlagbolzen trifft den Rand und quetscht ihn ein. Typisch ist die .22, es gibt sie als BB, short, long und long rifle. Achtung: die .22 magnum ist damit nicht austauschbar."
+      },
+      {
+       "type": "en",
+       "text": "Centre-fire ammunition is used for higher power firearms. The primer is located at the centre of the base of the cartridge case."
+      },
+      {
+       "type": "de",
+       "text": "Beim Zentralfeuer sitzt das Zündhütchen mittig im Boden. Diese Bauart wird für leistungsstärkere Waffen verwendet. Auch jede Schrotpatrone ist Zentralfeuer."
+      },
+      {
+       "type": "img",
+       "src": "assets/cartridge-parts.webp",
+       "captionDe": "Abbildung 24 aus dem Handbuch: Geschoss, Pulverladung, Hülse und Zündhütchen."
+      },
+      {
+       "type": "en",
+       "text": "Dry firing means to initiate the firing sequence without a cartridge in the chamber. Dry firing any firearm can damage the firearm."
+      },
+      {
+       "type": "de",
+       "text": "Nebenbei ein Begriff, der gern abgefragt wird: dry firing heißt, den Schuss auszulösen, ohne dass eine Patrone im Lager ist. Das kann die Waffe beschädigen."
+      },
+      {
+       "type": "terms",
+       "ids": [
+        "rim-fire",
+        "centre-fire",
+        "primer",
+        "casing",
+        "firing-pin",
+        "dry-firing"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "m5-namen",
+     "titleDe": "Patronennamen und Stempel",
+     "titleEn": "Cartridge names",
+     "source": "S. 66 und S. 72 bis S. 73",
+     "blocks": [
+      {
+       "type": "de",
+       "text": "Hier steckt die wichtigste Sicherheitsregel des ganzen Moduls, und sie ist wörtlich so im Handbuch markiert."
+      },
+      {
+       "type": "en",
+       "text": "Always make sure the cartridge name on the head stamp matches the information on the data stamp, if available, on the barrel of the firearm. This is the most important point to remember when selecting ammunition."
+      },
+      {
+       "type": "de",
+       "text": "Der Bodenstempel auf der Patrone muss zum Daten-Stempel am Lauf passen. Das ist laut Handbuch der wichtigste Punkt bei der Munitionswahl."
+      },
+      {
+       "type": "img",
+       "src": "assets/barrel-stamp.webp",
+       "captionDe": "Abbildung 26 aus dem Handbuch: Daten-Stempel am Lauf."
+      },
+      {
+       "type": "de",
+       "text": "Patronennamen sind unübersichtlich. Früher steckte das ungefähre Kaliber im Namen. Heute steht zusätzlich die Hülsenlänge darin, damit sich Patronen mit gleichem Kaliber, aber unterschiedlicher Hülse auseinanderhalten lassen."
+      },
+      {
+       "type": "en",
+       "text": "For example, cartridges with different names are not interchangeable (.303 Savage and .303 British, 7-mm Mauser and 7-mm Remington Magnum, .300 Savage and .300 Win Mag)."
+      },
+      {
+       "type": "de",
+       "text": "Gleiche Zahl heißt also nicht gleiche Patrone. .303 Savage und .303 British sind nicht austauschbar, obwohl beide 303 im Namen tragen."
+      },
+      {
+       "type": "de",
+       "text": "Der Bodenstempel nennt außerdem oft Kaliber, Hersteller und ob es sich um eine Magnum handelt."
+      },
+      {
+       "type": "en",
+       "text": "If there is no data stamp, take the firearm to a qualified individual. They can measure the chamber and advise on proper ammunition."
+      },
+      {
+       "type": "de",
+       "text": "Und die Antwort auf eine der Review-Fragen: fehlt der Daten-Stempel, gehört die Waffe zu einem Fachmann, der das Patronenlager ausmisst. Bei gebrauchten Waffen kann der Stempel auch falsch sein, etwa nach einem Umbau."
+      },
+      {
+       "type": "terms",
+       "ids": [
+        "head-stamp",
+        "data-stamp",
+        "magnum",
+        "reloaded-ammunition",
+        "gunsmith"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "m5-flinte",
+     "titleDe": "Kaliberzahl und Würgebohrung",
+     "titleEn": "Shotgun gauge and choke",
+     "source": "S. 74 bis S. 79",
+     "blocks": [
+      {
+       "type": "de",
+       "text": "Bei Flinten wird anders gemessen als bei Büchsen, und das ist eine beliebte Prüfungsfrage."
+      },
+      {
+       "type": "en",
+       "text": "Shotgun barrels are sized by gauge instead of calibre. Gauge is calculated by the number of lead balls (each having the same diameter as the bore) that weigh one pound."
+      },
+      {
+       "type": "de",
+       "text": "Die Kaliberzahl sagt, wie viele Bleikugeln vom Durchmesser des Laufs zusammen ein Pfund wiegen. Bei zwölf Kugeln ist es eine 12-gauge. Das heißt: je größer die Zahl, desto kleiner der Lauf. Genau andersherum als beim Kaliber."
+      },
+      {
+       "type": "en",
+       "text": "One exception to this rule is the .410-cal. shotgun. It is measured as a calibre because it was developed later."
+      },
+      {
+       "type": "de",
+       "text": "Eine Ausnahme gibt es: die .410 wird als Kaliber angegeben, weil sie später kam."
+      },
+      {
+       "type": "img",
+       "src": "assets/gauges.webp",
+       "captionDe": "Abbildung 29 aus dem Handbuch: die Kaliberzahlen im Vergleich."
+      },
+      {
+       "type": "en",
+       "text": "The bore of a shotgun barrel is usually smooth and may be narrowed at the muzzle end. This narrowing is called the choke. The choke of a shotgun barrel helps control the spread of the shot after it is fired."
+      },
+      {
+       "type": "de",
+       "text": "Vorn kann der Flintenlauf verengt sein, das ist die Würgebohrung. Sie steuert, wie weit sich die Schrote verteilen. Das Handbuch vergleicht es mit der Düse an einem Gartenschlauch."
+      },
+      {
+       "type": "de",
+       "text": "Vier Stufen, von eng nach offen: full choke, modified, improved cylinder, cylinder bore. Cylinder bore heißt gar keine Verengung und wird für grobe Schrote und Flintenlaufgeschosse verwendet."
+      },
+      {
+       "type": "img",
+       "src": "assets/chokes.webp",
+       "captionDe": "Abbildung 30 aus dem Handbuch: Würgebohrungen und die zugehörigen Schrotgarben."
+      },
+      {
+       "type": "img",
+       "src": "assets/slugs.webp",
+       "captionDe": "Abbildung 28 aus dem Handbuch: Arten von Flintenlaufgeschossen."
+      },
+      {
+       "type": "terms",
+       "ids": [
+        "gauge",
+        "choke",
+        "full-choke",
+        "modified-choke",
+        "improved-cylinder",
+        "cylinder-bore",
+        "pattern",
+        "slug",
+        "sabot",
+        "buckshot"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "m5-schrot",
+     "titleDe": "Die Schrotpatrone",
+     "titleEn": "Shotgun shells",
+     "source": "S. 80 bis S. 88",
+     "blocks": [
+      {
+       "type": "en",
+       "text": "Shotgun ammunition is centre-fire. The casing or hull has a thick, solid base."
+      },
+      {
+       "type": "de",
+       "text": "Jede Schrotpatrone ist Zentralfeuer. Ihre Hülse heißt hull und hat einen dicken festen Boden."
+      },
+      {
+       "type": "en",
+       "text": "Shotgun shell components are similar to those of rifle cartridges. However, there are five components, not four."
+      },
+      {
+       "type": "de",
+       "text": "Merke die Zahl: die Büchsenpatrone hat vier Bestandteile, die Schrotpatrone fünf. Der fünfte ist der Pfropfen, der wad, zwischen Pulver und Schrot."
+      },
+      {
+       "type": "img",
+       "src": "assets/shell-parts.webp",
+       "captionDe": "Abbildung 31 aus dem Handbuch: Aufbau der Schrotpatrone."
+      },
+      {
+       "type": "de",
+       "text": "Schrot gibt es aus Blei, Stahl, Wismut oder Wolframeisen. Stahl kann manchen Läufen schaden, im Zweifel ins Handbuch des Herstellers sehen. Größe und Anzahl der Schrote richten sich nach Ziel und Entfernung: kleinere Schrote für kleinere oder nähere Ziele."
+      },
+      {
+       "type": "img",
+       "src": "assets/shot-sizes.webp",
+       "captionDe": "Tabelle 7 aus dem Handbuch: Schrotgrößen."
+      },
+      {
+       "type": "de",
+       "text": "Bei der Länge lauert eine Falle. Die 12-gauge gibt es üblicherweise mit 70 mm, 76 mm und 89 mm."
+      },
+      {
+       "type": "en",
+       "text": "NOTE: These dimensions refer to the lengths of the shells after firing."
+      },
+      {
+       "type": "de",
+       "text": "Die Längenangabe gilt für die abgeschossene Hülse. Wer eine ungeschossene Patrone misst, hält eine 3-Zoll-Patrone für eine 2¾-Zoll-Patrone und lädt womöglich zu lang."
+      },
+      {
+       "type": "en",
+       "text": "Do not attempt to use longer ammunition than indicated on the barrel data stamp. If you do, the barrel might burst."
+      },
+      {
+       "type": "de",
+       "text": "Am Lauf oder am Verschluss vieler Flinten stehen drei Angaben: Kaliberzahl, maximale Hülsenlänge und Art der Würgebohrung. Diese drei müssen zur Patrone passen."
+      },
+      {
+       "type": "de",
+       "text": "Und der gefährlichste Verwechslungsfehler, den das Handbuch ausdrücklich schildert:"
+      },
+      {
+       "type": "en",
+       "text": "An easy mistake to make is loading and chambering a 20-gauge shotgun shell into a 12-gauge shotgun. The small shell will slide through the chamber and stick in the forcing cone. Users may then insert a 12-gauge shell behind the 20-gauge shell. When fired, the barrel may burst."
+      },
+      {
+       "type": "de",
+       "text": "Eine 20er Patrone rutscht durch das Lager einer 12er und bleibt im Übergangskegel stecken. Wer dann eine 12er dahinter lädt und schießt, sprengt den Lauf. Menschen sind daran gestorben."
+      },
+      {
+       "type": "terms",
+       "ids": [
+        "hull",
+        "shot",
+        "pellet",
+        "wad",
+        "forcing-cone",
+        "gauge",
+        "centre-fire"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "m5-ballistik",
+     "titleDe": "Ballistik und Flugbahn",
+     "titleEn": "Ballistics and trajectory",
+     "source": "S. 89 bis S. 91",
+     "blocks": [
+      {
+       "type": "en",
+       "text": "Ballistics is the study of projectiles in flight."
+      },
+      {
+       "type": "de",
+       "text": "Ballistik ist die Lehre von Geschossen im Flug. Wichtig ist sie aus einem einzigen Grund: du musst wissen, wie weit dein Schuss noch gefährlich ist."
+      },
+      {
+       "type": "en",
+       "text": "Shotguns can fire shot more than the length of a football field. Some rifles can fire bullets further than five kilometers."
+      },
+      {
+       "type": "de",
+       "text": "Flinten tragen Schrot über eine Fußballfeldlänge. Manche Büchsen tragen über fünf Kilometer. Das ist der Gefahrenbereich, der dangerous range."
+      },
+      {
+       "type": "img",
+       "src": "assets/range-rifle.webp",
+       "captionDe": "Abbildung 37 aus dem Handbuch: Gefahrenbereich von Büchsenmunition."
+      },
+      {
+       "type": "img",
+       "src": "assets/range-shotgun.webp",
+       "captionDe": "Abbildung 38 aus dem Handbuch: Gefahrenbereich von Flintenmunition."
+      },
+      {
+       "type": "de",
+       "text": "Die Flugbahn ist der Weg des Geschosses. Vier Einflüsse nennt das Handbuch, und danach wird ausdrücklich gefragt."
+      },
+      {
+       "type": "en",
+       "text": "Gravity pulls the bullet down toward the ground as it is travelling forward. Air resistance holds back the passage of the bullet. Velocity is the speed at which a bullet travels. Mass is the weight of the bullet."
+      },
+      {
+       "type": "de",
+       "text": "Schwerkraft, Luftwiderstand, Geschwindigkeit und Masse. Die Schwerkraft zieht das Geschoss nach unten, deshalb ist die Bahn gekrümmt."
+      },
+      {
+       "type": "en",
+       "text": "The trajectory of a projectile is slightly curved. It crosses the line of sight twice on the way to the target."
+      },
+      {
+       "type": "de",
+       "text": "Weil die Mündung dafür etwas angehoben wird, kreuzt die Flugbahn die Visierlinie auf dem Weg zum Ziel zweimal."
+      },
+      {
+       "type": "img",
+       "src": "assets/trajectory.webp",
+       "captionDe": "Abbildung 39 aus dem Handbuch: die Flugbahn eines Geschosses."
+      },
+      {
+       "type": "en",
+       "text": "You are responsible for where the bullet stops."
+      },
+      {
+       "type": "de",
+       "text": "Der Satz, auf den alles hinausläuft: du bist dafür verantwortlich, wo dein Geschoss stehen bleibt."
+      },
+      {
+       "type": "terms",
+       "ids": [
+        "ballistics",
+        "trajectory",
+        "dangerous-range",
+        "gravity",
+        "air-resistance",
+        "velocity",
+        "mass",
+        "line-of-sight",
+        "effective-range"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "m5-stoerung",
+     "titleDe": "Störungen und Lagerung der Munition",
+     "titleEn": "Hazards, malfunctions and ammunition precautions",
+     "source": "S. 92 bis S. 94",
+     "blocks": [
+      {
+       "type": "de",
+       "text": "Drei Störungen musst du unterscheiden können. Sie werden regelmäßig abgefragt, und im praktischen Teil kann eine davon nachgestellt werden."
+      },
+      {
+       "type": "en",
+       "text": "A misfire is a cartridge that does not fire. Misfired cartridges should not be reused in the firearm and must be disposed of properly."
+      },
+      {
+       "type": "de",
+       "text": "Der Versager zündet nicht. Nicht noch einmal verwenden, sondern fachgerecht entsorgen."
+      },
+      {
+       "type": "en",
+       "text": "A hangfire is a delayed fire in which the firing pin strikes the primer but it does not create enough flame to ignite the powder instantly."
+      },
+      {
+       "type": "de",
+       "text": "Der Nachzünder geht verspätet los. Der Schlagbolzen hat getroffen, aber die Flamme reicht nicht, um das Pulver sofort zu entzünden. Das ist die Störung, nach der die Review-Frage mit der Verzögerung von mehreren Sekunden sucht."
+      },
+      {
+       "type": "en",
+       "text": "A primer pop (squib load) happens when the cartridge does not contain any gunpowder. The firearms will discharge the primer without the usual noise or recoil. The bullet may lodge in the barrel. If another bullet is fired, the barrel may rupture."
+      },
+      {
+       "type": "de",
+       "text": "Beim Schwachschuss fehlt das Pulver. Es knallt kaum und es gibt keinen Rückstoß, aber das Geschoss kann im Lauf stecken bleiben. Wer dann weiterschießt, sprengt den Lauf. Deshalb ist ein zu leiser Schuss ohne Rückstoß ein Alarmzeichen."
+      },
+      {
+       "type": "de",
+       "text": "Für alle drei gilt dieselbe Regel, und die Zahl darin ist prüfungsrelevant:"
+      },
+      {
+       "type": "en",
+       "text": "If the trigger is pulled and there is no noticeable discharge, wait 60 seconds while pointing the muzzle in a safe direction. If there is no hangfire within 60 seconds, open the action and unload the firearm. PROVE the firearm safe to ensure there is no blockage lodged in the barrel."
+      },
+      {
+       "type": "de",
+       "text": "60 Sekunden warten, Mündung in sicherer Richtung. Dann Verschluss öffnen, entladen, PROVE durchgehen und dabei prüfen, ob etwas im Lauf steckt."
+      },
+      {
+       "type": "de",
+       "text": "Zur Lagerung nennt das Handbuch klare Regeln, und zwei davon sind Review-Fragen."
+      },
+      {
+       "type": "en",
+       "text": "Ammunition for a non-restricted firearm may only be stored in a place where it is not within easy access to the firearm, unless the ammunition is stored, together with or separately from the firearm, in a securely locked container or receptacle that cannot be easily broken open or into."
+      },
+      {
+       "type": "de",
+       "text": "Munition darf grundsätzlich nicht in leichter Reichweite der Waffe liegen. Die einzige Ausnahme: wenn sie in einem sicher verschlossenen Behälter liegt, in den man nicht leicht einbrechen kann. Dann darf sie sogar zusammen mit der Waffe darin liegen. Das ist die Antwort auf die erste Review-Frage."
+      },
+      {
+       "type": "en",
+       "text": "Ammunition for a non-restricted firearm must not be displayed with the firearm."
+      },
+      {
+       "type": "de",
+       "text": "Zusammen ausgestellt werden dürfen Waffe und Munition nie. Auch das ist eine Review-Frage, und die Antwort ist schlicht nein."
+      },
+      {
+       "type": "en",
+       "text": "All ammunition should be stored in a cool, dry place, preferably in a vented container."
+      },
+      {
+       "type": "de",
+       "text": "Kühl, trocken und belüftet. Ein dichter Behälter kann im Brandfall zur Explosionsgefahr werden."
+      },
+      {
+       "type": "terms",
+       "ids": [
+        "misfire",
+        "hangfire",
+        "squib-load",
+        "to-jam",
+        "vented-container",
+        "locked-container",
+        "storage"
        ]
       }
      ]

@@ -33,6 +33,19 @@ FIGURES = [
     ("pump-action",     "image", 48, "p0048-02.png"),
     ("firing-sequence", "image", 51, "p0051-01.png"),
     ("action-types",    "image", 53, "p0053-01.png"),
+    # Modul 5
+    ("rifling",         "image", 65, "p0065-01.jpeg"),
+    ("rim-centre-fire", "image", 66, "p0066-01.png"),
+    ("cartridge-parts", "image", 69, "p0069-01.png"),
+    ("barrel-stamp",    "image", 73, "p0073-02.jpeg"),
+    ("slugs",           "image", 75, "p0075-01.png"),
+    ("gauges",          "image", 76, "p0076-01.png"),
+    ("chokes",          "image", 78, "p0078-01.png"),
+    ("shell-parts",     "image", 81, "p0081-01.jpeg"),
+    ("shot-sizes",      "image", 83, "p0083-01.png"),
+    ("range-rifle",     "image", 90, "p0090-01.png"),
+    ("range-shotgun",   "image", 90, "p0090-02.png"),
+    ("trajectory",      "image", 91, "p0091-01.png"),
 ]
 
 

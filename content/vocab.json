@@ -1,6 +1,6 @@
 {
  "_schema": "Vokabeln, Richtung immer Englisch nach Deutsch. cat: fach | pruefung | praxis. verify=true heisst: Wortlaut noch gegen das Handbuch prüfen.",
- "_status": "Pruefungssprache, ACTS und PROVE, dazu die Fachbegriffe aus Einfuehrung und Modul 1 bis 4. Module 5 bis 11 folgen.",
+ "_status": "Pruefungssprache, ACTS und PROVE, Fachbegriffe aus Einfuehrung und Modul 1 bis 5. Module 6 bis 11 folgen.",
  "terms": [
   {
    "id": "which-of-the-following",
@@ -1458,18 +1458,18 @@
    "en": "hangfire",
    "de": "Nachzünder",
    "cat": "fach",
-   "sub": "Vorderlader",
-   "explDe": "Der Schuss löst verzögert aus. Mindestens 60 Sekunden warten, Mündung in sicherer Richtung.",
-   "source": "S. 44"
+   "sub": "Störungen",
+   "explDe": "Verzögerte Zündung. Der Schlagbolzen trifft das Zündhütchen, aber die Flamme reicht nicht, um das Pulver sofort zu entzünden. Mindestens 60 Sekunden warten, Mündung in sicherer Richtung.",
+   "source": "S. 92"
   },
   {
    "id": "misfire",
    "en": "misfire",
    "de": "Versager",
    "cat": "fach",
-   "sub": "Vorderlader",
-   "explDe": "Der Schuss löst nicht aus. Wird behandelt wie ein Nachzünder.",
-   "source": "S. 44"
+   "sub": "Störungen",
+   "explDe": "Die Patrone zündet nicht. Nicht wiederverwenden, sondern fachgerecht entsorgen. Behandelt wird sie wie ein Nachzünder: 60 Sekunden warten.",
+   "source": "S. 92"
   },
   {
    "id": "gunsmith",
@@ -1497,6 +1497,330 @@
    "sub": "Vorderlader",
    "explDe": "Zweites Pflichtstück beim Schießen mit dem Vorderlader.",
    "source": "S. 44"
+  },
+  {
+   "id": "rifling",
+   "en": "rifling",
+   "de": "Züge und Felder",
+   "cat": "fach",
+   "sub": "Lauf und Kaliber",
+   "explDe": "Die spiralig verlaufenden Rillen im Lauf. Sie versetzen das Geschoss in Drehung und machen es dadurch treffsicher.",
+   "source": "S. 64"
+  },
+  {
+   "id": "grooves",
+   "en": "grooves",
+   "de": "Züge",
+   "cat": "fach",
+   "sub": "Lauf und Kaliber",
+   "explDe": "Die eingeschnittenen Rillen im Lauf.",
+   "source": "S. 64"
+  },
+  {
+   "id": "lands",
+   "en": "lands",
+   "de": "Felder",
+   "cat": "fach",
+   "sub": "Lauf und Kaliber",
+   "explDe": "Die stehen gebliebenen Stege zwischen den Zügen.",
+   "source": "S. 64"
+  },
+  {
+   "id": "rifled-barrel",
+   "en": "rifled barrel",
+   "de": "gezogener Lauf",
+   "cat": "fach",
+   "sub": "Lauf und Kaliber",
+   "explDe": "Lauf mit Zügen und Feldern. Bei Büchsen die Regel.",
+   "source": "S. 64"
+  },
+  {
+   "id": "smooth-bore",
+   "en": "smooth bore",
+   "de": "glatter Lauf",
+   "cat": "fach",
+   "sub": "Lauf und Kaliber",
+   "explDe": "Lauf ohne Züge. Bei Flinten die Regel.",
+   "source": "S. 77"
+  },
+  {
+   "id": "gauge",
+   "en": "gauge",
+   "de": "Kaliberzahl der Flinte",
+   "cat": "fach",
+   "sub": "Lauf und Kaliber",
+   "explDe": "Flinten werden nicht in Kaliber, sondern in gauge gemessen. Die Zahl sagt, wie viele Bleikugeln vom Durchmesser des Laufs zusammen ein Pfund wiegen. Je größer die Zahl, desto kleiner der Lauf. Ausnahme ist die .410, die als Kaliber angegeben wird.",
+   "source": "S. 75"
+  },
+  {
+   "id": "dry-firing",
+   "en": "dry firing",
+   "de": "Trockenabschlagen",
+   "cat": "fach",
+   "sub": "Lauf und Kaliber",
+   "explDe": "Den Schuss auslösen, ohne dass eine Patrone im Lager ist. Kann die Waffe beschädigen.",
+   "source": "S. 71"
+  },
+  {
+   "id": "rim-fire",
+   "en": "rim-fire",
+   "de": "Randfeuer",
+   "cat": "fach",
+   "sub": "Munition und Schuss",
+   "explDe": "Der Zündsatz sitzt im Rand des Hülsenbodens. Der Schlagbolzen trifft den Rand. Typisch .22.",
+   "source": "S. 71"
+  },
+  {
+   "id": "centre-fire",
+   "en": "centre-fire",
+   "de": "Zentralfeuer",
+   "cat": "fach",
+   "sub": "Munition und Schuss",
+   "explDe": "Das Zündhütchen sitzt mittig im Hülsenboden. Für stärkere Waffen. Auch jede Schrotpatrone ist Zentralfeuer.",
+   "source": "S. 71"
+  },
+  {
+   "id": "magnum",
+   "en": "magnum",
+   "de": "Magnum",
+   "cat": "fach",
+   "sub": "Munition und Schuss",
+   "explDe": "Stärkere Ausführung einer Patrone. Der Name kommt von der großen Weinflasche.",
+   "source": "S. 72"
+  },
+  {
+   "id": "reloaded-ammunition",
+   "en": "reloaded ammunition",
+   "de": "wiedergeladene Munition",
+   "cat": "fach",
+   "sub": "Munition und Schuss",
+   "explDe": "Selbst neu geladene Patronen. Nur verwenden, wenn du sicher weißt, dass sie richtig gefertigt wurden.",
+   "source": "S. 68"
+  },
+  {
+   "id": "choke",
+   "en": "choke",
+   "de": "Würgebohrung",
+   "cat": "fach",
+   "sub": "Flinte und Schrot",
+   "explDe": "Die Verengung am vorderen Ende des Flintenlaufs. Sie steuert, wie weit sich die Schrote verteilen, wie die Düse an einem Gartenschlauch.",
+   "source": "S. 77"
+  },
+  {
+   "id": "full-choke",
+   "en": "full choke",
+   "de": "volle Würgebohrung",
+   "cat": "fach",
+   "sub": "Flinte und Schrot",
+   "explDe": "Engste Verteilung der Schrote.",
+   "source": "S. 77"
+  },
+  {
+   "id": "modified-choke",
+   "en": "modified choke",
+   "de": "mittlere Würgebohrung",
+   "cat": "fach",
+   "sub": "Flinte und Schrot",
+   "explDe": "Offenere Verteilung als full choke.",
+   "source": "S. 77"
+  },
+  {
+   "id": "improved-cylinder",
+   "en": "improved cylinder",
+   "de": "schwache Würgebohrung",
+   "cat": "fach",
+   "sub": "Flinte und Schrot",
+   "explDe": "Noch offenere Verteilung.",
+   "source": "S. 77"
+  },
+  {
+   "id": "cylinder-bore",
+   "en": "cylinder bore",
+   "de": "ohne Würgebohrung",
+   "cat": "fach",
+   "sub": "Flinte und Schrot",
+   "explDe": "Gar keine Verengung, die offenste Verteilung. Für grobe Schrote und Flintenlaufgeschosse.",
+   "source": "S. 77"
+  },
+  {
+   "id": "pattern",
+   "en": "pattern",
+   "de": "Schrotgarbe, Deckung",
+   "cat": "fach",
+   "sub": "Flinte und Schrot",
+   "explDe": "Das Bild, das die Schrote auf der Scheibe hinterlassen.",
+   "source": "S. 77"
+  },
+  {
+   "id": "shot",
+   "en": "shot",
+   "de": "Schrot",
+   "cat": "fach",
+   "sub": "Flinte und Schrot",
+   "explDe": "Die Ladung aus vielen kleinen Kugeln. Aus Blei, Stahl, Wismut oder Wolframeisen.",
+   "source": "S. 80"
+  },
+  {
+   "id": "pellet",
+   "en": "pellet",
+   "de": "Schrotkorn",
+   "cat": "fach",
+   "sub": "Flinte und Schrot",
+   "explDe": "Eine einzelne Kugel der Schrotladung. Kleinere Schrote für kleinere oder nähere Ziele.",
+   "source": "S. 80"
+  },
+  {
+   "id": "buckshot",
+   "en": "buckshot",
+   "de": "Postenschrot",
+   "cat": "fach",
+   "sub": "Flinte und Schrot",
+   "explDe": "Besonders grobes Schrot.",
+   "source": "S. 77"
+  },
+  {
+   "id": "slug",
+   "en": "slug",
+   "de": "Flintenlaufgeschoss",
+   "cat": "fach",
+   "sub": "Flinte und Schrot",
+   "explDe": "Ein einzelnes großes Geschoss aus der Flinte, für großes Wild.",
+   "source": "S. 80"
+  },
+  {
+   "id": "sabot",
+   "en": "sabot",
+   "de": "Treibspiegel",
+   "cat": "fach",
+   "sub": "Flinte und Schrot",
+   "explDe": "Kunststoffhülle, die ein Geschoss im Lauf führt.",
+   "source": "S. 74"
+  },
+  {
+   "id": "hull",
+   "en": "hull",
+   "de": "Schrothülse",
+   "cat": "fach",
+   "sub": "Flinte und Schrot",
+   "explDe": "Der Körper der Schrotpatrone. Die Längenangabe gilt für die abgeschossene Hülse.",
+   "source": "S. 80"
+  },
+  {
+   "id": "forcing-cone",
+   "en": "forcing cone",
+   "de": "Übergangskegel",
+   "cat": "fach",
+   "sub": "Flinte und Schrot",
+   "explDe": "Die Verengung hinter dem Patronenlager. Dort bleibt eine zu kleine Patrone stecken, und genau daraus entsteht der gefährlichste Verwechslungsfehler.",
+   "source": "S. 87"
+  },
+  {
+   "id": "ballistics",
+   "en": "ballistics",
+   "de": "Ballistik",
+   "cat": "fach",
+   "sub": "Ballistik",
+   "explDe": "Die Lehre von Geschossen im Flug.",
+   "source": "S. 89"
+  },
+  {
+   "id": "trajectory",
+   "en": "trajectory",
+   "de": "Flugbahn",
+   "cat": "fach",
+   "sub": "Ballistik",
+   "explDe": "Der Weg, den Geschoss oder Schrot im Flug nimmt. Leicht gekrümmt, kreuzt die Visierlinie zweimal.",
+   "source": "S. 91"
+  },
+  {
+   "id": "dangerous-range",
+   "en": "dangerous range",
+   "de": "Gefahrenbereich",
+   "cat": "fach",
+   "sub": "Ballistik",
+   "explDe": "Wie weit ein Geschoss noch gefährlich ist. Flinten über eine Fußballfeldlänge, manche Büchsen über fünf Kilometer.",
+   "source": "S. 89"
+  },
+  {
+   "id": "gravity",
+   "en": "gravity",
+   "de": "Schwerkraft",
+   "cat": "fach",
+   "sub": "Ballistik",
+   "explDe": "Zieht das Geschoss nach unten, deshalb die gekrümmte Bahn.",
+   "source": "S. 91"
+  },
+  {
+   "id": "air-resistance",
+   "en": "air resistance",
+   "de": "Luftwiderstand",
+   "cat": "fach",
+   "sub": "Ballistik",
+   "explDe": "Bremst das Geschoss.",
+   "source": "S. 91"
+  },
+  {
+   "id": "velocity",
+   "en": "velocity",
+   "de": "Geschwindigkeit",
+   "cat": "fach",
+   "sub": "Ballistik",
+   "explDe": "Wie schnell das Geschoss in eine Richtung fliegt.",
+   "source": "S. 91"
+  },
+  {
+   "id": "mass",
+   "en": "mass",
+   "de": "Masse",
+   "cat": "fach",
+   "sub": "Ballistik",
+   "explDe": "Das Gewicht des Geschosses.",
+   "source": "S. 91"
+  },
+  {
+   "id": "line-of-sight",
+   "en": "line of sight",
+   "de": "Visierlinie",
+   "cat": "fach",
+   "sub": "Ballistik",
+   "explDe": "Die gerade Linie vom Auge zum Ziel. Die Flugbahn kreuzt sie zweimal.",
+   "source": "S. 91"
+  },
+  {
+   "id": "effective-range",
+   "en": "effective range",
+   "de": "wirksame Reichweite",
+   "cat": "fach",
+   "sub": "Ballistik",
+   "explDe": "Nur auf Ziele innerhalb dieser Entfernung schießen.",
+   "source": "S. 91"
+  },
+  {
+   "id": "squib-load",
+   "en": "primer pop (squib load)",
+   "de": "Schwachschuss",
+   "cat": "fach",
+   "sub": "Störungen",
+   "explDe": "In der Patrone fehlt das Pulver. Nur das Zündhütchen geht los, ohne den üblichen Knall und ohne Rückstoß. Das Geschoss kann im Lauf stecken bleiben. Der nächste Schuss sprengt dann womöglich den Lauf.",
+   "source": "S. 92"
+  },
+  {
+   "id": "to-jam",
+   "en": "to jam",
+   "de": "klemmen",
+   "cat": "fach",
+   "sub": "Störungen",
+   "explDe": "Patrone oder Hülse sitzt fest. Im Zweifel einen Fachmann fragen.",
+   "source": "S. 92"
+  },
+  {
+   "id": "vented-container",
+   "en": "vented container",
+   "de": "belüfteter Behälter",
+   "cat": "fach",
+   "sub": "Störungen",
+   "explDe": "Munition gehört kühl, trocken und belüftet gelagert. Ein dichter Behälter kann im Brandfall zur Explosionsgefahr werden.",
+   "source": "S. 93"
   }
  ]
 }
