@@ -1,0 +1,24 @@
+{
+  "_schema": "Lerneinheiten. Jeder Block ist entweder englisches Original (en), deutsche Erklärung (de), eine Abbildung (img) oder eine Begriffsliste (terms). Feld source = Seite im Handbuch.",
+  "_status": "PLATZHALTER. Wird aus dem RCMP Student Handbook befüllt.",
+  "chapters": [
+    {
+      "id": "ch1",
+      "titleDe": "PLATZHALTER Kapiteltitel",
+      "titleEn": "PLACEHOLDER chapter title",
+      "units": [
+        {
+          "id": "ch1-u1",
+          "titleDe": "PLATZHALTER Lerneinheit",
+          "titleEn": "PLACEHOLDER unit title",
+          "source": "S. ??",
+          "blocks": [
+            { "type": "de", "text": "PLATZHALTER: deutsche Erklärung des Sachverhalts, kurz und in ganzen Sätzen." },
+            { "type": "en", "text": "PLACEHOLDER: verbatim English sentence from the handbook that carries the testable fact." },
+            { "type": "terms", "ids": ["placeholder-term"] }
+          ]
+        }
+      ]
+    }
+  ]
+}

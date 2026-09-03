@@ -1,0 +1,755 @@
+{
+ "_schema": "Vokabeln, Richtung immer Englisch nach Deutsch. cat: fach | pruefung | praxis. verify=true heisst: Wortlaut noch gegen das Handbuch prüfen.",
+ "_status": "Prüfungssprache fertig. ACTS und PROVE wörtlich aus dem Handbuch. Gesprochene Kommandos noch zu prüfen. Fachbegriffe folgen.",
+ "terms": [
+  {
+   "id": "which-of-the-following",
+   "en": "Which of the following ...",
+   "de": "Welches der folgenden ...",
+   "cat": "pruefung",
+   "sub": "Fragegerüst",
+   "explDe": "Standardanfang einer Multiple-Choice-Frage. Danach kommt immer eine Liste.",
+   "source": "Prüfungssprache"
+  },
+  {
+   "id": "which-of-the-following-is-not",
+   "en": "Which of the following is NOT ...",
+   "de": "Welches der folgenden ist NICHT ...",
+   "cat": "pruefung",
+   "sub": "Fragegerüst",
+   "explDe": "Verneinung. Gesucht ist die FALSCHE Aussage. Das NOT steht oft in Großbuchstaben. Häufigste Fehlerquelle.",
+   "source": "Prüfungssprache"
+  },
+  {
+   "id": "except",
+   "en": "... except",
+   "de": "... außer",
+   "cat": "pruefung",
+   "sub": "Fragegerüst",
+   "explDe": "Verneinung am Satzende. Gesucht ist die eine Ausnahme, nicht die Regel.",
+   "source": "Prüfungssprache"
+  },
+  {
+   "id": "all-of-the-above",
+   "en": "All of the above",
+   "de": "Alle der genannten",
+   "cat": "pruefung",
+   "sub": "Fragegerüst",
+   "explDe": "Letzte Option. Nur richtig, wenn jede einzelne Option davor stimmt.",
+   "source": "Prüfungssprache"
+  },
+  {
+   "id": "none-of-the-above",
+   "en": "None of the above",
+   "de": "Keine der genannten",
+   "cat": "pruefung",
+   "sub": "Fragegerüst",
+   "explDe": "Nur richtig, wenn keine einzige Option davor stimmt.",
+   "source": "Prüfungssprache"
+  },
+  {
+   "id": "select-the-best-answer",
+   "en": "Select the best answer",
+   "de": "Wähle die beste Antwort",
+   "cat": "pruefung",
+   "sub": "Fragegerüst",
+   "explDe": "Mehrere Optionen können teilweise stimmen. Gesucht ist die vollständigste.",
+   "source": "Prüfungssprache"
+  },
+  {
+   "id": "choose-all-that-apply",
+   "en": "Choose all that apply",
+   "de": "Wähle alles Zutreffende",
+   "cat": "pruefung",
+   "sub": "Fragegerüst",
+   "explDe": "Mehr als eine Antwort ist richtig.",
+   "source": "Prüfungssprache"
+  },
+  {
+   "id": "true-or-false",
+   "en": "True or False",
+   "de": "Wahr oder falsch",
+   "cat": "pruefung",
+   "sub": "Fragegerüst",
+   "explDe": "Der zweite Fragetyp der Prüfung.",
+   "source": "Prüfungssprache"
+  },
+  {
+   "id": "what-is-the-purpose-of",
+   "en": "What is the purpose of ...",
+   "de": "Was ist der Zweck von ...",
+   "cat": "pruefung",
+   "sub": "Fragegerüst",
+   "explDe": "Fragt nach dem Wozu, nicht nach dem Wie.",
+   "source": "Prüfungssprache"
+  },
+  {
+   "id": "when-should-you",
+   "en": "When should you ...",
+   "de": "Wann solltest du ...",
+   "cat": "pruefung",
+   "sub": "Fragegerüst",
+   "explDe": "Fragt nach dem Zeitpunkt.",
+   "source": "Prüfungssprache"
+  },
+  {
+   "id": "when-must-you",
+   "en": "When must you ...",
+   "de": "Wann musst du ...",
+   "cat": "pruefung",
+   "sub": "Fragegerüst",
+   "explDe": "Pflicht, nicht Empfehlung. Unterschied zu should beachten.",
+   "source": "Prüfungssprache"
+  },
+  {
+   "id": "who-is-responsible-for",
+   "en": "Who is responsible for ...",
+   "de": "Wer ist verantwortlich für ...",
+   "cat": "pruefung",
+   "sub": "Fragegerüst",
+   "explDe": "Fragt nach der Person, nicht nach der Handlung.",
+   "source": "Prüfungssprache"
+  },
+  {
+   "id": "how-often-must",
+   "en": "How often must ...",
+   "de": "Wie oft muss ...",
+   "cat": "pruefung",
+   "sub": "Fragegerüst",
+   "explDe": "Fragt nach einer Häufigkeit oder Frist.",
+   "source": "Prüfungssprache"
+  },
+  {
+   "id": "in-which-situation",
+   "en": "In which situation ...",
+   "de": "In welcher Situation ...",
+   "cat": "pruefung",
+   "sub": "Fragegerüst",
+   "explDe": "Fragt nach den Umständen.",
+   "source": "Prüfungssprache"
+  },
+  {
+   "id": "what-should-you-do-if",
+   "en": "What should you do if ...",
+   "de": "Was solltest du tun, wenn ...",
+   "cat": "pruefung",
+   "sub": "Fragegerüst",
+   "explDe": "Fragt nach der richtigen Handlung in einem Fall.",
+   "source": "Prüfungssprache"
+  },
+  {
+   "id": "must",
+   "en": "must",
+   "de": "muss",
+   "cat": "pruefung",
+   "sub": "Modalverben",
+   "explDe": "Pflicht, rechtlich bindend.",
+   "source": "Prüfungssprache"
+  },
+  {
+   "id": "must-not",
+   "en": "must not",
+   "de": "darf nicht",
+   "cat": "pruefung",
+   "sub": "Modalverben",
+   "explDe": "Verbot.",
+   "source": "Prüfungssprache"
+  },
+  {
+   "id": "should",
+   "en": "should",
+   "de": "sollte",
+   "cat": "pruefung",
+   "sub": "Modalverben",
+   "explDe": "Empfehlung, keine Pflicht. Der Unterschied zu must wird geprüft.",
+   "source": "Prüfungssprache"
+  },
+  {
+   "id": "may",
+   "en": "may",
+   "de": "darf, kann",
+   "cat": "pruefung",
+   "sub": "Modalverben",
+   "explDe": "Erlaubnis oder Möglichkeit, keine Pflicht.",
+   "source": "Prüfungssprache"
+  },
+  {
+   "id": "shall",
+   "en": "shall",
+   "de": "muss",
+   "cat": "pruefung",
+   "sub": "Modalverben",
+   "explDe": "Formelle Rechtssprache, bedeutet dasselbe wie must.",
+   "source": "Prüfungssprache"
+  },
+  {
+   "id": "is-required-to",
+   "en": "is required to",
+   "de": "ist verpflichtet zu",
+   "cat": "pruefung",
+   "sub": "Modalverben",
+   "explDe": "Pflicht.",
+   "source": "Prüfungssprache"
+  },
+  {
+   "id": "is-not-required-to",
+   "en": "is not required to",
+   "de": "ist nicht verpflichtet zu",
+   "cat": "pruefung",
+   "sub": "Modalverben",
+   "explDe": "Keine Pflicht. Achtung bei True/False.",
+   "source": "Prüfungssprache"
+  },
+  {
+   "id": "is-permitted-to",
+   "en": "is permitted to",
+   "de": "darf",
+   "cat": "pruefung",
+   "sub": "Modalverben",
+   "explDe": "Erlaubnis.",
+   "source": "Prüfungssprache"
+  },
+  {
+   "id": "is-prohibited",
+   "en": "is prohibited",
+   "de": "ist verboten",
+   "cat": "pruefung",
+   "sub": "Modalverben",
+   "explDe": "Verbot.",
+   "source": "Prüfungssprache"
+  },
+  {
+   "id": "it-is-an-offence-to",
+   "en": "it is an offence to",
+   "de": "es ist eine Straftat, zu",
+   "cat": "pruefung",
+   "sub": "Modalverben",
+   "explDe": "Signalisiert Strafbarkeit, nicht nur eine Regel.",
+   "source": "Prüfungssprache"
+  },
+  {
+   "id": "always",
+   "en": "always",
+   "de": "immer",
+   "cat": "pruefung",
+   "sub": "Quantoren und True/False-Fallen",
+   "explDe": "In True/False fast immer ein Warnsignal. Eine einzige Ausnahme macht die Aussage falsch.",
+   "source": "Prüfungssprache"
+  },
+  {
+   "id": "never",
+   "en": "never",
+   "de": "nie",
+   "cat": "pruefung",
+   "sub": "Quantoren und True/False-Fallen",
+   "explDe": "Gleiche Falle wie always.",
+   "source": "Prüfungssprache"
+  },
+  {
+   "id": "only",
+   "en": "only",
+   "de": "nur",
+   "cat": "pruefung",
+   "sub": "Quantoren und True/False-Fallen",
+   "explDe": "Schränkt stark ein. Prüfen, ob die Einschränkung wirklich stimmt.",
+   "source": "Prüfungssprache"
+  },
+  {
+   "id": "all",
+   "en": "all",
+   "de": "alle",
+   "cat": "pruefung",
+   "sub": "Quantoren und True/False-Fallen",
+   "explDe": "Absolut. Eine Ausnahme genügt, und die Aussage ist falsch.",
+   "source": "Prüfungssprache"
+  },
+  {
+   "id": "any",
+   "en": "any",
+   "de": "jede, irgendeine",
+   "cat": "pruefung",
+   "sub": "Quantoren und True/False-Fallen",
+   "explDe": "",
+   "source": "Prüfungssprache"
+  },
+  {
+   "id": "at-all-times",
+   "en": "at all times",
+   "de": "jederzeit, durchgehend",
+   "cat": "pruefung",
+   "sub": "Quantoren und True/False-Fallen",
+   "explDe": "Ohne Unterbrechung. Häufig bei Sicherheitsregeln.",
+   "source": "Prüfungssprache"
+  },
+  {
+   "id": "under-no-circumstances",
+   "en": "under no circumstances",
+   "de": "unter keinen Umständen",
+   "cat": "pruefung",
+   "sub": "Quantoren und True/False-Fallen",
+   "explDe": "Absolutes Verbot.",
+   "source": "Prüfungssprache"
+  },
+  {
+   "id": "at-least",
+   "en": "at least",
+   "de": "mindestens",
+   "cat": "pruefung",
+   "sub": "Quantoren und True/False-Fallen",
+   "explDe": "Untergrenze.",
+   "source": "Prüfungssprache"
+  },
+  {
+   "id": "no-more-than",
+   "en": "no more than",
+   "de": "höchstens",
+   "cat": "pruefung",
+   "sub": "Quantoren und True/False-Fallen",
+   "explDe": "Obergrenze.",
+   "source": "Prüfungssprache"
+  },
+  {
+   "id": "unless",
+   "en": "unless",
+   "de": "es sei denn",
+   "cat": "pruefung",
+   "sub": "Quantoren und True/False-Fallen",
+   "explDe": "Kehrt die Bedingung um. Leicht zu überlesen.",
+   "source": "Prüfungssprache"
+  },
+  {
+   "id": "both",
+   "en": "both",
+   "de": "beide",
+   "cat": "pruefung",
+   "sub": "Quantoren und True/False-Fallen",
+   "explDe": "",
+   "source": "Prüfungssprache"
+  },
+  {
+   "id": "either-----or",
+   "en": "either ... or",
+   "de": "entweder ... oder",
+   "cat": "pruefung",
+   "sub": "Quantoren und True/False-Fallen",
+   "explDe": "Eines von beiden, nicht beides.",
+   "source": "Prüfungssprache"
+  },
+  {
+   "id": "neither-----nor",
+   "en": "neither ... nor",
+   "de": "weder ... noch",
+   "cat": "pruefung",
+   "sub": "Quantoren und True/False-Fallen",
+   "explDe": "Keines von beiden. Doppelte Verneinung.",
+   "source": "Prüfungssprache"
+  },
+  {
+   "id": "it-is-the-responsibility-of",
+   "en": "it is the responsibility of",
+   "de": "es liegt in der Verantwortung von",
+   "cat": "pruefung",
+   "sub": "Feste Wendungen",
+   "explDe": "",
+   "source": "Prüfungssprache"
+  },
+  {
+   "id": "prior-to",
+   "en": "prior to",
+   "de": "vor",
+   "cat": "pruefung",
+   "sub": "Feste Wendungen",
+   "explDe": "Formelle Variante von before.",
+   "source": "Prüfungssprache"
+  },
+  {
+   "id": "in-accordance-with",
+   "en": "in accordance with",
+   "de": "gemäß, nach",
+   "cat": "pruefung",
+   "sub": "Feste Wendungen",
+   "explDe": "Verweist auf eine Vorschrift.",
+   "source": "Prüfungssprache"
+  },
+  {
+   "id": "as-soon-as-possible",
+   "en": "as soon as possible",
+   "de": "so schnell wie möglich",
+   "cat": "pruefung",
+   "sub": "Feste Wendungen",
+   "explDe": "",
+   "source": "Prüfungssprache"
+  },
+  {
+   "id": "immediately",
+   "en": "immediately",
+   "de": "sofort",
+   "cat": "pruefung",
+   "sub": "Feste Wendungen",
+   "explDe": "",
+   "source": "Prüfungssprache"
+  },
+  {
+   "id": "for-the-purpose-of",
+   "en": "for the purpose of",
+   "de": "zum Zweck von",
+   "cat": "pruefung",
+   "sub": "Feste Wendungen",
+   "explDe": "",
+   "source": "Prüfungssprache"
+  },
+  {
+   "id": "with-respect-to",
+   "en": "with respect to",
+   "de": "in Bezug auf",
+   "cat": "pruefung",
+   "sub": "Feste Wendungen",
+   "explDe": "",
+   "source": "Prüfungssprache"
+  },
+  {
+   "id": "the-following",
+   "en": "the following",
+   "de": "die folgenden",
+   "cat": "pruefung",
+   "sub": "Feste Wendungen",
+   "explDe": "Kündigt eine Liste an.",
+   "source": "Prüfungssprache"
+  },
+  {
+   "id": "identify",
+   "en": "identify",
+   "de": "benennen, erkennen",
+   "cat": "pruefung",
+   "sub": "Prüfungsverben",
+   "explDe": "",
+   "source": "Prüfungssprache"
+  },
+  {
+   "id": "describe",
+   "en": "describe",
+   "de": "beschreiben",
+   "cat": "pruefung",
+   "sub": "Prüfungsverben",
+   "explDe": "",
+   "source": "Prüfungssprache"
+  },
+  {
+   "id": "indicate",
+   "en": "indicate",
+   "de": "angeben, anzeigen",
+   "cat": "pruefung",
+   "sub": "Prüfungsverben",
+   "explDe": "",
+   "source": "Prüfungssprache"
+  },
+  {
+   "id": "determine",
+   "en": "determine",
+   "de": "feststellen",
+   "cat": "pruefung",
+   "sub": "Prüfungsverben",
+   "explDe": "",
+   "source": "Prüfungssprache"
+  },
+  {
+   "id": "ensure",
+   "en": "ensure",
+   "de": "sicherstellen",
+   "cat": "pruefung",
+   "sub": "Prüfungsverben",
+   "explDe": "",
+   "source": "Prüfungssprache"
+  },
+  {
+   "id": "verify",
+   "en": "verify",
+   "de": "überprüfen",
+   "cat": "pruefung",
+   "sub": "Prüfungsverben",
+   "explDe": "Steckt im V von PROVE.",
+   "source": "Prüfungssprache"
+  },
+  {
+   "id": "observe",
+   "en": "observe",
+   "de": "ansehen, beobachten",
+   "cat": "pruefung",
+   "sub": "Prüfungsverben",
+   "explDe": "Steckt im O von PROVE.",
+   "source": "Prüfungssprache"
+  },
+  {
+   "id": "examine",
+   "en": "examine",
+   "de": "untersuchen",
+   "cat": "pruefung",
+   "sub": "Prüfungsverben",
+   "explDe": "Steckt im E von PROVE.",
+   "source": "Prüfungssprache"
+  },
+  {
+   "id": "remove",
+   "en": "remove",
+   "de": "entfernen",
+   "cat": "pruefung",
+   "sub": "Prüfungsverben",
+   "explDe": "Steckt im R von PROVE.",
+   "source": "Prüfungssprache"
+  },
+  {
+   "id": "secure",
+   "en": "secure",
+   "de": "sichern",
+   "cat": "pruefung",
+   "sub": "Prüfungsverben",
+   "explDe": "",
+   "source": "Prüfungssprache"
+  },
+  {
+   "id": "store",
+   "en": "store",
+   "de": "lagern, aufbewahren",
+   "cat": "pruefung",
+   "sub": "Prüfungsverben",
+   "explDe": "",
+   "source": "Prüfungssprache"
+  },
+  {
+   "id": "transport",
+   "en": "transport",
+   "de": "transportieren",
+   "cat": "pruefung",
+   "sub": "Prüfungsverben",
+   "explDe": "",
+   "source": "Prüfungssprache"
+  },
+  {
+   "id": "handle",
+   "en": "handle",
+   "de": "handhaben, anfassen",
+   "cat": "pruefung",
+   "sub": "Prüfungsverben",
+   "explDe": "",
+   "source": "Prüfungssprache"
+  },
+  {
+   "id": "transfer",
+   "en": "transfer",
+   "de": "übertragen, weitergeben",
+   "cat": "pruefung",
+   "sub": "Prüfungsverben",
+   "explDe": "Meint den Besitzwechsel, Verkauf oder Schenkung.",
+   "source": "Prüfungssprache"
+  },
+  {
+   "id": "acquire",
+   "en": "acquire",
+   "de": "erwerben",
+   "cat": "pruefung",
+   "sub": "Prüfungsverben",
+   "explDe": "",
+   "source": "Prüfungssprache"
+  },
+  {
+   "id": "display",
+   "en": "display",
+   "de": "ausstellen, zur Schau stellen",
+   "cat": "pruefung",
+   "sub": "Prüfungsverben",
+   "explDe": "",
+   "source": "Prüfungssprache"
+  },
+  {
+   "id": "assume-every-firearm-is-loaded",
+   "en": "Assume every firearm is loaded.",
+   "de": "Geh davon aus, dass jede Waffe geladen ist.",
+   "cat": "praxis",
+   "sub": "Die Vital Four ACTS",
+   "explDe": "A in ACTS. Jede Waffe gilt als mögliche Gefahr.",
+   "source": "S. 21"
+  },
+  {
+   "id": "control-the-muzzle-direction-at-all-times",
+   "en": "Control the muzzle direction at all times.",
+   "de": "Kontrolliere jederzeit die Richtung der Mündung.",
+   "cat": "praxis",
+   "sub": "Die Vital Four ACTS",
+   "explDe": "C in ACTS. Die Mündung zeigt nie auf dich oder eine andere Person.",
+   "source": "S. 21"
+  },
+  {
+   "id": "trigger-finger-must-be-kept-off-the-trigger-",
+   "en": "Trigger finger must be kept off the trigger and out of the trigger guard.",
+   "de": "Der Abzugsfinger bleibt vom Abzug weg und außerhalb des Abzugsbügels.",
+   "cat": "praxis",
+   "sub": "Die Vital Four ACTS",
+   "explDe": "T in ACTS. Gilt schon beim Aufnehmen der Waffe.",
+   "source": "S. 21"
+  },
+  {
+   "id": "see-that-the-firearm-is-unloaded---prove-it-",
+   "en": "See that the firearm is unloaded - PROVE it safe.",
+   "de": "Überzeuge dich, dass die Waffe entladen ist, und mach den PROVE-Ablauf.",
+   "cat": "praxis",
+   "sub": "Die Vital Four ACTS",
+   "explDe": "S in ACTS. Patronenlager und Magazin müssen beide leer sein.",
+   "source": "S. 21"
+  },
+  {
+   "id": "point-the-firearm-in-the-safest-available-di",
+   "en": "Point the firearm in the safest available direction.",
+   "de": "Richte die Waffe in die sicherste verfügbare Richtung.",
+   "cat": "praxis",
+   "sub": "PROVE It Safe",
+   "explDe": "P in PROVE. Nicht irgendeine sichere, die sicherste verfügbare.",
+   "source": "S. 22"
+  },
+  {
+   "id": "remove-all-ammunition",
+   "en": "Remove all ammunition.",
+   "de": "Entferne die gesamte Munition.",
+   "cat": "praxis",
+   "sub": "PROVE It Safe",
+   "explDe": "R in PROVE.",
+   "source": "S. 22"
+  },
+  {
+   "id": "observe-the-chamber-s",
+   "en": "Observe the chamber(s).",
+   "de": "Sieh in das Patronenlager.",
+   "cat": "praxis",
+   "sub": "PROVE It Safe",
+   "explDe": "O in PROVE.",
+   "source": "S. 22"
+  },
+  {
+   "id": "verify-the-feeding-path",
+   "en": "Verify the feeding path.",
+   "de": "Prüfe den Zuführweg.",
+   "cat": "praxis",
+   "sub": "PROVE It Safe",
+   "explDe": "V in PROVE.",
+   "source": "S. 22"
+  },
+  {
+   "id": "examine-the-bore-for-obstructions",
+   "en": "Examine the bore for obstructions.",
+   "de": "Untersuche den Lauf auf Verstopfungen.",
+   "cat": "praxis",
+   "sub": "PROVE It Safe",
+   "explDe": "E in PROVE. Mit Blick oder mit einem Stab.",
+   "source": "S. 22"
+  },
+  {
+   "id": "prove-it-safe",
+   "en": "Prove it safe",
+   "de": "Mach sie nachweislich sicher",
+   "cat": "praxis",
+   "sub": "Gesprochene Kommandos",
+   "explDe": "Was der Prüfer sagt.",
+   "source": "Praxisteil",
+   "verify": true
+  },
+  {
+   "id": "make-it-safe",
+   "en": "Make it safe",
+   "de": "Mach sie sicher",
+   "cat": "praxis",
+   "sub": "Gesprochene Kommandos",
+   "explDe": "Was der Prüfer sagt.",
+   "source": "Praxisteil",
+   "verify": true
+  },
+  {
+   "id": "unload-the-firearm",
+   "en": "Unload the firearm",
+   "de": "Entlade die Waffe",
+   "cat": "praxis",
+   "sub": "Gesprochene Kommandos",
+   "explDe": "Was der Prüfer sagt.",
+   "source": "Praxisteil",
+   "verify": true
+  },
+  {
+   "id": "load-the-firearm",
+   "en": "Load the firearm",
+   "de": "Lade die Waffe",
+   "cat": "praxis",
+   "sub": "Gesprochene Kommandos",
+   "explDe": "Was der Prüfer sagt.",
+   "source": "Praxisteil",
+   "verify": true
+  },
+  {
+   "id": "open-the-action",
+   "en": "Open the action",
+   "de": "Öffne den Verschluss",
+   "cat": "praxis",
+   "sub": "Gesprochene Kommandos",
+   "explDe": "Was der Prüfer sagt.",
+   "source": "Praxisteil",
+   "verify": true
+  },
+  {
+   "id": "close-the-action",
+   "en": "Close the action",
+   "de": "Schließe den Verschluss",
+   "cat": "praxis",
+   "sub": "Gesprochene Kommandos",
+   "explDe": "Was der Prüfer sagt.",
+   "source": "Praxisteil",
+   "verify": true
+  },
+  {
+   "id": "check-the-chamber",
+   "en": "Check the chamber",
+   "de": "Prüfe das Patronenlager",
+   "cat": "praxis",
+   "sub": "Gesprochene Kommandos",
+   "explDe": "Was der Prüfer sagt.",
+   "source": "Praxisteil",
+   "verify": true
+  },
+  {
+   "id": "pick-up-the-firearm",
+   "en": "Pick up the firearm",
+   "de": "Nimm die Waffe auf",
+   "cat": "praxis",
+   "sub": "Gesprochene Kommandos",
+   "explDe": "Was der Prüfer sagt.",
+   "source": "Praxisteil",
+   "verify": true
+  },
+  {
+   "id": "hand-me-the-firearm",
+   "en": "Hand me the firearm",
+   "de": "Gib mir die Waffe",
+   "cat": "praxis",
+   "sub": "Gesprochene Kommandos",
+   "explDe": "Was der Prüfer sagt.",
+   "source": "Praxisteil",
+   "verify": true
+  },
+  {
+   "id": "put-it-down",
+   "en": "Put it down",
+   "de": "Leg sie ab",
+   "cat": "praxis",
+   "sub": "Gesprochene Kommandos",
+   "explDe": "Was der Prüfer sagt.",
+   "source": "Praxisteil",
+   "verify": true
+  },
+  {
+   "id": "show-me-how-you-would",
+   "en": "Show me how you would ...",
+   "de": "Zeig mir, wie du ...",
+   "cat": "praxis",
+   "sub": "Gesprochene Kommandos",
+   "explDe": "Was der Prüfer sagt.",
+   "source": "Praxisteil",
+   "verify": true
+  }
+ ]
+}

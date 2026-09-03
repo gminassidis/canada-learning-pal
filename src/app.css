@@ -1,0 +1,338 @@
+/* ============================================================
+   canada-pal-learn — "Fireweed & Spruce"
+
+   Farben aus dem Yukon, aber jede mit genau einer Aufgabe:
+     Flussblau  = Englisch. Nirgends sonst.
+     Fireweed   = Bedienung. Was anklickbar oder aktiv ist.
+     Fichte     = richtig.   Rost = falsch.
+     Blaze      = ausschliesslich die 80-Prozent-Linie.
+
+   Schrift: Archivo schmal fuer Ueberschriften (deutsche Komposita
+   passen dann aufs Handy), IBM Plex Sans als Lauftext, Plex Mono
+   fuer Fundstellen und Zaehler.
+   ============================================================ */
+
+:root {
+  --paper:      #f4f5f1;
+  --surface:    #ffffff;
+  --surface-2:  #e8ebe4;
+  --ink:        #14201a;
+  --ink-2:      #5a665e;
+  --rule:       #d3d8cd;
+
+  --river:      #1c5f72;
+  --river-bg:   #e2edf0;
+  --fireweed:   #a82463;
+  --fireweed-2: #8d1b52;
+  --spruce:     #2c6141;
+  --spruce-bg:  #e3eee6;
+  --rust:       #9c3520;
+  --rust-bg:    #f6e6e2;
+  --blaze:      #e8611c;
+
+  --r:   8px;
+  --tap: 48px;
+
+  --display: "Archivo", "Helvetica Neue", Arial, sans-serif;
+  --body:    "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --mono:    "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #121714; --surface: #1a211c; --surface-2: #232b25;
+    --ink: #e6eae3; --ink-2: #97a199; --rule: #2e382f;
+    --river: #7fbbd0; --river-bg: #14303a;
+    --fireweed: #e06a9e; --fireweed-2: #ee87b3;
+    --spruce: #72c08e; --spruce-bg: #16301f;
+    --rust: #e68a76; --rust-bg: #351a18;
+    --blaze: #ff8a45;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #121714; --surface: #1a211c; --surface-2: #232b25;
+  --ink: #e6eae3; --ink-2: #97a199; --rule: #2e382f;
+  --river: #7fbbd0; --river-bg: #14303a;
+  --fireweed: #e06a9e; --fireweed-2: #ee87b3;
+  --spruce: #72c08e; --spruce-bg: #16301f;
+  --rust: #e68a76; --rust-bg: #351a18;
+  --blaze: #ff8a45;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font: 400 17px/1.55 var(--body);
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+}
+
+:focus-visible { outline: 2px solid var(--fireweed); outline-offset: 2px; border-radius: 4px; }
+
+/* ---------- Hilfsklasse: Mono-Auszeichnung ---------- */
+
+.mono, .src, .eyebrow, .thr-label {
+  font: 500 11px/1.4 var(--mono);
+  letter-spacing: .09em;
+  text-transform: uppercase;
+  font-variant-numeric: tabular-nums;
+  color: var(--ink-2);
+}
+
+/* ---------- Geruest ---------- */
+
+.app { max-width: 680px; margin: 0 auto; padding: 0 18px calc(80px + env(safe-area-inset-bottom)); }
+
+header.top {
+  position: sticky; top: 0; z-index: 20;
+  background: var(--paper);
+  padding: 16px 0 0;
+}
+header.top .mast {
+  display: flex; align-items: baseline; gap: 10px;
+  font: 700 20px/1 var(--display);
+  text-transform: uppercase; letter-spacing: .02em;
+}
+header.top .mast .tag {
+  font: 500 10px/1 var(--mono); letter-spacing: .12em;
+  color: var(--fireweed); border: 1px solid currentColor;
+  padding: 4px 6px; border-radius: 3px; margin-left: auto;
+}
+header.top .status { padding: 7px 0 8px; }
+header.top .rules { border-top: 2px solid var(--ink); border-bottom: 1px solid var(--rule); height: 3px; }
+
+.view { display: none; padding-top: 22px; }
+.view.active { display: block; }
+
+h2 {
+  font: 700 25px/1.15 var(--display);
+  text-transform: uppercase; letter-spacing: .01em;
+  margin: 0 0 14px;
+}
+h3 {
+  font: 700 15px/1.2 var(--display);
+  text-transform: uppercase; letter-spacing: .05em;
+  color: var(--ink-2);
+  margin: 26px 0 8px; padding-bottom: 6px;
+  border-bottom: 1px solid var(--rule);
+}
+p { margin: 0 0 13px; }
+
+/* ---------- Englisch. Ueberall identisch ausgezeichnet. ---------- */
+
+.en {
+  position: relative;
+  color: var(--river);
+  background: var(--river-bg);
+  border-left: 3px solid var(--river);
+  padding: 13px 42px 13px 14px;
+  border-radius: 0 var(--r) var(--r) 0;
+  margin: 0 0 13px;
+  font-weight: 500;
+}
+.en::after {
+  content: "EN";
+  position: absolute; top: 9px; right: 11px;
+  font: 500 10px/1 var(--mono); letter-spacing: .1em;
+  color: var(--river); opacity: .55;
+}
+.en-inline {
+  color: var(--river); font-weight: 600;
+  background: var(--river-bg); padding: 1px 5px; border-radius: 4px;
+}
+
+/* ---------- Karten ---------- */
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: var(--r);
+  padding: 16px;
+  margin: 0 0 13px;
+}
+.src { margin-top: 10px; }
+
+figure { margin: 16px 0; }
+figure img { width: 100%; height: auto; border-radius: var(--r); background: var(--surface-2); }
+figcaption { margin-top: 7px; font-size: 14px; color: var(--ink-2); }
+
+/* ---------- Bedienelemente ---------- */
+
+button {
+  font: 500 16px/1.4 var(--body); color: inherit;
+  background: var(--surface); border: 1px solid var(--rule);
+  border-radius: var(--r); padding: 13px 15px; min-height: var(--tap);
+  cursor: pointer; text-align: left; width: 100%;
+  transition: border-color .12s, background .12s;
+}
+button:hover { border-color: var(--ink-2); }
+.btn-row { display: flex; gap: 9px; margin-top: 14px; }
+.btn-row button { text-align: center; }
+
+button.primary {
+  background: var(--fireweed); border-color: var(--fireweed); color: #fff;
+  font-weight: 600; letter-spacing: .01em;
+}
+button.primary:hover { background: var(--fireweed-2); border-color: var(--fireweed-2); }
+button.primary:disabled { opacity: .4; cursor: default; }
+button.ghost { background: transparent; }
+button.small { min-height: 38px; padding: 8px 12px; font-size: 14px; width: auto; }
+
+.chips { display: flex; gap: 8px; flex-wrap: wrap; margin: 0 0 16px; }
+.chips button {
+  width: auto; min-height: 38px; padding: 8px 14px;
+  font: 500 14px/1 var(--body); border-radius: 999px;
+}
+.chips button[aria-pressed="true"] {
+  background: var(--fireweed); border-color: var(--fireweed); color: #fff;
+}
+.chips button .n { font: 500 12px/1 var(--mono); opacity: .7; margin-left: 5px; }
+
+/* ---------- Fortschritt (nicht Punktzahl) ---------- */
+
+.progress { height: 3px; background: var(--surface-2); border-radius: 2px; overflow: hidden; }
+.progress > i { display: block; height: 100%; background: var(--fireweed); transition: width .3s; }
+
+/* ---------- Signatur: die 80-Prozent-Linie ---------- */
+
+.score { margin: 4px 0 18px; }
+.score-num {
+  font: 700 64px/1 var(--display);
+  letter-spacing: -.02em; font-variant-numeric: tabular-nums;
+}
+.score-num span { font-size: 26px; margin-left: 4px; }
+.score-num.pass { color: var(--spruce); }
+.score-num.fail { color: var(--rust); }
+
+.meter-wrap { position: relative; padding-bottom: 26px; margin-top: 14px; }
+.meter {
+  position: relative; height: 14px;
+  background: var(--surface-2); border: 1px solid var(--rule);
+  border-radius: 3px; overflow: hidden;
+}
+.meter > i {
+  display: block; height: 100%;
+  width: calc(var(--v, 0) * 1%);
+  background: var(--rust);
+  transition: width .55s cubic-bezier(.2, .8, .3, 1);
+}
+.meter.pass > i { background: var(--spruce); }
+/* die Linie selbst, das einzige Blaze im ganzen Entwurf */
+.meter::after {
+  content: ""; position: absolute; left: 80%; top: -1px; bottom: -1px;
+  width: 2px; background: var(--blaze);
+}
+.thr-label {
+  position: absolute; left: 80%; top: 100%; transform: translateX(-100%);
+  margin-top: 6px; padding-right: 6px; white-space: nowrap; color: var(--blaze);
+}
+@media (prefers-reduced-motion: reduce) {
+  .meter > i, .progress > i { transition: none; }
+}
+
+/* ---------- Quiz ---------- */
+
+.opt { margin-bottom: 9px; display: block; }
+.opt .opt-en { display: block; font-weight: 500; color: var(--river); }
+.opt .opt-de { display: block; margin-top: 4px; font-size: 14px; color: var(--ink-2); }
+.opt.correct { background: var(--spruce-bg); border-color: var(--spruce); }
+.opt.wrong   { background: var(--rust-bg);   border-color: var(--rust); }
+.opt:disabled { cursor: default; }
+.opt:disabled:hover { border-color: var(--rule); }
+.opt.correct:disabled:hover { border-color: var(--spruce); }
+.opt.wrong:disabled:hover   { border-color: var(--rust); }
+
+.why { border-radius: var(--r); padding: 14px; margin-top: 14px; font-size: 15px; }
+.why.ok { background: var(--spruce-bg); border: 1px solid var(--spruce); }
+.why.no { background: var(--rust-bg);   border: 1px solid var(--rust); }
+.why b { font-family: var(--display); text-transform: uppercase; letter-spacing: .04em; }
+.why.ok b { color: var(--spruce); }
+.why.no b { color: var(--rust); }
+
+.runs { display: flex; flex-direction: column; gap: 9px; }
+.run {
+  display: flex; align-items: baseline; gap: 10px;
+  padding: 11px 0; border-bottom: 1px solid var(--rule);
+}
+.run .pct { font: 700 20px/1 var(--display); font-variant-numeric: tabular-nums; min-width: 58px; }
+.run .pct.pass { color: var(--spruce); }
+.run .pct.fail { color: var(--rust); }
+
+/* ---------- Vokabelkarte ---------- */
+
+.flash { text-align: center; padding: 40px 20px; }
+.flash .term {
+  font: 700 32px/1.15 var(--display);
+  color: var(--river); letter-spacing: -.01em;
+}
+.flash .de { font-size: 22px; margin-top: 16px; font-weight: 500; }
+.flash .expl { font-size: 15px; color: var(--ink-2); margin-top: 10px; }
+.flash .src { margin-top: 14px; }
+
+.grade { display: grid; grid-template-columns: repeat(3, 1fr); gap: 9px; margin-top: 16px; }
+.grade button { text-align: center; font-size: 15px; }
+.grade button[data-g="0"]:hover { border-color: var(--rust); color: var(--rust); }
+.grade button[data-g="2"]:hover { border-color: var(--spruce); color: var(--spruce); }
+
+/* ---------- Listen ---------- */
+
+.vlist { list-style: none; padding: 0; margin: 0; }
+.vlist li {
+  border-bottom: 1px solid var(--rule); padding: 13px 0;
+  display: flex; gap: 12px; align-items: flex-start;
+}
+.vlist .v-en { color: var(--river); font-weight: 600; }
+.vlist .v-de { color: var(--ink); font-size: 15px; }
+.vlist .v-x  { display: block; margin-top: 3px; font-size: 13px; color: var(--ink-2); line-height: 1.45; }
+
+.speak {
+  flex: 0 0 auto; width: 34px; height: 34px; min-height: 34px; padding: 0;
+  display: grid; place-items: center; border: 0; background: transparent;
+  border-radius: 6px; color: var(--river); opacity: .65;
+}
+.speak:hover { opacity: 1; background: var(--river-bg); }
+
+/* Modusumschalter. Bewusst nicht Fireweed, sonst konkurriert er mit den Filtern. */
+.seg {
+  display: inline-flex; margin: 0 0 18px;
+  border: 1px solid var(--rule); border-radius: 999px;
+  overflow: hidden; background: var(--surface);
+}
+.seg button {
+  width: auto; border: 0; border-radius: 0; min-height: 36px;
+  padding: 8px 20px; font: 500 14px/1 var(--body); color: var(--ink-2);
+}
+.seg button:hover { background: var(--surface-2); }
+.seg button[aria-pressed="true"] { background: var(--ink); color: var(--paper); }
+.speak svg { width: 17px; height: 17px; }
+
+.empty { color: var(--ink-2); font-size: 15px; padding: 30px 0; text-align: center; }
+.note {
+  background: var(--surface-2); border-left: 3px solid var(--rule);
+  padding: 12px 14px; font-size: 14px; color: var(--ink-2); margin: 0 0 18px;
+  border-radius: 0 var(--r) var(--r) 0;
+}
+
+/* ---------- Tableiste ---------- */
+
+nav.tabs {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 30;
+  display: flex; background: var(--surface);
+  border-top: 1px solid var(--rule);
+  padding-bottom: env(safe-area-inset-bottom);
+}
+nav.tabs button {
+  flex: 1; border: 0; background: none; border-radius: 0;
+  display: flex; flex-direction: column; align-items: center; gap: 4px;
+  padding: 10px 4px 9px; min-height: 60px;
+  font: 500 10px/1 var(--mono); letter-spacing: .1em; text-transform: uppercase;
+  color: var(--ink-2);
+}
+nav.tabs button:hover { border-color: transparent; }
+nav.tabs button svg { width: 22px; height: 22px; }
+nav.tabs button[aria-selected="true"] { color: var(--fireweed); }
+
+button.small svg { width: 15px; height: 15px; vertical-align: -2px; margin-right: 6px; }

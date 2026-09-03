@@ -1,0 +1,32 @@
+{
+  "_schema": "Fragenpool. type mc = Multiple Choice, tf = True/False. stemEn ist das, was er in der Prüfung liest. stemDe ist nur Hilfe. Jede Frage braucht source.",
+  "_status": "PLATZHALTER. Regel: keine Frage ohne Fundstelle im Handbuch.",
+  "questions": [
+    {
+      "id": "q001",
+      "type": "mc",
+      "unit": "ch1-u1",
+      "source": "S. ??",
+      "tags": ["platzhalter"],
+      "stemEn": "PLACEHOLDER: Which of the following is required?",
+      "stemDe": "PLATZHALTER: Welches der folgenden ist vorgeschrieben?",
+      "options": [
+        { "en": "PLACEHOLDER correct option", "de": "PLATZHALTER richtige Option", "correct": true,  "whyDe": "PLATZHALTER: warum das richtig ist, mit Verweis aufs Handbuch." },
+        { "en": "PLACEHOLDER wrong option A",  "de": "PLATZHALTER falsche Option A",  "correct": false, "whyDe": "PLATZHALTER: warum das falsch ist." },
+        { "en": "PLACEHOLDER wrong option B",  "de": "PLATZHALTER falsche Option B",  "correct": false, "whyDe": "PLATZHALTER: warum das falsch ist." },
+        { "en": "All of the above",            "de": "Alle der genannten",            "correct": false, "whyDe": "PLATZHALTER: warum das falsch ist." }
+      ]
+    },
+    {
+      "id": "q002",
+      "type": "tf",
+      "unit": "ch1-u1",
+      "source": "S. ??",
+      "tags": ["platzhalter"],
+      "stemEn": "PLACEHOLDER: A statement that is either true or false.",
+      "stemDe": "PLATZHALTER: Eine Aussage, die wahr oder falsch ist.",
+      "answer": true,
+      "whyDe": "PLATZHALTER: Begründung mit Fundstelle."
+    }
+  ]
+}
