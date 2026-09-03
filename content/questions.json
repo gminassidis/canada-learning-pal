@@ -1,6 +1,6 @@
 {
  "_schema": "Fragenpool. type mc = Multiple Choice, tf = True/False. stemEn ist das, was in der Pruefung steht, stemDe ist nur Hilfe. Jede Frage traegt eine Fundstelle.",
- "_status": "Uebungsfragen, keine echten Pruefungsfragen. Aus den pruefbaren Aussagen des Handbuchs abgeleitet, Formulierung im Stil der Pruefung. Einfuehrung und Module 1 bis 8 abgedeckt.",
+ "_status": "Uebungsfragen, keine echten Pruefungsfragen. Aus den pruefbaren Aussagen des Handbuchs abgeleitet, Formulierung im Stil der Pruefung. Alle elf Module abgedeckt.",
  "questions": [
   {
    "id": "q-acts-01",
@@ -4003,6 +4003,667 @@
    "stemDe": "Linkshänder spiegeln die Abläufe bei jeder Anschlagsart.",
    "answer": true,
    "whyDe": "Richtig. Das Handbuch empfiehlt Linkshändern außerdem Waffen, die für Linkshänder gebaut sind."
+  },
+  {
+   "id": "q-m9-01",
+   "type": "mc",
+   "unit": "m9-wartung",
+   "source": "S. 180",
+   "tags": [
+    "pflege"
+   ],
+   "stemEn": "What is the mandatory procedure before servicing or cleaning a firearm?",
+   "stemDe": "Was ist vor jeder Wartung oder Reinigung vorgeschrieben?",
+   "options": [
+    {
+     "en": "Unload it and ACTS and PROVE it safe.",
+     "de": "Entladen und mit ACTS und PROVE prüfen.",
+     "correct": true,
+     "whyDe": "Dies ist die erste Review-Frage. Das Handbuch schildert dazu einen tödlichen Unfall, dessen einzige Ursache war, dass genau das unterblieb."
+    },
+    {
+     "en": "Remove the barrel.",
+     "de": "Den Lauf abnehmen.",
+     "correct": false,
+     "whyDe": "Nicht bei jeder Waffe nötig und nicht der Punkt."
+    },
+    {
+     "en": "Oil the bore first.",
+     "de": "Zuerst den Lauf einölen.",
+     "correct": false,
+     "whyDe": "Das kommt am Ende der Reinigung."
+    },
+    {
+     "en": "Put the safety on.",
+     "de": "Die Sicherung einlegen.",
+     "correct": false,
+     "whyDe": "Auf die Sicherung ist kein Verlass, entladen wird trotzdem."
+    }
+   ]
+  },
+  {
+   "id": "q-m9-02",
+   "type": "mc",
+   "unit": "m9-wartung",
+   "source": "S. 180",
+   "tags": [
+    "pflege"
+   ],
+   "stemEn": "Where do you find directions on disassembly and lubrication for a specific firearm?",
+   "stemDe": "Wo stehen Angaben zum Zerlegen und Schmieren einer bestimmten Waffe?",
+   "options": [
+    {
+     "en": "In the owner's manual, at a gun shop, or from a gunsmith.",
+     "de": "Im Handbuch des Herstellers, beim Händler oder beim Büchsenmacher.",
+     "correct": true,
+     "whyDe": "Dies ist die zweite Review-Frage."
+    },
+    {
+     "en": "In the Firearms Act.",
+     "de": "Im Waffengesetz.",
+     "correct": false,
+     "whyDe": "Das regelt Recht, nicht Technik."
+    },
+    {
+     "en": "On the barrel data stamp.",
+     "de": "Auf dem Daten-Stempel am Lauf.",
+     "correct": false,
+     "whyDe": "Der nennt nur die passende Munition."
+    },
+    {
+     "en": "In this student handbook.",
+     "de": "In diesem Handbuch.",
+     "correct": false,
+     "whyDe": "Es sagt ausdrücklich, dass es nur allgemeine Angaben enthält."
+    }
+   ]
+  },
+  {
+   "id": "q-m9-03",
+   "type": "mc",
+   "unit": "m9-reinigen",
+   "source": "S. 182",
+   "tags": [
+    "pflege"
+   ],
+   "stemEn": "In which direction should a firearm barrel be cleaned if possible?",
+   "stemDe": "In welche Richtung wird der Lauf möglichst gereinigt?",
+   "options": [
+    {
+     "en": "From the breech toward the muzzle.",
+     "de": "Vom Verschlussende zur Mündung.",
+     "correct": true,
+     "whyDe": "Umgekehrt nur, wenn es nicht anders geht. Dann Verschluss offen verriegeln und nicht mit dem Stock an der Mündung reiben."
+    },
+    {
+     "en": "From the muzzle toward the breech.",
+     "de": "Von der Mündung zum Verschlussende.",
+     "correct": false,
+     "whyDe": "Das soll vermieden werden."
+    },
+    {
+     "en": "It makes no difference.",
+     "de": "Das spielt keine Rolle.",
+     "correct": false,
+     "whyDe": "Es spielt eine Rolle."
+    },
+    {
+     "en": "Only with the action closed.",
+     "de": "Nur bei geschlossenem Verschluss.",
+     "correct": false,
+     "whyDe": "Der Verschluss ist offen."
+    }
+   ]
+  },
+  {
+   "id": "q-m9-04",
+   "type": "mc",
+   "unit": "m9-reinigen",
+   "source": "S. 186",
+   "tags": [
+    "pflege"
+   ],
+   "stemEn": "What risk is caused by excess oil or grease inside the barrel?",
+   "stemDe": "Welche Gefahr geht von zu viel Öl oder Fett im Lauf aus?",
+   "options": [
+    {
+     "en": "Increased pressure that may cause the barrel to burst.",
+     "de": "Erhöhter Druck, der den Lauf bersten lassen kann.",
+     "correct": true,
+     "whyDe": "Deshalb vor dem nächsten Schuss ein trockenes Pflaster durch den Lauf. Dies ist die dritte Review-Frage."
+    },
+    {
+     "en": "The bullet will travel too slowly.",
+     "de": "Das Geschoss wird zu langsam.",
+     "correct": false,
+     "whyDe": "Das ist nicht die genannte Gefahr."
+    },
+    {
+     "en": "The sights lose their alignment.",
+     "de": "Die Visierung verstellt sich.",
+     "correct": false,
+     "whyDe": "Nein."
+    },
+    {
+     "en": "Nothing, oil in the barrel is harmless.",
+     "de": "Nichts, Öl im Lauf ist harmlos.",
+     "correct": false,
+     "whyDe": "Es ist ausdrücklich gefährlich."
+    }
+   ]
+  },
+  {
+   "id": "q-m9-05",
+   "type": "mc",
+   "unit": "m9-munition",
+   "source": "S. 186",
+   "tags": [
+    "pflege",
+    "munition"
+   ],
+   "stemEn": "What effect do penetrating oils have on ammunition primers?",
+   "stemDe": "Wie wirkt Kriechöl auf die Zündhütchen der Munition?",
+   "options": [
+    {
+     "en": "They damage the primers, so ammunition must never be cleaned with an oily rag.",
+     "de": "Es greift sie an, deshalb wird Munition nie mit einem öligen Lappen gereinigt.",
+     "correct": true,
+     "whyDe": "Dies ist die vierte Review-Frage."
+    },
+    {
+     "en": "They protect the primers from moisture.",
+     "de": "Es schützt sie vor Feuchtigkeit.",
+     "correct": false,
+     "whyDe": "Das Gegenteil ist der Fall."
+    },
+    {
+     "en": "They make the primers more sensitive.",
+     "de": "Es macht sie empfindlicher.",
+     "correct": false,
+     "whyDe": "Das Handbuch spricht von Beeinträchtigung, nicht von höherer Empfindlichkeit."
+    },
+    {
+     "en": "They have no effect.",
+     "de": "Es hat keine Wirkung.",
+     "correct": false,
+     "whyDe": "Es hat eine Wirkung."
+    }
+   ]
+  },
+  {
+   "id": "q-m9-06",
+   "type": "tf",
+   "unit": "m9-reinigen",
+   "source": "S. 181",
+   "tags": [
+    "pflege"
+   ],
+   "stemEn": "The two major threats to firearm safety in storage are rust and excessive residue build-up.",
+   "stemDe": "Die zwei größten Gefahren für die Waffe sind Rost und zu starke Ablagerungen.",
+   "answer": true,
+   "whyDe": "Richtig. Beides kann den Druck erhöhen und den Lauf beschädigen. Deshalb wird der Lauf nach jedem Gebrauch gereinigt."
+  },
+  {
+   "id": "q-m10-01",
+   "type": "tf",
+   "unit": "m10-missbrauch",
+   "source": "S. 198",
+   "tags": [
+    "verantwortung"
+   ],
+   "stemEn": "There are periods when a firearm owner has no moral or legal responsibility for the firearm.",
+   "stemDe": "Es gibt Zeiten, in denen ein Waffenbesitzer keine Verantwortung für seine Waffe trägt.",
+   "answer": false,
+   "whyDe": "Falsch. Die Verantwortung besteht rund um die Uhr. Dies ist die erste Review-Frage von Modul 10, und die Antwort ist nein."
+  },
+  {
+   "id": "q-m10-02",
+   "type": "mc",
+   "unit": "m10-gefahren",
+   "source": "S. 192",
+   "tags": [
+    "verantwortung"
+   ],
+   "stemEn": "Which of the following is one of the five hazard groups listed in the handbook?",
+   "stemDe": "Welche gehört zu den fünf Gefahrengruppen des Handbuchs?",
+   "options": [
+    {
+     "en": "Access by unqualified or unauthorized users.",
+     "de": "Zugang durch Unbefugte oder Ungeübte.",
+     "correct": true,
+     "whyDe": "Die fünf sind: unbefugter Zugang, ungewollte Schussabgabe, falsche Munition, Querschläger und falsches Ziel. Dies ist die zweite Review-Frage."
+    },
+    {
+     "en": "Loud noise on the range.",
+     "de": "Lärm auf dem Schießstand.",
+     "correct": false,
+     "whyDe": "Gehörschutz ist wichtig, aber keine der fünf Gruppen."
+    },
+    {
+     "en": "Bad weather.",
+     "de": "Schlechtes Wetter.",
+     "correct": false,
+     "whyDe": "Kommt in der Tabelle nicht vor."
+    },
+    {
+     "en": "Firearm resale value.",
+     "de": "Der Wiederverkaufswert.",
+     "correct": false,
+     "whyDe": "Keine Sicherheitsfrage."
+    }
+   ]
+  },
+  {
+   "id": "q-m10-03",
+   "type": "mc",
+   "unit": "m10-missbrauch",
+   "source": "S. 190",
+   "tags": [
+    "verantwortung",
+    "recht"
+   ],
+   "stemEn": "Whom must you notify if a firearm is lost or stolen?",
+   "stemDe": "Wen musst du bei Verlust oder Diebstahl einer Waffe benachrichtigen?",
+   "options": [
+    {
+     "en": "Your local police service and the Canadian Firearms Program.",
+     "de": "Die örtliche Polizei und das Canadian Firearms Program.",
+     "correct": true,
+     "whyDe": "Beides, und die Meldepflicht steht im Strafgesetzbuch."
+    },
+    {
+     "en": "Only your local police service.",
+     "de": "Nur die örtliche Polizei.",
+     "correct": false,
+     "whyDe": "Das Canadian Firearms Program fehlt."
+    },
+    {
+     "en": "Only the seller of the firearm.",
+     "de": "Nur den Verkäufer.",
+     "correct": false,
+     "whyDe": "Nein."
+    },
+    {
+     "en": "Nobody, reporting is voluntary.",
+     "de": "Niemanden, die Meldung ist freiwillig.",
+     "correct": false,
+     "whyDe": "Sie ist Pflicht."
+    }
+   ]
+  },
+  {
+   "id": "q-m10-04",
+   "type": "mc",
+   "unit": "m10-missbrauch",
+   "source": "S. 190",
+   "tags": [
+    "verantwortung"
+   ],
+   "stemEn": "Why does secure storage help prevent suicides and homicides?",
+   "stemDe": "Warum hilft sichere Aufbewahrung gegen Selbsttötungen und Tötungsdelikte?",
+   "options": [
+    {
+     "en": "Such acts are often sudden impulses, and a delay in gaining access may let the impulse pass.",
+     "de": "Solche Taten sind oft Impulshandlungen, und eine Verzögerung kann den Impuls abklingen lassen.",
+     "correct": true,
+     "whyDe": "Deshalb soll der Zugang zu Waffe und Munition bewusst schwer gemacht werden."
+    },
+    {
+     "en": "Because locked firearms cannot be fired at all.",
+     "de": "Weil verschlossene Waffen nie schießen.",
+     "correct": false,
+     "whyDe": "Sie können nach dem Öffnen sehr wohl schießen. Es geht um die Verzögerung."
+    },
+    {
+     "en": "Because the police check storage regularly.",
+     "de": "Weil die Polizei die Lagerung prüft.",
+     "correct": false,
+     "whyDe": "Das ist nicht die Begründung des Handbuchs."
+    },
+    {
+     "en": "It does not, storage only prevents theft.",
+     "de": "Gar nicht, es geht nur um Diebstahl.",
+     "correct": false,
+     "whyDe": "Diebstahl ist ein Grund, aber nicht der einzige."
+    }
+   ]
+  },
+  {
+   "id": "q-m10-05",
+   "type": "mc",
+   "unit": "m10-ethik",
+   "source": "S. 193",
+   "tags": [
+    "verantwortung"
+   ],
+   "stemEn": "According to the code of ethics, what should you do with alcohol and firearms?",
+   "stemDe": "Was sagt der Ehrenkodex zu Alkohol und Waffen?",
+   "options": [
+    {
+     "en": "Never consume drugs or alcohol around firearms, and do not go shooting with anyone who has.",
+     "de": "Nie Drogen oder Alkohol im Umgang mit Waffen, und auch nicht mit jemandem schießen gehen, der getrunken hat.",
+     "correct": true,
+     "whyDe": "Beide Hälften gehören dazu, auch die zweite."
+    },
+    {
+     "en": "A small amount is acceptable after shooting.",
+     "de": "Eine kleine Menge ist nach dem Schießen in Ordnung.",
+     "correct": false,
+     "whyDe": "Das Handbuch macht keine solche Ausnahme."
+    },
+    {
+     "en": "It only applies to the shooter, not to companions.",
+     "de": "Gilt nur für den Schützen, nicht für Begleiter.",
+     "correct": false,
+     "whyDe": "Es gilt ausdrücklich auch für Begleiter."
+    },
+    {
+     "en": "It is a legal matter, not an ethical one.",
+     "de": "Das ist Rechtsfrage, keine Ethikfrage.",
+     "correct": false,
+     "whyDe": "Das Handbuch führt es unter den moralischen Regeln."
+    }
+   ]
+  },
+  {
+   "id": "q-m11-01",
+   "type": "mc",
+   "unit": "m11-lagern",
+   "source": "S. 199",
+   "tags": [
+    "lagerung"
+   ],
+   "stemEn": "Under which conditions may a non-restricted firearm be stored?",
+   "stemDe": "Unter welchen Bedingungen darf eine nicht beschränkte Waffe aufbewahrt werden?",
+   "options": [
+    {
+     "en": "Unloaded and either rendered inoperable by a secure locking device, or with the bolt removed, or in a securely locked opaque container.",
+     "de": "Entladen, und dazu entweder mit einer Verschlusseinrichtung unbrauchbar gemacht, oder der Verschluss entnommen, oder in einem verschlossenen undurchsichtigen Behälter.",
+     "correct": true,
+     "whyDe": "Dazu darf keine Munition in leichter Reichweite sein, außer sie liegt selbst in einem sicher verschlossenen Behälter."
+    },
+    {
+     "en": "Unloaded is enough on its own.",
+     "de": "Entladen allein genügt.",
+     "correct": false,
+     "whyDe": "Es kommt immer eine der drei Maßnahmen dazu."
+    },
+    {
+     "en": "Loaded, if locked in a cabinet.",
+     "de": "Geladen, wenn im Schrank verschlossen.",
+     "correct": false,
+     "whyDe": "Gelagert wird immer entladen."
+    },
+    {
+     "en": "In any transparent case, as long as it is locked.",
+     "de": "In jedem durchsichtigen Koffer, solange er verschlossen ist.",
+     "correct": false,
+     "whyDe": "Der Behälter muss ausdrücklich undurchsichtig sein."
+    }
+   ]
+  },
+  {
+   "id": "q-m11-02",
+   "type": "mc",
+   "unit": "m11-ausstellen",
+   "source": "S. 201",
+   "tags": [
+    "lagerung"
+   ],
+   "stemEn": "Which three rules must be followed to legally display a non-restricted firearm?",
+   "stemDe": "Welche drei Regeln gelten für das erlaubte Ausstellen einer Waffe?",
+   "options": [
+    {
+     "en": "Unloaded; rendered inoperable by a secure locking device or in a securely locked container; and not displayed with or within easy access to its ammunition.",
+     "de": "Entladen; mit Verschlusseinrichtung unbrauchbar gemacht oder in einem verschlossenen Behälter; und nicht mit passender Munition zusammen oder in deren Reichweite.",
+     "correct": true,
+     "whyDe": "Dies ist die erste Review-Frage von Modul 11."
+    },
+    {
+     "en": "Unloaded and out of sight.",
+     "de": "Entladen und außer Sicht.",
+     "correct": false,
+     "whyDe": "Außer Sicht wäre kein Ausstellen. Der Behälter muss hier gerade nicht undurchsichtig sein."
+    },
+    {
+     "en": "Loaded but locked in a cabinet.",
+     "de": "Geladen, aber im Schrank verschlossen.",
+     "correct": false,
+     "whyDe": "Ausgestellt wird immer entladen."
+    },
+    {
+     "en": "Displayed with the ammunition to show the correct type.",
+     "de": "Mit der Munition zusammen, um die richtige Sorte zu zeigen.",
+     "correct": false,
+     "whyDe": "Genau das ist verboten."
+    }
+   ]
+  },
+  {
+   "id": "q-m11-03",
+   "type": "mc",
+   "unit": "m11-transport",
+   "source": "S. 203",
+   "tags": [
+    "transport"
+   ],
+   "stemEn": "How must a non-restricted firearm be left in an unattended vehicle?",
+   "stemDe": "Wie muss eine Waffe in einem unbeaufsichtigten Fahrzeug zurückbleiben?",
+   "options": [
+    {
+     "en": "Unloaded and in a locked trunk or similar compartment.",
+     "de": "Entladen und im verschlossenen Kofferraum oder einem vergleichbaren Fach.",
+     "correct": true,
+     "whyDe": "Ohne Kofferraum: Fahrzeug abschließen, Waffe entladen und außer Sicht darin lassen."
+    },
+    {
+     "en": "Loaded but out of sight.",
+     "de": "Geladen, aber außer Sicht.",
+     "correct": false,
+     "whyDe": "Transportiert wird immer entladen."
+    },
+    {
+     "en": "On the seat, as long as the vehicle is locked.",
+     "de": "Auf dem Sitz, solange das Fahrzeug abgeschlossen ist.",
+     "correct": false,
+     "whyDe": "Außer Sicht ist zusätzlich verlangt."
+    },
+    {
+     "en": "It may never be left in a vehicle.",
+     "de": "Sie darf nie im Fahrzeug bleiben.",
+     "correct": false,
+     "whyDe": "Unter den genannten Bedingungen darf sie das."
+    }
+   ]
+  },
+  {
+   "id": "q-m11-04",
+   "type": "tf",
+   "unit": "m11-transport",
+   "source": "S. 203",
+   "tags": [
+    "transport",
+    "vorderlader"
+   ],
+   "stemEn": "A loaded muzzleloader may be transported between hunting sites if the percussion cap or flint is removed.",
+   "stemDe": "Ein geladener Vorderlader darf zwischen Jagdgebieten transportiert werden, wenn Zündhütchen oder Feuerstein entfernt sind.",
+   "answer": true,
+   "whyDe": "Richtig, und das ist die einzige Ausnahme von der Regel, dass entladen transportiert wird. Sie steht unter dem Vorbehalt der Vorschriften der Provinz oder des Territoriums."
+  },
+  {
+   "id": "q-m11-05",
+   "type": "mc",
+   "unit": "m11-verboten",
+   "source": "S. 198",
+   "tags": [
+    "recht"
+   ],
+   "stemEn": "Which of the following is prohibited ammunition that individuals cannot acquire?",
+   "stemDe": "Welche Munition dürfen Privatpersonen nicht erwerben?",
+   "options": [
+    {
+     "en": "Tracer rounds.",
+     "de": "Leuchtspurmunition.",
+     "correct": true,
+     "whyDe": "Das Handbuch nennt als Begründung, dass sie einen Brand auslösen kann. Dies ist Teil der dritten Review-Frage."
+    },
+    {
+     "en": "Rim-fire cartridges.",
+     "de": "Randfeuerpatronen.",
+     "correct": false,
+     "whyDe": "Ganz normale Munition."
+    },
+    {
+     "en": "Shotgun slugs.",
+     "de": "Flintenlaufgeschosse.",
+     "correct": false,
+     "whyDe": "Erlaubt."
+    },
+    {
+     "en": "Centre-fire cartridges.",
+     "de": "Zentralfeuerpatronen.",
+     "correct": false,
+     "whyDe": "Erlaubt."
+    }
+   ]
+  },
+  {
+   "id": "q-m11-06",
+   "type": "mc",
+   "unit": "m11-verboten",
+   "source": "S. 198",
+   "tags": [
+    "recht"
+   ],
+   "stemEn": "Which of the following are prohibited devices?",
+   "stemDe": "Welche Vorrichtungen sind verboten?",
+   "options": [
+    {
+     "en": "High-capacity magazines, except for rim-fire cartridges, and silencers.",
+     "de": "Magazine mit zu großer Kapazität, außer für Randfeuerpatronen, und Schalldämpfer.",
+     "correct": true,
+     "whyDe": "Beide nennt das Handbuch als Beispiele. Dies ist der zweite Teil der dritten Review-Frage."
+    },
+    {
+     "en": "Trigger locks and cable locks.",
+     "de": "Abzugsschlösser und Kabelschlösser.",
+     "correct": false,
+     "whyDe": "Die sind vorgeschrieben, nicht verboten."
+    },
+    {
+     "en": "Telescopic sights.",
+     "de": "Zielfernrohre.",
+     "correct": false,
+     "whyDe": "Erlaubt."
+    },
+    {
+     "en": "Slings and cases.",
+     "de": "Riemen und Koffer.",
+     "correct": false,
+     "whyDe": "Erlaubt."
+    }
+   ]
+  },
+  {
+   "id": "q-m11-07",
+   "type": "mc",
+   "unit": "m11-handhabung",
+   "source": "S. 204",
+   "tags": [
+    "recht"
+   ],
+   "stemEn": "What penalty applies to a person who violates the storage, transportation and handling regulations?",
+   "stemDe": "Welche Strafe droht bei Verstoß gegen die Vorschriften zu Aufbewahrung, Transport und Handhabung?",
+   "options": [
+    {
+     "en": "Up to two years for a first offence and up to five for a repeat offence, or a $5,000 fine and up to six months on summary conviction. The firearm and licence may also be lost.",
+     "de": "Bis zu zwei Jahre beim ersten Mal, bis zu fünf im Wiederholungsfall, oder im abgekürzten Verfahren 5.000 Dollar und bis zu sechs Monate. Dazu Verlust von Waffe und Erlaubnis möglich.",
+     "correct": true,
+     "whyDe": "Dies ist die fünfte Review-Frage von Modul 11."
+    },
+    {
+     "en": "A written warning only.",
+     "de": "Nur eine schriftliche Verwarnung.",
+     "correct": false,
+     "whyDe": "Deutlich mehr."
+    },
+    {
+     "en": "Confiscation of the ammunition only.",
+     "de": "Nur Einzug der Munition.",
+     "correct": false,
+     "whyDe": "Deutlich mehr."
+    },
+    {
+     "en": "There is no penalty for storage violations.",
+     "de": "Für Lagerungsverstöße gibt es keine Strafe.",
+     "correct": false,
+     "whyDe": "Doch, es ist eine Straftat."
+    }
+   ]
+  },
+  {
+   "id": "q-m11-08",
+   "type": "mc",
+   "unit": "m11-handhabung",
+   "source": "S. 205",
+   "tags": [
+    "recht",
+    "transport"
+   ],
+   "stemEn": "Where may you load a firearm or handle a loaded firearm?",
+   "stemDe": "Wo darfst du laden oder mit einer geladenen Waffe hantieren?",
+   "options": [
+    {
+     "en": "Only in a place where it is lawful to discharge it.",
+     "de": "Nur dort, wo das Schießen erlaubt ist.",
+     "correct": true,
+     "whyDe": "An manchen Orten ist schon das Laden oder Hantieren strafbar."
+    },
+    {
+     "en": "Anywhere, as long as the safety is on.",
+     "de": "Überall, solange die Sicherung an ist.",
+     "correct": false,
+     "whyDe": "Die Sicherung ändert daran nichts."
+    },
+    {
+     "en": "Anywhere outside city limits.",
+     "de": "Überall außerhalb der Stadt.",
+     "correct": false,
+     "whyDe": "Es kommt auf die konkrete Erlaubnis an, nicht auf die Stadtgrenze."
+    },
+    {
+     "en": "On private property only.",
+     "de": "Nur auf Privatgrund.",
+     "correct": false,
+     "whyDe": "Auch dort ist das Schießen nicht überall erlaubt."
+    }
+   ]
+  },
+  {
+   "id": "q-m11-09",
+   "type": "tf",
+   "unit": "m11-lagern",
+   "source": "S. 199",
+   "tags": [
+    "lagerung"
+   ],
+   "stemEn": "In a remote area where hunting might reasonably occur, a non-restricted firearm may be stored unlocked and out in the open, as long as it is unloaded.",
+   "stemDe": "In abgelegenen Gebieten, in denen mit Jagd zu rechnen ist, darf eine Waffe unverschlossen und offen liegen, solange sie entladen ist.",
+   "answer": true,
+   "whyDe": "Richtig, dort darf sogar Munition erreichbar sein. Bei der Waffe zur Raubwildabwehr ist die Ausnahme enger: dort muss die Munition unerreichbar bleiben."
+  },
+  {
+   "id": "q-m11-10",
+   "type": "tf",
+   "unit": "m11-verboten",
+   "source": "S. 198",
+   "tags": [
+    "recht"
+   ],
+   "stemEn": "The law requires that all firearms must be unloaded except when in use.",
+   "stemDe": "Das Gesetz verlangt, dass jede Waffe entladen ist, außer im Gebrauch.",
+   "answer": true,
+   "whyDe": "Richtig. Auf diesem Satz baut das ganze Modul 11 auf."
   }
  ]
 }

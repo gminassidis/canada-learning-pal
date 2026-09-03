@@ -74,7 +74,10 @@
         Deutsch kommt auf Knopfdruck dazu. Es sind Übungsfragen, aus dem Handbuch
         abgeleitet, keine echten Prüfungsfragen.</p>
       <div class="chips" id="quiz-scope"></div>
-      <button class="primary" id="quiz-go">Runde starten</button>
+      <div class="btn-row" style="margin-top:0">
+        <button class="primary" id="quiz-go">Runde üben</button>
+        <button id="quiz-exam">Prüfung simulieren</button>
+      </div>
       <div id="quiz-stats"></div>
     </div>
     <div id="quiz-run" hidden></div>
@@ -86,6 +89,8 @@
     <h2>Vokabeln</h2>
     <div class="chips" id="vocab-cats"></div>
     <div class="seg" id="vocab-modes"></div>
+    <input type="search" id="vocab-search" class="search" autocomplete="off"
+           placeholder="Vokabel suchen, deutsch oder englisch">
     <div id="vocab-list"></div>
     <div id="vocab-cards" hidden></div>
   </section>

@@ -1,6 +1,6 @@
 {
  "_schema": "Lerneinheiten. Bloecke: de = deutsche Erklaerung, en = englischer Originalsatz aus dem Handbuch, img = Abbildung, terms = Begriffsliste. source = Seite im Handbuch.",
- "_status": "Einfuehrung und Module 1 bis 8 fertig. Module 9 bis 11 folgen.",
+ "_status": "Alle elf Module des CFSC-Teils sind erfasst.",
  "chapters": [
   {
    "id": "einfuehrung",
@@ -3272,6 +3272,688 @@
         "background",
         "field-of-fire",
         "effective-range"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "modul9",
+   "titleDe": "Modul 9: Pflege",
+   "titleEn": "Module 9: Care of Non-Restricted Firearms",
+   "units": [
+    {
+     "id": "modul9-intro",
+     "kind": "intro",
+     "titleDe": "Modul 9: Pflege",
+     "titleEn": "Module 9: Care of Non-Restricted Firearms",
+     "source": "S. 180 bis S. 188",
+     "lead": "Wartung und Reinigung der Waffe, das Reinigungswerkzeug, der Ablauf Schritt für Schritt und die Aufbewahrung der Munition.",
+     "blocks": [],
+     "img": "assets/div-m9.webp"
+    },
+    {
+     "id": "m9-wartung",
+     "titleDe": "Vor jeder Wartung",
+     "titleEn": "Firearm servicing",
+     "source": "S. 180",
+     "blocks": [
+      {
+       "type": "en",
+       "text": "Ensure that all firearms are unloaded and ACTS/PROVE it safe before attempting to clean.",
+       "page": 180
+      },
+      {
+       "type": "de",
+       "text": "Vor jeder Reinigung wird die Waffe entladen und mit ACTS und PROVE geprüft. Das ist die Antwort auf die erste Review-Frage des Moduls."
+      },
+      {
+       "type": "de",
+       "text": "Das Handbuch schildert dazu einen tödlichen Unfall: Jemand wollte eine geladene Waffe mit geschlossenem Verschluss reinigen und ließ sie fallen. Der Schuss löste sich beim Aufprall und tötete eine Person im Nebenraum. Als Ursache nennt das Handbuch einen einzigen Punkt: ACTS und PROVE wurden nicht durchgeführt."
+      },
+      {
+       "type": "en",
+       "text": "Firearms are precision instruments. Even minor repairs should be made by qualified individuals.",
+       "page": 180
+      },
+      {
+       "type": "de",
+       "text": "Waffen sind Präzisionsgeräte. Selbst kleine Reparaturen gehören in fachkundige Hände. Der Durchschnittsnutzer soll nur reinigen und schmieren."
+      },
+      {
+       "type": "en",
+       "text": "Specific information on cleaning and servicing your firearm is available in your firearm owner's manual, at a gun shop, or from a gunsmith.",
+       "page": 180
+      },
+      {
+       "type": "de",
+       "text": "Wo Angaben zum Zerlegen und Schmieren einer bestimmten Waffe stehen, ist die zweite Review-Frage: im Handbuch des Herstellers, beim Händler oder beim Büchsenmacher."
+      },
+      {
+       "type": "terms",
+       "ids": [
+        "lubrication",
+        "to-disassemble",
+        "gunsmith"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "m9-reinigen",
+     "titleDe": "Reinigen",
+     "titleEn": "Firearm cleaning",
+     "source": "S. 181 bis S. 185",
+     "blocks": [
+      {
+       "type": "en",
+       "text": "The two major threats to firearm safety are the following: Rust caused by moisture and condensation. Excessive build-up of residue or rust in the firearm.",
+       "page": 181
+      },
+      {
+       "type": "de",
+       "text": "Zwei Gefahren nennt das Handbuch: Rost durch Feuchtigkeit und Kondenswasser, und zu starke Ablagerungen von Rückständen oder Rost. Beides kann den Druck im Lauf erhöhen und ihn beschädigen."
+      },
+      {
+       "type": "en",
+       "text": "The barrel of a firearm should be cleaned after every use.",
+       "page": 181
+      },
+      {
+       "type": "de",
+       "text": "Der Lauf wird nach jedem Gebrauch gereinigt. Moderne Zündhütchen und Pulver sind nicht korrosiv, ältere Militärmunition kann es aber sein. Nach solcher Munition wird sofort gereinigt."
+      },
+      {
+       "type": "de",
+       "text": "Das Werkzeug: Putzstock oder Durchziehschnur mit passenden Aufsätzen, Laufbürste, Halter für Pflaster, Pflaster, Pulverlöser, Waffenöl und ein weiches Tuch."
+      },
+      {
+       "type": "en",
+       "text": "If possible, clean your firearm from the breech toward the muzzle. Avoid cleaning from the muzzle toward the breech.",
+       "page": 182
+      },
+      {
+       "type": "de",
+       "text": "Gereinigt wird nach Möglichkeit vom Verschlussende zur Mündung hin, nicht umgekehrt. Geht es nur von vorn, wird der Verschluss offen verriegelt, damit der Stock ganz durchgeht, und man vermeidet, mit dem Stock an der Mündung zu reiben."
+      },
+      {
+       "type": "img",
+       "src": "assets/clean-breech.webp",
+       "captionDe": "Abbildung 78 aus dem Handbuch: vom Verschlussende zur Mündung reinigen."
+      },
+      {
+       "type": "img",
+       "src": "assets/clean-rifle.webp",
+       "captionDe": "Abbildung 79: eine Büchse reinigen."
+      },
+      {
+       "type": "de",
+       "text": "Der Ablauf in Kürze: ACTS und PROVE, Laufbürste mit Lösemittel mehrfach durch den Lauf, dann ein Pflaster mit Lösemittel, dann ein trockenes Pflaster. Solange wiederholen, bis ein Pflaster sauber herauskommt. Danach ein leicht geöltes Pflaster, außen abwischen und leicht einölen, Magazin nicht vergessen."
+      },
+      {
+       "type": "en",
+       "text": "Remember, before the next firing of the firearm, run a dry patch through the barrel to remove any oil.",
+       "page": 183
+      },
+      {
+       "type": "de",
+       "text": "Vor dem nächsten Schuss wird das Öl mit einem trockenen Pflaster wieder aus dem Lauf geholt. Warum das wichtig ist, fragt die dritte Review-Frage:"
+      },
+      {
+       "type": "en",
+       "text": "Increased pressure caused by dirt or oil may cause the barrel to burst.",
+       "page": 186
+      },
+      {
+       "type": "de",
+       "text": "Zu viel Öl oder Fett im Lauf erhöht beim Schuss den Druck, und der Lauf kann bersten."
+      },
+      {
+       "type": "en",
+       "text": "Make sure no ammunition is nearby during cleaning.",
+       "page": 182
+      },
+      {
+       "type": "de",
+       "text": "Während der Reinigung ist keine Munition in der Nähe, und die volle Aufmerksamkeit gilt der Waffe, nicht nebenbei dem Fernseher. Nach dem Reinigen Hände waschen."
+      },
+      {
+       "type": "terms",
+       "ids": [
+        "cleaning-rod",
+        "bore-brush",
+        "pull-through",
+        "cleaning-patch",
+        "powder-solvent",
+        "gun-oil",
+        "residue",
+        "corrosive",
+        "breech",
+        "muzzle"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "m9-munition",
+     "titleDe": "Munition aufbewahren",
+     "titleEn": "Ammunition storage",
+     "source": "S. 186",
+     "blocks": [
+      {
+       "type": "en",
+       "text": "Ammunition should also be kept clean and dry. Oil, sand or dirt on the cartridge or shell can damage the firearm.",
+       "page": 186
+      },
+      {
+       "type": "de",
+       "text": "Munition wird sauber und trocken gehalten. Öl, Sand oder Schmutz auf der Patrone können die Waffe beschädigen oder den Verschluss verklemmen."
+      },
+      {
+       "type": "en",
+       "text": "Avoid exposing your ammunition to heat and vibration. Powder can decay and become unpredictable.",
+       "page": 186
+      },
+      {
+       "type": "de",
+       "text": "Hitze und dauerhafte Erschütterung meiden. Pulver kann sich zersetzen und dann unberechenbar werden."
+      },
+      {
+       "type": "en",
+       "text": "Primers are adversely affected by exposure to penetrating oils. Do not clean your ammunition with an oily rag.",
+       "page": 186
+      },
+      {
+       "type": "de",
+       "text": "Kriechöl greift die Zündhütchen an. Munition wird deshalb nie mit einem öligen Lappen gereinigt. Das ist die Antwort auf die vierte Review-Frage."
+      },
+      {
+       "type": "terms",
+       "ids": [
+        "penetrating-oil",
+        "primer",
+        "vented-container",
+        "storage"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "modul10",
+   "titleDe": "Modul 10: Soziale Verantwortung",
+   "titleEn": "Module 10: Social Responsibilities of the Firearms Owner/User",
+   "units": [
+    {
+     "id": "modul10-intro",
+     "kind": "intro",
+     "titleDe": "Modul 10: Soziale Verantwortung",
+     "titleEn": "Module 10: Social Responsibilities of the Firearms Owner/User",
+     "source": "S. 189 bis S. 196",
+     "lead": "Was sichere Aufbewahrung verhindert, die Meldepflicht bei Verlust und Diebstahl, die fünf Gefahrengruppen und der Ehrenkodex.",
+     "blocks": [],
+     "img": "assets/div-m10.webp"
+    },
+    {
+     "id": "m10-missbrauch",
+     "titleDe": "Vorbeugen und melden",
+     "titleEn": "Intentional misuse and reporting",
+     "source": "S. 189 bis S. 191",
+     "blocks": [
+      {
+       "type": "en",
+       "text": "Suicides and homicides are often acts of sudden impulse. Many of them might not have happened if the firearms and ammunition were stored safely.",
+       "page": 189
+      },
+      {
+       "type": "de",
+       "text": "Der Kern dieses Moduls: Selbsttötungen und Tötungsdelikte sind oft Taten eines Augenblicks. Sichere Aufbewahrung schafft eine Verzögerung, und die kann ausreichen, damit der Impuls nachlässt."
+      },
+      {
+       "type": "en",
+       "text": "Make access to firearms and ammunition difficult. If firearms and ammunition are difficult to get, there may be a delay in acting on the impulse to do harm.",
+       "page": 190
+      },
+      {
+       "type": "de",
+       "text": "Deshalb: den Zugang schwer machen. Schlüssel und Zahlenkombination nicht herumliegen lassen und nicht weitergeben, und nicht breit bekannt machen, dass Waffen im Haus sind."
+      },
+      {
+       "type": "de",
+       "text": "Zeichnet sich eine Situation ab, in der Gewalt möglich erscheint, sollen die Waffen ganz aus dem Haus geschafft werden, auch wenn sie sicher verwahrt sind. Zur Not die Polizei verständigen. Der oberste Waffenbeauftragte der Provinz oder des Territoriums entscheidet über die weitere Berechtigung einer Person."
+      },
+      {
+       "type": "en",
+       "text": "Owners of firearms are required under the Criminal Code to report the loss or theft of their firearms.",
+       "page": 190
+      },
+      {
+       "type": "de",
+       "text": "Verlust oder Diebstahl einer Waffe ist meldepflichtig, und zwar bei der örtlichen Polizei und beim Canadian Firearms Program unter 1-800-731-4000."
+      },
+      {
+       "type": "terms",
+       "ids": [
+        "cfo",
+        "lost-or-stolen",
+        "unauthorized-access",
+        "canadian-firearms-program",
+        "secure-locking-device"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "m10-gefahren",
+     "titleDe": "Die fünf Gefahrengruppen",
+     "titleEn": "Firearm hazards and precautions",
+     "source": "S. 192",
+     "blocks": [
+      {
+       "type": "de",
+       "text": "Das Handbuch fasst die Gefahren in einer Tabelle zusammen. Fünf Gruppen sind zu nennen, danach fragt die zweite Review-Frage."
+      },
+      {
+       "type": "de",
+       "text": "Erstens: Zugang durch Unbefugte oder Ungeübte. Gegenmaßnahmen sind die Waffe vor Aufbewahrung und Transport unbrauchbar machen, verschlossen und außer Sicht lagern, Munition getrennt und außer Sicht, und Ungeübte beaufsichtigen."
+      },
+      {
+       "type": "de",
+       "text": "Zweitens: ungewollte Schussabgabe. Mündungsrichtung kontrollieren, entladen solange nicht unmittelbar gebraucht, Verschluss beim Hantieren offen, Finger weg vom Abzug, Sicherung an, kein Herumalbern, und die Waffe gewartet halten."
+      },
+      {
+       "type": "de",
+       "text": "Drittens: falsche Munition. Nur die richtige mitführen, gegen den Daten-Stempel prüfen, und beim Wiederladen die Vorschriften einhalten."
+      },
+      {
+       "type": "de",
+       "text": "Viertens: Querschläger. Besondere Vorsicht bei flachen oder harten Flächen und bei Wasser, und den Bereich hinter dem Ziel prüfen."
+      },
+      {
+       "type": "de",
+       "text": "Fünftens: falsches Ziel. Vor dem Schuss bestimmen, wissen was dahinter liegt, und auf einen ausreichenden Kugelfang achten."
+      },
+      {
+       "type": "terms",
+       "ids": [
+        "unintentional-discharge",
+        "ricochet",
+        "target",
+        "backstop",
+        "horseplay",
+        "secure-locking-device"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "m10-ethik",
+     "titleDe": "Ehrenkodex",
+     "titleEn": "Social responsibilities and ethics",
+     "source": "S. 193 und S. 194",
+     "blocks": [
+      {
+       "type": "en",
+       "text": "In some cases, however, sticking to the letter of the law is not enough. The spirit of the law must also be followed.",
+       "page": 193
+      },
+      {
+       "type": "de",
+       "text": "Der Buchstabe des Gesetzes ist die Untergrenze. Das Handbuch verlangt darüber hinaus einen Ehrenkodex. Drei Punkte daraus verlangt die dritte Review-Frage."
+      },
+      {
+       "type": "de",
+       "text": "Waffen und Munition ordentlich und außer Sicht verwahren. Allen im Haushalt die Sicherheitsregeln erklären, Schlüssel und Zahlenkombination außer Reichweite von Kindern und Unbefugten halten. Waffen aus Situationen entfernen, in denen Gewalt möglich erscheint."
+      },
+      {
+       "type": "en",
+       "text": "Never consume drugs or alcoholic beverages when around firearms. Do not go shooting with anyone who has.",
+       "page": 193
+      },
+      {
+       "type": "de",
+       "text": "Keine Drogen und kein Alkohol im Umgang mit Waffen, und auch nicht mit jemandem schießen gehen, der getrunken hat."
+      },
+      {
+       "type": "de",
+       "text": "Dazu: nicht in der Nähe von Gebäuden oder Straßen schießen, Vorschriften und örtliche Satzungen kennen und beachten, Schutzausrüstung tragen und andere dazu anhalten."
+      },
+      {
+       "type": "en",
+       "text": "Increased safety awareness will help prevent both the unintentional and deliberate misuse of firearms.",
+       "page": 189
+      },
+      {
+       "type": "de",
+       "text": "Auf die vierte Review-Frage, was am meisten zur Verhütung von Unfällen beiträgt, läuft das ganze Modul hinaus: das Bewusstsein für Sicherheit."
+      },
+      {
+       "type": "terms",
+       "ids": [
+        "code-of-ethics",
+        "horseplay",
+        "dwelling",
+        "hearing-protection",
+        "sight-protection"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "modul11",
+   "titleDe": "Modul 11: Aufbewahrung, Ausstellen, Transport",
+   "titleEn": "Module 11: Safe Storage, Display, Transportation and Handling of Non-Restricted Firearms",
+   "units": [
+    {
+     "id": "modul11-intro",
+     "kind": "intro",
+     "titleDe": "Modul 11: Aufbewahrung, Ausstellen, Transport",
+     "titleEn": "Module 11: Safe Storage, Display, Transportation and Handling of Non-Restricted Firearms",
+     "source": "S. 197 bis S. 214",
+     "lead": "Die Vorschriften zur Aufbewahrung, zum Ausstellen, zum Transport und zur Handhabung, dazu verbotene Munition und Vorrichtungen und die Strafen.",
+     "blocks": [],
+     "img": "assets/div-m11.webp"
+    },
+    {
+     "id": "m11-verboten",
+     "titleDe": "Verbotene Munition und Vorrichtungen",
+     "titleEn": "Prohibited ammunition and devices",
+     "source": "S. 197 und S. 198",
+     "blocks": [
+      {
+       "type": "en",
+       "text": "Ammunition is a cartridge containing a projectile designed to be discharged from a firearm. This includes caseless cartridges and shot shells.",
+       "page": 198
+      },
+      {
+       "type": "de",
+       "text": "Als Munition gilt jede Patrone mit einem Geschoss, das aus einer Waffe verschossen werden soll. Hülsenlose Patronen und Schrotpatronen zählen dazu."
+      },
+      {
+       "type": "en",
+       "text": "Individuals cannot acquire prohibited ammunition; i.e. tracer rounds, because they could start a fire.",
+       "page": 198
+      },
+      {
+       "type": "de",
+       "text": "Verbotene Munition dürfen Privatpersonen nicht erwerben. Das Handbuch nennt als Beispiel Leuchtspurmunition, mit der Begründung, dass sie einen Brand auslösen kann. Danach fragt die dritte Review-Frage."
+      },
+      {
+       "type": "en",
+       "text": "Individuals cannot acquire prohibited devices; i.e. high-capacity magazine (except for rim fire cartridges), silencer.",
+       "page": 198
+      },
+      {
+       "type": "de",
+       "text": "Verbotene Vorrichtungen sind Magazine mit zu großer Kapazität, ausgenommen für Randfeuerpatronen, und Schalldämpfer. Auch danach fragt dieselbe Review-Frage, sie verlangt zwei davon."
+      },
+      {
+       "type": "en",
+       "text": "Remember, the law requires that all firearms must be unloaded except when in use.",
+       "page": 198
+      },
+      {
+       "type": "de",
+       "text": "Und der Satz, auf dem das ganze Modul aufbaut: das Gesetz verlangt, dass jede Waffe entladen ist, außer im Gebrauch."
+      },
+      {
+       "type": "terms",
+       "ids": [
+        "prohibited-ammunition",
+        "prohibited-device",
+        "tracer-round",
+        "silencer",
+        "high-capacity-magazine",
+        "caseless-cartridge",
+        "non-restricted"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "m11-lagern",
+     "titleDe": "Aufbewahren",
+     "titleEn": "Storage",
+     "source": "S. 199 und S. 200",
+     "blocks": [
+      {
+       "type": "de",
+       "text": "Für die Aufbewahrung einer nicht beschränkten Waffe nennt das Handbuch zwei Bedingungen, die beide erfüllt sein müssen."
+      },
+      {
+       "type": "en",
+       "text": "It is unloaded by the ACTS and PROVE it safe, and either: Rendered inoperable by using a secure locking device or By removing the bolt or bolt-carrier or Stored in a securely locked opaque container, receptacle, or room that cannot be easily broken open or into.",
+       "page": 199
+      },
+      {
+       "type": "de",
+       "text": "Erstens: entladen, geprüft mit ACTS und PROVE, und dazu eines von drei Dingen. Entweder mit einer Verschlusseinrichtung unbrauchbar gemacht, oder der Verschluss beziehungsweise Verschlussträger entnommen, oder in einem verschlossenen, undurchsichtigen Behälter, Behältnis oder Raum verwahrt, in den man nicht leicht einbrechen kann."
+      },
+      {
+       "type": "en",
+       "text": "It is not within easy access to ammunition, unless the ammunition is stored, together with or separately from the firearm, in a securely locked container or receptacle that cannot be easily broken open or into.",
+       "page": 199
+      },
+      {
+       "type": "de",
+       "text": "Zweitens: keine Munition in leichter Reichweite. Ausnahme ist wieder der sicher verschlossene Behälter, in dem Munition auch zusammen mit der Waffe liegen darf."
+      },
+      {
+       "type": "img",
+       "src": "assets/store-safe.webp",
+       "captionDe": "Abbildung 80 aus dem Handbuch: ein Safe."
+      },
+      {
+       "type": "img",
+       "src": "assets/store-cabinet.webp",
+       "captionDe": "Abbildung 81: Schrank oder Tresor."
+      },
+      {
+       "type": "img",
+       "src": "assets/store-case.webp",
+       "captionDe": "Abbildung 82: Aufbewahrungskoffer."
+      },
+      {
+       "type": "de",
+       "text": "Die zweite Review-Frage verlangt je zwei Einrichtungen für dauerhafte und für vorübergehende Aufbewahrung. Dauerhaft sind Safe und Schrank oder Tresor, vorübergehend der Aufbewahrungskoffer und die Verschlusseinrichtung, also Abzugsschloss oder Kabelschloss."
+      },
+      {
+       "type": "de",
+       "text": "Zwei Ausnahmen nennt das Handbuch. Wo das Schießen erlaubt ist, darf eine Waffe zur Raubwildabwehr vorübergehend unverschlossen und offen liegen, solange sie entladen ist und keine Munition erreichbar ist. In abgelegenen Gebieten, in denen mit Jagd zu rechnen ist, darf sie unverschlossen und offen liegen und Munition erreichbar sein, solange sie entladen ist."
+      },
+      {
+       "type": "terms",
+       "ids": [
+        "render-inoperable",
+        "bolt-carrier",
+        "opaque",
+        "receptacle",
+        "vault",
+        "carrying-case",
+        "predator-control",
+        "remote-area",
+        "secure-locking-device"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "m11-ausstellen",
+     "titleDe": "Ausstellen",
+     "titleEn": "Display",
+     "source": "S. 201 und S. 202",
+     "blocks": [
+      {
+       "type": "de",
+       "text": "Ausstellen heißt sichtbar aufstellen, etwa in einer Vitrine. Dafür gelten drei Regeln, und die verlangt die erste Review-Frage."
+      },
+      {
+       "type": "en",
+       "text": "It is unloaded, and Rendered inoperable by using a secure locking device or Stored in a securely locked container, receptacle or room that cannot be easily broken open or into.",
+       "page": 201
+      },
+      {
+       "type": "de",
+       "text": "Erstens entladen. Zweitens entweder mit einer Verschlusseinrichtung unbrauchbar gemacht oder in einem verschlossenen Behälter, Behältnis oder Raum."
+      },
+      {
+       "type": "en",
+       "text": "It is not displayed with and not within easy access to ammunition that can be discharged from it.",
+       "page": 201
+      },
+      {
+       "type": "de",
+       "text": "Drittens nicht zusammen mit passender Munition ausgestellt und diese auch nicht in leichter Reichweite."
+      },
+      {
+       "type": "img",
+       "src": "assets/store-locks.webp",
+       "captionDe": "Abbildung 83 aus dem Handbuch: Kabel- und Abzugsschlösser."
+      },
+      {
+       "type": "img",
+       "src": "assets/display-rules.webp",
+       "captionDe": "Abbildung 84: die Regeln zum Ausstellen."
+      },
+      {
+       "type": "de",
+       "text": "Der Unterschied zur Aufbewahrung: dort darf der Behälter undurchsichtig sein und muss es sogar. Beim Ausstellen entfällt das, denn die Waffe soll ja sichtbar sein."
+      },
+      {
+       "type": "terms",
+       "ids": [
+        "render-inoperable",
+        "trigger-lock",
+        "cable-lock",
+        "opaque",
+        "receptacle"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "m11-transport",
+     "titleDe": "Transportieren",
+     "titleEn": "Transportation",
+     "source": "S. 203 und S. 204",
+     "blocks": [
+      {
+       "type": "en",
+       "text": "A non-restricted firearm must be transported unloaded.",
+       "page": 203
+      },
+      {
+       "type": "de",
+       "text": "Die Grundregel: entladen. Danach fragt die vierte Review-Frage, die drei Regeln verlangt."
+      },
+      {
+       "type": "en",
+       "text": "However, loaded-muzzleloading firearms may be transported between hunting sites if the percussion cap or flint is removed.",
+       "page": 203
+      },
+      {
+       "type": "de",
+       "text": "Eine Ausnahme gibt es für Vorderlader: geladen dürfen sie zwischen Jagdgebieten bewegt werden, wenn Zündhütchen oder Feuerstein entfernt sind, und soweit die Provinz oder das Territorium es erlaubt."
+      },
+      {
+       "type": "en",
+       "text": "You may leave a non-restricted firearm in an unattended vehicle if it is unloaded and placed in a locked trunk or a similar compartment of the vehicle.",
+       "page": 203
+      },
+      {
+       "type": "de",
+       "text": "Im unbeaufsichtigten Fahrzeug: entladen in den verschlossenen Kofferraum oder ein vergleichbares Fach."
+      },
+      {
+       "type": "en",
+       "text": "If the unattended vehicle does not have a trunk or a similar compartment, lock the vehicle or the part of the vehicle that contains the non-restricted firearm and leave the non-restricted firearm inside, unloaded and out of sight.",
+       "page": 203
+      },
+      {
+       "type": "de",
+       "text": "Ohne Kofferraum: das Fahrzeug oder den betreffenden Teil abschließen, die Waffe entladen und außer Sicht darin lassen."
+      },
+      {
+       "type": "de",
+       "text": "Im abgelegenen Gebiet, etwa Kanu oder Schneemobil, wo sich nichts abschließen lässt: außer Sicht, entladen und mit einer Verschlusseinrichtung unbrauchbar gemacht, es sei denn, die Waffe wird zur Raubwildabwehr gebraucht."
+      },
+      {
+       "type": "en",
+       "text": "If you want to transport firearms on an aircraft, you should first contact the air carrier.",
+       "page": 203
+      },
+      {
+       "type": "de",
+       "text": "Für den Transport im Flugzeug gilt zuerst die Auskunft der Fluggesellschaft."
+      },
+      {
+       "type": "terms",
+       "ids": [
+        "unattended-vehicle",
+        "trunk",
+        "remote-area",
+        "predator-control",
+        "render-inoperable",
+        "percussion-cap",
+        "flintlock"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "m11-handhabung",
+     "titleDe": "Handhabung und Strafen",
+     "titleEn": "Handling and penalties",
+     "source": "S. 205 und S. 206",
+     "blocks": [
+      {
+       "type": "en",
+       "text": "It is recommended that all firearms be carried in a case or opaque container to avoid display in public.",
+       "page": 205
+      },
+      {
+       "type": "de",
+       "text": "In der Öffentlichkeit wird die Waffe in einem Koffer oder undurchsichtigen Behälter getragen. Das gilt schon für den Weg vom Händler nach Hause."
+      },
+      {
+       "type": "img",
+       "src": "assets/carry-case.webp",
+       "captionDe": "Abbildung 85 aus dem Handbuch: abschließbarer Transportkoffer."
+      },
+      {
+       "type": "en",
+       "text": "You may load a firearm or handle a loaded firearm only in a place where it is lawful to discharge it.",
+       "page": 205
+      },
+      {
+       "type": "de",
+       "text": "Geladen und mit geladener Waffe hantiert wird nur dort, wo das Schießen erlaubt ist. An manchen Orten ist schon das Laden oder Hantieren eine Straftat."
+      },
+      {
+       "type": "de",
+       "text": "Die fünfte Review-Frage fragt nach der Strafe für Verstöße gegen die Vorschriften zu Aufbewahrung, Transport und Handhabung."
+      },
+      {
+       "type": "en",
+       "text": "Every person who stores, displays, transports or handles a firearm in a manner contrary to the Storage, Display, Transportation and Handling of Firearms by Individuals Regulations may, lose their firearm, lose their licence, be prohibited from possessing firearms for a period of time.",
+       "page": 204
+      },
+      {
+       "type": "de",
+       "text": "Möglich sind der Verlust der Waffe, der Verlust der Erlaubnis und ein zeitweises Besitzverbot. Dazu die Strafe selbst: als schwerere Straftat bis zu zwei Jahre Haft beim ersten Mal und bis zu fünf Jahre im Wiederholungsfall, oder im abgekürzten Verfahren 5.000 Dollar Geldstrafe und bis zu sechs Monate."
+      },
+      {
+       "type": "terms",
+       "ids": [
+        "carrying-case",
+        "opaque",
+        "indictable-offence",
+        "summary-conviction",
+        "firearm-licence"
        ]
       }
      ]

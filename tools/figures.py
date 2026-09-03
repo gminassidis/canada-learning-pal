@@ -117,6 +117,15 @@ FIGURES = [
     ("sight-shotgun",   "image", 174, "p0174-01.png"),
     ("master-eye",      "image", 175, "p0175-02.png"),
     ("breathing",       "image", 176, "p0176-01.jpeg"),
+    # Modul 9 bis 11
+    ("clean-breech",    "image", 184, "p0184-01.png"),
+    ("clean-rifle",     "image", 185, "p0185-01.png"),
+    ("store-safe",      "image", 199, "p0199-02.png"),
+    ("store-cabinet",   "image", 200, "p0200-01.jpeg"),
+    ("store-case",      "image", 200, "p0200-02.png"),
+    ("store-locks",     "image", 201, "p0201-01.png"),
+    ("display-rules",   "image", 202, "p0202-01.png"),
+    ("carry-case",      "image", 205, "p0205-02.jpeg"),
 ]
 
 

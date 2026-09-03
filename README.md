@@ -6,6 +6,22 @@ englischen Original, weil Kurs und Prüfung auf Englisch laufen.
 
 Nur für den privaten Gebrauch.
 
+## Stand
+
+Alle elf Module des CFSC-Teils sind erfasst, Seite 18 bis 214 des Handbuchs.
+
+| | |
+|---|---:|
+| Module | 11, dazu die Einführung |
+| Lerneinheiten | 52, plus 12 Auftaktseiten |
+| Übungsfragen | 149, jede mit Seitenzahl |
+| Vokabeln | 299 |
+| Abbildungen aus dem Handbuch | 94 |
+| Englische Zitate | 223, alle im Handbuch belegt |
+
+Der Restricted-Teil, also die Module 12 bis 17, ist bewusst nicht enthalten.
+Er gehört zum CRFSC, einem eigenen Kurs.
+
 ## Aufbau
 
     content/     Inhalte als JSON, getrennt von der Darstellung
@@ -13,30 +29,47 @@ Nur für den privaten Gebrauch.
       questions.json  Fragenpool, jede Frage mit Fundstelle im Handbuch
       vocab.json      Vokabeln in drei Kategorien
     assets/      Abbildungen, aus dem Handbuch extrahiert
+    docs/        Das Handbuch als PDF
     src/         App (HTML, CSS, JS), unkompiliert
     tools/
       extract.py   PDF nach Text und Bildern zerlegen
-      build.py     alles zu einer einzigen Datei bündeln
+      figures.py   einzelne Abbildungen nach assets/ holen
+      locate.py    jedes englische Zitat im PDF wiederfinden
+      build.py     prüfen und alles zu einer Datei bündeln
+      shot.py      die fertige App im Browser durchklicken
+    index.html   fertige App für GitHub Pages
     dist/
-      lernen.html  fertige App, eine Datei, läuft offline
-    src-pdf/     Quell-PDFs (nicht im Repo, siehe .gitignore)
+      lernen.html  dieselbe Datei zum Verschicken
 
 ## Bauen
 
     python3 tools/build.py
 
-Ergebnis ist `dist/lernen.html`, eine einzelne Datei mit eingebetteten Bildern.
-Lässt sich per Mail verschicken, auf dem Handy öffnen und funktioniert ohne Netz.
+Ergebnis ist `index.html` und `dist/lernen.html`, eine einzelne Datei mit
+eingebetteten Schriften und Bildern. Läuft offline auf dem Handy.
 
-## Inhaltliche Regeln
+`tools/build.py` prüft vorher den Inhalt und bricht bei Problemen ab: zeigt jeder
+Begriffsverweis auf einen vorhandenen Begriff, hat jede Multiple-Choice-Frage genau
+eine richtige Antwort, trägt jede Frage eine Fundstelle, fehlt eine Abbildung.
 
-1. **Keine Frage ohne Fundstelle.** Jedes Item in `questions.json` trägt ein Feld
-   `source` mit der Seite im RCMP Student Handbook. Was nicht belegbar ist, kommt raus.
-2. **Uebungsfragen, keine echten Prüfungsfragen.** Der echte Fragenpool ist nicht
-   öffentlich. Die Items hier sind aus den prüfbaren Aussagen des Handbuchs abgeleitet.
-3. **Englisch ist das Original.** Deutsche Texte sind Erklärung, nicht Ersatz.
-   Englische Passagen stehen wörtlich da und sind immer gleich ausgezeichnet.
-4. **Vokabeln nur Englisch nach Deutsch.** Er muss wiedererkennen, nicht produzieren.
+`tools/locate.py` sucht jedes englische Zitat im PDF-Text und trägt die gefundene
+Seite ein. Das verlinkt die Zitate seitengenau ins Handbuch und prüft nebenbei, ob
+wirklich wörtlich zitiert wurde. Zwei Paraphrasen sind so aufgefallen und wurden
+korrigiert.
+
+## Die drei Bereiche
+
+**Lernen.** Elf Module, jedes mit Auftaktseite. In den Einheiten wechseln englische
+Originalsätze und deutsche Erklärung ab. Jedes Zitat verweist seitengenau ins PDF.
+Eine Leiste oben zeigt, wo man steht und wo das nächste Modul anfängt.
+
+**Fragen.** Zwei Modi. Beim Üben werden 20 Fragen aus dem gewählten Bereich
+gestellt, mit deutscher Hilfe auf Knopfdruck und sofortiger Begründung. Die
+Prüfungssimulation stellt 50 Fragen aus allen Modulen, ohne deutsche Hilfe und ohne
+Zwischenergebnis, mit Auswertung und Fehlerdurchsicht am Ende.
+
+**Vokabeln.** Liste mit Suche, oder Karten im Leitner-Verfahren. Die Intervalle sind
+auf wenige Tage getrimmt: 10 Minuten, 1 Stunde, 4 Stunden, 1 Tag, 2 Tage.
 
 ## Quelle und Nutzung
 

@@ -186,6 +186,12 @@ function renderLearnIndex() {
   }
 
   var h = '<h2>Lernen</h2>';
+  var last = state.lastUnit && findUnit(state.lastUnit);
+  if (last) {
+    h += '<button class="primary resume" data-unit="' + esc(last.u.id) + '">'
+       + 'Weiterlernen<br><span class="sub">' + esc(last.ch.titleDe.split(':')[0])
+       + ' · ' + esc(last.u.kind === 'intro' ? 'Auftakt' : last.u.titleDe) + '</span></button>';
+  }
   UNITS.forEach(function (ch) {
     h += '<h3>' + esc(ch.titleDe) + '</h3>';
     if (ch.titleEn) h += '<p><span class="en-inline">' + esc(ch.titleEn) + '</span></p>';
@@ -232,7 +238,7 @@ function renderUnit(id) {
   var f = findUnit(id);
   if (!f) return;
   var u = f.u;
-  state.seen[id] = Date.now(); save();
+  state.seen[id] = Date.now(); state.lastUnit = id; save();
 
   el('learn-index').hidden = true;
   el('learn-about').hidden = true;
@@ -240,6 +246,7 @@ function renderUnit(id) {
   box.hidden = false;
 
   if (u.kind === 'intro') {
+    state.seen[id] = Date.now(); state.lastUnit = id; save();
     renderIntro(f, box);
     return;
   }
@@ -352,6 +359,7 @@ function nextPrev(f) {
 /* ---------------- Fragen ---------------- */
 
 var ROUND = 20;
+var EXAM = 50;   // Länge der Prüfungssimulation
 var quizScope = 'all';
 var session = null;
 
@@ -399,13 +407,20 @@ function renderQuizStart() {
     ? '<h3>Letzte Runden</h3><div class="runs">' + runs.map(function (r) {
         var pct = Math.round(r.correct / r.total * 100);
         return '<div class="run"><span class="pct ' + (pct >= 80 ? 'pass' : 'fail') + '">'
-          + pct + '%</span><span class="mono">' + r.correct + ' von ' + r.total + ' richtig</span></div>';
+          + pct + '%</span><span class="mono">' + r.correct + ' von ' + r.total + ' richtig'
+          + (r.mode === 'pruefung' ? ' · Simulation' : '') + '</span></div>';
       }).join('') + '</div>'
     : '';
 
   el('quiz-go').disabled = scopedQuestions().length === 0;
+  el('quiz-exam').disabled = QUESTIONS.length < 10;
 }
-el('quiz-go').addEventListener('click', startQuiz);
+el('quiz-go').addEventListener('click', function () { startQuiz('uebung'); });
+el('quiz-exam').addEventListener('click', function () {
+  if (window.confirm('Prüfung simulieren: ' + Math.min(EXAM, QUESTIONS.length)
+      + ' Fragen aus allen Modulen, ohne deutsche Hilfe und ohne Zwischenergebnis. '
+      + 'Die Auswertung kommt am Ende. Starten?')) startQuiz('pruefung');
+});
 
 function normalize(q) {
   if (q.type === 'tf') {
@@ -424,10 +439,13 @@ function normalize(q) {
   };
 }
 
-function startQuiz() {
-  var pool = shuffle(scopedQuestions()).slice(0, ROUND);
+function startQuiz(mode) {
+  mode = mode || (session && session.mode) || 'uebung';
+  var src = mode === 'pruefung' ? QUESTIONS : scopedQuestions();
+  var pool = shuffle(src).slice(0, mode === 'pruefung' ? EXAM : ROUND);
   if (!pool.length) return;
-  session = { items: pool.map(normalize), i: 0, correct: 0, help: false };
+  session = { items: pool.map(normalize), i: 0, correct: 0,
+              help: false, mode: mode, wrong: [] };
   el('quiz-start').hidden = true;
   el('quiz-done').hidden = true;
   el('quiz-run').hidden = false;
@@ -441,24 +459,28 @@ function renderQuestion() {
   var h = '<div class="progress"><i style="width:' + pct + '%"></i></div>';
   h += '<p class="mono" style="margin:11px 0 15px">Frage ' + (s.i + 1) + ' / ' + s.items.length + '</p>';
   h += '<div class="card"><p class="en">' + esc(it.stemEn) + '</p>';
-  if (s.help && it.stemDe) h += '<p class="v-de">' + esc(it.stemDe) + '</p>';
+  if (s.help && s.mode !== 'pruefung' && it.stemDe) h += '<p class="v-de">' + esc(it.stemDe) + '</p>';
   h += '</div>';
 
   h += '<div id="opts">';
   it.options.forEach(function (o, i) {
     h += '<button class="opt" data-i="' + i + '">'
        + '<span class="opt-en">' + esc(o.en) + '</span>'
-       + (s.help && o.de ? '<span class="opt-de">' + esc(o.de) + '</span>' : '')
+       + (s.help && s.mode !== 'pruefung' && o.de ? '<span class="opt-de">' + esc(o.de) + '</span>' : '')
        + '</button>';
   });
   h += '</div>';
-  h += '<div class="btn-row"><button class="ghost small" id="help">'
-     + (s.help ? 'Deutsch ausblenden' : 'Deutsch einblenden') + '</button>'
-     + '<button class="ghost small" id="say" data-say="' + esc(it.stemEn) + '">' + SPK + ' Vorlesen</button></div>';
+  h += '<div class="btn-row">';
+  if (s.mode !== 'pruefung') {
+    h += '<button class="ghost small" id="help">'
+       + (s.help ? 'Deutsch ausblenden' : 'Deutsch einblenden') + '</button>';
+  }
+  h += '<button class="ghost small" id="say" data-say="' + esc(it.stemEn) + '">'
+     + SPK + ' Vorlesen</button></div>';
   h += '<div id="feedback"></div>';
 
   el('quiz-run').innerHTML = h;
-  el('help').addEventListener('click', function () { s.help = !s.help; renderQuestion(); });
+  if (el('help')) el('help').addEventListener('click', function () { s.help = !s.help; renderQuestion(); });
   wireSpeak(el('quiz-run'));
   el('quiz-run').querySelectorAll('.opt').forEach(function (b) {
     b.addEventListener('click', function () { answer(parseInt(b.dataset.i, 10)); });
@@ -469,6 +491,17 @@ function answer(idx) {
   var s = session, it = s.items[s.i];
   var picked = it.options[idx];
   var right = !!picked.correct;
+
+  if (s.mode === 'pruefung') {
+    if (right) { s.correct++; delete state.wrong[it.q.id]; }
+    else { state.wrong[it.q.id] = Date.now(); s.wrong.push({ it: it, picked: idx }); }
+    save();
+    s.i++;
+    if (s.i < s.items.length) { renderQuestion(); window.scrollTo(0, 0); }
+    else finishQuiz();
+    return;
+  }
+
   if (right) s.correct++; 
   if (right) delete state.wrong[it.q.id]; else state.wrong[it.q.id] = Date.now();
   save();
@@ -499,7 +532,8 @@ function finishQuiz() {
   var pct = Math.round(s.correct / s.items.length * 100);
   var pass = pct >= 80;
   state.quiz.runs = (state.quiz.runs || []).concat([
-    { t: Date.now(), correct: s.correct, total: s.items.length, scope: quizScope }
+    { t: Date.now(), correct: s.correct, total: s.items.length,
+      scope: quizScope, mode: s.mode }
   ]).slice(-30);
   save();
 
@@ -518,15 +552,28 @@ function finishQuiz() {
     + (pass ? 'Das reicht.' : 'Zum Bestehen fehlen dir '
         + (Math.ceil(s.items.length * 0.8) - s.correct) + '.') + '</p>'
     + '<div class="btn-row">'
-    +   '<button class="primary" id="again">Neue Runde</button>'
-    +   '<button class="ghost" id="back2">Übersicht</button></div>';
+    +   '<button class="primary" id="again">'
+    +     (s.mode === 'pruefung' ? 'Nochmal simulieren' : 'Neue Runde') + '</button>'
+    +   '<button class="ghost" id="back2">Übersicht</button></div>'
+    + (s.mode === 'pruefung' && s.wrong.length
+        ? '<h3>Deine Fehler</h3>' + s.wrong.map(function (w) {
+            var ok = w.it.options.filter(function (o) { return o.correct; })[0] || {};
+            return '<div class="card"><p class="en">' + esc(w.it.stemEn) + '</p>'
+              + '<p class="v-de">' + esc(w.it.stemDe || '') + '</p>'
+              + '<div class="why no"><b>Deine Antwort.</b> ' + esc(w.it.options[w.picked].de) + '</div>'
+              + '<div class="why ok"><b>Richtig.</b> ' + esc(ok.de || '')
+              + '<br>' + esc(ok.whyDe || '')
+              + (w.it.source ? '<div class="src">Handbuch ' + esc(w.it.source) + '</div>' : '')
+              + '</div></div>';
+          }).join('')
+        : '');
 
   var m = box.querySelector('.meter');
   requestAnimationFrame(function () {
     requestAnimationFrame(function () { m.style.setProperty('--v', pct); });
   });
 
-  el('again').addEventListener('click', startQuiz);
+  el('again').addEventListener('click', function () { startQuiz(s.mode); });
   el('back2').addEventListener('click', renderQuizStart);
 }
 
@@ -541,12 +588,19 @@ var CATS = [
   { k: 'praxis',   l: 'Praxiskommandos' }
 ];
 var vocabCat = 'all';
+var vocabQuery = '';
 var vocabMode = 'list';
 var card = null, cardShown = false;
 
 function scopedVocab() {
-  return vocabCat === 'all' ? VOCAB.slice()
+  var list = vocabCat === 'all' ? VOCAB.slice()
     : VOCAB.filter(function (t) { return t.cat === vocabCat; });
+  var q = vocabQuery.trim().toLowerCase();
+  if (!q) return list;
+  return list.filter(function (t) {
+    return (t.en + ' ' + t.de + ' ' + (t.explDe || '') + ' ' + (t.sub || ''))
+             .toLowerCase().indexOf(q) >= 0;
+  });
 }
 
 function dueCards() {
@@ -578,6 +632,10 @@ function renderVocab() {
     b.addEventListener('click', function () { vocabMode = b.dataset.m; renderVocab(); });
   });
 
+  var sf = el('vocab-search');
+  sf.hidden = vocabMode !== 'list';
+  if (sf.value !== vocabQuery) sf.value = vocabQuery;
+
   if (vocabMode === 'list') { el('vocab-cards').hidden = true; renderVocabList(); }
   else { el('vocab-list').hidden = true; renderCard(); }
 }
@@ -586,7 +644,12 @@ function renderVocabList() {
   var box = el('vocab-list');
   box.hidden = false;
   var list = scopedVocab();
-  if (!list.length) { box.innerHTML = '<p class="empty">Noch keine Vokabeln.</p>'; return; }
+  if (!list.length) {
+    box.innerHTML = '<p class="empty">'
+      + (vocabQuery ? 'Nichts gefunden zu „' + esc(vocabQuery) + '“.' : 'Noch keine Vokabeln.')
+      + '</p>';
+    return;
+  }
 
   /* nach Untergruppe bündeln, Reihenfolge wie in der Datei */
   var order = [], groups = {};
@@ -603,6 +666,7 @@ function renderVocabList() {
             + '<div><span class="v-en">' + esc(t.en) + '</span><br>'
             + '<span class="v-de">' + esc(t.de) + '</span>'
             + (t.explDe ? '<span class="v-x">' + esc(t.explDe) + '</span>' : '')
+            + (t.defEn ? '<span class="v-def">' + esc(t.defEn) + '</span>' : '')
             + '</div></li>';
         }).join('') + '</ul>';
   }).join('');
@@ -640,6 +704,7 @@ function renderCard() {
   if (cardShown) {
     h += '<div class="de">' + esc(card.de) + '</div>';
     if (card.explDe) h += '<div class="expl">' + esc(card.explDe) + '</div>';
+    if (card.defEn) h += '<div class="defen">' + esc(card.defEn) + '</div>';
     if (card.source) h += '<div class="src">Handbuch ' + esc(card.source) + '</div>';
   }
   h += '</div>';
@@ -675,6 +740,11 @@ function grade(g) {
 }
 
 /* ---------------- Start ---------------- */
+
+el('vocab-search').addEventListener('input', function () {
+  vocabQuery = this.value;
+  renderVocabList();
+});
 
 el('sound-test').addEventListener('click', function () {
   var r = Speech.report(), box = el('sound-report');

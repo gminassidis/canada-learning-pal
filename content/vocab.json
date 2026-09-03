@@ -1,6 +1,6 @@
 {
  "_schema": "Vokabeln, Richtung immer Englisch nach Deutsch. cat: fach | pruefung | praxis. verify=true heisst: Wortlaut noch gegen das Handbuch prüfen.",
- "_status": "Pruefungssprache, ACTS und PROVE, Standkommandos und die Fachbegriffe aus Einfuehrung und Modul 1 bis 8. Module 9 bis 11 folgen.",
+ "_status": "Pruefungssprache, ACTS und PROVE, Standkommandos und die Fachbegriffe aus allen elf Modulen. Wo das Glossar des Handbuchs eine Definition hat, steht sie im englischen Original dabei.",
  "terms": [
   {
    "id": "which-of-the-following",
@@ -774,7 +774,8 @@
    "cat": "fach",
    "sub": "Waffe und Teile",
    "explDe": "Vorderes Ende des Laufs, dort tritt das Geschoss aus. Das C in ACTS dreht sich darum.",
-   "source": "S. 21"
+   "source": "S. 21",
+   "defEn": "The opening at the end of the barrel from which the bullet or shot emerges."
   },
   {
    "id": "trigger",
@@ -783,7 +784,8 @@
    "cat": "fach",
    "sub": "Waffe und Teile",
    "explDe": "Der Hebel, der den Schuss auslöst.",
-   "source": "S. 21"
+   "source": "S. 21",
+   "defEn": "The part of the firearm mechanism that releases the part of the action that fires the cartridge."
   },
   {
    "id": "trigger-guard",
@@ -792,7 +794,8 @@
    "cat": "fach",
    "sub": "Waffe und Teile",
    "explDe": "Der Bügel um den Abzug. Der Finger bleibt auch da draußen, nicht nur vom Abzug weg.",
-   "source": "S. 21"
+   "source": "S. 21",
+   "defEn": "The metal loop around the trigger made to protect it and prevent accidentally touching the trigger."
   },
   {
    "id": "chamber",
@@ -810,7 +813,8 @@
    "cat": "fach",
    "sub": "Waffe und Teile",
    "explDe": "Behälter für die Patronen. Muss beim Prüfen genauso leer sein wie das Patronenlager.",
-   "source": "S. 21"
+   "source": "S. 21",
+   "defEn": "See cartridge magazine."
   },
   {
    "id": "bore",
@@ -819,7 +823,8 @@
    "cat": "fach",
    "sub": "Waffe und Teile",
    "explDe": "Das Innere des Laufs. Das E in PROVE.",
-   "source": "S. 22"
+   "source": "S. 22",
+   "defEn": "The inside of the barrel of a firearm excluding the chamber. The channel through which the bullet or other projectile is fired from the gun."
   },
   {
    "id": "obstruction",
@@ -837,7 +842,8 @@
    "cat": "fach",
    "sub": "Waffe und Teile",
    "explDe": "Der Weg, auf dem eine Patrone vom Magazin ins Patronenlager gelangt. Das V in PROVE.",
-   "source": "S. 22"
+   "source": "S. 22",
+   "defEn": "The path a cartridge follows within an action."
   },
   {
    "id": "action",
@@ -846,7 +852,8 @@
    "cat": "fach",
    "sub": "Waffe und Teile",
    "explDe": "Enthält die Teile, die die Patrone zuführen, den Schuss auslösen und die Hülse auswerfen. Abzug, Sicherung und Magazin gehören alle dazu.",
-   "source": "S. 49"
+   "source": "S. 49",
+   "defEn": "The moving parts of a firearm that load, fire, extract and eject ammunition."
   },
   {
    "id": "safety",
@@ -855,7 +862,8 @@
    "cat": "fach",
    "sub": "Waffe und Teile",
    "explDe": "Mechanische Sicherung an der Waffe. Auf sie darf man sich nie verlassen.",
-   "source": "S. 60"
+   "source": "S. 60",
+   "defEn": "A device that blocks the firing mechanism of a firearm."
   },
   {
    "id": "ammunition",
@@ -873,7 +881,8 @@
    "cat": "fach",
    "sub": "Munition und Schuss",
    "explDe": "Größenangabe von Waffe und Patrone. Unterschiedliche Kaliber nie mischen.",
-   "source": "S. 62"
+   "source": "S. 62",
+   "defEn": "A measurement in metric or imperial units to describe the inside diameter of the barrel of a rifled firearm. Calibre is also used to describe the diameter of a projectile in a cartridge."
   },
   {
    "id": "discharge",
@@ -927,7 +936,8 @@
    "cat": "fach",
    "sub": "Munition und Schuss",
    "explDe": "Ein Geschoss, das von einer harten Fläche oder von Wasser abprallt.",
-   "source": "S. 61"
+   "source": "S. 61",
+   "defEn": "The redirection of a projectile after impact, usually with a hard surface. For example, a bullet bouncing off a rock."
   },
   {
    "id": "field-of-fire",
@@ -1089,7 +1099,8 @@
    "cat": "fach",
    "sub": "Waffe und Teile",
    "explDe": "Rohr, meist aus Metall. Darin läuft das Geschoss beim Schuss nach vorn.",
-   "source": "S. 48"
+   "source": "S. 48",
+   "defEn": "The metal tube of a firearm. The bullet, shot or projectile accelerates down it when the firearm is fired."
   },
   {
    "id": "data-stamp",
@@ -1107,7 +1118,8 @@
    "cat": "fach",
    "sub": "Waffe und Teile",
    "explDe": "Der Griffteil, meist Holz oder Kunststoff. Er führt den Finger beim Aufnehmen automatisch zum Abzug, deshalb ist das T in ACTS so wichtig.",
-   "source": "S. 50"
+   "source": "S. 50",
+   "defEn": "The part of a rifle or shotgun used in holding the firearm"
   },
   {
    "id": "firing-pin",
@@ -1116,7 +1128,8 @@
    "cat": "fach",
    "sub": "Waffe und Teile",
    "explDe": "Trifft das Zündhütchen und löst damit den Schuss aus.",
-   "source": "S. 51"
+   "source": "S. 51",
+   "defEn": "The part of the breech mechanism that strikes the primer of the cartridge."
   },
   {
    "id": "hammer",
@@ -1125,7 +1138,8 @@
    "cat": "fach",
    "sub": "Waffe und Teile",
    "explDe": "Schlägt auf Schlagbolzen oder Zündhütchen.",
-   "source": "S. 51"
+   "source": "S. 51",
+   "defEn": "The part of the action that drives the firing pin forward."
   },
   {
    "id": "to-eject",
@@ -1152,7 +1166,8 @@
    "cat": "fach",
    "sub": "Verschlussarten",
    "explDe": "Wird über einen Kammerstängel von Hand geöffnet und geschlossen.",
-   "source": "S. 52"
+   "source": "S. 52",
+   "defEn": "A repeating firearm that has a magazine and in which the breech bolt or closure device operates in line with the bore; manually operated by a permanent projection or handle attached to the bolt or closure device."
   },
   {
    "id": "lever-action",
@@ -1197,7 +1212,8 @@
    "cat": "fach",
    "sub": "Verschlussarten",
    "explDe": "Eine der beiden häufigen nicht beschränkten Bauarten. Verschießt meist Schrot.",
-   "source": "S. 52"
+   "source": "S. 52",
+   "defEn": "A shoulder firearm with a smooth bore designed to fire multiple pellets called shot, or a single projectile called a slug."
   },
   {
    "id": "rifle",
@@ -1206,7 +1222,8 @@
    "cat": "fach",
    "sub": "Verschlussarten",
    "explDe": "Die andere häufige nicht beschränkte Bauart. Gezogener Lauf, ein Geschoss.",
-   "source": "S. 52"
+   "source": "S. 52",
+   "defEn": "A shoulder firearm with a rifled bore. Designed to fire one projectile at a time. See also rifling."
   },
   {
    "id": "long-gun",
@@ -1215,7 +1232,8 @@
    "cat": "fach",
    "sub": "Verschlussarten",
    "explDe": "Sammelbegriff für Flinte und Büchse, also die nicht beschränkten Waffen.",
-   "source": "S. 52"
+   "source": "S. 52",
+   "defEn": "Generic term used to describe rifles and shotguns."
   },
   {
    "id": "restricted",
@@ -1242,7 +1260,8 @@
    "cat": "fach",
    "sub": "Recht und Erlaubnis",
    "explDe": "Viele fallen wegen ihrer Leistung unter das Waffengesetz. ACTS und PROVE gelten auch für sie.",
-   "source": "S. 54"
+   "source": "S. 54",
+   "defEn": "A firearm that uses compressed air or carbon dioxide to propel a projectile."
   },
   {
    "id": "muzzleloader",
@@ -1251,7 +1270,8 @@
    "cat": "fach",
    "sub": "Munition und Schuss",
    "explDe": "Wird vorn durch die Mündung geladen. Ein Schuss je Lauf.",
-   "source": "S. 33"
+   "source": "S. 33",
+   "defEn": "A firearm that is loaded through the muzzle."
   },
   {
    "id": "breechloader",
@@ -1260,7 +1280,8 @@
    "cat": "fach",
    "sub": "Munition und Schuss",
    "explDe": "Wird hinten geladen. Frühe Versuche scheiterten, weil Gas nach hinten entwich.",
-   "source": "S. 33"
+   "source": "S. 33",
+   "defEn": "A firearm loaded through the breech."
   },
   {
    "id": "cartridge",
@@ -1269,7 +1290,8 @@
    "cat": "fach",
    "sub": "Munition und Schuss",
    "explDe": "Geschoss, Pulverladung und Zündhütchen in einer Einheit.",
-   "source": "S. 33"
+   "source": "S. 33",
+   "defEn": "A complete unit of ammunition consisting of a case, primer, powder and a projectile. Modern cartridges are generally classified into two categories: centre-fire and rim-fire. See also shell."
   },
   {
    "id": "shell",
@@ -1278,7 +1300,8 @@
    "cat": "fach",
    "sub": "Munition und Schuss",
    "explDe": "Die Patrone der Flinte. Enthält zusätzlich einen Pfropfen.",
-   "source": "S. 33"
+   "source": "S. 33",
+   "defEn": "A complete unit of ammunition consisting of a hull, primer, powder, wad and projectile(s) for use in shotguns."
   },
   {
    "id": "primer",
@@ -1287,7 +1310,8 @@
    "cat": "fach",
    "sub": "Munition und Schuss",
    "explDe": "Wird vom Schlagbolzen getroffen und entzündet die Pulverladung.",
-   "source": "S. 33"
+   "source": "S. 33",
+   "defEn": "The overall term for the priming compound, cup and anvil which, when struck, ignites the powder charge."
   },
   {
    "id": "powder-charge",
@@ -1296,7 +1320,8 @@
    "cat": "fach",
    "sub": "Munition und Schuss",
    "explDe": "Das Treibmittel. Verbrennt und erzeugt das Gas, das treibt.",
-   "source": "S. 33"
+   "source": "S. 33",
+   "defEn": "The amount of powder by weight in the case of smokeless powder, and by volume, in the case of black powder."
   },
   {
    "id": "projectile",
@@ -1305,7 +1330,8 @@
    "cat": "fach",
    "sub": "Munition und Schuss",
    "explDe": "Was den Lauf verlässt. Bei der Büchse ein Geschoss, bei der Flinte oft Schrot.",
-   "source": "S. 33"
+   "source": "S. 33",
+   "defEn": "A bullet or shot in flight after firing from a firearm."
   },
   {
    "id": "wad",
@@ -1314,7 +1340,8 @@
    "cat": "fach",
    "sub": "Munition und Schuss",
    "explDe": "Trennt in der Schrotpatrone das Pulver von den Schroten.",
-   "source": "S. 33"
+   "source": "S. 33",
+   "defEn": "A paper fibre or plastic disc used to separate the powder charge from the shot or slug, to seal propellant gases behind the charge, and to hold the shot together in the barrel."
   },
   {
    "id": "casing",
@@ -1341,7 +1368,8 @@
    "cat": "fach",
    "sub": "Munition und Schuss",
    "explDe": "Früheste tragbare Bauart, 1400er. Versagte bei Wind und Regen.",
-   "source": "S. 32"
+   "source": "S. 32",
+   "defEn": "A firearm action that uses a serpentine or S-shaped piece of metal to hold a smouldering match. The burning match contacts the priming powder in the pan to ignite the charge."
   },
   {
    "id": "wheel-lock",
@@ -1350,7 +1378,8 @@
    "cat": "fach",
    "sub": "Munition und Schuss",
    "explDe": "1600er, arbeitet wie ein Feuerzeug. Teuer und störanfällig.",
-   "source": "S. 32"
+   "source": "S. 32",
+   "defEn": "An early firearm mechanism. A wheel with serrated edges is spun against a piece of iron pyrite. This sends sparks into the pan to ignite the charge."
   },
   {
    "id": "flintlock",
@@ -1359,7 +1388,8 @@
    "cat": "fach",
    "sub": "Munition und Schuss",
    "explDe": "1600er, erzeugt den Funken durch Feuerstein auf Stahl. Zuverlässiger als die beiden davor.",
-   "source": "S. 32"
+   "source": "S. 32",
+   "defEn": "The gunlock of early firearms in which flint is struck against steel. This causes sparks to ignite the powder charge."
   },
   {
    "id": "percussion-cap",
@@ -1368,7 +1398,8 @@
    "cat": "fach",
    "sub": "Munition und Schuss",
    "explDe": "1800er, kleines Metallkäppchen, das beim Schlag explodiert.",
-   "source": "S. 32"
+   "source": "S. 32",
+   "defEn": "A small metal explosive filled cup that is placed over the nipple of a percussion firearm."
   },
   {
    "id": "black-powder",
@@ -1377,7 +1408,8 @@
    "cat": "fach",
    "sub": "Vorderlader",
    "explDe": "Gilt als Explosivstoff. Entzündet sich durch Hitze, Reibung, statische Elektrizität oder Schlag.",
-   "source": "S. 38"
+   "source": "S. 38",
+   "defEn": "A finely ground powder, mainly used in muzzleloaders and antique cartridge firearms. The basic ingredients are saltpetre (potassium nitrate), charcoal (carbon) and sulphur."
   },
   {
    "id": "smokeless-powder",
@@ -1386,7 +1418,8 @@
    "cat": "fach",
    "sub": "Vorderlader",
    "explDe": "Modernes Pulver. Gehört NIE in einen Vorderlader.",
-   "source": "S. 42"
+   "source": "S. 42",
+   "defEn": "Propellant powder used in modern firearms."
   },
   {
    "id": "ramrod",
@@ -1395,7 +1428,8 @@
    "cat": "fach",
    "sub": "Vorderlader",
    "explDe": "Stab zum Setzen der Ladung. Markiert zeigt er, ob der Lauf leer oder geladen ist.",
-   "source": "S. 39"
+   "source": "S. 39",
+   "defEn": "A wood or metal rod used to push the patch and bullet down the barrel of a muzzleloader. range: a). The distance travelled by a projectile from firearm to target. b). A projectile's maximum travelling distance. c). An area or facility designed for the safe shooting of firearms."
   },
   {
    "id": "powder-measure",
@@ -1431,7 +1465,8 @@
    "cat": "fach",
    "sub": "Vorderlader",
    "explDe": "Hahn ganz gespannt, die Waffe ist schussbereit.",
-   "source": "S. 39"
+   "source": "S. 39",
+   "defEn": "The position of the hammer or striker when the firearm is ready to fire."
   },
   {
    "id": "nipple",
@@ -1449,7 +1484,8 @@
    "cat": "fach",
    "sub": "Störungen",
    "explDe": "Verzögerte Zündung. Der Schlagbolzen trifft das Zündhütchen, aber die Flamme reicht nicht, um das Pulver sofort zu entzünden. Mindestens 60 Sekunden warten, Mündung in sicherer Richtung.",
-   "source": "S. 92"
+   "source": "S. 92",
+   "defEn": "A malfunction causing a delay in firing a cartridge after the firing pin has struck the primer."
   },
   {
    "id": "misfire",
@@ -1458,7 +1494,8 @@
    "cat": "fach",
    "sub": "Störungen",
    "explDe": "Die Patrone zündet nicht. Nicht wiederverwenden, sondern fachgerecht entsorgen. Behandelt wird sie wie ein Nachzünder: 60 Sekunden warten.",
-   "source": "S. 92"
+   "source": "S. 92",
+   "defEn": "The failure of a cartridge to fire after the firing pin has struck the primer. Do not confuse with hangfire, which is a delay in firing."
   },
   {
    "id": "gunsmith",
@@ -1494,7 +1531,8 @@
    "cat": "fach",
    "sub": "Lauf und Kaliber",
    "explDe": "Die spiralig verlaufenden Rillen im Lauf. Sie versetzen das Geschoss in Drehung und machen es dadurch treffsicher.",
-   "source": "S. 64"
+   "source": "S. 64",
+   "defEn": "Spiral grooves inside the barrel. Rifling causes the bullet to spin, increasing its accuracy and range. The depressed portions of the rifling are called grooves and the raised portions are called lands."
   },
   {
    "id": "grooves",
@@ -1530,7 +1568,8 @@
    "cat": "fach",
    "sub": "Lauf und Kaliber",
    "explDe": "Lauf ohne Züge. Bei Flinten die Regel.",
-   "source": "S. 77"
+   "source": "S. 77",
+   "defEn": "A firearm with a bore that is not rifled, such as a shotgun."
   },
   {
    "id": "gauge",
@@ -1539,7 +1578,8 @@
    "cat": "fach",
    "sub": "Lauf und Kaliber",
    "explDe": "Flinten werden nicht in Kaliber, sondern in gauge gemessen. Die Zahl sagt, wie viele Bleikugeln vom Durchmesser des Laufs zusammen ein Pfund wiegen. Je größer die Zahl, desto kleiner der Lauf. Ausnahme ist die .410, die als Kaliber angegeben wird.",
-   "source": "S. 75"
+   "source": "S. 75",
+   "defEn": "The measurement of the diameter of a shotgun bore."
   },
   {
    "id": "dry-firing",
@@ -1548,7 +1588,8 @@
    "cat": "fach",
    "sub": "Lauf und Kaliber",
    "explDe": "Den Schuss auslösen, ohne dass eine Patrone im Lager ist. Kann die Waffe beschädigen.",
-   "source": "S. 71"
+   "source": "S. 71",
+   "defEn": "Firing of an unloaded firearm to practice handling and shooting techniques. This can damage some types of actions, particularly rim-fire."
   },
   {
    "id": "rim-fire",
@@ -1557,7 +1598,8 @@
    "cat": "fach",
    "sub": "Munition und Schuss",
    "explDe": "Der Zündsatz sitzt im Rand des Hülsenbodens. Der Schlagbolzen trifft den Rand. Typisch .22.",
-   "source": "S. 71"
+   "source": "S. 71",
+   "defEn": "A cartridge that has its primer located inside the rim of the case. See also cartridge."
   },
   {
    "id": "centre-fire",
@@ -1566,7 +1608,8 @@
    "cat": "fach",
    "sub": "Munition und Schuss",
    "explDe": "Das Zündhütchen sitzt mittig im Hülsenboden. Für stärkere Waffen. Auch jede Schrotpatrone ist Zentralfeuer.",
-   "source": "S. 71"
+   "source": "S. 71",
+   "defEn": "A cartridge with its primer located in the centre of the base of the case."
   },
   {
    "id": "magnum",
@@ -1593,7 +1636,8 @@
    "cat": "fach",
    "sub": "Flinte und Schrot",
    "explDe": "Die Verengung am vorderen Ende des Flintenlaufs. Sie steuert, wie weit sich die Schrote verteilen, wie die Düse an einem Gartenschlauch.",
-   "source": "S. 77"
+   "source": "S. 77",
+   "defEn": "Narrowing at the muzzle end of a shotgun barrel that determines the shot pattern."
   },
   {
    "id": "full-choke",
@@ -1629,7 +1673,8 @@
    "cat": "fach",
    "sub": "Flinte und Schrot",
    "explDe": "Gar keine Verengung, die offenste Verteilung. Für grobe Schrote und Flintenlaufgeschosse.",
-   "source": "S. 77"
+   "source": "S. 77",
+   "defEn": "A shotgun barrel having the same diameter throughout, i.e. without choke. It is used to fire solid slugs."
   },
   {
    "id": "pattern",
@@ -1638,7 +1683,8 @@
    "cat": "fach",
    "sub": "Flinte und Schrot",
    "explDe": "Das Bild, das die Schrote auf der Scheibe hinterlassen.",
-   "source": "S. 77"
+   "source": "S. 77",
+   "defEn": "Distribution of the shot in a shotgun charge. This is measured at a standard distance of 40 yards and in a 30-inch circle."
   },
   {
    "id": "shot",
@@ -1656,7 +1702,8 @@
    "cat": "fach",
    "sub": "Flinte und Schrot",
    "explDe": "Eine einzelne Kugel der Schrotladung. Kleinere Schrote für kleinere oder nähere Ziele.",
-   "source": "S. 80"
+   "source": "S. 80",
+   "defEn": "Small round projectiles loaded into shotgun shells. Usually referred to as shot. Also a lead projectile used in some air guns."
   },
   {
    "id": "buckshot",
@@ -1665,7 +1712,8 @@
    "cat": "fach",
    "sub": "Flinte und Schrot",
    "explDe": "Besonders grobes Schrot.",
-   "source": "S. 77"
+   "source": "S. 77",
+   "defEn": "Large lead pellets used in shotgun shells."
   },
   {
    "id": "slug",
@@ -1674,7 +1722,8 @@
    "cat": "fach",
    "sub": "Flinte und Schrot",
    "explDe": "Ein einzelnes großes Geschoss aus der Flinte, für großes Wild.",
-   "source": "S. 80"
+   "source": "S. 80",
+   "defEn": "A large single projectile used in shotguns. See also rifled slug."
   },
   {
    "id": "sabot",
@@ -1683,7 +1732,8 @@
    "cat": "fach",
    "sub": "Flinte und Schrot",
    "explDe": "Kunststoffhülle, die ein Geschoss im Lauf führt.",
-   "source": "S. 74"
+   "source": "S. 74",
+   "defEn": "A plastic sleeve that holds a slug that is smaller than the bore diameter of a firearm. It is used mainly in shotguns and muzzleloading firearms."
   },
   {
    "id": "hull",
@@ -1692,7 +1742,8 @@
    "cat": "fach",
    "sub": "Flinte und Schrot",
    "explDe": "Der Körper der Schrotpatrone. Die Längenangabe gilt für die abgeschossene Hülse.",
-   "source": "S. 80"
+   "source": "S. 80",
+   "defEn": "The outer covering or casing of a shotgun shell. No applicable entry."
   },
   {
    "id": "forcing-cone",
@@ -1701,7 +1752,8 @@
    "cat": "fach",
    "sub": "Flinte und Schrot",
    "explDe": "Die Verengung hinter dem Patronenlager. Dort bleibt eine zu kleine Patrone stecken, und genau daraus entsteht der gefährlichste Verwechslungsfehler.",
-   "source": "S. 87"
+   "source": "S. 87",
+   "defEn": "In smooth bore and revolver barrels, a cone that joins the chamber to the bore. It assists the passage of the projectile(s) into the bore. Also called a throat."
   },
   {
    "id": "ballistics",
@@ -1710,7 +1762,8 @@
    "cat": "fach",
    "sub": "Ballistik",
    "explDe": "Die Lehre von Geschossen im Flug.",
-   "source": "S. 89"
+   "source": "S. 89",
+   "defEn": "The study of projectiles in flight and what affects them. This means the barrel, in flight and within the target, including trajectory, force, impact and penetration."
   },
   {
    "id": "trajectory",
@@ -1719,7 +1772,8 @@
    "cat": "fach",
    "sub": "Ballistik",
    "explDe": "Der Weg, den Geschoss oder Schrot im Flug nimmt. Leicht gekrümmt, kreuzt die Visierlinie zweimal.",
-   "source": "S. 91"
+   "source": "S. 91",
+   "defEn": "The path a projectile takes during flight."
   },
   {
    "id": "dangerous-range",
@@ -1728,7 +1782,8 @@
    "cat": "fach",
    "sub": "Ballistik",
    "explDe": "Wie weit ein Geschoss noch gefährlich ist. Flinten über eine Fußballfeldlänge, manche Büchsen über fünf Kilometer.",
-   "source": "S. 89"
+   "source": "S. 89",
+   "defEn": "The maximum distance at which a projectile will travel. See also range."
   },
   {
    "id": "gravity",
@@ -1755,7 +1810,8 @@
    "cat": "fach",
    "sub": "Ballistik",
    "explDe": "Wie schnell das Geschoss in eine Richtung fliegt.",
-   "source": "S. 91"
+   "source": "S. 91",
+   "defEn": "The speed at which a projectile travels in a given direction."
   },
   {
    "id": "mass",
@@ -1773,7 +1829,8 @@
    "cat": "fach",
    "sub": "Ballistik",
    "explDe": "Die gerade Linie vom Auge zum Ziel. Die Flugbahn kreuzt sie zweimal.",
-   "source": "S. 91"
+   "source": "S. 91",
+   "defEn": "An imaginary straight line from the shooter's eye to the target; usually through the sights."
   },
   {
    "id": "effective-range",
@@ -1782,7 +1839,8 @@
    "cat": "fach",
    "sub": "Ballistik",
    "explDe": "Nur auf Ziele innerhalb dieser Entfernung schießen.",
-   "source": "S. 91"
+   "source": "S. 91",
+   "defEn": "The maximum distance for a shooter at which he or she can confidently hit the target. Also refers to the useful range of the projectile(s). See also range."
   },
   {
    "id": "squib-load",
@@ -1791,7 +1849,8 @@
    "cat": "fach",
    "sub": "Störungen",
    "explDe": "In der Patrone fehlt das Pulver. Nur das Zündhütchen geht los, ohne den üblichen Knall und ohne Rückstoß. Das Geschoss kann im Lauf stecken bleiben. Der nächste Schuss sprengt dann womöglich den Lauf.",
-   "source": "S. 92"
+   "source": "S. 92",
+   "defEn": "The sound of only the primer discharging due to no or grossly inadequate charge of powder in the cartridge."
   },
   {
    "id": "to-jam",
@@ -1818,7 +1877,8 @@
    "cat": "fach",
    "sub": "Waffe und Teile",
    "explDe": "Der Gehäuseblock, der den Verschluss aufnimmt. Viele Sicherungen sitzen darauf oder daran.",
-   "source": "S. 103"
+   "source": "S. 103",
+   "defEn": "A firearm's metal frame that generally contains the breech, locking and loading mechanisms. Normally the serial number is on the receiver. Also called the frame."
   },
   {
    "id": "sear",
@@ -1827,7 +1887,8 @@
    "cat": "fach",
    "sub": "Waffe und Teile",
    "explDe": "Teil im Abzugswerk. Die Sicherung blockiert Abzug, Abzugsstollen, Hahn oder Schlagbolzen.",
-   "source": "S. 102"
+   "source": "S. 102",
+   "defEn": "Part of the firing mechanism linked to the trigger. The sear holds the hammer, firing pin or striker in the cocked position until the trigger is squeezed."
   },
   {
    "id": "breech",
@@ -1836,7 +1897,8 @@
    "cat": "fach",
    "sub": "Waffe und Teile",
    "explDe": "Das hintere Ende des Laufs. Von dort aus wird der Lauf auf Verstopfungen geprüft, wann immer das möglich ist.",
-   "source": "S. 110"
+   "source": "S. 110",
+   "defEn": "The rear end of the barrel into which the ammunition is loaded. See also chamber."
   },
   {
    "id": "fore-end",
@@ -1854,7 +1916,8 @@
    "cat": "fach",
    "sub": "Waffe und Teile",
    "explDe": "Der Mechanismus, der den Verschluss zum Öffnen oder Schließen freigibt. Wo er sitzt, hängt von Hersteller und Modell ab.",
-   "source": "S. 107"
+   "source": "S. 107",
+   "defEn": "The part of a firearm that unlatches or opens the action to give access to the chamber."
   },
   {
    "id": "follower",
@@ -1863,7 +1926,8 @@
    "cat": "fach",
    "sub": "Waffe und Teile",
    "explDe": "Das Teil im Magazin, das die Patronen nach oben drückt. Beim Prüfen muss man ihn sehen oder fühlen, dann ist das Magazin sicher leer.",
-   "source": "S. 109"
+   "source": "S. 109",
+   "defEn": "The part of a magazine between the spring and the ammunition. You must be able to see or feel the follower to know the magazine is empty. See also magazine follower."
   },
   {
    "id": "slide-tang-safety",
@@ -1890,7 +1954,8 @@
    "cat": "fach",
    "sub": "Sicherungen",
    "explDe": "Sitzt am Verschluss von Kammerverschlusswaffen und wird seitlich umgelegt.",
-   "source": "S. 104"
+   "source": "S. 104",
+   "defEn": "A device that blocks the firing mechanism of a firearm. No applicable entry. No applicable entry. No applicable entry."
   },
   {
    "id": "trigger-block-safety",
@@ -1908,7 +1973,8 @@
    "cat": "fach",
    "sub": "Sicherungen",
    "explDe": "Mittlere von drei Hahnstellungen. Der Hahn wird bis zum ersten Klick zurückgezogen, weg vom Schlagbolzen. Dann gilt die Sicherung als ON.",
-   "source": "S. 105"
+   "source": "S. 105",
+   "defEn": "A safety feature on some firearms. When the hammer is pulled back half-way, it cannot be fired by squeezing the trigger."
   },
   {
    "id": "cross-bolt-safety",
@@ -1917,7 +1983,8 @@
    "cat": "fach",
    "sub": "Sicherungen",
    "explDe": "Ein Druckknopf quer durch das Gehäuse. Ein sichtbarer roter Ring bedeutet: Sicherung AUS, die Waffe kann schießen.",
-   "source": "S. 106"
+   "source": "S. 106",
+   "defEn": "A device that blocks the firing mechanism of a firearm."
   },
   {
    "id": "magazine-disconnect",
@@ -1944,7 +2011,8 @@
    "cat": "fach",
    "sub": "Verschlussarten",
    "explDe": "Nimmt nur eine Patrone auf, die nach jedem Schuss von Hand nachgelegt wird.",
-   "source": "S. 116"
+   "source": "S. 116",
+   "defEn": "A single-barrel firearm that is manually loaded and has no magazine-feed device."
   },
   {
    "id": "box-magazine",
@@ -1980,7 +2048,8 @@
    "cat": "fach",
    "sub": "Verschlussarten",
    "explDe": "Die Öffnung, durch die Patronen ins Magazin gelangen.",
-   "source": "S. 122"
+   "source": "S. 122",
+   "defEn": "The opening through which cartridges are inserted into the magazine or chamber."
   },
   {
    "id": "slide-action",
@@ -1998,7 +2067,8 @@
    "cat": "fach",
    "sub": "Handhabung",
    "explDe": "Das Handbuch definiert sie als: die Waffe in Sichtweite und in Armlänge. Nur solange gilt eine geprüfte Waffe weiter als sicher.",
-   "source": "S. 109"
+   "source": "S. 109",
+   "defEn": "is defined as having the firearm within eyesight and/or of an arms’ reach of the shooter."
   },
   {
    "id": "to-chamber",
@@ -2070,7 +2140,8 @@
    "cat": "fach",
    "sub": "Schießstand",
    "explDe": "Die Mündung zeigt auf dem Stand immer dorthin.",
-   "source": "S. 148"
+   "source": "S. 148",
+   "defEn": "The direction from the shooting position towards the target on a range. See also range."
   },
   {
    "id": "range-is-active",
@@ -2331,7 +2402,8 @@
    "cat": "fach",
    "sub": "Visierung",
    "explDe": "Das stärkere der beiden Augen. Es schätzt Geschwindigkeit und Entfernung besser und wird zum Zielen benutzt.",
-   "source": "S. 172"
+   "source": "S. 172",
+   "defEn": "The stronger eye; the eye through which a person usually views an object as when sighting a firearm."
   },
   {
    "id": "to-sight-in",
@@ -2367,7 +2439,8 @@
    "cat": "fach",
    "sub": "Schießtechnik",
    "explDe": "Zielbild und Anschlag nach dem Schuss noch halten. Ohne das geht der Schuss eher daneben.",
-   "source": "S. 177"
+   "source": "S. 177",
+   "defEn": "Staying in the same position after squeezing the trigger or continuing the swing in firing at a moving target. This helps to shoot accurately."
   },
   {
    "id": "natural-pause",
@@ -2404,6 +2477,297 @@
    "sub": "Standkommandos des Handbuchs",
    "explDe": "Das Schießen ist beendet.",
    "source": "S. 145"
+  },
+  {
+   "id": "cleaning-rod",
+   "en": "cleaning rod",
+   "de": "Putzstock",
+   "cat": "fach",
+   "sub": "Pflege",
+   "explDe": "Stab zum Reinigen des Laufs. Muss zur Waffe passen.",
+   "source": "S. 182"
+  },
+  {
+   "id": "bore-brush",
+   "en": "bore brush",
+   "de": "Laufbürste",
+   "cat": "fach",
+   "sub": "Pflege",
+   "explDe": "Aufsatz für den Putzstock. Wird mit Lösemittel durch den Lauf geführt.",
+   "source": "S. 182"
+  },
+  {
+   "id": "pull-through",
+   "en": "pull-through",
+   "de": "Durchziehschnur",
+   "cat": "fach",
+   "sub": "Pflege",
+   "explDe": "Alternative zum Putzstock, hilfreich wenn nur von der Mündung her gereinigt werden kann.",
+   "source": "S. 182",
+   "defEn": "The cord used to pull a bore brush or cleaning patch through the bore of a firearm. pump action: a) An action that is operated by moving the fore-end in a motion parallel to the bore. b) A repeating firearm that has a magazine and is manually set in motion usually parallel to the barrel; also called slide action or trombone action. No applicable entry."
+  },
+  {
+   "id": "cleaning-patch",
+   "en": "patch",
+   "de": "Reinigungspflaster",
+   "cat": "fach",
+   "sub": "Pflege",
+   "explDe": "Stoffläppchen am Putzstock. Erst mit Lösemittel, dann trocken, zuletzt leicht geölt.",
+   "source": "S. 183"
+  },
+  {
+   "id": "powder-solvent",
+   "en": "powder solvent (bore cleaner)",
+   "de": "Pulverlöser",
+   "cat": "fach",
+   "sub": "Pflege",
+   "explDe": "Löst die Rückstände im Lauf.",
+   "source": "S. 182"
+  },
+  {
+   "id": "gun-oil",
+   "en": "gun oil",
+   "de": "Waffenöl",
+   "cat": "fach",
+   "sub": "Pflege",
+   "explDe": "Nur leichtes Waffenöl verwenden, und vor dem nächsten Schuss wieder aus dem Lauf entfernen.",
+   "source": "S. 183"
+  },
+  {
+   "id": "penetrating-oil",
+   "en": "penetrating oil",
+   "de": "Kriechöl",
+   "cat": "fach",
+   "sub": "Pflege",
+   "explDe": "Greift Zündhütchen an. Munition nie mit einem öligen Lappen reinigen.",
+   "source": "S. 186"
+  },
+  {
+   "id": "residue",
+   "en": "residue",
+   "de": "Rückstände",
+   "cat": "fach",
+   "sub": "Pflege",
+   "explDe": "Ablagerungen im Lauf. Zusammen mit Rost die zweite große Gefahr für die Waffe.",
+   "source": "S. 181"
+  },
+  {
+   "id": "corrosive",
+   "en": "corrosive",
+   "de": "korrosiv",
+   "cat": "fach",
+   "sub": "Pflege",
+   "explDe": "Ältere Militärmunition kann korrosive Stoffe enthalten. Danach sofort reinigen.",
+   "source": "S. 181"
+  },
+  {
+   "id": "to-disassemble",
+   "en": "to disassemble",
+   "de": "zerlegen",
+   "cat": "fach",
+   "sub": "Pflege",
+   "explDe": "Nur nach Anleitung des Herstellers, und mit Schutzbrille.",
+   "source": "S. 181"
+  },
+  {
+   "id": "lubrication",
+   "en": "lubrication",
+   "de": "Schmierung",
+   "cat": "fach",
+   "sub": "Pflege",
+   "explDe": "Der Durchschnittsnutzer soll nur reinigen und schmieren, nichts reparieren.",
+   "source": "S. 180"
+  },
+  {
+   "id": "cfo",
+   "en": "Chief Firearms Officer (CFO)",
+   "de": "oberster Waffenbeauftragter",
+   "cat": "fach",
+   "sub": "Verantwortung",
+   "explDe": "Zuständig für die Provinz oder das Territorium. Entscheidet über die weitere Berechtigung einer Person, Waffen zu besitzen.",
+   "source": "S. 190",
+   "defEn": "The person in authority in a province or territory responsible for licences, authorizations to transport, authorizations to carry and other functions related to the administration of the Firearms Act and its Regulations."
+  },
+  {
+   "id": "lost-or-stolen",
+   "en": "lost, missing or stolen",
+   "de": "verloren, abhanden, gestohlen",
+   "cat": "fach",
+   "sub": "Verantwortung",
+   "explDe": "Verlust oder Diebstahl muss nach dem Strafgesetzbuch gemeldet werden, bei der örtlichen Polizei und beim Canadian Firearms Program.",
+   "source": "S. 190"
+  },
+  {
+   "id": "code-of-ethics",
+   "en": "code of ethics",
+   "de": "Ehrenkodex",
+   "cat": "fach",
+   "sub": "Verantwortung",
+   "explDe": "Die moralischen Regeln, die über den Buchstaben des Gesetzes hinausgehen.",
+   "source": "S. 193"
+  },
+  {
+   "id": "horseplay",
+   "en": "horseplay",
+   "de": "Herumalbern",
+   "cat": "fach",
+   "sub": "Verantwortung",
+   "explDe": "Beim Umgang mit Waffen nie zulassen.",
+   "source": "S. 192"
+  },
+  {
+   "id": "unauthorized-access",
+   "en": "unauthorized access",
+   "de": "unbefugter Zugang",
+   "cat": "fach",
+   "sub": "Verantwortung",
+   "explDe": "Was sichere Aufbewahrung verhindern soll.",
+   "source": "S. 198"
+  },
+  {
+   "id": "render-inoperable",
+   "en": "to render inoperable",
+   "de": "unbrauchbar machen",
+   "cat": "fach",
+   "sub": "Aufbewahrung",
+   "explDe": "Eine der drei zulässigen Arten der Aufbewahrung: mit Verschlusseinrichtung oder durch Entnahme des Verschlusses.",
+   "source": "S. 199"
+  },
+  {
+   "id": "bolt-carrier",
+   "en": "bolt or bolt-carrier",
+   "de": "Verschluss oder Verschlussträger",
+   "cat": "fach",
+   "sub": "Aufbewahrung",
+   "explDe": "Wird zum Aufbewahren entnommen, dann ist die Waffe unbrauchbar.",
+   "source": "S. 199",
+   "defEn": "A steel rod-like assembly that moves back and forth in an action, sealing the cartridge in the chamber during firing."
+  },
+  {
+   "id": "opaque",
+   "en": "opaque",
+   "de": "undurchsichtig",
+   "cat": "fach",
+   "sub": "Aufbewahrung",
+   "explDe": "Der Behälter zur Aufbewahrung muss undurchsichtig sein.",
+   "source": "S. 199"
+  },
+  {
+   "id": "receptacle",
+   "en": "receptacle",
+   "de": "Behältnis",
+   "cat": "fach",
+   "sub": "Aufbewahrung",
+   "explDe": "Neben Behälter und Raum eine der Möglichkeiten, in denen verschlossen wird.",
+   "source": "S. 199"
+  },
+  {
+   "id": "vault",
+   "en": "cabinet or vault",
+   "de": "Schrank oder Tresor",
+   "cat": "fach",
+   "sub": "Aufbewahrung",
+   "explDe": "Feste Einrichtung zur dauerhaften Aufbewahrung.",
+   "source": "S. 200"
+  },
+  {
+   "id": "carrying-case",
+   "en": "lockable carrying case",
+   "de": "abschließbarer Transportkoffer",
+   "cat": "fach",
+   "sub": "Aufbewahrung",
+   "explDe": "Für den vorübergehenden Fall, etwa auf dem Weg vom Händler nach Hause.",
+   "source": "S. 205"
+  },
+  {
+   "id": "predator-control",
+   "en": "predator control",
+   "de": "Raubwildabwehr",
+   "cat": "fach",
+   "sub": "Aufbewahrung",
+   "explDe": "Ausnahmegrund. Wo das Schießen erlaubt ist, darf eine dafür genutzte Waffe vorübergehend unverschlossen und offen liegen, aber entladen.",
+   "source": "S. 199"
+  },
+  {
+   "id": "remote-area",
+   "en": "remote area",
+   "de": "abgelegenes Gebiet",
+   "cat": "fach",
+   "sub": "Aufbewahrung",
+   "explDe": "Wo mit Jagd zu rechnen ist, darf die Waffe unverschlossen und offen liegen und Munition erreichbar sein, solange sie entladen ist.",
+   "source": "S. 199"
+  },
+  {
+   "id": "unattended-vehicle",
+   "en": "unattended vehicle",
+   "de": "unbeaufsichtigtes Fahrzeug",
+   "cat": "fach",
+   "sub": "Aufbewahrung",
+   "explDe": "Waffe entladen in den verschlossenen Kofferraum. Ohne Kofferraum: Fahrzeug abschließen, Waffe entladen und außer Sicht.",
+   "source": "S. 203"
+  },
+  {
+   "id": "trunk",
+   "en": "locked trunk",
+   "de": "verschlossener Kofferraum",
+   "cat": "fach",
+   "sub": "Aufbewahrung",
+   "explDe": "Der Regelfall für die Waffe im unbeaufsichtigten Fahrzeug.",
+   "source": "S. 203"
+  },
+  {
+   "id": "tracer-round",
+   "en": "tracer round",
+   "de": "Leuchtspurmunition",
+   "cat": "fach",
+   "sub": "Verbotenes",
+   "explDe": "Verbotene Munition. Begründung im Handbuch: sie kann einen Brand auslösen.",
+   "source": "S. 198"
+  },
+  {
+   "id": "silencer",
+   "en": "silencer",
+   "de": "Schalldämpfer",
+   "cat": "fach",
+   "sub": "Verbotenes",
+   "explDe": "Verbotene Vorrichtung.",
+   "source": "S. 198"
+  },
+  {
+   "id": "high-capacity-magazine",
+   "en": "high-capacity magazine",
+   "de": "Magazin mit zu großer Kapazität",
+   "cat": "fach",
+   "sub": "Verbotenes",
+   "explDe": "Verbotene Vorrichtung, ausgenommen für Randfeuerpatronen.",
+   "source": "S. 198"
+  },
+  {
+   "id": "prohibited-ammunition",
+   "en": "prohibited ammunition",
+   "de": "verbotene Munition",
+   "cat": "fach",
+   "sub": "Verbotenes",
+   "explDe": "Darf von Privatpersonen nicht erworben werden.",
+   "source": "S. 198"
+  },
+  {
+   "id": "prohibited-device",
+   "en": "prohibited device",
+   "de": "verbotene Vorrichtung",
+   "cat": "fach",
+   "sub": "Verbotenes",
+   "explDe": "Darf von Privatpersonen nicht erworben werden.",
+   "source": "S. 198"
+  },
+  {
+   "id": "caseless-cartridge",
+   "en": "caseless cartridge",
+   "de": "hülsenlose Patrone",
+   "cat": "fach",
+   "sub": "Verbotenes",
+   "explDe": "Zählt nach der Definition ebenfalls als Munition.",
+   "source": "S. 198"
   }
  ]
 }
