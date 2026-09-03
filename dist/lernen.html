@@ -196,6 +196,9 @@ p { margin: 0 0 13px; }
 .en-inline {
   color: var(--river); font-weight: 600;
   background: var(--river-bg); padding: 1px 5px; border-radius: 4px;
+  /* damit mehrzeilige Titel auf jeder Zeile sauber gepolstert sind */
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
 }
 
 /* ---------- Karten ---------- */
@@ -390,6 +393,20 @@ nav.tabs button svg { width: 22px; height: 22px; }
 nav.tabs button[aria-selected="true"] { color: var(--fireweed); }
 
 button.small svg { width: 15px; height: 15px; vertical-align: -2px; margin-right: 6px; }
+
+/* Rechtlicher Hinweis. Bewusst leise: er muss da sein, aber nicht laut. */
+.about {
+  margin: 34px 0 0; padding: 18px 0 0;
+  border-top: 1px solid var(--rule);
+  font-size: 14px; line-height: 1.5; color: var(--ink-2);
+}
+.about h3 { margin-top: 0; border: 0; padding: 0; }
+.about p { margin: 0 0 10px; }
+.about b { color: var(--ink); font-weight: 600; }
+.about .src { margin-top: 14px; text-transform: none; letter-spacing: .02em; }
+
+a { color: var(--river); text-underline-offset: 2px; }
+a:hover { text-decoration-thickness: 2px; }
 </style>
 </head>
 <body>
@@ -428,6 +445,24 @@ button.small svg { width: 15px; height: 15px; vertical-align: -2px; margin-right
   <section class="view" id="view-learn" aria-label="Lernen">
     <div id="learn-index"></div>
     <div id="learn-unit" hidden></div>
+
+    <aside class="about" id="learn-about">
+      <h3>Über diese Seite</h3>
+      <p><b>Private Lernhilfe, kein offizielles Material.</b> Sie steht in keiner
+        Verbindung zur RCMP oder zum Canadian Firearms Program.</p>
+      <p>Grundlage ist das <i>Canadian Firearms Safety Course Student Handbook</i>
+        der RCMP, Ausgabe 2014. Abbildungen und englische Sätze sind unverändert
+        daraus übernommen. Die deutschen Texte sind Erklärung, keine amtliche
+        Übersetzung.</p>
+      <p><b>Die Übungsfragen sind keine echten Prüfungsfragen.</b> Der Fragenpool
+        der Prüfung ist nicht öffentlich. Diese Fragen sind aus dem Handbuch
+        abgeleitet und tragen jeweils die Seitenzahl.</p>
+      <p>Seit 2014 haben sich einzelne Vorschriften geändert. Im Zweifel gilt,
+        was der Kursleiter sagt.</p>
+      <p class="src">RCMP Canadian Firearms Program ·
+        <a href="https://www.rcmp-grc.gc.ca/cfp">rcmp-grc.gc.ca/cfp</a> ·
+        1-800-731-4000</p>
+    </aside>
   </section>
 
   <!-- ============ FRAGEN ============ -->
@@ -435,7 +470,8 @@ button.small svg { width: 15px; height: 15px; vertical-align: -2px; margin-right
     <div id="quiz-start">
       <h2>Fragen üben</h2>
       <p class="note">Die Fragen stehen auf Englisch, so wie in der Prüfung.
-        Deutsch kommt auf Knopfdruck dazu.</p>
+        Deutsch kommt auf Knopfdruck dazu. Es sind Übungsfragen, aus dem Handbuch
+        abgeleitet, keine echten Prüfungsfragen.</p>
       <div class="chips" id="quiz-scope"></div>
       <button class="primary" id="quiz-go">Runde starten</button>
       <div id="quiz-stats"></div>
@@ -545,6 +581,7 @@ document.querySelectorAll('nav.tabs button').forEach(function (b) {
 
 function renderLearnIndex() {
   el('learn-unit').hidden = true;
+  el('learn-about').hidden = false;
   var box = el('learn-index');
   box.hidden = false;
 
@@ -585,6 +622,7 @@ function renderUnit(id) {
   state.seen[id] = Date.now(); save();
 
   el('learn-index').hidden = true;
+  el('learn-about').hidden = true;
   var box = el('learn-unit');
   box.hidden = false;
 

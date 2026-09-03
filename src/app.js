@@ -78,6 +78,7 @@ document.querySelectorAll('nav.tabs button').forEach(function (b) {
 
 function renderLearnIndex() {
   el('learn-unit').hidden = true;
+  el('learn-about').hidden = false;
   var box = el('learn-index');
   box.hidden = false;
 
@@ -118,6 +119,7 @@ function renderUnit(id) {
   state.seen[id] = Date.now(); save();
 
   el('learn-index').hidden = true;
+  el('learn-about').hidden = true;
   var box = el('learn-unit');
   box.hidden = false;
 

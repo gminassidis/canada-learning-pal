@@ -142,6 +142,9 @@ p { margin: 0 0 13px; }
 .en-inline {
   color: var(--river); font-weight: 600;
   background: var(--river-bg); padding: 1px 5px; border-radius: 4px;
+  /* damit mehrzeilige Titel auf jeder Zeile sauber gepolstert sind */
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
 }
 
 /* ---------- Karten ---------- */
@@ -336,3 +339,17 @@ nav.tabs button svg { width: 22px; height: 22px; }
 nav.tabs button[aria-selected="true"] { color: var(--fireweed); }
 
 button.small svg { width: 15px; height: 15px; vertical-align: -2px; margin-right: 6px; }
+
+/* Rechtlicher Hinweis. Bewusst leise: er muss da sein, aber nicht laut. */
+.about {
+  margin: 34px 0 0; padding: 18px 0 0;
+  border-top: 1px solid var(--rule);
+  font-size: 14px; line-height: 1.5; color: var(--ink-2);
+}
+.about h3 { margin-top: 0; border: 0; padding: 0; }
+.about p { margin: 0 0 10px; }
+.about b { color: var(--ink); font-weight: 600; }
+.about .src { margin-top: 14px; text-transform: none; letter-spacing: .02em; }
+
+a { color: var(--river); text-underline-offset: 2px; }
+a:hover { text-decoration-thickness: 2px; }

@@ -1,4 +1,4 @@
-# canada-pal-learn
+# canada-learning-pal
 
 Private Lernhilfe für den **Canadian Firearms Safety Course** (CFSC, nur non-restricted)
 und den anschließenden PAL. Oberfläche auf Deutsch, alle Fachbegriffe mit dem
@@ -38,7 +38,43 @@ Lässt sich per Mail verschicken, auf dem Handy öffnen und funktioniert ohne Ne
    Englische Passagen stehen wörtlich da und sind immer gleich ausgezeichnet.
 4. **Vokabeln nur Englisch nach Deutsch.** Er muss wiedererkennen, nicht produzieren.
 
-## Quelle
+## Quelle und Nutzung
 
-RCMP, Canadian Firearms Safety Course Student Handbook.
-Crown Copyright. Vervielfältigung für den privaten, nichtkommerziellen Gebrauch.
+Inhaltliche Grundlage ist das **Canadian Firearms Safety Course Student Handbook**,
+herausgegeben von der Royal Canadian Mounted Police (RCMP), Ausgabe 2014.
+Die hier abgelegte Fassung deckt CFSC und CRFSC ab und liegt unter `docs/`.
+
+Offizielle Stellen:
+
+- Canadian Firearms Program der RCMP: <https://www.rcmp-grc.gc.ca/cfp>
+- Telefon 1-800-731-4000
+- Die Publikation ist über <https://publications.gc.ca> frei erhältlich
+
+Crown Copyright, Regierung von Kanada. Die Wiedergabe erfolgt für den privaten,
+nichtkommerziellen Gebrauch nach der Standardklausel zur nichtkommerziellen
+Vervielfältigung von Regierungspublikationen. Deren drei Bedingungen werden
+eingehalten:
+
+1. Die RCMP ist als Quelle genannt, hier und in der App selbst.
+2. Diese Seite ist **keine offizielle Fassung** und steht in keiner Verbindung
+   zur RCMP oder zum Canadian Firearms Program.
+3. Abbildungen und englische Passagen sind unverändert übernommen. Deutsche
+   Texte sind Erklärung, keine amtliche Übersetzung.
+
+**Die Übungsfragen sind keine echten Prüfungsfragen.** Der Fragenpool der
+Prüfung ist nicht öffentlich. Die Fragen hier sind aus den prüfbaren Aussagen
+des Handbuchs abgeleitet und tragen jeweils die Seitenzahl.
+
+Die Ausgabe ist von 2014. Einzelne Rechtsvorschriften haben sich seither
+geändert. Im Zweifel gilt, was der Kursleiter sagt.
+
+## Lizenz
+
+Für dieses Repository gibt es bewusst **keine Open-Source-Lizenz**. Es enthält
+zwei Dinge mit unterschiedlicher Rechtslage: eigenen Code unter `src/` und
+`tools/`, und Material der Regierung von Kanada unter `docs/` und `assets/`.
+Eine pauschale Lizenzdatei würde so aussehen, als stünde auch das Handbuch
+darunter, und das wäre falsch.
+
+Der Code ist privater Kram für einen einzigen Zweck. Wer ihn brauchen kann,
+soll fragen.
